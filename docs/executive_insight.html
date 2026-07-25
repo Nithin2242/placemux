@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Executive Insight — Titanic Survival Analysis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy: #0B2545;
+    --steel: #13315C;
+    --paper: #F1EDE3;
+    --brass: #B8863B;
+    --brass-light: #D9B370;
+    --alert: #9A3324;
+    --ink: #1B2430;
+    --muted: #5C6B7A;
+    --rule: #C9C1AE;
+  }
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 48px 20px 80px;
+  }
+  .page{
+    width: 100%;
+    max-width: 880px;
+    background: #FBF9F3;
+    border: 1px solid var(--rule);
+    box-shadow: 0 1px 0 var(--rule), 0 30px 60px -35px rgba(11,37,69,0.35);
+  }
+
+  /* Header / masthead */
+  .masthead{
+    background: var(--navy);
+    color: var(--paper);
+    padding: 34px 44px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .masthead::after{
+    content: "";
+    position: absolute;
+    right: -60px; top: -60px;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    border: 1px solid rgba(241,237,227,0.12);
+  }
+  .masthead::before{
+    content: "";
+    position: absolute;
+    right: -20px; top: -20px;
+    width: 140px; height: 140px;
+    border-radius: 50%;
+    border: 1px solid rgba(241,237,227,0.10);
+  }
+  .eyebrow{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--brass-light);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 10px;
+    max-width: 620px;
+  }
+  .subhead{
+    font-size: 14.5px;
+    color: rgba(241,237,227,0.78);
+    max-width: 560px;
+    line-height: 1.55;
+  }
+
+  /* Section shell */
+  .section{
+    padding: 30px 44px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section:last-of-type{ border-bottom: none; }
+  .section-label{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--brass);
+    margin: 0 0 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-label::after{
+    content:"";
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+
+  /* Metric rows */
+  .metric{
+    display: grid;
+    grid-template-columns: 168px 100px 1fr;
+    gap: 22px;
+    padding: 16px 0;
+    border-top: 1px solid var(--rule);
+    align-items: start;
+  }
+  .metric:first-of-type{ border-top: none; }
+  .metric-name{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.35;
+  }
+  .metric-bench{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .metric-value{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--navy);
+    white-space: nowrap;
+  }
+  .metric-value.multi{ font-size: 15px; line-height: 1.7; }
+  .metric-sowhat{
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+  .metric-sowhat b{ color: var(--ink); }
+
+  /* Headline callout */
+  .callout{
+    background: var(--navy);
+    color: var(--paper);
+    padding: 28px 44px;
+    display: grid;
+    grid-template-columns: 128px 1fr;
+    gap: 26px;
+    align-items: center;
+    position: relative;
+  }
+  .callout-figure{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--alert);
+    background: var(--paper);
+    text-align: center;
+    padding: 14px 0;
+    border: 2px solid var(--alert);
+  }
+  .callout-text .tag{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--brass-light);
+    margin-bottom: 8px;
+  }
+  .callout-text p{
+    margin: 0;
+    font-size: 15.5px;
+    line-height: 1.55;
+    color: rgba(241,237,227,0.92);
+  }
+  .callout-text b{ color: #fff; }
+
+  /* Chart */
+  .chart-wrap{ padding-top: 4px; }
+  .bar-row{
+    display: grid;
+    grid-template-columns: 96px 1fr 56px;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+    font-size: 12.5px;
+  }
+  .bar-label{ color: var(--muted); text-align: right; }
+  .bar-track{
+    position: relative;
+    height: 16px;
+    background: #E9E2D0;
+  }
+  .bar-fill{ height: 100%; }
+  .bar-fill.c-navy{ background: var(--steel); }
+  .bar-fill.c-brass{ background: var(--brass); }
+  .bar-fill.c-alert{ background: var(--alert); }
+  .bar-fill.c-muted{ background: #9AA6B2; }
+  .bar-val{
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .benchmark-line{
+    position: absolute;
+    top: -4px; bottom: -4px;
+    width: 1px;
+    border-left: 1.5px dashed var(--navy);
+  }
+  .chart-legend{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--muted);
+    margin-top: 14px;
+    text-align: right;
+  }
+
+  /* Recommendation */
+  .rec-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .rec-block .k{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--brass);
+    margin-bottom: 8px;
+  }
+  .rec-block p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+  .rec-block.impact{
+    background: #EFE7D3;
+    padding: 16px 18px;
+    border-left: 3px solid var(--brass);
+  }
+
+  .footer{
+    padding: 20px 44px 30px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 640px){
+    .metric{ grid-template-columns: 1fr; gap: 6px; }
+    .callout{ grid-template-columns: 1fr; text-align: left; }
+    .callout-figure{ width: 128px; }
+    .rec-grid{ grid-template-columns: 1fr; }
+    .section, .masthead, .callout, .footer{ padding-left: 24px; padding-right: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="masthead">
+    <div class="eyebrow">
+      <span>Data Analyst · Phase 1 · PlaceMux</span>
+      <span>Executive Brief · Titanic Cohort (n = 782)</span>
+    </div>
+    <h1>Survival wasn't random. It tracked class and sex — and one group was left behind.</h1>
+    <div class="subhead">One page, four numbers, one action. Built from the validated Day 7 baseline of the cleaned passenger dataset.</div>
+  </div>
+
+  <div class="section">
+    <p class="section-label">Key metrics</p>
+
+    <div class="metric">
+      <div>
+        <div class="metric-name">Overall survival</div>
+        <div class="metric-bench">reference point</div>
+      </div>
+      <div class="metric-value">41.0%</div>
+      <div class="metric-sowhat">Fewer than half of all passengers survived — this is the baseline every other number below should be read against.</div>
+    </div>
+
+    <div class="metric">
+      <div>
+        <div class="metric-name">Survival by class</div>
+        <div class="metric-bench">1st · 2nd · 3rd</div>
+      </div>
+      <div class="metric-value multi">62.7%<br>50.9%<br>25.7%</div>
+      <div class="metric-sowhat">First class survived at <b>1.5×</b> the overall rate; third class survived at only <b>63%</b> of it. Ticket class was a major determinant of who lived.</div>
+    </div>
+
+    <div class="metric">
+      <div>
+        <div class="metric-name">Survival by sex</div>
+        <div class="metric-bench">women · men</div>
+      </div>
+      <div class="metric-value multi">73.9%<br>21.6%</div>
+      <div class="metric-sowhat">Women survived at nearly <b>2×</b> the overall rate; men at roughly half. This is the single largest gap of any factor measured.</div>
+    </div>
+
+    <div class="metric">
+      <div>
+        <div class="metric-name">3rd-class men</div>
+        <div class="metric-bench">worst-off segment</div>
+      </div>
+      <div class="metric-value" style="color: var(--alert);">15.8%</div>
+      <div class="metric-sowhat"><b>The largest single group on the ship (277 people)</b> had the lowest survival odds of any segment measured — under 1 in 6 survived.</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <div class="callout-figure">15.8%</div>
+    <div class="callout-text">
+      <div class="tag">The most important movement</div>
+      <p><b>Third-class men survived at less than 40% of the overall rate</b> — the worst outcome of any group on the ship, and the largest group by headcount. This isn't a footnote. It's the headline risk this analysis surfaces.</p>
+    </div>
+  </div>
+
+  <div class="section chart-wrap">
+    <p class="section-label">Survival rate by segment</p>
+
+    <div class="bar-row">
+      <div class="bar-label">Overall</div>
+      <div class="bar-track"><div class="bar-fill c-muted" style="width:54.7%"></div><div class="benchmark-line" style="left:54.7%"></div></div>
+      <div class="bar-val">41.0%</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">1st class</div>
+      <div class="bar-track"><div class="bar-fill c-navy" style="width:83.6%"></div><div class="benchmark-line" style="left:54.7%"></div></div>
+      <div class="bar-val">62.7%</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">2nd class</div>
+      <div class="bar-track"><div class="bar-fill c-navy" style="width:67.9%"></div><div class="benchmark-line" style="left:54.7%"></div></div>
+      <div class="bar-val">50.9%</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">3rd class</div>
+      <div class="bar-track"><div class="bar-fill c-navy" style="width:34.3%"></div><div class="benchmark-line" style="left:54.7%"></div></div>
+      <div class="bar-val">25.7%</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Women</div>
+      <div class="bar-track"><div class="bar-fill c-brass" style="width:98.5%"></div><div class="benchmark-line" style="left:54.7%"></div></div>
+      <div class="bar-val">73.9%</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Men</div>
+      <div class="bar-track"><div class="bar-fill c-brass" style="width:28.8%"></div><div class="benchmark-line" style="left:54.7%"></div></div>
+      <div class="bar-val">21.6%</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">3rd-class men</div>
+      <div class="bar-track"><div class="bar-fill c-alert" style="width:21.1%"></div><div class="benchmark-line" style="left:54.7%"></div></div>
+      <div class="bar-val">15.8%</div>
+    </div>
+
+    <div class="chart-legend">┊ dashed line = overall average (41.0%)</div>
+  </div>
+
+  <div class="section">
+    <p class="section-label">Recommendation</p>
+    <div class="rec-grid">
+      <div class="rec-block">
+        <div class="k">Action</div>
+        <p>Mandate that lifeboat access and evacuation drills be <b>proportional across all cabin classes</b> in future maritime safety policy — not concentrated near upper-deck, higher-fare cabins.</p>
+      </div>
+      <div class="rec-block impact">
+        <div class="k">Expected impact</div>
+        <p>Raising 3rd-class survival to the 2nd-class rate (50.9%) would translate to an estimated <b>70+ additional survivors</b> in this dataset alone — the scale of loss driven by access, not chance.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Source: data/titanic_cleaned.csv · n = 782, validated Day 7 baseline</span>
+    <span>Prepared by Nithin N S · PlaceMux Phase 1</span>
+  </div>
+
+</div>
+</body>
+</html>
