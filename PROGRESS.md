@@ -74,3 +74,48 @@ needed; added a nuance section on family size; ended with a concrete
 recommendation on proportional lifeboat access and its expected impact. Kept 
 the report short and led with the answer, not the methodology, in story.ipynb.
 
+
+## Day 7 — Baseline Report Aggregation
+**Given:** Aggregate the cleaned data into a baseline reporting layer — the 
+standard metrics the business tracks every period; deliver a baseline report 
+and a metric dictionary with definitions and sources. Scored on 5 criteria 
+including real-data correctness, live verification, and edge-case handling.
+**Done:** Defined 6 core metrics precisely before computing them (total 
+passengers, overall survival rate, survival by class, survival by sex, 
+average fare, average age), each with an explicit aggregation grain. Built 
+deterministic pandas aggregations in baseline.ipynb. Validated the row count 
+against Day 2's known duplicate count using an assert statement rather than 
+trusting the number blindly. Checked for edge cases (negative/zero fares). 
+Recorded every metric in a metric dictionary with definition, grain, source, 
+and value.
+**Notable issues resolved:** The validation assert caught a real bug — the 
+row count kept coming back wrong (778, then 889, then 784) instead of the 
+expected value. Root-caused it to transform.ipynb's cell order: duplicate 
+removal was running after age imputation and after dropping the deck column, 
+which meant rows that were genuinely distinct in the raw data were being 
+merged as "duplicates" once distinguishing information had already been 
+altered or removed. Fixed by moving deduplication to run immediately after 
+loading the raw CSV, before any other transformation — and cleaned up several 
+leftover duplicate `drop_duplicates()` cells left over from earlier edits, 
+which were silently re-running and overwriting the fix. Also caught a math 
+error in the validation itself: the original assert expected 784 rows but 
+never accounted for the 2 rows later dropped for missing embarked/embark_town 
+— corrected the expected value to 782 (891 − 107 duplicates − 2 missing 
+embarked rows), which is the true final row count. This was the most 
+significant reproducibility bug of the project so far, and directly validates 
+why the brief's "validate totals against a known reference" step exists — 
+without it, an incorrect baseline would have silently propagated into every 
+later day's work.
+
+## Day 8 — The Executive Insight
+**Given:** Distil the baseline into 3-5 executive-level metrics with current 
+value, benchmark, and "so what" for each; highlight the single most important 
+finding; recommend one action.
+**Done:** Selected 4 decision-relevant metrics (overall survival, survival by 
+class, survival by sex, and 3rd-class men specifically) from the Day 7 
+baseline; built a one-page summary table with a "so what" per row; highlighted 
+3rd-class men (15.8% survival, worst group on the ship) as the single most 
+important finding; recommended proportional lifeboat access across cabin 
+classes with an estimated impact of 70+ additional survivors had access been 
+equalized; built one annotated horizontal bar chart benchmarked against the 
+overall average, in exec_summary.ipynb.
