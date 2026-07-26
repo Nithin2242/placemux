@@ -119,3 +119,21 @@ important finding; recommended proportional lifeboat access across cabin
 classes with an estimated impact of 70+ additional survivors had access been 
 equalized; built one annotated horizontal bar chart benchmarked against the 
 overall average, in exec_summary.ipynb.
+
+
+## Day 9 — Trend Forecasting
+**Given:** Forecast a key trend forward using historical patterns, with 
+validation error against a baseline and clearly shown uncertainty.
+**Done:** Since the Titanic dataset has no time dimension, substituted a 
+genuine time-series dataset (atmospheric CO2, bundled in statsmodels — no 
+download needed). Visualized trend and yearly seasonality; split cleanly by 
+time (no shuffling) into train (1958-1999) and a 24-month validation holdout 
+(2000-2001); built a seasonal naive baseline; fit a SARIMA model; compared 
+both by MAE (naive: 1.882 ppm, SARIMA: 0.350 ppm — 81.4% improvement); 
+produced forecasts with 95% confidence intervals shown visually rather than 
+as a single number; documented assumptions and where the forecast is least 
+reliable, in forecast.ipynb.
+**Notable issues resolved:** Recognized early that the primary project dataset 
+was structurally incompatible with this task (no time dimension) rather than 
+forcing a workaround, and substituted an appropriate dataset instead — same 
+approach used successfully on Day 1.
