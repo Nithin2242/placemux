@@ -137,3 +137,20 @@ reliable, in forecast.ipynb.
 was structurally incompatible with this task (no time dimension) rather than 
 forcing a workaround, and substituted an appropriate dataset instead — same 
 approach used successfully on Day 1.
+
+
+## Day 10 — Comparative Insights
+**Given:** Produce comparative insights identifying which segments drive the 
+overall result, normalizing for group size and checking for Simpson's Paradox 
+before concluding.
+**Done:** Compared survival rate by port of embarkation (Cherbourg 58.1%, 
+Southampton 37.1%, Queenstown 33.9%, vs 41.0% overall), always shown alongside 
+group counts. Controlled for passenger class by adding it as a second grouping 
+variable and checking the class composition per port. Found Cherbourg's 
+advantage is partly explained by carrying more 1st-class passengers (53.5% 
+vs Southampton's 22.4%), but confirmed no reversal occurs — Cherbourg 
+out-survives Southampton within every class group too, ruling out a full 
+Simpson's Paradox while identifying a genuine, partially class-independent 
+port effect, in comparative.ipynb.
+**Notable issues resolved:** None — pipeline and validated dataset from Day 7 
+onward worked cleanly throughout.
