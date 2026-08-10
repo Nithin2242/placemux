@@ -154,3 +154,22 @@ Simpson's Paradox while identifying a genuine, partially class-independent
 port effect, in comparative.ipynb.
 **Notable issues resolved:** None — pipeline and validated dataset from Day 7 
 onward worked cleanly throughout.
+
+
+## Day 12 — Executive Dashboarding
+**Given:** Build a working executive dashboard wired to defined metrics, with 
+filters and freshness indicators, demonstrable live on real data.
+**Done:** Built a Streamlit dashboard (app.py) showing data source and last-
+updated timestamp at the top; three headline metric tiles (overall survival 
+rate, worst-performing class, passenger count) each with hover-help 
+definitions; live multi-select filters for class, sex, and port that update 
+every tile and chart in real time; three breakdown charts all benchmarked 
+against the same unfiltered overall average line for consistency; tested live 
+by filtering to 3rd-class men and confirming the dashboard reproduces the 
+15.8% survival rate finding from Day 8 without any code changes.
+**Notable issues resolved:** Streamlit was launching under a different global 
+Python 3.11 install instead of the project's venv (Python 3.14), causing a 
+seaborn ModuleNotFoundError despite seaborn being correctly installed in the 
+venv. Fixed by launching with `python3 -m streamlit run app.py` instead of the 
+bare `streamlit` command, forcing it to use the active virtual environment's 
+Python explicitly.
