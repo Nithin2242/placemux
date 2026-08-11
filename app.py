@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from datetime import datetime
 import time
 import os
@@ -13,6 +11,24 @@ def load_data():
     df = pd.read_csv("data/titanic_cleaned.csv")
     return df
 
+@st.cache_data
+def filter_data(_df, classes, sexes, ports):
+    return _df[
+        (_df["pclass"].isin(classes)) &
+        (_df["sex"].isin(sexes)) &
+        (_df["embark_town"].isin(ports))
+    ]
+
+def get_class_summary(filtered_df):
+    return filtered_df.groupby("pclass")["survived"].mean()
+
+def get_sex_summary(filtered_df):
+    return filtered_df.groupby("sex")["survived"].mean()
+
+def get_port_summary(filtered_df):
+    return filtered_df.groupby("embark_town")["survived"].mean()
+
+# ---- Data load (timed) ----
 t_load_start = time.time()
 df = load_data()
 t_load_end = time.time()
@@ -36,18 +52,17 @@ port_filter = st.sidebar.multiselect(
     "Port of embarkation", options=df["embark_town"].unique(), default=df["embark_town"].unique()
 )
 
+# ---- Filtering (timed, cached) ----
 t_filter_start = time.time()
-filtered_df = df[
-    (df["pclass"].isin(class_filter)) &
-    (df["sex"].isin(sex_filter)) &
-    (df["embark_town"].isin(port_filter))
-]
+filtered_df = filter_data(df, class_filter, sex_filter, port_filter)
 t_filter_end = time.time()
 filter_time_ms = (t_filter_end - t_filter_start) * 1000
 
 st.sidebar.caption(f"Showing {len(filtered_df)} of {len(df)} passengers")
 
-# ---- Headline tiles ----
+overall_mean = df["survived"].mean()
+
+# ---- Headline tiles (loaded first, per Step 5) ----
 col1, col2, col3 = st.columns(3)
 
 overall_rate = filtered_df["survived"].mean() if len(filtered_df) > 0 else 0
@@ -72,66 +87,52 @@ col3.metric(
     help="Number of passengers matching the current filter selection."
 )
 
-# ---- Breakdown charts ----
+# ---- Breakdown charts (deferred behind a spinner, per Step 5) ----
 st.divider()
 
-col_a, col_b = st.columns(2)
+with st.spinner("Loading breakdown charts..."):
+    col_a, col_b = st.columns(2)
 
-with col_a:
-    st.subheader("Survival Rate by Class")
+    with col_a:
+        st.subheader("Survival Rate by Class")
+        if len(filtered_df) > 0:
+            st.caption(f"Unfiltered overall: {overall_mean:.1%}")
+            t_chart1_start = time.time()
+            st.bar_chart(get_class_summary(filtered_df))
+            t_chart1_end = time.time()
+            chart1_time_ms = (t_chart1_end - t_chart1_start) * 1000
+        else:
+            st.info("No passengers match the current filters.")
+            chart1_time_ms = 0
+
+    with col_b:
+        st.subheader("Survival Rate by Sex")
+        if len(filtered_df) > 0:
+            st.caption(f"Unfiltered overall: {overall_mean:.1%}")
+            t_chart2_start = time.time()
+            st.bar_chart(get_sex_summary(filtered_df))
+            t_chart2_end = time.time()
+            chart2_time_ms = (t_chart2_end - t_chart2_start) * 1000
+        else:
+            st.info("No passengers match the current filters.")
+            chart2_time_ms = 0
+
+    st.divider()
+    st.subheader("Survival Rate by Port of Embarkation")
     if len(filtered_df) > 0:
-        t_chart1_start = time.time()
-        fig, ax = plt.subplots(figsize=(5, 3.5))
-        sns.barplot(data=filtered_df, x="pclass", y="survived", errorbar=None, ax=ax)
-        ax.axhline(df["survived"].mean(), color="black", linestyle="--", linewidth=1, label="Unfiltered overall")
-        ax.set_ylabel("Survival Rate")
-        ax.set_xlabel("Passenger Class")
-        ax.legend(fontsize=8)
-        st.pyplot(fig)
-        t_chart1_end = time.time()
-        chart1_time_ms = (t_chart1_end - t_chart1_start) * 1000
+        st.caption(f"Unfiltered overall: {overall_mean:.1%}")
+        t_chart3_start = time.time()
+        st.bar_chart(get_port_summary(filtered_df))
+        t_chart3_end = time.time()
+        chart3_time_ms = (t_chart3_end - t_chart3_start) * 1000
     else:
-        st.info("No passengers match the current filters.")
-        chart1_time_ms = 0
+        chart3_time_ms = 0
 
-with col_b:
-    st.subheader("Survival Rate by Sex")
-    if len(filtered_df) > 0:
-        t_chart2_start = time.time()
-        fig2, ax2 = plt.subplots(figsize=(5, 3.5))
-        sns.barplot(data=filtered_df, x="sex", y="survived", errorbar=None, ax=ax2)
-        ax2.axhline(df["survived"].mean(), color="black", linestyle="--", linewidth=1, label="Unfiltered overall")
-        ax2.set_ylabel("Survival Rate")
-        ax2.set_xlabel("Sex")
-        ax2.legend(fontsize=8)
-        st.pyplot(fig2)
-        t_chart2_end = time.time()
-        chart2_time_ms = (t_chart2_end - t_chart2_start) * 1000
-    else:
-        st.info("No passengers match the current filters.")
-        chart2_time_ms = 0
-
-st.divider()
-st.subheader("Survival Rate by Port of Embarkation")
-if len(filtered_df) > 0:
-    t_chart3_start = time.time()
-    fig3, ax3 = plt.subplots(figsize=(9, 3.5))
-    sns.barplot(data=filtered_df, x="embark_town", y="survived", errorbar=None, ax=ax3)
-    ax3.axhline(df["survived"].mean(), color="black", linestyle="--", linewidth=1, label="Unfiltered overall")
-    ax3.set_ylabel("Survival Rate")
-    ax3.set_xlabel("Port")
-    ax3.legend(fontsize=8)
-    st.pyplot(fig3)
-    t_chart3_end = time.time()
-    chart3_time_ms = (t_chart3_end - t_chart3_start) * 1000
-else:
-    chart3_time_ms = 0
-
-st.caption("💡 Dashed line = unfiltered overall survival rate (41.0%), shown for comparison across all charts. Hover over the (?) icons on metric tiles for exact definitions.")
+st.caption("💡 Charts show survival rate per group. Compare against the unfiltered overall shown above each chart. Hover over the (?) icons on metric tiles for exact definitions.")
 
 # ---- Performance timing (Day 13) ----
 st.divider()
-st.subheader("⏱ Performance (Before Optimization)")
+st.subheader("⏱ Performance")
 timing_df = pd.DataFrame({
     "Step": ["Data load", "Filtering", "Chart 1 (class)", "Chart 2 (sex)", "Chart 3 (port)"],
     "Time (ms)": [
@@ -143,3 +144,4 @@ timing_df = pd.DataFrame({
     ]
 })
 st.dataframe(timing_df, hide_index=True)
+st.caption(f"Total: {round(load_time_ms + filter_time_ms + chart1_time_ms + chart2_time_ms + chart3_time_ms, 2)} ms")
