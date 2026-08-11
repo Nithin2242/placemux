@@ -173,3 +173,22 @@ seaborn ModuleNotFoundError despite seaborn being correctly installed in the
 venv. Fixed by launching with `python3 -m streamlit run app.py` instead of the 
 bare `streamlit` command, forcing it to use the active virtual environment's 
 Python explicitly.
+
+## Day 13 — Dashboard Performance Tuning
+**Given:** Tune the dashboard and its queries to load faster and stay 
+responsive as data grows, with documented before/after load times.
+**Done:** Measured baseline chart render times (84-86 ms/chart, matplotlib). 
+First attempted caching matplotlib figures with st.cache_resource — profiled 
+the result and found no meaningful improvement, since the actual bottleneck 
+was PNG rasterization/transfer, not figure construction. Replaced matplotlib 
+entirely with Streamlit's native st.bar_chart (client-side rendering), 
+reducing steady-state chart render time by ~80-85% (to ~6-25 ms/chart). Added 
+caching for data load and filtering, and reordered rendering so headline 
+tiles load before charts. Documented the full before/after story, including 
+the failed first attempt, in docs/performance_notes.md.
+**Notable issues resolved:** Hit a real UnserializableReturnValueError using 
+st.cache_data on a function returning a matplotlib Figure — fixed by 
+understanding the distinction between st.cache_data (picklable data) and 
+st.cache_resource (live objects). This fix alone didn't solve the actual 
+performance problem, which led to correctly identifying rendering/transfer, 
+not figure construction, as the true bottleneck via direct measurement.
