@@ -192,3 +192,15 @@ understanding the distinction between st.cache_data (picklable data) and
 st.cache_resource (live objects). This fix alone didn't solve the actual 
 performance problem, which led to correctly identifying rendering/transfer, 
 not figure construction, as the true bottleneck via direct measurement.
+
+## Day 14 — Data Array Distribution Review
+**Given:** Review distribution shape and spread of key numeric columns before 
+advanced modelling, decide on transformations, and prepare standardized data 
+with a justified value of k for clustering.
+**Done:** Plotted histograms and box plots for age, fare, family_size, and 
+fare_per_person. Computed skewness/kurtosis for each; tested normality with 
+Shapiro-Wilk (all four rejected normality, p<0.001). Applied log1p to fare, 
+reducing skewness from 4.58 to 0.42. Selected age, fare_log, and family_size 
+as clustering features; standardized with StandardScaler (verified mean≈0, 
+std≈1). Ran the elbow method across k=1-9, identifying k=3-4 as a justified 
+choice based on the inertia curve, in distribution_review.ipynb.
