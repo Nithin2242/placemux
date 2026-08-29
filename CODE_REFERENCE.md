@@ -86,3 +86,22 @@ copy this block, rename the heading, and start filling it in:
 |---|---|
 
 ```
+
+### Statistical Analysis
+`from scipy import stats` — import SciPy statistical functions
+`from statsmodels.stats.proportion import proportions_ztest` — two-proportion z-test
+`from statsmodels.stats.proportion import proportion_effectsize` — standardized effect size for two proportions
+`from statsmodels.stats.power import NormalIndPower` — power/sample-size analysis
+`stats.norm.ppf(0.975)` — two-sided 95% normal critical value
+`np.sqrt(...)` — calculate standard error
+`pd.DataFrame({...})` — construct a results summary table
+`plt.bar(...)` — create a categorical bar chart
+`plt.text(...)` — add value labels to a chart
+
+### Validation
+`assert condition, "message"` — stop execution when a data-quality condition fails
+`df["column"].unique()` — inspect unique values
+`df["column"].value_counts()` — count categorical/binary outcomes
+`df[["col1", "col2"]].isna().sum().sum()` — count missing values in selected columns
+`df.duplicated().sum()` — count duplicate rows
+
