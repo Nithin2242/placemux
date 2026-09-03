@@ -105,3 +105,24 @@ copy this block, rename the heading, and start filling it in:
 `df[["col1", "col2"]].isna().sum().sum()` — count missing values in selected columns
 `df.duplicated().sum()` — count duplicate rows
 
+
+### RFM / Customer Segmentation
+`pd.read_excel("path.xlsx")` — load an Excel dataset
+`Path("data").glob("*.csv")` — list CSV files in a directory
+`series.astype(str).str.startswith("C")` — identify records by string prefix
+`df["column"].nunique()` — count distinct values
+`df.groupby("CustomerID").agg(...)` — aggregate transaction data to customer level
+`pd.qcut(series.rank(method="first"), q=5, labels=...)` — create rank-based quintile scores
+`df.apply(function, axis=1)` — assign row-level segment labels
+`df.merge(..., on="CustomerID")` — compare customer-level datasets
+`np.random.default_rng(42)` — create a reproducible random generator
+`rng.choice(...)` — draw a reproducible customer subsample
+`sns.barplot(...)` — create a categorical segment comparison chart
+`sns.heatmap(...)` — visualize segment-level RFM profiles
+
+### RFM Data Cleaning
+`df["Quantity"] > 0` — retain positive-quantity purchases
+`df["UnitPrice"] > 0` — retain positive-value transactions
+`df["CustomerID"].notna()` — retain attributable customer transactions
+`df["InvoiceNo"].astype(str).str.startswith("C")` — identify cancellation invoices
+`df["Quantity"] * df["UnitPrice"]` — calculate line-level monetary value
