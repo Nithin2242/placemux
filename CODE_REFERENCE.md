@@ -126,3 +126,22 @@ copy this block, rename the heading, and start filling it in:
 `df["CustomerID"].notna()` — retain attributable customer transactions
 `df["InvoiceNo"].astype(str).str.startswith("C")` — identify cancellation invoices
 `df["Quantity"] * df["UnitPrice"]` — calculate line-level monetary value
+
+
+### Market Basket Analysis
+`from mlxtend.frequent_patterns import apriori` — import Apriori frequent-itemset mining
+`from mlxtend.frequent_patterns import association_rules` — generate association rules
+`df.groupby(["InvoiceNo", "Description"])["Quantity"].sum()` — aggregate products within invoices
+`unstack(fill_value=0)` — reshape grouped transactions into an invoice-by-product matrix
+`(basket_matrix > 0).astype(int)` — convert transaction quantities to binary item presence
+`apriori(basket_matrix, min_support=0.02, use_colnames=True, max_len=3)` — mine frequent itemsets
+`association_rules(frequent_itemsets, metric="lift", min_threshold=1.0)` — generate rules
+`frozenset` itemsets — represent antecedents and consequents as unique item collections
+`pd.scatter / plt.scatter` — inspect support versus lift relationships
+`pd.Period` / `dt.to_period("M")` — group transactions by month for seasonality checks
+
+### Rule Filtering
+`rules[(rules["support"] >= threshold) & (rules["lift"] >= threshold) & (rules["confidence"] >= threshold)]` — filter association rules by multiple criteria
+`series.apply(len)` — check the number of items in an itemset
+`drop_duplicates("pair_key")` — remove reverse-direction duplicate product pairs
+`next(iter(itemset))` — extract the single product from a one-item itemset

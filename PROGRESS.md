@@ -204,3 +204,27 @@ reducing skewness from 4.58 to 0.42. Selected age, fare_log, and family_size
 as clustering features; standardized with StandardScaler (verified mean≈0, 
 std≈1). Ran the elbow method across k=1-9, identifying k=3-4 as a justified 
 choice based on the inertia curve, in distribution_review.ipynb.
+
+
+## Day 16 — Hypothesis Testing & A/B Tests
+**Given:** Design and run a documented hypothesis test / A-B experiment with an effect size, significance result, confidence interval, and recommendation using clean comparable groups.
+
+**Done:** Built `hypothesis_testing.ipynb` using the 782-row cleaned Titanic dataset. Tested whether survival proportions differed between female and male passengers using a two-sided two-proportion z-test at α = 0.05; female survival was 73.88% (215/291) versus 21.59% (106/491), an absolute difference of 52.29 percentage points (95% CI: 46.07 to 58.52). The test returned z = 14.3696 and p = 8.0312e-47, so H0 was rejected; an 80%-power planning calculation gave 13 observations per group, compared with 291 female and 491 male observations actually available.
+
+**Notable issues resolved:** Initial code used incorrect capitalized column names (`Survived`, `Sex`) even though the cleaned dataset uses lowercase names; corrected to the actual schema. A later validation cell initially ran before `df` had been initialized in a fresh kernel; the notebook dependency order was verified by restarting the kernel and running all cells successfully.
+
+
+## Day 17 — Customer Segmentation (RFM)
+**Given:** Segment customers using Recency, Frequency and Monetary (RFM) analysis into named, actionable groups and validate that the segments are distinct and stable.
+
+**Done:** Because the Titanic dataset has no transaction history, a real transactional dataset was substituted using the UCI Online Retail data. After validation and cleaning, 397,884 valid purchase rows and 4,338 identifiable customers were retained; customer-level RFM values were scored into five rank-based quintiles and mapped to 9 named segments with recommended actions. Champions contained 947 customers (21.83%) but represented 64.59% of total monetary value (5,755,513.22). Segment assignments were validated across 20 repeated 80% customer subsamples, producing 90.65% mean agreement with the full-data segmentation.
+
+**Notable issues resolved:** The initial Excel import failed because `openpyxl` was missing from the active virtual environment; installing `openpyxl 3.1.5` resolved the dependency issue. The analysis also explicitly handled missing CustomerID values, cancellation invoices, negative quantities and non-positive prices before calculating RFM.
+
+
+## Day 18 — Market Basket Analysis
+**Given:** Run market-basket / association analysis to identify products that co-occur and turn the strongest associations into actionable recommendations, bundles and cross-sells.
+
+**Done:** Reused the real UCI Online Retail transaction dataset introduced for Day 17 because the Titanic dataset does not contain product transaction baskets. After excluding cancellations and invalid purchase rows, 530,104 purchase rows across 19,960 invoice-level baskets and 4,015 products were analysed. Apriori identified 379 frequent itemsets and 176 association rules; 78 rules met the support, confidence and lift thresholds, and a corrected one-item-to-one-item filter with reverse-direction deduplication produced 78 unique business-focused rules, from which 10 were prioritised. The strongest reported rule had 3.17% support, 82.61% confidence and 16.28 lift.
+
+**Notable issues resolved:** The initial business-rule filter incorrectly allowed multi-item consequents and depended on columns that had already been converted to readable text, causing KeyError failures. The final pipeline was rebuilt directly from the original association-rule objects, explicitly requiring one item on both sides and removing reverse-direction duplicates. This reduced the business-focused set from 85 to 78 rules and reduced Regency-family concentration in the final top 10 from 60% to 30%.
