@@ -1,0 +1,180 @@
+2026-09-08 21:51:23,976 | INFO | ======================================================================
+2026-09-08 21:51:23,977 | INFO | DAY 19 ANALYTICAL PIPELINE START
+2026-09-08 21:51:23,977 | INFO | Source: data/online_retail/Online Retail.xlsx
+2026-09-08 21:51:23,977 | INFO | Start date: None
+2026-09-08 21:51:23,977 | INFO | End date: None
+2026-09-08 21:51:23,977 | INFO | Min support: 0.0200
+2026-09-08 21:51:23,977 | INFO | Min confidence: 0.3000
+2026-09-08 21:51:23,977 | INFO | Min lift: 1.2000
+2026-09-08 21:51:23,977 | INFO | ======================================================================
+2026-09-08 21:51:23,977 | INFO | STAGE 1/6 — Loading source dataset.
+2026-09-08 21:51:41,055 | INFO | Validating raw dataset.
+2026-09-08 21:51:41,056 | INFO | Raw validation passed: 541909 rows, 8 columns.
+2026-09-08 21:51:41,056 | INFO | STAGE 2/6 — Cleaning transactions.
+2026-09-08 21:51:41,056 | INFO | Starting transaction cleaning.
+2026-09-08 21:51:41,271 | INFO | Cleaning complete: 530104 valid purchase rows remain.
+2026-09-08 21:51:41,271 | INFO | Validating cleaned transaction data.
+2026-09-08 21:51:41,372 | INFO | Clean-data validation passed: 530104 rows, 19960 invoices, 4015 products.
+2026-09-08 21:51:41,372 | INFO | STAGE 3/6 — Building baskets.
+2026-09-08 21:51:41,372 | INFO | Building invoice-level basket matrix.
+2026-09-08 21:51:41,913 | INFO | Basket matrix created: 19960 baskets x 4015 products.
+2026-09-08 21:51:41,914 | INFO | Validating basket matrix.
+2026-09-08 21:51:41,958 | INFO | Basket validation passed: 19960 baskets x 4015 products.
+2026-09-08 21:51:41,958 | INFO | STAGE 4/6 — Mining frequent itemsets.
+2026-09-08 21:51:41,958 | INFO | Mining frequent itemsets: support >= 0.0200, max length = 3.
+2026-09-08 21:51:46,863 | INFO | Frequent-itemset mining complete: 379 itemsets.
+2026-09-08 21:51:46,865 | INFO | STAGE 5/6 — Generating and filtering rules.
+2026-09-08 21:51:46,865 | INFO | Generating association rules: confidence >= 0.30, lift >= 1.20.
+2026-09-08 21:51:46,870 | INFO | Rule generation complete: 151 rules passed the thresholds.
+2026-09-08 21:51:46,870 | INFO | Creating business-focused one-to-one rules.
+2026-09-08 21:51:46,875 | INFO | Business-rule selection complete: 78 unique one-to-one rules; reporting top 10.
+2026-09-08 21:51:46,875 | INFO | STAGE 6/6 — Writing outputs.
+2026-09-08 21:51:46,883 | INFO | Output written: outputs/market_basket_final_rules.csv
+2026-09-08 21:51:46,883 | INFO | Output written: outputs/frequent_itemsets.csv
+2026-09-08 21:51:46,883 | INFO | Output written: outputs/pipeline_summary.json
+2026-09-08 21:51:46,883 | INFO | DAY 19 PIPELINE COMPLETE.
+2026-09-08 21:51:46,883 | INFO | ======================================================================
+2026-09-08 21:55:07,043 | INFO | ======================================================================
+2026-09-08 21:55:07,044 | INFO | DAY 19 ANALYTICAL PIPELINE START
+2026-09-08 21:55:07,044 | INFO | Source: data/online_retail/Online Retail.xlsx
+2026-09-08 21:55:07,044 | INFO | Start date: None
+2026-09-08 21:55:07,044 | INFO | End date: None
+2026-09-08 21:55:07,044 | INFO | Min support: 0.0200
+2026-09-08 21:55:07,044 | INFO | Min confidence: 0.3000
+2026-09-08 21:55:07,044 | INFO | Min lift: 1.2000
+2026-09-08 21:55:07,044 | INFO | ======================================================================
+2026-09-08 21:55:07,044 | INFO | STAGE 1/6 — Loading source dataset.
+2026-09-08 21:55:24,318 | INFO | Validating raw dataset.
+2026-09-08 21:55:24,319 | INFO | Raw validation passed: 541909 rows, 8 columns.
+2026-09-08 21:55:24,319 | INFO | STAGE 2/6 — Cleaning transactions.
+2026-09-08 21:55:24,319 | INFO | Starting transaction cleaning.
+2026-09-08 21:55:24,523 | INFO | Cleaning complete: 530104 valid purchase rows remain.
+2026-09-08 21:55:24,523 | INFO | Validating cleaned transaction data.
+2026-09-08 21:55:24,613 | INFO | Clean-data validation passed: 530104 rows, 19960 invoices, 4015 products.
+2026-09-08 21:55:24,613 | INFO | STAGE 3/6 — Building baskets.
+2026-09-08 21:55:24,613 | INFO | Building invoice-level basket matrix.
+2026-09-08 21:55:25,060 | INFO | Basket matrix created: 19960 baskets x 4015 products.
+2026-09-08 21:55:25,061 | INFO | Validating basket matrix.
+2026-09-08 21:55:25,134 | INFO | Basket validation passed: 19960 baskets x 4015 products.
+2026-09-08 21:55:25,134 | INFO | STAGE 4/6 — Mining frequent itemsets.
+2026-09-08 21:55:25,134 | INFO | Mining frequent itemsets: support >= 0.0200, max length = 3.
+2026-09-08 21:55:29,622 | INFO | Frequent-itemset mining complete: 379 itemsets.
+2026-09-08 21:55:29,623 | INFO | STAGE 5/6 — Generating and filtering rules.
+2026-09-08 21:55:29,623 | INFO | Generating association rules: confidence >= 0.30, lift >= 1.20.
+2026-09-08 21:55:29,628 | INFO | Rule generation complete: 151 rules passed the thresholds.
+2026-09-08 21:55:29,628 | INFO | Creating business-focused one-to-one rules.
+2026-09-08 21:55:29,635 | INFO | Business-rule selection complete: 78 unique one-to-one rules; reporting top 10.
+2026-09-08 21:55:29,635 | INFO | STAGE 6/6 — Writing outputs.
+2026-09-08 21:55:29,645 | INFO | Output written: outputs/market_basket_final_rules.csv
+2026-09-08 21:55:29,645 | INFO | Output written: outputs/frequent_itemsets.csv
+2026-09-08 21:55:29,645 | INFO | Output written: outputs/pipeline_summary.json
+2026-09-08 21:55:29,645 | INFO | DAY 19 PIPELINE COMPLETE.
+2026-09-08 21:55:29,645 | INFO | ======================================================================
+2026-09-08 21:55:57,051 | INFO | ======================================================================
+2026-09-08 21:55:57,051 | INFO | DAY 19 ANALYTICAL PIPELINE START
+2026-09-08 21:55:57,051 | INFO | Source: data/online_retail/Online Retail.xlsx
+2026-09-08 21:55:57,051 | INFO | Start date: 2010-12-01
+2026-09-08 21:55:57,051 | INFO | End date: 2011-06-30
+2026-09-08 21:55:57,051 | INFO | Min support: 0.0200
+2026-09-08 21:55:57,051 | INFO | Min confidence: 0.3000
+2026-09-08 21:55:57,051 | INFO | Min lift: 1.2000
+2026-09-08 21:55:57,051 | INFO | ======================================================================
+2026-09-08 21:55:57,051 | INFO | STAGE 1/6 — Loading source dataset.
+2026-09-08 21:56:14,330 | INFO | Validating raw dataset.
+2026-09-08 21:56:14,330 | INFO | Raw validation passed: 541909 rows, 8 columns.
+2026-09-08 21:56:14,331 | INFO | STAGE 2/6 — Cleaning transactions.
+2026-09-08 21:56:14,331 | INFO | Starting transaction cleaning.
+2026-09-08 21:56:14,498 | INFO | Cleaning complete: 239931 valid purchase rows remain.
+2026-09-08 21:56:14,498 | INFO | Validating cleaned transaction data.
+2026-09-08 21:56:14,539 | INFO | Clean-data validation passed: 239931 rows, 9659 invoices, 3514 products.
+2026-09-08 21:56:14,540 | INFO | STAGE 3/6 — Building baskets.
+2026-09-08 21:56:14,540 | INFO | Building invoice-level basket matrix.
+2026-09-08 21:56:14,676 | INFO | Basket matrix created: 9659 baskets x 3514 products.
+2026-09-08 21:56:14,676 | INFO | Validating basket matrix.
+2026-09-08 21:56:14,707 | INFO | Basket validation passed: 9659 baskets x 3514 products.
+2026-09-08 21:56:14,707 | INFO | STAGE 4/6 — Mining frequent itemsets.
+2026-09-08 21:56:14,707 | INFO | Mining frequent itemsets: support >= 0.0200, max length = 3.
+2026-09-08 21:56:16,271 | INFO | Frequent-itemset mining complete: 388 itemsets.
+2026-09-08 21:56:16,272 | INFO | STAGE 5/6 — Generating and filtering rules.
+2026-09-08 21:56:16,272 | INFO | Generating association rules: confidence >= 0.30, lift >= 1.20.
+2026-09-08 21:56:16,277 | INFO | Rule generation complete: 156 rules passed the thresholds.
+2026-09-08 21:56:16,277 | INFO | Creating business-focused one-to-one rules.
+2026-09-08 21:56:16,282 | INFO | Business-rule selection complete: 75 unique one-to-one rules; reporting top 10.
+2026-09-08 21:56:16,282 | INFO | STAGE 6/6 — Writing outputs.
+2026-09-08 21:56:16,293 | INFO | Output written: outputs/market_basket_final_rules.csv
+2026-09-08 21:56:16,293 | INFO | Output written: outputs/frequent_itemsets.csv
+2026-09-08 21:56:16,293 | INFO | Output written: outputs/pipeline_summary.json
+2026-09-08 21:56:16,293 | INFO | DAY 19 PIPELINE COMPLETE.
+2026-09-08 21:56:16,293 | INFO | ======================================================================
+2026-09-08 21:56:28,910 | INFO | ======================================================================
+2026-09-08 21:56:28,910 | INFO | DAY 19 ANALYTICAL PIPELINE START
+2026-09-08 21:56:28,910 | INFO | Source: data/online_retail/Online Retail.xlsx
+2026-09-08 21:56:28,910 | INFO | Start date: 2011-07-01
+2026-09-08 21:56:28,910 | INFO | End date: 2011-12-09
+2026-09-08 21:56:28,910 | INFO | Min support: 0.0200
+2026-09-08 21:56:28,910 | INFO | Min confidence: 0.3000
+2026-09-08 21:56:28,910 | INFO | Min lift: 1.2000
+2026-09-08 21:56:28,910 | INFO | ======================================================================
+2026-09-08 21:56:28,910 | INFO | STAGE 1/6 — Loading source dataset.
+2026-09-08 21:56:46,086 | INFO | Validating raw dataset.
+2026-09-08 21:56:46,087 | INFO | Raw validation passed: 541909 rows, 8 columns.
+2026-09-08 21:56:46,087 | INFO | STAGE 2/6 — Cleaning transactions.
+2026-09-08 21:56:46,087 | INFO | Starting transaction cleaning.
+2026-09-08 21:56:46,251 | INFO | Cleaning complete: 290173 valid purchase rows remain.
+2026-09-08 21:56:46,251 | INFO | Validating cleaned transaction data.
+2026-09-08 21:56:46,300 | INFO | Clean-data validation passed: 290173 rows, 10301 invoices, 3466 products.
+2026-09-08 21:56:46,300 | INFO | STAGE 3/6 — Building baskets.
+2026-09-08 21:56:46,300 | INFO | Building invoice-level basket matrix.
+2026-09-08 21:56:46,454 | INFO | Basket matrix created: 10301 baskets x 3466 products.
+2026-09-08 21:56:46,454 | INFO | Validating basket matrix.
+2026-09-08 21:56:46,485 | INFO | Basket validation passed: 10301 baskets x 3466 products.
+2026-09-08 21:56:46,485 | INFO | STAGE 4/6 — Mining frequent itemsets.
+2026-09-08 21:56:46,485 | INFO | Mining frequent itemsets: support >= 0.0200, max length = 3.
+2026-09-08 21:56:48,709 | INFO | Frequent-itemset mining complete: 497 itemsets.
+2026-09-08 21:56:48,710 | INFO | STAGE 5/6 — Generating and filtering rules.
+2026-09-08 21:56:48,710 | INFO | Generating association rules: confidence >= 0.30, lift >= 1.20.
+2026-09-08 21:56:48,714 | INFO | Rule generation complete: 296 rules passed the thresholds.
+2026-09-08 21:56:48,714 | INFO | Creating business-focused one-to-one rules.
+2026-09-08 21:56:48,722 | INFO | Business-rule selection complete: 151 unique one-to-one rules; reporting top 10.
+2026-09-08 21:56:48,722 | INFO | STAGE 6/6 — Writing outputs.
+2026-09-08 21:56:48,732 | INFO | Output written: outputs/market_basket_final_rules.csv
+2026-09-08 21:56:48,732 | INFO | Output written: outputs/frequent_itemsets.csv
+2026-09-08 21:56:48,732 | INFO | Output written: outputs/pipeline_summary.json
+2026-09-08 21:56:48,732 | INFO | DAY 19 PIPELINE COMPLETE.
+2026-09-08 21:56:48,732 | INFO | ======================================================================
+2026-09-08 21:58:08,492 | INFO | ======================================================================
+2026-09-08 21:58:08,492 | INFO | DAY 19 ANALYTICAL PIPELINE START
+2026-09-08 21:58:08,492 | INFO | Source: data/online_retail/Online Retail.xlsx
+2026-09-08 21:58:08,492 | INFO | Start date: 2010-12-01
+2026-09-08 21:58:08,492 | INFO | End date: 2011-06-30
+2026-09-08 21:58:08,492 | INFO | Min support: 0.0200
+2026-09-08 21:58:08,492 | INFO | Min confidence: 0.3000
+2026-09-08 21:58:08,492 | INFO | Min lift: 1.2000
+2026-09-08 21:58:08,492 | INFO | ======================================================================
+2026-09-08 21:58:08,492 | INFO | STAGE 1/6 — Loading source dataset.
+2026-09-08 21:58:24,994 | INFO | Validating raw dataset.
+2026-09-08 21:58:24,994 | INFO | Raw validation passed: 541909 rows, 8 columns.
+2026-09-08 21:58:24,994 | INFO | STAGE 2/6 — Cleaning transactions.
+2026-09-08 21:58:24,994 | INFO | Starting transaction cleaning.
+2026-09-08 21:58:25,167 | INFO | Cleaning complete: 239931 valid purchase rows remain.
+2026-09-08 21:58:25,167 | INFO | Validating cleaned transaction data.
+2026-09-08 21:58:25,208 | INFO | Clean-data validation passed: 239931 rows, 9659 invoices, 3514 products.
+2026-09-08 21:58:25,208 | INFO | STAGE 3/6 — Building baskets.
+2026-09-08 21:58:25,208 | INFO | Building invoice-level basket matrix.
+2026-09-08 21:58:25,355 | INFO | Basket matrix created: 9659 baskets x 3514 products.
+2026-09-08 21:58:25,355 | INFO | Validating basket matrix.
+2026-09-08 21:58:25,385 | INFO | Basket validation passed: 9659 baskets x 3514 products.
+2026-09-08 21:58:25,385 | INFO | STAGE 4/6 — Mining frequent itemsets.
+2026-09-08 21:58:25,385 | INFO | Mining frequent itemsets: support >= 0.0200, max length = 3.
+2026-09-08 21:58:26,944 | INFO | Frequent-itemset mining complete: 388 itemsets.
+2026-09-08 21:58:26,944 | INFO | STAGE 5/6 — Generating and filtering rules.
+2026-09-08 21:58:26,944 | INFO | Generating association rules: confidence >= 0.30, lift >= 1.20.
+2026-09-08 21:58:26,954 | INFO | Rule generation complete: 156 rules passed the thresholds.
+2026-09-08 21:58:26,954 | INFO | Creating business-focused one-to-one rules.
+2026-09-08 21:58:26,959 | INFO | Business-rule selection complete: 75 unique one-to-one rules; reporting top 10.
+2026-09-08 21:58:26,959 | INFO | STAGE 6/6 — Writing outputs.
+2026-09-08 21:58:26,968 | INFO | Output written: outputs/market_basket_final_rules.csv
+2026-09-08 21:58:26,968 | INFO | Output written: outputs/frequent_itemsets.csv
+2026-09-08 21:58:26,968 | INFO | Output written: outputs/pipeline_summary.json
+2026-09-08 21:58:26,968 | INFO | DAY 19 PIPELINE COMPLETE.
+2026-09-08 21:58:26,968 | INFO | ======================================================================

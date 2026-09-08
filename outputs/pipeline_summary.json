@@ -1,0 +1,20 @@
+{
+  "run_started_utc": "2026-09-08T16:28:08.492153+00:00",
+  "run_completed_utc": "2026-09-08T16:28:26.959750+00:00",
+  "parameters": {
+    "source_path": "data/online_retail/Online Retail.xlsx",
+    "start_date": "2010-12-01",
+    "end_date": "2011-06-30",
+    "min_support": 0.02,
+    "min_confidence": 0.3,
+    "min_lift": 1.2,
+    "max_itemset_length": 3
+  },
+  "raw_rows": 541909,
+  "clean_purchase_rows": 239931,
+  "baskets": 9659,
+  "products": 3514,
+  "frequent_itemsets": 388,
+  "rules_after_thresholds": 156,
+  "final_rules_reported": 10
+}
