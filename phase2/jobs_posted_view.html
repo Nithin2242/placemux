@@ -1,0 +1,798 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+PlaceMux — Jobs Posted View
+</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+    color: #1f2937;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+.subtitle {
+    color: #6b7280;
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:
+        repeat(5, 1fr);
+    gap: 16px;
+}
+
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,0.07);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.value {
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section {
+    background: white;
+    margin-top: 22px;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,0.07);
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.status {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.pass {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.fail {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.metric-row {
+    display: grid;
+    grid-template-columns:
+        repeat(3, 1fr);
+    gap: 15px;
+}
+
+.metric-box {
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+canvas {
+    width: 100%;
+    height: 320px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom:
+        1px solid #e5e7eb;
+}
+
+th {
+    color: #6b7280;
+}
+
+code {
+    background: #f1f5f9;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+
+    .grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .metric-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 16px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h1>
+Jobs Posted View
+</h1>
+
+<div class="subtitle">
+
+PlaceMux Phase 2 — Job Supply Monitoring ·
+Synthetic Demonstration Dataset
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- KPIs -->
+<!-- ===================================================== -->
+
+<div class="grid">
+
+<div class="card">
+
+<h3>
+Jobs Posted
+</h3>
+
+<div class="value">
+256
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Jobs Published
+</h3>
+
+<div class="value">
+238
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Active Jobs
+</h3>
+
+<div class="value">
+165
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Completion Rate
+</h3>
+
+<div class="value">
+100.0%
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Publication Rate
+</h3>
+
+<div class="value">
+93.0%
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- VALIDATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Event Validation
+</h2>
+
+<p>
+
+Validation status:
+
+<span class="
+status
+pass
+">
+
+PASS
+
+</span>
+
+</p>
+
+
+<div class="metric-row">
+
+<div class="metric-box">
+
+<strong>
+Total Events
+</strong>
+
+<br>
+
+909
+
+</div>
+
+
+<div class="metric-box">
+
+<strong>
+Duplicate Event IDs
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+<div class="metric-box">
+
+<strong>
+Missing Job IDs
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+<div class="metric-box">
+
+<strong>
+Missing Seller IDs
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+<div class="metric-box">
+
+<strong>
+Invalid Event Names
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+<div class="metric-box">
+
+<strong>
+Lifecycle Issues
+</strong>
+
+<br>
+
+0
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- TREND -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Jobs Posted Over Time
+</h2>
+
+<canvas id="trendChart"></canvas>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SELLER -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Active Job Supply by Seller
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Seller
+</th>
+
+<th>
+Active Jobs
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+    <tr>
+        <td>S010</td>
+        <td>11</td>
+    </tr>
+    
+    <tr>
+        <td>S019</td>
+        <td>10</td>
+    </tr>
+    
+    <tr>
+        <td>S023</td>
+        <td>9</td>
+    </tr>
+    
+    <tr>
+        <td>S015</td>
+        <td>9</td>
+    </tr>
+    
+    <tr>
+        <td>S028</td>
+        <td>8</td>
+    </tr>
+    
+    <tr>
+        <td>S022</td>
+        <td>7</td>
+    </tr>
+    
+    <tr>
+        <td>S004</td>
+        <td>7</td>
+    </tr>
+    
+    <tr>
+        <td>S005</td>
+        <td>7</td>
+    </tr>
+    
+    <tr>
+        <td>S025</td>
+        <td>7</td>
+    </tr>
+    
+    <tr>
+        <td>S002</td>
+        <td>7</td>
+    </tr>
+    
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- CATEGORY -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Jobs Posted by Category
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Category
+</th>
+
+<th>
+Jobs Posted
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+    <tr>
+        <td>UI/UX Designer</td>
+        <td>62</td>
+    </tr>
+    
+    <tr>
+        <td>Data Analyst</td>
+        <td>61</td>
+    </tr>
+    
+    <tr>
+        <td>Software Developer</td>
+        <td>46</td>
+    </tr>
+    
+    <tr>
+        <td>Business Analyst</td>
+        <td>45</td>
+    </tr>
+    
+    <tr>
+        <td>Digital Marketer</td>
+        <td>42</td>
+    </tr>
+    
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- DEFINITIONS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Source & Definitions
+</h2>
+
+<p>
+
+<strong>
+Source:
+</strong>
+
+Synthetic marketplace job-post event stream
+created specifically for the Day 22 demonstration.
+
+</p>
+
+<p>
+
+<strong>
+Jobs Posted:
+</strong>
+
+Distinct jobs with a valid
+<code>
+job_post_completed
+</code>
+event.
+
+</p>
+
+<p>
+
+<strong>
+Jobs Published:
+</strong>
+
+Distinct jobs with a valid
+<code>
+job_post_published
+</code>
+event.
+
+</p>
+
+<p>
+
+<strong>
+Active Jobs:
+</strong>
+
+Jobs whose latest validated lifecycle
+state is active.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+const data =
+[{"date": "2026-08-01", "jobs_posted": 5, "jobs_published": 4}, {"date": "2026-08-02", "jobs_posted": 6, "jobs_published": 6}, {"date": "2026-08-03", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-04", "jobs_posted": 10, "jobs_published": 10}, {"date": "2026-08-05", "jobs_posted": 9, "jobs_published": 8}, {"date": "2026-08-06", "jobs_posted": 10, "jobs_published": 7}, {"date": "2026-08-07", "jobs_posted": 12, "jobs_published": 12}, {"date": "2026-08-08", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-09", "jobs_posted": 6, "jobs_published": 5}, {"date": "2026-08-10", "jobs_posted": 10, "jobs_published": 8}, {"date": "2026-08-11", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-12", "jobs_posted": 8, "jobs_published": 5}, {"date": "2026-08-13", "jobs_posted": 11, "jobs_published": 10}, {"date": "2026-08-14", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-15", "jobs_posted": 6, "jobs_published": 5}, {"date": "2026-08-16", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-17", "jobs_posted": 10, "jobs_published": 9}, {"date": "2026-08-18", "jobs_posted": 11, "jobs_published": 11}, {"date": "2026-08-19", "jobs_posted": 12, "jobs_published": 12}, {"date": "2026-08-20", "jobs_posted": 9, "jobs_published": 8}, {"date": "2026-08-21", "jobs_posted": 10, "jobs_published": 10}, {"date": "2026-08-22", "jobs_posted": 6, "jobs_published": 6}, {"date": "2026-08-23", "jobs_posted": 6, "jobs_published": 5}, {"date": "2026-08-24", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-25", "jobs_posted": 12, "jobs_published": 11}, {"date": "2026-08-26", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-27", "jobs_posted": 10, "jobs_published": 10}, {"date": "2026-08-28", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-29", "jobs_posted": 8, "jobs_published": 8}, {"date": "2026-08-30", "jobs_posted": 5, "jobs_published": 4}];
+
+const canvas =
+document.getElementById("trendChart");
+
+const ctx =
+canvas.getContext("2d");
+
+
+function drawChart() {
+
+    const width =
+        canvas.clientWidth || 1100;
+
+    const height = 320;
+
+    const dpr =
+        window.devicePixelRatio || 1;
+
+    canvas.width =
+        width * dpr;
+
+    canvas.height =
+        height * dpr;
+
+    ctx.scale(dpr, dpr);
+
+    const padding = 45;
+
+    const chartWidth =
+        width - padding * 2;
+
+    const chartHeight =
+        height - padding * 2;
+
+    const maxValue =
+        Math.max(
+            ...data.map(
+                d =>
+                    Math.max(
+                        Number(d.jobs_posted),
+                        Number(d.jobs_published)
+                    )
+            )
+        );
+
+    function x(i) {
+        return padding +
+            (
+                i *
+                chartWidth /
+                Math.max(data.length - 1, 1)
+            );
+    }
+
+    function y(value) {
+        return height -
+            padding -
+            (
+                value /
+                maxValue
+            ) *
+            chartHeight;
+    }
+
+    function drawSeries(key) {
+
+        ctx.beginPath();
+
+        data.forEach((row, index) => {
+
+            const px = x(index);
+
+            const py = y(
+                Number(row[key])
+            );
+
+            if (index === 0) {
+                ctx.moveTo(px, py);
+            } else {
+                ctx.lineTo(px, py);
+            }
+
+        });
+
+        ctx.stroke();
+
+    }
+
+
+    ctx.clearRect(
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    // Axis
+
+    ctx.beginPath();
+
+    ctx.moveTo(
+        padding,
+        padding
+    );
+
+    ctx.lineTo(
+        padding,
+        height - padding
+    );
+
+    ctx.lineTo(
+        width - padding,
+        height - padding
+    );
+
+    ctx.stroke();
+
+
+    // Grid lines
+
+    for (
+        let i = 0;
+        i <= 5;
+        i++
+    ) {
+
+        const value =
+            maxValue *
+            i /
+            5;
+
+        const py =
+            y(value);
+
+        ctx.beginPath();
+
+        ctx.moveTo(
+            padding,
+            py
+        );
+
+        ctx.lineTo(
+            width - padding,
+            py
+        );
+
+        ctx.stroke();
+
+    }
+
+
+    // Posted series
+
+    drawSeries(
+        "jobs_posted"
+    );
+
+
+    // Published series
+
+    drawSeries(
+        "jobs_published"
+    );
+
+}
+
+
+drawChart();
+
+window.addEventListener(
+    "resize",
+    drawChart
+);
+
+</script>
+
+</body>
+
+</html>

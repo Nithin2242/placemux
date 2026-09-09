@@ -1,0 +1,12 @@
+{
+  "total_events": 909,
+  "invalid_event_names": 0,
+  "missing_event_id": 0,
+  "duplicate_event_ids": 0,
+  "missing_job_id": 0,
+  "missing_seller_id": 0,
+  "invalid_timestamps": 0,
+  "lifecycle_issues": 0,
+  "lifecycle_issue_examples": [],
+  "validation_passed": true
+}
