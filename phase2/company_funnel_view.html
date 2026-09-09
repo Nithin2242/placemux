@@ -1,0 +1,927 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+PlaceMux — Company Funnel View
+</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+    color: #1f2937;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #6b7280;
+    margin-bottom: 28px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:
+        repeat(4, 1fr);
+    gap: 16px;
+}
+
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,0.07);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.value {
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section {
+    background: white;
+    margin-top: 22px;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,0.07);
+}
+
+.status {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.pass {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.fail {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.funnel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.stage {
+    padding: 15px;
+    background: #f8fafc;
+    border-radius: 10px;
+}
+
+.stage-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.bar {
+    margin-top: 8px;
+    height: 14px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: #64748b;
+}
+
+.metric-row {
+    display: grid;
+    grid-template-columns:
+        repeat(4, 1fr);
+    gap: 15px;
+}
+
+.metric-box {
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+canvas {
+    width: 100%;
+    height: 300px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom:
+        1px solid #e5e7eb;
+}
+
+th {
+    color: #6b7280;
+}
+
+code {
+    background: #f1f5f9;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+
+    .grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .metric-row {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 16px;
+    }
+
+    .grid,
+    .metric-row {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h1>
+Company Funnel View
+</h1>
+
+<div class="subtitle">
+PlaceMux Phase 2 — Search & Discovery ·
+Synthetic Demonstration Dataset
+</div>
+
+
+<!-- KPIs -->
+
+<div class="grid">
+
+<div class="card">
+
+<h3>
+Searches
+</h3>
+
+<div class="value">
+477
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Result Views
+</h3>
+
+<div class="value">
+441
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Listing Views
+</h3>
+
+<div class="value">
+298
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Contacts
+</h3>
+
+<div class="value">
+134
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Engagements
+</h3>
+
+<div class="value">
+75
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Matches
+</h3>
+
+<div class="value">
+39
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Successful Outcomes
+</h3>
+
+<div class="value">
+23
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Overall Conversion
+</h3>
+
+<div class="value">
+4.8%
+</div>
+
+</div>
+
+</div>
+
+
+<!-- VALIDATION -->
+
+<div class="section">
+
+<h2>
+Event Validation
+</h2>
+
+<p>
+
+Validation status:
+
+<span class="
+status
+pass
+">
+
+PASS
+
+</span>
+
+</p>
+
+
+<div class="metric-row">
+
+<div class="metric-box">
+<strong>Total Events</strong>
+<br>
+1487
+</div>
+
+<div class="metric-box">
+<strong>Duplicate IDs</strong>
+<br>
+0
+</div>
+
+<div class="metric-box">
+<strong>Missing Company IDs</strong>
+<br>
+0
+</div>
+
+<div class="metric-box">
+<strong>Broken Funnel Links</strong>
+<br>
+0
+</div>
+
+</div>
+
+</div>
+
+
+<!-- FUNNEL -->
+
+<div class="section">
+
+<h2>
+Company Funnel
+</h2>
+
+<div class="funnel">
+
+
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+            Searches
+            </span>
+
+            <span>
+            477
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                width:
+                100.0%;
+                "
+            >
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+            Result Views
+            </span>
+
+            <span>
+            441
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                width:
+                92.45283018867924%;
+                "
+            >
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+            Listing Views
+            </span>
+
+            <span>
+            298
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                width:
+                62.473794549266245%;
+                "
+            >
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+            Contacts
+            </span>
+
+            <span>
+            134
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                width:
+                28.09224318658281%;
+                "
+            >
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+            Engagements
+            </span>
+
+            <span>
+            75
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                width:
+                15.723270440251572%;
+                "
+            >
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+            Matches
+            </span>
+
+            <span>
+            39
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                width:
+                8.176100628930817%;
+                "
+            >
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+            Outcomes
+            </span>
+
+            <span>
+            23
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                width:
+                4.821802935010482%;
+                "
+            >
+            </div>
+
+        </div>
+
+    </div>
+    
+
+</div>
+
+</div>
+
+
+<!-- CONVERSIONS -->
+
+<div class="section">
+
+<h2>
+Stage Conversion Rates
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Stage</th>
+<th>Conversion Rate</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>
+Search → Result
+</td>
+<td>
+92.5%
+</td>
+</tr>
+
+<tr>
+<td>
+Result → Listing
+</td>
+<td>
+67.6%
+</td>
+</tr>
+
+<tr>
+<td>
+Listing → Contact
+</td>
+<td>
+45.0%
+</td>
+</tr>
+
+<tr>
+<td>
+Contact → Engagement
+</td>
+<td>
+56.0%
+</td>
+</tr>
+
+<tr>
+<td>
+Engagement → Match
+</td>
+<td>
+52.0%
+</td>
+</tr>
+
+<tr>
+<td>
+Match → Outcome
+</td>
+<td>
+59.0%
+</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- TREND -->
+
+<div class="section">
+
+<h2>
+Search & Discovery Activity Over Time
+</h2>
+
+<canvas id="trendChart"></canvas>
+
+</div>
+
+
+<!-- DEFINITIONS -->
+
+<div class="section">
+
+<h2>
+Source & Definitions
+</h2>
+
+<p>
+<strong>Source:</strong>
+Synthetic company-side Search & Discovery event stream
+created specifically for the Day 23 demonstration.
+</p>
+
+<p>
+<strong>Searches:</strong>
+Distinct search sessions generated by companies.
+</p>
+
+<p>
+<strong>Result Views:</strong>
+Search-result viewing events.
+</p>
+
+<p>
+<strong>Listing Views:</strong>
+Individual listing/profile views.
+</p>
+
+<p>
+<strong>Overall Conversion:</strong>
+Successful outcomes divided by company searches.
+</p>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+const data =
+[{"date": "2026-08-01", "search_performed": 14, "search_result_viewed": 13, "listing_viewed": 9, "company_contact_started": 5, "engagement_started": 1, "match_created": 0, "outcome_recorded": 0}, {"date": "2026-08-02", "search_performed": 9, "search_result_viewed": 9, "listing_viewed": 7, "company_contact_started": 4, "engagement_started": 3, "match_created": 0, "outcome_recorded": 0}, {"date": "2026-08-03", "search_performed": 15, "search_result_viewed": 14, "listing_viewed": 9, "company_contact_started": 5, "engagement_started": 2, "match_created": 2, "outcome_recorded": 0}, {"date": "2026-08-04", "search_performed": 17, "search_result_viewed": 15, "listing_viewed": 11, "company_contact_started": 6, "engagement_started": 2, "match_created": 1, "outcome_recorded": 1}, {"date": "2026-08-05", "search_performed": 19, "search_result_viewed": 18, "listing_viewed": 13, "company_contact_started": 6, "engagement_started": 2, "match_created": 0, "outcome_recorded": 0}, {"date": "2026-08-06", "search_performed": 20, "search_result_viewed": 20, "listing_viewed": 11, "company_contact_started": 3, "engagement_started": 1, "match_created": 3, "outcome_recorded": 0}, {"date": "2026-08-07", "search_performed": 16, "search_result_viewed": 16, "listing_viewed": 12, "company_contact_started": 4, "engagement_started": 0, "match_created": 0, "outcome_recorded": 1}, {"date": "2026-08-08", "search_performed": 13, "search_result_viewed": 11, "listing_viewed": 8, "company_contact_started": 4, "engagement_started": 2, "match_created": 1, "outcome_recorded": 0}, {"date": "2026-08-09", "search_performed": 11, "search_result_viewed": 10, "listing_viewed": 3, "company_contact_started": 2, "engagement_started": 3, "match_created": 0, "outcome_recorded": 0}, {"date": "2026-08-10", "search_performed": 20, "search_result_viewed": 18, "listing_viewed": 15, "company_contact_started": 8, "engagement_started": 4, "match_created": 0, "outcome_recorded": 0}, {"date": "2026-08-11", "search_performed": 15, "search_result_viewed": 13, "listing_viewed": 11, "company_contact_started": 3, "engagement_started": 4, "match_created": 2, "outcome_recorded": 0}, {"date": "2026-08-12", "search_performed": 18, "search_result_viewed": 18, "listing_viewed": 9, "company_contact_started": 4, "engagement_started": 2, "match_created": 1, "outcome_recorded": 0}, {"date": "2026-08-13", "search_performed": 17, "search_result_viewed": 16, "listing_viewed": 12, "company_contact_started": 7, "engagement_started": 5, "match_created": 2, "outcome_recorded": 1}, {"date": "2026-08-14", "search_performed": 15, "search_result_viewed": 14, "listing_viewed": 12, "company_contact_started": 3, "engagement_started": 1, "match_created": 2, "outcome_recorded": 2}, {"date": "2026-08-15", "search_performed": 10, "search_result_viewed": 9, "listing_viewed": 4, "company_contact_started": 1, "engagement_started": 1, "match_created": 3, "outcome_recorded": 1}, {"date": "2026-08-16", "search_performed": 12, "search_result_viewed": 10, "listing_viewed": 5, "company_contact_started": 2, "engagement_started": 1, "match_created": 2, "outcome_recorded": 0}, {"date": "2026-08-17", "search_performed": 22, "search_result_viewed": 21, "listing_viewed": 15, "company_contact_started": 8, "engagement_started": 2, "match_created": 0, "outcome_recorded": 1}, {"date": "2026-08-18", "search_performed": 16, "search_result_viewed": 14, "listing_viewed": 13, "company_contact_started": 7, "engagement_started": 5, "match_created": 1, "outcome_recorded": 1}, {"date": "2026-08-19", "search_performed": 17, "search_result_viewed": 16, "listing_viewed": 11, "company_contact_started": 6, "engagement_started": 3, "match_created": 1, "outcome_recorded": 2}, {"date": "2026-08-20", "search_performed": 18, "search_result_viewed": 16, "listing_viewed": 10, "company_contact_started": 4, "engagement_started": 4, "match_created": 1, "outcome_recorded": 0}, {"date": "2026-08-21", "search_performed": 18, "search_result_viewed": 18, "listing_viewed": 11, "company_contact_started": 2, "engagement_started": 3, "match_created": 2, "outcome_recorded": 1}, {"date": "2026-08-22", "search_performed": 15, "search_result_viewed": 14, "listing_viewed": 13, "company_contact_started": 5, "engagement_started": 0, "match_created": 2, "outcome_recorded": 0}, {"date": "2026-08-23", "search_performed": 11, "search_result_viewed": 10, "listing_viewed": 7, "company_contact_started": 6, "engagement_started": 3, "match_created": 1, "outcome_recorded": 0}, {"date": "2026-08-24", "search_performed": 19, "search_result_viewed": 18, "listing_viewed": 12, "company_contact_started": 4, "engagement_started": 7, "match_created": 0, "outcome_recorded": 1}, {"date": "2026-08-25", "search_performed": 20, "search_result_viewed": 18, "listing_viewed": 13, "company_contact_started": 6, "engagement_started": 2, "match_created": 2, "outcome_recorded": 1}, {"date": "2026-08-26", "search_performed": 17, "search_result_viewed": 12, "listing_viewed": 5, "company_contact_started": 1, "engagement_started": 2, "match_created": 3, "outcome_recorded": 0}, {"date": "2026-08-27", "search_performed": 18, "search_result_viewed": 18, "listing_viewed": 12, "company_contact_started": 6, "engagement_started": 2, "match_created": 0, "outcome_recorded": 2}, {"date": "2026-08-28", "search_performed": 22, "search_result_viewed": 20, "listing_viewed": 9, "company_contact_started": 6, "engagement_started": 2, "match_created": 3, "outcome_recorded": 2}, {"date": "2026-08-29", "search_performed": 11, "search_result_viewed": 10, "listing_viewed": 8, "company_contact_started": 1, "engagement_started": 2, "match_created": 1, "outcome_recorded": 1}, {"date": "2026-08-30", "search_performed": 12, "search_result_viewed": 12, "listing_viewed": 8, "company_contact_started": 5, "engagement_started": 1, "match_created": 1, "outcome_recorded": 1}, {"date": "2026-08-31", "search_performed": 0, "search_result_viewed": 0, "listing_viewed": 0, "company_contact_started": 0, "engagement_started": 3, "match_created": 0, "outcome_recorded": 1}, {"date": "2026-09-01", "search_performed": 0, "search_result_viewed": 0, "listing_viewed": 0, "company_contact_started": 0, "engagement_started": 0, "match_created": 2, "outcome_recorded": 0}, {"date": "2026-09-02", "search_performed": 0, "search_result_viewed": 0, "listing_viewed": 0, "company_contact_started": 0, "engagement_started": 0, "match_created": 0, "outcome_recorded": 1}, {"date": "2026-09-03", "search_performed": 0, "search_result_viewed": 0, "listing_viewed": 0, "company_contact_started": 0, "engagement_started": 0, "match_created": 0, "outcome_recorded": 2}];
+
+const canvas =
+document.getElementById("trendChart");
+
+const ctx =
+canvas.getContext("2d");
+
+
+function drawChart() {
+
+    const width =
+        canvas.clientWidth || 1100;
+
+    const height = 300;
+
+    const dpr =
+        window.devicePixelRatio || 1;
+
+    canvas.width =
+        width * dpr;
+
+    canvas.height =
+        height * dpr;
+
+    ctx.scale(dpr, dpr);
+
+    const padding = 45;
+
+    const chartWidth =
+        width - padding * 2;
+
+    const chartHeight =
+        height - padding * 2;
+
+    const maxValue =
+        Math.max(
+            ...data.map(
+                row =>
+                    Number(
+                        row.search_performed
+                    )
+            )
+        );
+
+    function x(index) {
+
+        return padding +
+            index *
+            chartWidth /
+            Math.max(
+                data.length - 1,
+                1
+            );
+
+    }
+
+    function y(value) {
+
+        return height -
+            padding -
+            value /
+            Math.max(
+                maxValue,
+                1
+            ) *
+            chartHeight;
+
+    }
+
+
+    ctx.clearRect(
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    // Axes
+
+    ctx.beginPath();
+
+    ctx.moveTo(
+        padding,
+        padding
+    );
+
+    ctx.lineTo(
+        padding,
+        height - padding
+    );
+
+    ctx.lineTo(
+        width - padding,
+        height - padding
+    );
+
+    ctx.stroke();
+
+
+    // Search line
+
+    ctx.beginPath();
+
+    data.forEach(
+        (row, index) => {
+
+            const px = x(index);
+
+            const py = y(
+                Number(
+                    row.search_performed
+                )
+            );
+
+            if (index === 0) {
+                ctx.moveTo(
+                    px,
+                    py
+                );
+            } else {
+                ctx.lineTo(
+                    px,
+                    py
+                );
+            }
+
+        }
+    );
+
+    ctx.stroke();
+
+
+    // Result-view line
+
+    ctx.beginPath();
+
+    data.forEach(
+        (row, index) => {
+
+            const px = x(index);
+
+            const py = y(
+                Number(
+                    row.search_result_viewed
+                )
+            );
+
+            if (index === 0) {
+                ctx.moveTo(
+                    px,
+                    py
+                );
+            } else {
+                ctx.lineTo(
+                    px,
+                    py
+                );
+            }
+
+        }
+    );
+
+    ctx.stroke();
+
+}
+
+
+drawChart();
+
+window.addEventListener(
+    "resize",
+    drawChart
+);
+
+</script>
+
+</body>
+
+</html>

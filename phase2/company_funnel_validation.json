@@ -1,0 +1,14 @@
+{
+  "total_events": 1487,
+  "invalid_event_names": 0,
+  "duplicate_event_ids": 0,
+  "missing_event_ids": 0,
+  "missing_company_ids": 0,
+  "invalid_timestamps": 0,
+  "results_without_search": 0,
+  "listings_without_discovery": 0,
+  "engagement_without_contact": 0,
+  "matches_without_engagement": 0,
+  "outcomes_without_match": 0,
+  "validation_passed": true
+}
