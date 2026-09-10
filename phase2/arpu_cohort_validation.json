@@ -1,0 +1,16 @@
+{
+  "total_events": 2721,
+  "duplicate_event_ids": 0,
+  "missing_event_ids": 0,
+  "missing_payment_ids": 0,
+  "missing_company_ids": 0,
+  "invalid_event_names": 0,
+  "invalid_timestamps": 0,
+  "captured_without_initiated": 0,
+  "revenue_without_capture": 0,
+  "refund_without_capture": 0,
+  "cohort_customer_gap": 0,
+  "cohort_revenue_gap": 0.0,
+  "cohort_refund_gap": 0.0,
+  "validation_passed": true
+}

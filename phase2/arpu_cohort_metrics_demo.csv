@@ -1,0 +1,13 @@
+metric,value,unit
+Paying Users,30.0,count
+Successful Payments,640.0,count
+Recognized Revenue,650614.46,INR
+Refund Amount,469304.47,INR
+Net Revenue,181309.99,INR
+ARPU,21687.15,INR
+Net ARPU,6043.67,INR
+Revenue per Payment,1016.59,INR
+Repeat Paying Users,30.0,count
+Repeat Payer Rate,100.0,%
+Cohort Revenue Gap,0.0,INR
+Cohort Customer Gap,0.0,count
