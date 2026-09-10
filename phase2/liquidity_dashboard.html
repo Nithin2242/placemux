@@ -1,0 +1,1195 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+PlaceMux — Marketplace Liquidity Dashboard
+</title>
+
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+    color: #1f2937;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #64748b;
+    margin-bottom: 28px;
+}
+
+.section {
+    background: white;
+    border-radius: 14px;
+    padding: 24px;
+    margin-top: 22px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.07);
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:
+        repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.07);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.value {
+    margin-top: 8px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.health {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 22px;
+    font-weight: 700;
+}
+
+.healthy {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.watch {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.risk {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.validation {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.pass {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.fail {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.metric-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, 1fr);
+    gap: 13px;
+}
+
+.metric {
+    background: #f8fafc;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.funnel {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.stage {
+    background: #f8fafc;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.stage-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.bar {
+    height: 13px;
+    margin-top: 8px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: #64748b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 11px;
+    border-bottom:
+        1px solid #e5e7eb;
+}
+
+th {
+    color: #64748b;
+}
+
+canvas {
+    width: 100%;
+    height: 320px;
+}
+
+.note {
+    padding: 14px;
+    background: #f8fafc;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+code {
+    background: #f1f5f9;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+@media (max-width: 950px) {
+
+    .grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .metric-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 16px;
+    }
+
+    .grid,
+    .metric-grid {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+
+<h1>
+Marketplace Liquidity Dashboard
+</h1>
+
+<div class="subtitle">
+
+PlaceMux Phase 2 —
+Marketplace Health Monitoring ·
+Synthetic Demonstration Data
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- HEALTH -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Marketplace Health
+</h2>
+
+<p>
+
+Current demonstration status:
+
+<span class="health healthy">
+HEALTHY
+</span>
+
+</p>
+
+<p class="note">
+
+Health is a rules-based demonstration signal combining
+demand, supply, and conversion indicators.
+Production thresholds should be calibrated from real marketplace
+baselines.
+
+</p>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- TOP KPIs -->
+<!-- ===================================================== -->
+
+<div class="grid">
+
+<div class="card">
+
+<h3>
+Active Buyers
+</h3>
+
+<div class="value">
+40
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Active Sellers
+</h3>
+
+<div class="value">
+30
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Active Jobs
+</h3>
+
+<div class="value">
+165
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Buyer / Seller Ratio
+</h3>
+
+<div class="value">
+1.33
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Jobs / Active Seller
+</h3>
+
+<div class="value">
+5.50
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Searches
+</h3>
+
+<div class="value">
+477
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Applications Submitted
+</h3>
+
+<div class="value">
+489
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Successful Outcomes
+</h3>
+
+<div class="value">
+47
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- DEMAND -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Demand & Discovery
+</h2>
+
+<div class="metric-grid">
+
+<div class="metric">
+
+<strong>
+Searches
+</strong>
+
+<br>
+
+477
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Result Views
+</strong>
+
+<br>
+
+441
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Search → Result
+</strong>
+
+<br>
+
+92.5%
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Listing Views
+</strong>
+
+<br>
+
+298
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Listing → Contact
+</strong>
+
+<br>
+
+45.0%
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Contacts
+</strong>
+
+<br>
+
+134
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SUPPLY -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Supply
+</h2>
+
+<div class="metric-grid">
+
+<div class="metric">
+
+<strong>
+Active Sellers
+</strong>
+
+<br>
+
+30
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Active Jobs
+</strong>
+
+<br>
+
+165
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Jobs / Seller
+</strong>
+
+<br>
+
+5.50
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Buyer / Seller Ratio
+</strong>
+
+<br>
+
+1.33
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- FUNNEL -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Marketplace Conversion Funnel
+</h2>
+
+<div class="funnel">
+
+<div class="stage">
+
+<div class="stage-header">
+<span>Searches</span>
+<span>477</span>
+</div>
+
+<div class="bar">
+
+<div
+    class="fill"
+    style="width:100%"
+></div>
+
+</div>
+
+</div>
+
+
+<div class="stage">
+
+<div class="stage-header">
+<span>Result Views</span>
+<span>441</span>
+</div>
+
+<div class="bar">
+
+<div
+    class="fill"
+    style="
+        width:
+        92.45283018867924%
+    "
+></div>
+
+</div>
+
+</div>
+
+
+<div class="stage">
+
+<div class="stage-header">
+<span>Listing Views</span>
+<span>298</span>
+</div>
+
+<div class="bar">
+
+<div
+    class="fill"
+    style="
+        width:
+        62.473794549266245%
+    "
+></div>
+
+</div>
+
+</div>
+
+
+<div class="stage">
+
+<div class="stage-header">
+<span>Contacts</span>
+<span>134</span>
+</div>
+
+<div class="bar">
+
+<div
+    class="fill"
+    style="
+        width:
+        28.09224318658281%
+    "
+></div>
+
+</div>
+
+</div>
+
+
+<div class="stage">
+
+<div class="stage-header">
+<span>Applications Submitted</span>
+<span>489</span>
+</div>
+
+<div class="bar">
+
+<div
+    class="fill"
+    style="
+        width:
+        102.51572327044025%
+    "
+></div>
+
+</div>
+
+</div>
+
+
+<div class="stage">
+
+<div class="stage-header">
+<span>Matches</span>
+<span>39</span>
+</div>
+
+<div class="bar">
+
+<div
+    class="fill"
+    style="
+        width:
+        8.176100628930817%
+    "
+></div>
+
+</div>
+
+</div>
+
+
+<div class="stage">
+
+<div class="stage-header">
+<span>Successful Outcomes</span>
+<span>23</span>
+</div>
+
+<div class="bar">
+
+<div
+    class="fill"
+    style="
+        width:
+        4.821802935010482%
+    "
+></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- CONVERSION TABLE -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Liquidity Conversion Metrics
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Metric
+</th>
+
+<th>
+Value
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Search → Result</td>
+<td>92.5%</td>
+</tr>
+
+<tr>
+<td>Result → Listing</td>
+<td>67.6%</td>
+</tr>
+
+<tr>
+<td>Listing → Contact</td>
+<td>45.0%</td>
+</tr>
+
+<tr>
+<td>Contact → Application</td>
+<td>416.4%</td>
+</tr>
+
+<tr>
+<td>Application Submission</td>
+<td>87.6%</td>
+</tr>
+
+<tr>
+<td>Application → Match</td>
+<td>8.0%</td>
+</tr>
+
+<tr>
+<td>Match → Outcome</td>
+<td>59.0%</td>
+</tr>
+
+<tr>
+<td>Marketplace Success</td>
+<td>9.6%</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- TREND -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Marketplace Activity Over Time
+</h2>
+
+<canvas id="trendChart"></canvas>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- VALIDATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Instrumentation Validation
+</h2>
+
+<p>
+
+Validation status:
+
+<span class="validation pass">
+
+PASS
+
+</span>
+
+</p>
+
+
+<div class="metric-grid">
+
+<div class="metric">
+
+<strong>
+Total Events
+</strong>
+
+<br>
+
+4234
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Job Event Duplicates
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Company Event Duplicates
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Application Event Duplicates
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Job Missing IDs
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Application Missing IDs
+</strong>
+
+<br>
+
+0
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- DEFINITIONS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Source & Definitions
+</h2>
+
+<p>
+
+<strong>
+Source:
+</strong>
+
+Synthetic Phase 2 event streams generated for Days 22, 23, and 24.
+
+</p>
+
+<p>
+
+<strong>
+Active Buyers:
+</strong>
+
+Distinct companies with valid search activity.
+
+</p>
+
+<p>
+
+<strong>
+Active Sellers:
+</strong>
+
+Distinct sellers represented in valid job-post activity.
+
+</p>
+
+<p>
+
+<strong>
+Active Jobs:
+</strong>
+
+Jobs whose latest validated lifecycle state is active.
+
+</p>
+
+<p>
+
+<strong>
+Important:
+</strong>
+
+The current streams are separate synthetic demonstrations.
+Cross-stream metrics such as Contact → Application are aggregate
+directional indicators. A production implementation should use shared
+journey identifiers for exact cohort conversion.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+const data =
+[{"date": "2026-08-01", "jobs_posted": 5, "searches": 14, "applications_submitted": 10}, {"date": "2026-08-02", "jobs_posted": 6, "searches": 9, "applications_submitted": 8}, {"date": "2026-08-03", "jobs_posted": 8, "searches": 15, "applications_submitted": 20}, {"date": "2026-08-04", "jobs_posted": 10, "searches": 17, "applications_submitted": 20}, {"date": "2026-08-05", "jobs_posted": 9, "searches": 19, "applications_submitted": 23}, {"date": "2026-08-06", "jobs_posted": 10, "searches": 20, "applications_submitted": 16}, {"date": "2026-08-07", "jobs_posted": 12, "searches": 16, "applications_submitted": 10}, {"date": "2026-08-08", "jobs_posted": 8, "searches": 13, "applications_submitted": 11}, {"date": "2026-08-09", "jobs_posted": 6, "searches": 11, "applications_submitted": 7}, {"date": "2026-08-10", "jobs_posted": 10, "searches": 20, "applications_submitted": 21}, {"date": "2026-08-11", "jobs_posted": 8, "searches": 15, "applications_submitted": 23}, {"date": "2026-08-12", "jobs_posted": 8, "searches": 18, "applications_submitted": 18}, {"date": "2026-08-13", "jobs_posted": 11, "searches": 17, "applications_submitted": 21}, {"date": "2026-08-14", "jobs_posted": 8, "searches": 15, "applications_submitted": 18}, {"date": "2026-08-15", "jobs_posted": 6, "searches": 10, "applications_submitted": 14}, {"date": "2026-08-16", "jobs_posted": 8, "searches": 12, "applications_submitted": 9}, {"date": "2026-08-17", "jobs_posted": 10, "searches": 22, "applications_submitted": 17}, {"date": "2026-08-18", "jobs_posted": 11, "searches": 16, "applications_submitted": 22}, {"date": "2026-08-19", "jobs_posted": 12, "searches": 17, "applications_submitted": 19}, {"date": "2026-08-20", "jobs_posted": 9, "searches": 18, "applications_submitted": 17}, {"date": "2026-08-21", "jobs_posted": 10, "searches": 18, "applications_submitted": 20}, {"date": "2026-08-22", "jobs_posted": 6, "searches": 15, "applications_submitted": 11}, {"date": "2026-08-23", "jobs_posted": 6, "searches": 11, "applications_submitted": 9}, {"date": "2026-08-24", "jobs_posted": 8, "searches": 19, "applications_submitted": 14}, {"date": "2026-08-25", "jobs_posted": 12, "searches": 20, "applications_submitted": 19}, {"date": "2026-08-26", "jobs_posted": 8, "searches": 17, "applications_submitted": 19}, {"date": "2026-08-27", "jobs_posted": 10, "searches": 18, "applications_submitted": 22}, {"date": "2026-08-28", "jobs_posted": 8, "searches": 22, "applications_submitted": 21}, {"date": "2026-08-29", "jobs_posted": 8, "searches": 11, "applications_submitted": 15}, {"date": "2026-08-30", "jobs_posted": 5, "searches": 12, "applications_submitted": 15}];
+
+const canvas =
+document.getElementById(
+    "trendChart"
+);
+
+const ctx =
+canvas.getContext("2d");
+
+
+function drawChart() {
+
+    const width =
+        canvas.clientWidth || 1100;
+
+    const height = 320;
+
+    const dpr =
+        window.devicePixelRatio || 1;
+
+    canvas.width =
+        width * dpr;
+
+    canvas.height =
+        height * dpr;
+
+    ctx.scale(
+        dpr,
+        dpr
+    );
+
+    const padding = 45;
+
+    const chartWidth =
+        width - padding * 2;
+
+    const chartHeight =
+        height - padding * 2;
+
+
+    const maxValue =
+        Math.max(
+            ...data.flatMap(
+                row => [
+                    Number(
+                        row.jobs_posted
+                    ),
+                    Number(
+                        row.searches
+                    ),
+                    Number(
+                        row.applications_submitted
+                    )
+                ]
+            )
+        );
+
+
+    function x(index) {
+
+        return padding +
+            index *
+            chartWidth /
+            Math.max(
+                data.length - 1,
+                1
+            );
+
+    }
+
+
+    function y(value) {
+
+        return height -
+            padding -
+            value /
+            Math.max(
+                maxValue,
+                1
+            ) *
+            chartHeight;
+
+    }
+
+
+    ctx.clearRect(
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    // Axes
+
+    ctx.beginPath();
+
+    ctx.moveTo(
+        padding,
+        padding
+    );
+
+    ctx.lineTo(
+        padding,
+        height - padding
+    );
+
+    ctx.lineTo(
+        width - padding,
+        height - padding
+    );
+
+    ctx.stroke();
+
+
+    function drawSeries(
+        key
+    ) {
+
+        ctx.beginPath();
+
+
+        data.forEach(
+            (row, index) => {
+
+                const px =
+                    x(index);
+
+                const py =
+                    y(
+                        Number(
+                            row[key]
+                        )
+                    );
+
+
+                if (index === 0) {
+
+                    ctx.moveTo(
+                        px,
+                        py
+                    );
+
+                } else {
+
+                    ctx.lineTo(
+                        px,
+                        py
+                    );
+
+                }
+
+            }
+        );
+
+
+        ctx.stroke();
+
+    }
+
+
+    drawSeries(
+        "jobs_posted"
+    );
+
+    drawSeries(
+        "searches"
+    );
+
+    drawSeries(
+        "applications_submitted"
+    );
+
+}
+
+
+drawChart();
+
+window.addEventListener(
+    "resize",
+    drawChart
+);
+
+</script>
+
+</body>
+
+</html>

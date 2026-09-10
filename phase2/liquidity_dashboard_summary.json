@@ -1,0 +1,48 @@
+{
+  "total_events": 4234,
+  "active_buyers": 40,
+  "active_sellers": 30,
+  "active_jobs": 165,
+  "buyer_to_seller_ratio": 1.33,
+  "jobs_per_active_seller": 5.5,
+  "searches": 477,
+  "result_views": 441,
+  "listing_views": 298,
+  "contacts": 134,
+  "applications_started": 558,
+  "applications_submitted": 489,
+  "matches": 39,
+  "successful_outcomes": 23,
+  "marketplace_success_rate": 9.6,
+  "health_status": "HEALTHY",
+  "validation_passed": true,
+  "validation": {
+    "job_events": {
+      "total_events": 909,
+      "duplicate_event_ids": 0,
+      "missing_event_ids": 0,
+      "invalid_event_names": 0,
+      "invalid_timestamps": 0,
+      "missing_job_id": 0,
+      "missing_seller_id": 0
+    },
+    "company_events": {
+      "total_events": 1487,
+      "duplicate_event_ids": 0,
+      "missing_event_ids": 0,
+      "invalid_event_names": 0,
+      "invalid_timestamps": 0,
+      "missing_company_id": 0
+    },
+    "application_events": {
+      "total_events": 1838,
+      "duplicate_event_ids": 0,
+      "missing_event_ids": 0,
+      "invalid_event_names": 0,
+      "invalid_timestamps": 0,
+      "missing_application_id": 0,
+      "missing_candidate_id": 0,
+      "missing_company_id": 0
+    }
+  }
+}
