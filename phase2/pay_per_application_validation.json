@@ -1,0 +1,18 @@
+{
+  "total_events": 3283,
+  "duplicate_event_ids": 0,
+  "missing_event_ids": 0,
+  "missing_application_ids": 0,
+  "invalid_event_names": 0,
+  "invalid_timestamps": 0,
+  "submitted_without_start": 0,
+  "eligible_without_submission": 0,
+  "payment_without_eligible": 0,
+  "captured_without_initiated": 0,
+  "failed_without_initiated": 0,
+  "revenue_without_capture": 0,
+  "refund_without_capture": 0,
+  "captured_payment_without_initiated": 0,
+  "failed_payment_without_initiated": 0,
+  "validation_passed": true
+}

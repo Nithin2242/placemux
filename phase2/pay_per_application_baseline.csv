@@ -1,0 +1,21 @@
+metric,value,unit
+Applications Started,720.0,count
+Applications Submitted,630.0,count
+Submission Rate,87.5,%
+Eligible Applications,522.0,count
+Eligibility Rate,82.86,%
+Payment Initiated,473.0,count
+Payment Initiation Rate,90.61,%
+Payment Captured,449.0,count
+Payment Capture Rate,94.93,%
+Paid Applications,449.0,count
+Paid Application Conversion,86.02,%
+Application-to-Payment Conversion,71.27,%
+Started-to-Paid Conversion,62.36,%
+Payment Failure Rate,5.07,%
+Gross Payment Volume,388736.98,INR
+Recognized Revenue,31098.96,INR
+Refund Amount,8796.74,INR
+Net Revenue,22302.22,INR
+Revenue per Paid Application,69.26,INR
+Refund Rate,2.26,%

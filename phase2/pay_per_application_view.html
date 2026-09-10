@@ -1,0 +1,708 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+PlaceMux — Pay-per-Application Conversion
+</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+    color: #1f2937;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #64748b;
+    margin-bottom: 28px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:
+        repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.07);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.value {
+    margin-top: 8px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.section {
+    background: white;
+    margin-top: 22px;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.07);
+}
+
+.pass {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #dcfce7;
+    color: #166534;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.funnel {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.stage {
+    background: #f8fafc;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.stage-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.bar {
+    height: 14px;
+    margin-top: 8px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: #64748b;
+}
+
+.metric-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, 1fr);
+    gap: 12px;
+}
+
+.metric {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 11px;
+    text-align: left;
+    border-bottom:
+        1px solid #e5e7eb;
+}
+
+th {
+    color: #64748b;
+}
+
+.note {
+    padding: 14px;
+    background: #f8fafc;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+code {
+    background: #f1f5f9;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+
+    .grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .metric-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 16px;
+    }
+
+    .grid,
+    .metric-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h1>
+Pay-per-Application Conversion
+</h1>
+
+<div class="subtitle">
+PlaceMux Phase 2 — Task 7 ·
+Conversion Baseline ·
+Synthetic Demonstration Data
+</div>
+
+
+<!-- ===================================================== -->
+<!-- VALIDATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Conversion Tracking Status
+</h2>
+
+<p>
+
+<span class="pass">
+PASS
+</span>
+
+</p>
+
+<div class="metric-grid">
+
+<div class="metric">
+
+<strong>Total Events</strong>
+
+<br>
+
+3283
+
+</div>
+
+<div class="metric">
+
+<strong>Duplicate Event IDs</strong>
+
+<br>
+
+0
+
+</div>
+
+<div class="metric">
+
+<strong>Missing Application IDs</strong>
+
+<br>
+
+0
+
+</div>
+
+<div class="metric">
+
+<strong>Invalid Event Names</strong>
+
+<br>
+
+0
+
+</div>
+
+<div class="metric">
+
+<strong>Broken Application Links</strong>
+
+<br>
+
+0
+
+</div>
+
+<div class="metric">
+
+<strong>Payment-ID Link Errors</strong>
+
+<br>
+
+0
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- HEADLINE KPIs -->
+<!-- ===================================================== -->
+
+<div class="grid">
+
+<div class="card">
+
+<h3>
+Applications Started
+</h3>
+
+<div class="value">
+720
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Applications Submitted
+</h3>
+
+<div class="value">
+630
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Eligible Applications
+</h3>
+
+<div class="value">
+522
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Paid Applications
+</h3>
+
+<div class="value">
+449
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Payment Success Rate
+</h3>
+
+<div class="value">
+94.9%
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Paid Application Conversion
+</h3>
+
+<div class="value">
+86.0%
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Application → Payment
+</h3>
+
+<div class="value">
+71.3%
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Started → Paid
+</h3>
+
+<div class="value">
+62.4%
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- FUNNEL -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Pay-per-Application Funnel
+</h2>
+
+<div class="funnel">
+
+
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Applications Started</span>
+            <span>720</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:100.0%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Applications Submitted</span>
+            <span>630</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:87.5%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Eligible Applications</span>
+            <span>522</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:72.5%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Payment Initiated</span>
+            <span>473</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:65.7%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Payment Captured</span>
+            <span>449</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:62.4%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Paid Applications</span>
+            <span>449</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:62.4%"
+            ></div>
+        </div>
+
+    </div>
+    
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- CONVERSION TABLE -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Conversion Baseline
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Submission Rate</td>
+<td>87.5%</td>
+</tr>
+
+<tr>
+<td>Eligibility Rate</td>
+<td>82.9%</td>
+</tr>
+
+<tr>
+<td>Payment Initiation Rate</td>
+<td>90.6%</td>
+</tr>
+
+<tr>
+<td>Payment Capture Rate</td>
+<td>94.9%</td>
+</tr>
+
+<tr>
+<td>Paid Application Conversion</td>
+<td>86.0%</td>
+</tr>
+
+<tr>
+<td>Application-to-Payment Conversion</td>
+<td>71.3%</td>
+</tr>
+
+<tr>
+<td>Started-to-Paid Conversion</td>
+<td>62.4%</td>
+</tr>
+
+<tr>
+<td>Payment Failure Rate</td>
+<td>5.1%</td>
+</tr>
+
+<tr>
+<td>Refund Rate</td>
+<td>2.3%</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- REVENUE -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Monetization Metrics
+</h2>
+
+<div class="metric-grid">
+
+<div class="metric">
+<strong>
+Gross Payment Volume
+</strong>
+<br>
+INR 388,736.98
+</div>
+
+<div class="metric">
+<strong>
+Recognized Revenue
+</strong>
+<br>
+INR 31,098.96
+</div>
+
+<div class="metric">
+<strong>
+Refund Amount
+</strong>
+<br>
+INR 8,796.74
+</div>
+
+<div class="metric">
+<strong>
+Net Revenue
+</strong>
+<br>
+INR 22,302.22
+</div>
+
+<div class="metric">
+<strong>
+Revenue / Paid Application
+</strong>
+<br>
+INR 69.26
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- DEFINITIONS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Source & Definitions
+</h2>
+
+<p>
+<strong>Source:</strong>
+Synthetic linked application-and-payment event stream created
+specifically for the Day 27 demonstration.
+</p>
+
+<p>
+<strong>Paid Application:</strong>
+An application linked through the same
+<code>application_id</code>
+to a successfully captured payment.
+</p>
+
+<p>
+<strong>Application-to-Payment Conversion:</strong>
+Paid applications divided by submitted applications.
+</p>
+
+<p>
+<strong>Production recommendation:</strong>
+Use a stable
+<code>application_id → payment_id → gateway_transaction_id</code>
+relationship for exact production cohort tracking.
+</p>
+
+</div>
+
+
+</div>
+
+</body>
+
+</html>
