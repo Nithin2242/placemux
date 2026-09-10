@@ -1,0 +1,25 @@
+{
+  "gross_payment_volume": 8132680.89,
+  "refund_amount": 469304.47,
+  "chargeback_amount": 147373.62,
+  "net_retained_payment_value": 7516002.8,
+  "reconciliation_gap": 0.0,
+  "validation": {
+    "total_events": 2721,
+    "duplicate_event_ids": 0,
+    "missing_event_ids": 0,
+    "missing_payment_ids": 0,
+    "invalid_event_names": 0,
+    "invalid_timestamps": 0,
+    "authorized_without_initiated": 0,
+    "captured_without_authorized": 0,
+    "captured_without_initiated": 0,
+    "failed_without_initiated": 0,
+    "refund_without_capture": 0,
+    "chargeback_without_capture": 0,
+    "revenue_without_capture": 0,
+    "refund_plus_chargeback_exceeds_capture": 0,
+    "reconciliation_gap": 0.0,
+    "validation_passed": true
+  }
+}

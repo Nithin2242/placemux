@@ -1,0 +1,967 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+PlaceMux — Refund & Failure Dashboard
+</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+    color: #1f2937;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #64748b;
+    margin-bottom: 28px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:
+        repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.07);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.value {
+    margin-top: 8px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.section {
+    background: white;
+    margin-top: 22px;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.07);
+}
+
+.status {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.healthy {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.watch {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.risk {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.pass {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.fail {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.validation {
+    display: inline-block;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.metric-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, 1fr);
+    gap: 13px;
+}
+
+.metric {
+    background: #f8fafc;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.note {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 11px;
+    text-align: left;
+    border-bottom:
+        1px solid #e5e7eb;
+}
+
+th {
+    color: #64748b;
+}
+
+code {
+    background: #f1f5f9;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+canvas {
+    width: 100%;
+    height: 320px;
+}
+
+@media (max-width: 950px) {
+
+    .grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .metric-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 16px;
+    }
+
+    .grid,
+    .metric-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+
+<h1>
+Refund & Failure Dashboard
+</h1>
+
+<div class="subtitle">
+
+PlaceMux Phase 2 — Task 8 ·
+Receipts, Refunds & Reconciliation ·
+Synthetic Demonstration Data
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- HEALTH -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Payment Health
+</h2>
+
+<p>
+
+Current status:
+
+<span class="status watch">
+WATCH
+</span>
+
+</p>
+
+<p class="note">
+
+Health status is a rules-based demonstration signal.
+Production thresholds should be calibrated from validated historical
+payment performance.
+
+</p>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- PAYMENT KPIS -->
+<!-- ===================================================== -->
+
+<div class="grid">
+
+<div class="card">
+
+<h3>
+Payment Attempts
+</h3>
+
+<div class="value">
+685
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Failed Payments
+</h3>
+
+<div class="value">
+45
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Payment Failure Rate
+</h3>
+
+<div class="value">
+6.6%
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Successful Payments
+</h3>
+
+<div class="value">
+640
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Refunded Payments
+</h3>
+
+<div class="value">
+55
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Refund Amount
+</h3>
+
+<div class="value">
+INR 469,304
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Chargebacks
+</h3>
+
+<div class="value">
+16
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Chargeback Amount
+</h3>
+
+<div class="value">
+INR 147,374
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- REFUNDS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Refund Analytics
+</h2>
+
+<div class="metric-grid">
+
+<div class="metric">
+<strong>Refund Count</strong>
+<br>
+55
+</div>
+
+<div class="metric">
+<strong>Refund Transaction Rate</strong>
+<br>
+8.6%
+</div>
+
+<div class="metric">
+<strong>Refund Value Rate</strong>
+<br>
+5.8%
+</div>
+
+<div class="metric">
+<strong>Full Refunds</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Partial Refunds</strong>
+<br>
+55
+</div>
+
+<div class="metric">
+<strong>Partial Refund Rate</strong>
+<br>
+100.0%
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- RECONCILIATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Payment Reconciliation
+</h2>
+
+<div class="metric-grid">
+
+<div class="metric">
+
+<strong>
+Gross Payment Volume
+</strong>
+
+<br>
+
+INR 8,132,680.89
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Refund Amount
+</strong>
+
+<br>
+
+INR 469,304.47
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Chargeback Amount
+</strong>
+
+<br>
+
+INR 147,373.62
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Net Retained Value
+</strong>
+
+<br>
+
+INR 7,516,002.80
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Retention Rate
+</strong>
+
+<br>
+
+92.4%
+
+</div>
+
+
+<div class="metric">
+
+<strong>
+Reconciliation Gap
+</strong>
+
+<br>
+
+INR 0.00
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- FAILURE ANALYSIS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Payment Failure Analysis
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Gateway</th>
+<th>Failure Code</th>
+<th>Reason</th>
+<th>Count</th>
+<th>Failure Amount</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+    <tr>
+        <td>DemoGateway</td>
+        <td>INSUFFICIENT_FUNDS</td>
+        <td>demo_failure</td>
+        <td>10</td>
+        <td>INR 101,537.63</td>
+    </tr>
+    
+    <tr>
+        <td>DemoPay</td>
+        <td>INSUFFICIENT_FUNDS</td>
+        <td>demo_failure</td>
+        <td>9</td>
+        <td>INR 139,591.67</td>
+    </tr>
+    
+    <tr>
+        <td>DemoPay</td>
+        <td>DECLINED</td>
+        <td>demo_failure</td>
+        <td>8</td>
+        <td>INR 106,088.46</td>
+    </tr>
+    
+    <tr>
+        <td>DemoGateway</td>
+        <td>TIMEOUT</td>
+        <td>demo_failure</td>
+        <td>7</td>
+        <td>INR 93,584.45</td>
+    </tr>
+    
+    <tr>
+        <td>DemoPay</td>
+        <td>TIMEOUT</td>
+        <td>demo_failure</td>
+        <td>6</td>
+        <td>INR 62,146.33</td>
+    </tr>
+    
+    <tr>
+        <td>DemoGateway</td>
+        <td>DECLINED</td>
+        <td>demo_failure</td>
+        <td>5</td>
+        <td>INR 48,079.99</td>
+    </tr>
+    
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- TREND -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Payment Issues Over Time
+</h2>
+
+<canvas id="trendChart"></canvas>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- VALIDATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Validation
+</h2>
+
+<p>
+
+Validation status:
+
+<span class="
+validation
+pass
+">
+
+PASS
+
+</span>
+
+</p>
+
+
+<div class="metric-grid">
+
+<div class="metric">
+<strong>Total Events</strong>
+<br>
+2721
+</div>
+
+<div class="metric">
+<strong>Duplicate Event IDs</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Missing Payment IDs</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Invalid Event Names</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Lifecycle Errors</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Reconciliation Gap</strong>
+<br>
+INR 0.00
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SOURCE -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Source & Definitions
+</h2>
+
+<p>
+
+<strong>
+Source:
+</strong>
+
+<code>
+phase2/payment_events_demo.csv
+</code>
+
+</p>
+
+<p>
+
+<strong>
+Source type:
+</strong>
+
+Synthetic payment event stream generated for the Day 26 revenue
+metrics demonstration and reused here for refund/failure analytics.
+
+</p>
+
+<p>
+
+<strong>
+Refund Amount:
+</strong>
+
+Sum of amounts on
+<code>payment_refunded</code>
+events.
+
+</p>
+
+<p>
+
+<strong>
+Net Retained Payment Value:
+</strong>
+
+Gross Payment Volume minus refunds and chargebacks.
+
+</p>
+
+<p>
+
+<strong>
+Reconciliation Gap:
+</strong>
+
+Calculated retained value minus expected retained value.
+A clean demonstration produces zero.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+const trendData =
+[{"date":"2026-08-01","failed_payments":1.0,"refund_amount":0.0,"chargeback_amount":0.0,"gross_payment_volume":144504.3},{"date":"2026-08-02","failed_payments":1.0,"refund_amount":0.0,"chargeback_amount":0.0,"gross_payment_volume":140716.02},{"date":"2026-08-03","failed_payments":2.0,"refund_amount":2160.37,"chargeback_amount":0.0,"gross_payment_volume":290148.01},{"date":"2026-08-04","failed_payments":2.0,"refund_amount":0.0,"chargeback_amount":0.0,"gross_payment_volume":326692.6},{"date":"2026-08-05","failed_payments":0.0,"refund_amount":0.0,"chargeback_amount":0.0,"gross_payment_volume":338992.72},{"date":"2026-08-06","failed_payments":2.0,"refund_amount":10713.47,"chargeback_amount":0.0,"gross_payment_volume":355139.98},{"date":"2026-08-07","failed_payments":2.0,"refund_amount":7630.78,"chargeback_amount":0.0,"gross_payment_volume":260525.86},{"date":"2026-08-08","failed_payments":1.0,"refund_amount":23381.38,"chargeback_amount":0.0,"gross_payment_volume":166406.64},{"date":"2026-08-09","failed_payments":0.0,"refund_amount":6904.46,"chargeback_amount":0.0,"gross_payment_volume":155335.77},{"date":"2026-08-10","failed_payments":1.0,"refund_amount":19434.34,"chargeback_amount":17926.96,"gross_payment_volume":393121.25},{"date":"2026-08-11","failed_payments":1.0,"refund_amount":14140.39,"chargeback_amount":0.0,"gross_payment_volume":291994.43},{"date":"2026-08-12","failed_payments":2.0,"refund_amount":8912.65,"chargeback_amount":0.0,"gross_payment_volume":368225.56},{"date":"2026-08-13","failed_payments":1.0,"refund_amount":5399.6,"chargeback_amount":14866.99,"gross_payment_volume":231571.52},{"date":"2026-08-14","failed_payments":1.0,"refund_amount":5019.01,"chargeback_amount":6354.72,"gross_payment_volume":329402.28},{"date":"2026-08-15","failed_payments":1.0,"refund_amount":31537.19,"chargeback_amount":0.0,"gross_payment_volume":182738.58},{"date":"2026-08-16","failed_payments":3.0,"refund_amount":27600.56,"chargeback_amount":0.0,"gross_payment_volume":260891.71},{"date":"2026-08-17","failed_payments":2.0,"refund_amount":9615.41,"chargeback_amount":0.0,"gross_payment_volume":296942.24},{"date":"2026-08-18","failed_payments":1.0,"refund_amount":26230.5,"chargeback_amount":0.0,"gross_payment_volume":440404.08},{"date":"2026-08-19","failed_payments":1.0,"refund_amount":17963.4,"chargeback_amount":0.0,"gross_payment_volume":317801.35},{"date":"2026-08-20","failed_payments":3.0,"refund_amount":2609.52,"chargeback_amount":0.0,"gross_payment_volume":336479.79},{"date":"2026-08-21","failed_payments":1.0,"refund_amount":0.0,"chargeback_amount":6543.43,"gross_payment_volume":308867.98},{"date":"2026-08-22","failed_payments":0.0,"refund_amount":23623.42,"chargeback_amount":6471.17,"gross_payment_volume":124449.74},{"date":"2026-08-23","failed_payments":3.0,"refund_amount":40211.25,"chargeback_amount":0.0,"gross_payment_volume":200170.17},{"date":"2026-08-24","failed_payments":2.0,"refund_amount":31962.51,"chargeback_amount":0.0,"gross_payment_volume":319530.04},{"date":"2026-08-25","failed_payments":3.0,"refund_amount":2618.92,"chargeback_amount":16369.85,"gross_payment_volume":275305.51},{"date":"2026-08-26","failed_payments":2.0,"refund_amount":13734.37,"chargeback_amount":0.0,"gross_payment_volume":264422.66},{"date":"2026-08-27","failed_payments":2.0,"refund_amount":15057.78,"chargeback_amount":0.0,"gross_payment_volume":307682.23},{"date":"2026-08-28","failed_payments":1.0,"refund_amount":14610.14,"chargeback_amount":3525.59,"gross_payment_volume":361529.2},{"date":"2026-08-29","failed_payments":3.0,"refund_amount":48030.0,"chargeback_amount":9737.8,"gross_payment_volume":162838.41},{"date":"2026-08-30","failed_payments":0.0,"refund_amount":35836.78,"chargeback_amount":0.0,"gross_payment_volume":179850.26},{"date":"2026-08-31","failed_payments":0.0,"refund_amount":0.0,"chargeback_amount":11964.21,"gross_payment_volume":0.0},{"date":"2026-09-01","failed_payments":0.0,"refund_amount":0.0,"chargeback_amount":16483.91,"gross_payment_volume":0.0},{"date":"2026-09-02","failed_payments":0.0,"refund_amount":18811.78,"chargeback_amount":0.0,"gross_payment_volume":0.0},{"date":"2026-09-03","failed_payments":0.0,"refund_amount":5554.49,"chargeback_amount":16029.11,"gross_payment_volume":0.0},{"date":"2026-09-08","failed_payments":0.0,"refund_amount":0.0,"chargeback_amount":21099.88,"gross_payment_volume":0.0}];
+
+const canvas =
+document.getElementById(
+    "trendChart"
+);
+
+const ctx =
+canvas.getContext(
+    "2d"
+);
+
+
+function drawChart() {
+
+    const width =
+        canvas.clientWidth || 1100;
+
+    const height = 320;
+
+    const dpr =
+        window.devicePixelRatio || 1;
+
+    canvas.width =
+        width * dpr;
+
+    canvas.height =
+        height * dpr;
+
+    ctx.scale(
+        dpr,
+        dpr
+    );
+
+
+    const padding = 45;
+
+    const chartWidth =
+        width - padding * 2;
+
+    const chartHeight =
+        height - padding * 2;
+
+
+    const maxValue =
+        Math.max(
+            ...trendData.flatMap(
+                row => [
+                    Number(
+                        row.failed_payments
+                    ),
+                    Number(
+                        row.refund_amount
+                    ) / 1000,
+                    Number(
+                        row.chargeback_amount
+                    ) / 1000,
+                    Number(
+                        row.gross_payment_volume
+                    ) / 1000
+                ]
+            )
+        );
+
+
+    function x(index) {
+
+        return padding
+            + index
+            * chartWidth
+            / Math.max(
+                trendData.length - 1,
+                1
+            );
+
+    }
+
+
+    function y(value) {
+
+        return height
+            - padding
+            - (
+                value /
+                Math.max(
+                    maxValue,
+                    1
+                )
+            )
+            * chartHeight;
+
+    }
+
+
+    ctx.clearRect(
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    // Axes
+
+    ctx.beginPath();
+
+    ctx.moveTo(
+        padding,
+        padding
+    );
+
+    ctx.lineTo(
+        padding,
+        height - padding
+    );
+
+    ctx.lineTo(
+        width - padding,
+        height - padding
+    );
+
+    ctx.stroke();
+
+
+    function drawSeries(
+        key,
+        divisor
+    ) {
+
+        ctx.beginPath();
+
+        trendData.forEach(
+            (row, index) => {
+
+                const value =
+                    Number(
+                        row[key]
+                    )
+                    / divisor;
+
+                const px =
+                    x(index);
+
+                const py =
+                    y(value);
+
+
+                if (index === 0) {
+
+                    ctx.moveTo(
+                        px,
+                        py
+                    );
+
+                } else {
+
+                    ctx.lineTo(
+                        px,
+                        py
+                    );
+
+                }
+
+            }
+        );
+
+        ctx.stroke();
+
+    }
+
+
+    drawSeries(
+        "failed_payments",
+        1
+    );
+
+    drawSeries(
+        "refund_amount",
+        1000
+    );
+
+    drawSeries(
+        "chargeback_amount",
+        1000
+    );
+
+    drawSeries(
+        "gross_payment_volume",
+        1000
+    );
+
+}
+
+
+drawChart();
+
+window.addEventListener(
+    "resize",
+    drawChart
+);
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+gateway,failure_code,failure_reason,failed_payments,failure_amount
+DemoGateway,INSUFFICIENT_FUNDS,demo_failure,10,101537.63
+DemoPay,INSUFFICIENT_FUNDS,demo_failure,9,139591.67
+DemoPay,DECLINED,demo_failure,8,106088.46
+DemoGateway,TIMEOUT,demo_failure,7,93584.45
+DemoPay,TIMEOUT,demo_failure,6,62146.33
+DemoGateway,DECLINED,demo_failure,5,48079.990000000005
