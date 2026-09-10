@@ -1,0 +1,11 @@
+{
+  "total_events": 2721,
+  "duplicate_event_ids": 0,
+  "missing_event_ids": 0,
+  "missing_payment_ids": 0,
+  "invalid_event_names": 0,
+  "invalid_timestamps": 0,
+  "lifecycle_errors": 0,
+  "lifecycle_error_examples": [],
+  "validation_passed": true
+}

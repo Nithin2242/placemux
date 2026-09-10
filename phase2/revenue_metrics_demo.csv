@@ -1,0 +1,16 @@
+metric,value,unit
+Payment Transactions,685.0,count
+Successful Payments,640.0,count
+Payment Success Rate,93.43,%
+Gross Payment Volume,8132680.89,INR
+Gross Revenue,650614.46,INR
+Refund Amount,469304.47,INR
+Chargeback Amount,147373.62,INR
+Net Revenue,33936.37,INR
+Average Transaction Value,12707.31,INR
+Platform Fee Rate,8.0,%
+Revenue per Successful Payment,1016.59,INR
+Refund Rate,5.77,%
+Chargeback Rate,1.81,%
+Revenue Recognition Rate,8.0,%
+Net Revenue Margin,0.42,%
