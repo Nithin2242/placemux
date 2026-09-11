@@ -1,0 +1,31 @@
+metric,value,unit,definition
+Gross Payment Volume,8132680.89,INR,Total captured payment value
+Recognized Revenue,650614.46,INR,Sum of revenue_recognized amounts
+Refund Amount,469304.47,INR,Sum of payment_refunded amounts
+Chargeback Amount,147373.62,INR,Sum of payment_chargeback amounts
+Net Revenue,33936.37,INR,Recognized revenue - refunds - chargebacks
+Revenue Margin,0.42,%,Net revenue / gross payment volume
+Payment Attempts,685.0,count,Distinct initiated payments
+Successful Payments,640.0,count,Distinct captured payments
+Failed Payments,45.0,count,Distinct failed payments
+Payment Failure Rate,6.57,%,Failed payments / attempts
+Payment Success Rate,93.43,%,Successful payments / attempts
+Refunded Payments,55.0,count,Distinct refunded payments
+Refund Value Rate,5.77,%,Refund amount / GPV
+Chargeback Transactions,16.0,count,Distinct chargeback payments
+Chargeback Value Rate,1.81,%,Chargeback amount / GPV
+Net Retained Payment Value,7516002.8,INR,GPV - refunds - chargebacks
+Retention Rate,92.42,%,Net retained value / GPV
+Paying Companies,30.0,count,Distinct companies with captured payments
+ARPU,21687.15,INR,Recognized revenue / paying companies
+Net ARPU,1131.21,INR,Net revenue / paying companies
+Revenue per Payment,1016.59,INR,Recognized revenue / successful payments
+Repeat Paying Companies,30.0,count,Companies with more than one successful payment
+Repeat Payer Rate,100.0,%,Repeat payers / paying companies
+Applications Started,720.0,count,Day 27 application stream
+Applications Submitted,630.0,count,Day 27 application stream
+Eligible Applications,522.0,count,Day 27 application stream
+Paid Applications,449.0,count,Day 27 application stream
+Application-to-Payment,71.27,%,Paid / submitted applications
+Started-to-Paid,62.36,%,Paid / started applications
+Reconciliation Gap,0.0,INR,Calculated retained value - expected retained value

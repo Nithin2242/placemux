@@ -1,0 +1,1610 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+PlaceMux — Monetization & Revenue Dashboard
+</title>
+
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    background:
+        #f5f7fa;
+
+    color:
+        #1f2937;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+
+.container {
+
+    max-width:
+        1320px;
+
+    margin:
+        auto;
+
+    padding:
+        30px;
+}
+
+
+h1 {
+
+    font-size:
+        38px;
+
+    margin:
+        0 0 6px;
+}
+
+
+h2 {
+
+    font-size:
+        24px;
+
+    margin-top:
+        0;
+}
+
+
+.subtitle {
+
+    color:
+        #64748b;
+
+    margin-bottom:
+        28px;
+}
+
+
+.grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            4,
+            1fr
+        );
+
+    gap:
+        15px;
+}
+
+
+.card {
+
+    background:
+        white;
+
+    border-radius:
+        14px;
+
+    padding:
+        20px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(
+            0,
+            0,
+            0,
+            .07
+        );
+}
+
+
+.label {
+
+    font-size:
+        13px;
+
+    color:
+        #64748b;
+
+    font-weight:
+        600;
+}
+
+
+.value {
+
+    font-size:
+        28px;
+
+    font-weight:
+        700;
+
+    margin-top:
+        8px;
+}
+
+
+.section {
+
+    background:
+        white;
+
+    border-radius:
+        14px;
+
+    margin-top:
+        22px;
+
+    padding:
+        24px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(
+            0,
+            0,
+            0,
+            .07
+        );
+}
+
+
+.status {
+
+    display:
+        inline-block;
+
+    padding:
+        8px 15px;
+
+    border-radius:
+        20px;
+
+    font-weight:
+        700;
+}
+
+
+.healthy {
+
+    background:
+        #dcfce7;
+
+    color:
+        #166534;
+}
+
+
+.watch {
+
+    background:
+        #fef3c7;
+
+    color:
+        #92400e;
+}
+
+
+.risk {
+
+    background:
+        #fee2e2;
+
+    color:
+        #991b1b;
+}
+
+
+.metric-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            1fr
+        );
+
+    gap:
+        14px;
+}
+
+
+.metric-box {
+
+    background:
+        #f8fafc;
+
+    border-radius:
+        10px;
+
+    padding:
+        16px;
+}
+
+
+.metric-label {
+
+    color:
+        #64748b;
+
+    font-size:
+        13px;
+
+    font-weight:
+        600;
+}
+
+
+.metric-value {
+
+    font-size:
+        20px;
+
+    font-weight:
+        700;
+
+    margin-top:
+        7px;
+}
+
+
+.funnel {
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        11px;
+}
+
+
+.stage {
+
+    background:
+        #f8fafc;
+
+    padding:
+        14px;
+
+    border-radius:
+        10px;
+}
+
+
+.stage-header {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    font-weight:
+        700;
+}
+
+
+.bar {
+
+    height:
+        14px;
+
+    margin-top:
+        8px;
+
+    background:
+        #e5e7eb;
+
+    border-radius:
+        10px;
+
+    overflow:
+        hidden;
+}
+
+
+.fill {
+
+    height:
+        100%;
+
+    background:
+        #64748b;
+}
+
+
+table {
+
+    width:
+        100%;
+
+    border-collapse:
+        collapse;
+}
+
+
+th,
+td {
+
+    padding:
+        11px;
+
+    text-align:
+        left;
+
+    border-bottom:
+        1px solid
+        #e5e7eb;
+}
+
+
+th {
+
+    color:
+        #64748b;
+}
+
+
+.note {
+
+    background:
+        #f8fafc;
+
+    border-radius:
+        10px;
+
+    padding:
+        15px;
+
+    line-height:
+        1.55;
+}
+
+
+.code {
+
+    background:
+        #f1f5f9;
+
+    padding:
+        4px 7px;
+
+    border-radius:
+        5px;
+
+    font-family:
+        monospace;
+}
+
+
+@media (
+    max-width:
+    950px
+) {
+
+    .grid {
+
+        grid-template-columns:
+            repeat(
+                2,
+                1fr
+            );
+    }
+
+    .metric-grid {
+
+        grid-template-columns:
+            repeat(
+                2,
+                1fr
+            );
+    }
+
+}
+
+
+@media (
+    max-width:
+    600px
+) {
+
+    .container {
+
+        padding:
+            16px;
+    }
+
+    .grid,
+    .metric-grid {
+
+        grid-template-columns:
+            1fr;
+    }
+
+    h1 {
+
+        font-size:
+            29px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<!-- ===================================================== -->
+<!-- HEADER -->
+<!-- ===================================================== -->
+
+<h1>
+Monetization & Revenue Dashboard
+</h1>
+
+
+<div class="subtitle">
+
+PlaceMux Phase 2 —
+Task 10 · Monetization Integration & Revenue Dashboard ·
+Synthetic Demonstration Data
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- REVENUE HEALTH -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Revenue Health
+</h2>
+
+
+<p>
+
+Current status:
+
+<span class="
+    status
+    watch
+">
+
+WATCH
+
+</span>
+
+</p>
+
+
+<div class="note">
+
+The dashboard integrates validated analytical layers from
+Days 26–29.
+
+Day 26 provides the payment and revenue source.
+Day 27 provides the Pay-per-Application conversion stream.
+Day 28 provides payment-health and reconciliation logic.
+Day 29 provides company-level ARPU and cohort analysis.
+
+Revenue from the separate synthetic streams is intentionally not
+added together.
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- REVENUE KPIS -->
+<!-- ===================================================== -->
+
+<div class="grid">
+
+
+<div class="card">
+
+<div class="label">
+Gross Payment Volume
+</div>
+
+<div class="value">
+INR 8,132,680.89
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="label">
+Recognized Revenue
+</div>
+
+<div class="value">
+INR 650,614.46
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="label">
+Refund Amount
+</div>
+
+<div class="value">
+INR 469,304.47
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="label">
+Chargeback Amount
+</div>
+
+<div class="value">
+INR 147,373.62
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="label">
+Net Revenue
+</div>
+
+<div class="value">
+INR 33,936.37
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="label">
+Revenue Margin
+</div>
+
+<div class="value">
+0.42%
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="label">
+Paying Companies
+</div>
+
+<div class="value">
+30
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="label">
+ARPU
+</div>
+
+<div class="value">
+INR 21,687.15
+</div>
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- CUSTOMER MONETIZATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Customer Monetization
+</h2>
+
+
+<div class="metric-grid">
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Net ARPU
+</div>
+
+<div class="metric-value">
+INR 1,131.21
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Revenue / Payment
+</div>
+
+<div class="metric-value">
+INR 1,016.59
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Successful Payments
+</div>
+
+<div class="metric-value">
+640
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Repeat Paying Companies
+</div>
+
+<div class="metric-value">
+30
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Repeat Payer Rate
+</div>
+
+<div class="metric-value">
+100.0%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Retention Rate
+</div>
+
+<div class="metric-value">
+92.4%
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- APPLICATION CONVERSION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Pay-per-Application Conversion
+</h2>
+
+
+<div class="funnel">
+
+
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+                Applications Started
+            </span>
+
+            <span>
+                720
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                    width:100.0%;
+                "
+            ></div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+                Applications Submitted
+            </span>
+
+            <span>
+                630
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                    width:87.5%;
+                "
+            ></div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+                Eligible Applications
+            </span>
+
+            <span>
+                522
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                    width:72.5%;
+                "
+            ></div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+                Payment Initiated
+            </span>
+
+            <span>
+                473
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                    width:65.7%;
+                "
+            ></div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+                Payment Captured
+            </span>
+
+            <span>
+                449
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                    width:62.4%;
+                "
+            ></div>
+
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+
+            <span>
+                Paid Applications
+            </span>
+
+            <span>
+                449
+            </span>
+
+        </div>
+
+        <div class="bar">
+
+            <div
+                class="fill"
+                style="
+                    width:62.4%;
+                "
+            ></div>
+
+        </div>
+
+    </div>
+    
+
+</div>
+
+
+<div class="metric-grid">
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Submission Rate
+</div>
+
+<div class="metric-value">
+87.5%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Eligibility Rate
+</div>
+
+<div class="metric-value">
+82.9%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Payment Initiation Rate
+</div>
+
+<div class="metric-value">
+90.6%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Payment Capture Rate
+</div>
+
+<div class="metric-value">
+94.9%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Application → Payment
+</div>
+
+<div class="metric-value">
+71.3%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Started → Paid
+</div>
+
+<div class="metric-value">
+62.4%
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- PAYMENT HEALTH -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Payment Health
+</h2>
+
+
+<div class="metric-grid">
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Payment Attempts
+</div>
+
+<div class="metric-value">
+685
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Successful Payments
+</div>
+
+<div class="metric-value">
+640
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Failed Payments
+</div>
+
+<div class="metric-value">
+45
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Payment Failure Rate
+</div>
+
+<div class="metric-value">
+6.6%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Refund Value Rate
+</div>
+
+<div class="metric-value">
+5.8%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Chargeback Value Rate
+</div>
+
+<div class="metric-value">
+1.8%
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- COHORT REVENUE -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Cohort Revenue
+</h2>
+
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Cohort
+</th>
+
+<th>
+Customers
+</th>
+
+<th>
+Revenue
+</th>
+
+<th>
+Refunds
+</th>
+
+<th>
+Chargebacks
+</th>
+
+<th>
+Net Revenue
+</th>
+
+<th>
+ARPU
+</th>
+
+<th>
+Revenue Share
+</th>
+
+</tr>
+
+</thead>
+
+
+<tbody>
+
+
+    <tr>
+
+        <td>
+            2026-08
+        </td>
+
+        <td>
+            30
+        </td>
+
+        <td>
+            INR 650,614.46
+        </td>
+
+        <td>
+            INR 469,304.47
+        </td>
+
+        <td>
+            INR 147,373.62
+        </td>
+
+        <td>
+            INR 33,936.37
+        </td>
+
+        <td>
+            INR 21,687.15
+        </td>
+
+        <td>
+            100.0%
+        </td>
+
+    </tr>
+    
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- RECONCILIATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Revenue Reconciliation
+</h2>
+
+
+<div class="metric-grid">
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Gross Payment Volume
+</div>
+
+<div class="metric-value">
+INR 8,132,680.89
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Refunds
+</div>
+
+<div class="metric-value">
+INR 469,304.47
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Chargebacks
+</div>
+
+<div class="metric-value">
+INR 147,373.62
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Net Retained Value
+</div>
+
+<div class="metric-value">
+INR 7,516,002.80
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Retention Rate
+</div>
+
+<div class="metric-value">
+92.4%
+</div>
+
+</div>
+
+
+<div class="metric-box">
+
+<div class="metric-label">
+Reconciliation Gap
+</div>
+
+<div class="metric-value">
+INR 0.00
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- VALIDATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Integrated Validation
+</h2>
+
+
+<p>
+
+Validation status:
+
+<span class="
+    status
+    healthy
+">
+
+PASS
+
+</span>
+
+</p>
+
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Validation Check
+</th>
+
+<th>
+Result
+</th>
+
+</tr>
+
+</thead>
+
+
+<tbody>
+
+
+<tr>
+
+<td>
+Payment Duplicate Event IDs
+</td>
+
+<td>
+0
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Application Duplicate Event IDs
+</td>
+
+<td>
+0
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Missing Payment IDs
+</td>
+
+<td>
+0
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Missing Company IDs
+</td>
+
+<td>
+0
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Invalid Event Names
+</td>
+
+<td>
+0
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Payment Lifecycle Errors
+</td>
+
+<td>
+0
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Application Lifecycle Errors
+</td>
+
+<td>
+0
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Cohort Revenue Gap
+</td>
+
+<td>
+INR 0.00
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Cohort Customer Gap
+</td>
+
+<td>
+0
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Cohort Refund Gap
+</td>
+
+<td>
+INR 0.00
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Reconciliation Gap
+</td>
+
+<td>
+INR 0.00
+</td>
+
+</tr>
+
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SOURCE & DEFINITIONS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Source & Definitions
+</h2>
+
+
+<p>
+
+<strong>
+Primary revenue source:
+</strong>
+
+<span class="code">
+phase2/payment_events_demo.csv
+</span>
+
+</p>
+
+
+<p>
+
+<strong>
+Application conversion source:
+</strong>
+
+<span class="code">
+phase2/pay_per_application_events_demo.csv
+</span>
+
+</p>
+
+
+<p>
+
+<strong>
+Customer definition:
+</strong>
+
+<code>
+company_id
+</code>
+
+for the payment/revenue layer.
+
+</p>
+
+
+<p>
+
+<strong>
+ARPU:
+</strong>
+
+Recognized revenue divided by distinct paying companies.
+
+</p>
+
+
+<p>
+
+<strong>
+Cohort:
+</strong>
+
+Calendar month of the company's first successful payment.
+
+</p>
+
+
+<p>
+
+<strong>
+Reproducible command:
+</strong>
+
+<code>
+python phase2/revenue_dashboard_demo.py
+</code>
+
+</p>
+
+
+<p class="note">
+
+The dashboard combines separate synthetic demonstration streams.
+Revenue from those streams is intentionally not summed together.
+Production reporting should replace them with a governed,
+authoritative event and financial data source.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>
