@@ -1,19 +1,15 @@
-# Task 23 - Executive Dashboards
+# Task 24 - Launch Rehearsal
 
-## Run
-python phase2/executive_dashboard_demo.py
+Focus: Lock metrics governance.
 
-## Open
-phase2/executive_dashboard.html
+Run:
 
-## Files
-- executive_dashboard_demo.py
-- executive_dashboard.html
-- executive_dashboard_metrics.csv
-- executive_dashboard_validation.json
-- executive_dashboard_metrics.md
-- executive_dashboard_tracking_plan.md
-- executive_dashboard_model.md
-- task23_submission_answer.md
+```bash
+python phase2/metrics_governance_demo.py
+```
 
-This task uses synthetic demonstration data and does not claim production PlaceMux performance.
+Open:
+
+```text
+phase2/launch_dashboard.html
+```
