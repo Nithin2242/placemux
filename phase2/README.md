@@ -1,18 +1,19 @@
-# PlaceMux Task 22 - A/B Experimentation & Data-Subject Rights
+# Task 23 - Executive Dashboards
 
 ## Run
+python phase2/executive_dashboard_demo.py
 
-From the project root:
+## Open
+phase2/executive_dashboard.html
 
-```bash
-python phase2/ab_experiment_demo.py
-```
+## Files
+- executive_dashboard_demo.py
+- executive_dashboard.html
+- executive_dashboard_metrics.csv
+- executive_dashboard_validation.json
+- executive_dashboard_metrics.md
+- executive_dashboard_tracking_plan.md
+- executive_dashboard_model.md
+- task23_submission_answer.md
 
-The script generates:
-- `ab_experiment_events_demo.csv`
-- `ab_experiment_results.csv`
-- `ab_experiment_validation.json`
-- `ab_experiment_dashboard.html`
-
-## Scope
-Synthetic dry run of the experimentation framework. It validates stable assignment, consent/right exclusions, exposure integrity, analysis arm coverage, and basic statistical comparison. It is not a production experiment result or legal/privacy certification.
+This task uses synthetic demonstration data and does not claim production PlaceMux performance.

@@ -1,0 +1,18 @@
+metric,value,unit,definition
+Registered Students,2400.0,count,Student master
+Eligible Students,1341.0,count,Eligibility rule
+Profile Completion,93.0,pct,Student profile completeness
+Applications,3200.0,count,Application events
+Placed Students,143.0,count,Distinct students with placement outcome
+Placement Rate,10.7,pct,Placed students / eligible students
+Average Package,7.89,lpa,Average package among placed students
+Active Companies,12.0,count,Unique companies with an application
+Active Recruiters,8.0,count,Unique recruiters handling applications
+Offer Rate,8.1,pct,Offers / applications
+Interview Stage Share,21.6,pct,Interview-stage applications / applications
+Rejected Share,25.8,pct,Rejected applications / applications
+API Availability,99.7,pct,Latest week
+P95 Latency,371.0,ms,Latest week
+Data Freshness,25.5,min,Latest week
+Model Drift PSI,0.057,psi,Latest week
+Pipeline Success,98.45,pct,Latest week

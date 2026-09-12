@@ -1,0 +1,2401 @@
+student_id,college,profile_complete,documents_verified,eligible
+S10000,CMR Institute of Technology,True,True,True
+S10001,Dayananda Sagar College of Engineering,True,False,False
+S10002,New Horizon College of Engineering,True,True,False
+S10003,Dayananda Sagar College of Engineering,True,True,False
+S10004,New Horizon College of Engineering,True,True,False
+S10005,Dayananda Sagar College of Engineering,True,True,True
+S10006,Dayananda Sagar College of Engineering,True,True,False
+S10007,Dayananda Sagar College of Engineering,True,False,False
+S10008,RV College of Engineering,True,True,True
+S10009,PES University,True,True,True
+S10010,BMS Institute of Technology,True,True,True
+S10011,Dayananda Sagar College of Engineering,False,True,False
+S10012,New Horizon College of Engineering,True,True,True
+S10013,RV College of Engineering,True,True,True
+S10014,BMS Institute of Technology,True,True,True
+S10015,PES University,True,True,False
+S10016,CMR Institute of Technology,True,True,True
+S10017,New Horizon College of Engineering,False,True,False
+S10018,PES University,False,True,False
+S10019,BMS Institute of Technology,True,True,True
+S10020,PES University,True,False,False
+S10021,RV College of Engineering,True,True,True
+S10022,PES University,True,True,True
+S10023,Dayananda Sagar College of Engineering,True,True,True
+S10024,CMR Institute of Technology,True,True,True
+S10025,PES University,True,True,True
+S10026,CMR Institute of Technology,False,True,False
+S10027,PES University,True,False,False
+S10028,CMR Institute of Technology,True,True,True
+S10029,Dayananda Sagar College of Engineering,True,True,True
+S10030,PES University,True,True,False
+S10031,BMS Institute of Technology,True,True,True
+S10032,RV College of Engineering,True,True,True
+S10033,BMS Institute of Technology,False,True,False
+S10034,CMR Institute of Technology,True,True,False
+S10035,RV College of Engineering,False,True,False
+S10036,Dayananda Sagar College of Engineering,True,True,False
+S10037,CMR Institute of Technology,True,True,True
+S10038,BMS Institute of Technology,True,True,False
+S10039,Dayananda Sagar College of Engineering,True,True,True
+S10040,RV College of Engineering,True,False,False
+S10041,PES University,True,True,False
+S10042,PES University,True,True,True
+S10043,RV College of Engineering,True,True,False
+S10044,PES University,True,False,False
+S10045,Dayananda Sagar College of Engineering,True,True,True
+S10046,PES University,True,True,True
+S10047,CMR Institute of Technology,True,True,False
+S10048,RV College of Engineering,True,False,False
+S10049,PES University,True,True,False
+S10050,CMR Institute of Technology,True,True,True
+S10051,PES University,True,True,True
+S10052,CMR Institute of Technology,True,True,True
+S10053,RV College of Engineering,True,True,False
+S10054,PES University,True,True,False
+S10055,New Horizon College of Engineering,True,True,False
+S10056,BMS Institute of Technology,True,True,True
+S10057,New Horizon College of Engineering,True,False,False
+S10058,PES University,True,True,True
+S10059,BMS Institute of Technology,True,True,True
+S10060,BMS Institute of Technology,True,True,False
+S10061,RV College of Engineering,True,True,True
+S10062,Dayananda Sagar College of Engineering,True,True,True
+S10063,RV College of Engineering,True,True,True
+S10064,Dayananda Sagar College of Engineering,True,True,True
+S10065,BMS Institute of Technology,True,True,True
+S10066,CMR Institute of Technology,False,True,False
+S10067,Dayananda Sagar College of Engineering,True,True,True
+S10068,CMR Institute of Technology,True,True,True
+S10069,BMS Institute of Technology,True,True,True
+S10070,New Horizon College of Engineering,False,True,False
+S10071,CMR Institute of Technology,True,True,False
+S10072,BMS Institute of Technology,False,True,False
+S10073,PES University,True,True,False
+S10074,CMR Institute of Technology,True,True,True
+S10075,RV College of Engineering,True,True,True
+S10076,CMR Institute of Technology,True,True,True
+S10077,Dayananda Sagar College of Engineering,True,True,True
+S10078,RV College of Engineering,True,True,True
+S10079,Dayananda Sagar College of Engineering,True,False,False
+S10080,Dayananda Sagar College of Engineering,True,True,True
+S10081,New Horizon College of Engineering,True,True,True
+S10082,RV College of Engineering,True,True,False
+S10083,BMS Institute of Technology,True,True,False
+S10084,BMS Institute of Technology,True,True,True
+S10085,BMS Institute of Technology,True,True,True
+S10086,CMR Institute of Technology,False,True,False
+S10087,RV College of Engineering,False,True,False
+S10088,Dayananda Sagar College of Engineering,True,False,False
+S10089,BMS Institute of Technology,True,True,True
+S10090,BMS Institute of Technology,False,True,False
+S10091,Dayananda Sagar College of Engineering,True,True,False
+S10092,PES University,True,True,False
+S10093,BMS Institute of Technology,True,True,True
+S10094,CMR Institute of Technology,True,True,False
+S10095,PES University,True,True,False
+S10096,RV College of Engineering,True,True,True
+S10097,New Horizon College of Engineering,True,True,False
+S10098,New Horizon College of Engineering,True,True,False
+S10099,New Horizon College of Engineering,True,True,True
+S10100,New Horizon College of Engineering,True,True,True
+S10101,BMS Institute of Technology,True,True,False
+S10102,BMS Institute of Technology,True,True,True
+S10103,CMR Institute of Technology,True,True,True
+S10104,CMR Institute of Technology,True,True,True
+S10105,New Horizon College of Engineering,True,True,False
+S10106,CMR Institute of Technology,True,True,False
+S10107,RV College of Engineering,True,True,True
+S10108,New Horizon College of Engineering,True,True,True
+S10109,New Horizon College of Engineering,True,True,True
+S10110,CMR Institute of Technology,True,True,True
+S10111,RV College of Engineering,True,True,True
+S10112,Dayananda Sagar College of Engineering,True,True,True
+S10113,RV College of Engineering,True,True,True
+S10114,PES University,True,True,False
+S10115,PES University,True,True,True
+S10116,RV College of Engineering,True,True,False
+S10117,BMS Institute of Technology,True,False,False
+S10118,RV College of Engineering,True,True,True
+S10119,BMS Institute of Technology,True,True,True
+S10120,BMS Institute of Technology,True,True,False
+S10121,New Horizon College of Engineering,True,False,False
+S10122,RV College of Engineering,True,True,False
+S10123,RV College of Engineering,True,True,True
+S10124,Dayananda Sagar College of Engineering,True,False,False
+S10125,RV College of Engineering,True,True,False
+S10126,Dayananda Sagar College of Engineering,True,True,False
+S10127,New Horizon College of Engineering,False,True,False
+S10128,PES University,True,True,False
+S10129,RV College of Engineering,True,True,True
+S10130,Dayananda Sagar College of Engineering,True,True,True
+S10131,RV College of Engineering,True,True,True
+S10132,New Horizon College of Engineering,True,True,True
+S10133,BMS Institute of Technology,True,True,True
+S10134,PES University,True,True,False
+S10135,Dayananda Sagar College of Engineering,False,True,False
+S10136,New Horizon College of Engineering,True,True,True
+S10137,BMS Institute of Technology,True,True,True
+S10138,RV College of Engineering,True,True,False
+S10139,PES University,True,True,True
+S10140,CMR Institute of Technology,True,True,True
+S10141,New Horizon College of Engineering,True,True,False
+S10142,BMS Institute of Technology,False,True,False
+S10143,CMR Institute of Technology,True,True,False
+S10144,Dayananda Sagar College of Engineering,True,True,True
+S10145,CMR Institute of Technology,True,True,True
+S10146,PES University,True,False,False
+S10147,BMS Institute of Technology,True,True,True
+S10148,Dayananda Sagar College of Engineering,True,True,True
+S10149,CMR Institute of Technology,True,True,True
+S10150,CMR Institute of Technology,True,True,False
+S10151,Dayananda Sagar College of Engineering,True,True,False
+S10152,Dayananda Sagar College of Engineering,True,True,True
+S10153,BMS Institute of Technology,True,True,False
+S10154,CMR Institute of Technology,True,True,True
+S10155,PES University,True,True,True
+S10156,BMS Institute of Technology,True,True,True
+S10157,PES University,True,True,True
+S10158,RV College of Engineering,True,True,False
+S10159,PES University,True,True,True
+S10160,Dayananda Sagar College of Engineering,True,True,True
+S10161,RV College of Engineering,True,True,False
+S10162,PES University,True,True,True
+S10163,RV College of Engineering,True,True,True
+S10164,BMS Institute of Technology,True,True,True
+S10165,New Horizon College of Engineering,True,True,False
+S10166,Dayananda Sagar College of Engineering,True,True,False
+S10167,BMS Institute of Technology,True,True,True
+S10168,New Horizon College of Engineering,True,True,True
+S10169,CMR Institute of Technology,True,True,True
+S10170,BMS Institute of Technology,True,True,False
+S10171,PES University,True,True,False
+S10172,Dayananda Sagar College of Engineering,True,True,True
+S10173,New Horizon College of Engineering,True,True,True
+S10174,RV College of Engineering,True,True,False
+S10175,RV College of Engineering,True,True,True
+S10176,BMS Institute of Technology,True,True,False
+S10177,RV College of Engineering,True,True,False
+S10178,Dayananda Sagar College of Engineering,True,True,False
+S10179,CMR Institute of Technology,True,True,True
+S10180,RV College of Engineering,True,True,False
+S10181,Dayananda Sagar College of Engineering,True,True,True
+S10182,Dayananda Sagar College of Engineering,False,True,False
+S10183,BMS Institute of Technology,True,True,False
+S10184,Dayananda Sagar College of Engineering,True,False,False
+S10185,New Horizon College of Engineering,True,True,True
+S10186,Dayananda Sagar College of Engineering,True,True,True
+S10187,BMS Institute of Technology,True,True,True
+S10188,CMR Institute of Technology,True,True,True
+S10189,BMS Institute of Technology,True,True,True
+S10190,Dayananda Sagar College of Engineering,True,True,True
+S10191,PES University,True,True,True
+S10192,RV College of Engineering,True,True,False
+S10193,CMR Institute of Technology,True,True,False
+S10194,BMS Institute of Technology,True,True,False
+S10195,New Horizon College of Engineering,True,True,False
+S10196,RV College of Engineering,True,True,True
+S10197,RV College of Engineering,True,True,True
+S10198,Dayananda Sagar College of Engineering,True,True,True
+S10199,New Horizon College of Engineering,True,True,False
+S10200,BMS Institute of Technology,True,False,False
+S10201,Dayananda Sagar College of Engineering,True,True,False
+S10202,Dayananda Sagar College of Engineering,True,True,False
+S10203,CMR Institute of Technology,True,True,True
+S10204,New Horizon College of Engineering,True,True,False
+S10205,PES University,True,True,True
+S10206,PES University,False,True,False
+S10207,BMS Institute of Technology,True,True,False
+S10208,PES University,True,True,True
+S10209,New Horizon College of Engineering,True,True,False
+S10210,BMS Institute of Technology,True,True,True
+S10211,Dayananda Sagar College of Engineering,True,True,True
+S10212,Dayananda Sagar College of Engineering,True,True,True
+S10213,CMR Institute of Technology,True,True,False
+S10214,PES University,True,True,True
+S10215,RV College of Engineering,True,True,True
+S10216,Dayananda Sagar College of Engineering,True,True,False
+S10217,New Horizon College of Engineering,True,True,True
+S10218,Dayananda Sagar College of Engineering,True,True,False
+S10219,BMS Institute of Technology,True,False,False
+S10220,BMS Institute of Technology,True,True,True
+S10221,BMS Institute of Technology,True,True,True
+S10222,CMR Institute of Technology,False,True,False
+S10223,CMR Institute of Technology,True,True,True
+S10224,Dayananda Sagar College of Engineering,True,True,True
+S10225,CMR Institute of Technology,True,True,False
+S10226,PES University,True,True,True
+S10227,RV College of Engineering,True,True,True
+S10228,Dayananda Sagar College of Engineering,True,True,True
+S10229,Dayananda Sagar College of Engineering,True,True,False
+S10230,BMS Institute of Technology,True,True,True
+S10231,BMS Institute of Technology,False,True,False
+S10232,RV College of Engineering,True,True,False
+S10233,PES University,True,True,False
+S10234,Dayananda Sagar College of Engineering,True,True,False
+S10235,BMS Institute of Technology,True,True,False
+S10236,PES University,True,True,False
+S10237,New Horizon College of Engineering,True,True,True
+S10238,Dayananda Sagar College of Engineering,True,True,True
+S10239,New Horizon College of Engineering,True,True,False
+S10240,New Horizon College of Engineering,True,True,True
+S10241,Dayananda Sagar College of Engineering,True,True,True
+S10242,BMS Institute of Technology,True,True,True
+S10243,New Horizon College of Engineering,True,True,True
+S10244,CMR Institute of Technology,True,True,True
+S10245,Dayananda Sagar College of Engineering,True,True,True
+S10246,Dayananda Sagar College of Engineering,True,True,False
+S10247,New Horizon College of Engineering,True,True,True
+S10248,RV College of Engineering,True,True,True
+S10249,CMR Institute of Technology,True,True,True
+S10250,BMS Institute of Technology,False,True,False
+S10251,CMR Institute of Technology,True,True,False
+S10252,BMS Institute of Technology,True,True,True
+S10253,RV College of Engineering,False,True,False
+S10254,RV College of Engineering,False,True,False
+S10255,BMS Institute of Technology,True,True,True
+S10256,Dayananda Sagar College of Engineering,True,True,True
+S10257,BMS Institute of Technology,True,True,True
+S10258,Dayananda Sagar College of Engineering,True,True,True
+S10259,CMR Institute of Technology,True,True,False
+S10260,CMR Institute of Technology,True,False,False
+S10261,PES University,False,True,False
+S10262,Dayananda Sagar College of Engineering,True,True,False
+S10263,RV College of Engineering,True,True,True
+S10264,RV College of Engineering,True,True,True
+S10265,CMR Institute of Technology,True,False,False
+S10266,CMR Institute of Technology,True,True,True
+S10267,PES University,False,True,False
+S10268,BMS Institute of Technology,True,True,False
+S10269,PES University,True,False,False
+S10270,RV College of Engineering,False,True,False
+S10271,BMS Institute of Technology,True,True,True
+S10272,BMS Institute of Technology,True,True,True
+S10273,Dayananda Sagar College of Engineering,True,True,True
+S10274,Dayananda Sagar College of Engineering,True,True,True
+S10275,RV College of Engineering,True,True,True
+S10276,Dayananda Sagar College of Engineering,True,True,True
+S10277,Dayananda Sagar College of Engineering,True,True,True
+S10278,New Horizon College of Engineering,True,True,True
+S10279,BMS Institute of Technology,True,False,False
+S10280,PES University,True,True,True
+S10281,BMS Institute of Technology,True,True,True
+S10282,RV College of Engineering,True,True,True
+S10283,CMR Institute of Technology,True,True,True
+S10284,PES University,True,True,True
+S10285,CMR Institute of Technology,True,True,True
+S10286,BMS Institute of Technology,True,True,True
+S10287,BMS Institute of Technology,True,True,True
+S10288,RV College of Engineering,True,True,True
+S10289,PES University,True,True,True
+S10290,RV College of Engineering,True,False,False
+S10291,PES University,True,True,False
+S10292,New Horizon College of Engineering,True,True,False
+S10293,BMS Institute of Technology,True,True,False
+S10294,New Horizon College of Engineering,True,True,False
+S10295,PES University,True,True,True
+S10296,New Horizon College of Engineering,True,True,False
+S10297,PES University,False,True,False
+S10298,RV College of Engineering,True,True,False
+S10299,Dayananda Sagar College of Engineering,True,True,True
+S10300,RV College of Engineering,True,True,False
+S10301,BMS Institute of Technology,True,True,True
+S10302,New Horizon College of Engineering,True,True,False
+S10303,PES University,True,True,False
+S10304,CMR Institute of Technology,False,True,False
+S10305,CMR Institute of Technology,True,True,True
+S10306,CMR Institute of Technology,True,True,True
+S10307,CMR Institute of Technology,True,True,True
+S10308,PES University,True,True,False
+S10309,Dayananda Sagar College of Engineering,True,True,True
+S10310,Dayananda Sagar College of Engineering,True,True,True
+S10311,Dayananda Sagar College of Engineering,True,True,True
+S10312,Dayananda Sagar College of Engineering,False,True,False
+S10313,PES University,True,True,False
+S10314,PES University,True,True,True
+S10315,BMS Institute of Technology,True,False,False
+S10316,RV College of Engineering,True,True,True
+S10317,Dayananda Sagar College of Engineering,True,True,True
+S10318,CMR Institute of Technology,True,True,False
+S10319,BMS Institute of Technology,False,True,False
+S10320,BMS Institute of Technology,True,True,True
+S10321,BMS Institute of Technology,True,True,True
+S10322,New Horizon College of Engineering,True,True,False
+S10323,RV College of Engineering,False,True,False
+S10324,PES University,True,True,False
+S10325,New Horizon College of Engineering,False,False,False
+S10326,BMS Institute of Technology,True,True,True
+S10327,PES University,True,True,False
+S10328,New Horizon College of Engineering,True,True,False
+S10329,RV College of Engineering,True,True,True
+S10330,CMR Institute of Technology,True,True,True
+S10331,BMS Institute of Technology,True,False,False
+S10332,Dayananda Sagar College of Engineering,True,True,False
+S10333,RV College of Engineering,True,False,False
+S10334,New Horizon College of Engineering,True,True,False
+S10335,PES University,True,True,True
+S10336,BMS Institute of Technology,True,False,False
+S10337,PES University,True,False,False
+S10338,Dayananda Sagar College of Engineering,True,False,False
+S10339,New Horizon College of Engineering,True,True,False
+S10340,RV College of Engineering,True,True,False
+S10341,CMR Institute of Technology,True,True,False
+S10342,New Horizon College of Engineering,True,True,True
+S10343,CMR Institute of Technology,True,True,False
+S10344,CMR Institute of Technology,True,True,False
+S10345,New Horizon College of Engineering,False,True,False
+S10346,BMS Institute of Technology,True,True,False
+S10347,CMR Institute of Technology,True,True,False
+S10348,Dayananda Sagar College of Engineering,True,True,True
+S10349,New Horizon College of Engineering,True,True,True
+S10350,PES University,True,True,True
+S10351,Dayananda Sagar College of Engineering,True,True,False
+S10352,CMR Institute of Technology,True,True,True
+S10353,BMS Institute of Technology,True,False,False
+S10354,RV College of Engineering,True,True,True
+S10355,PES University,True,False,False
+S10356,BMS Institute of Technology,True,True,False
+S10357,CMR Institute of Technology,True,True,True
+S10358,New Horizon College of Engineering,True,True,False
+S10359,BMS Institute of Technology,True,True,True
+S10360,Dayananda Sagar College of Engineering,False,True,False
+S10361,New Horizon College of Engineering,True,True,False
+S10362,Dayananda Sagar College of Engineering,True,False,False
+S10363,BMS Institute of Technology,True,True,True
+S10364,Dayananda Sagar College of Engineering,True,True,False
+S10365,New Horizon College of Engineering,True,True,True
+S10366,PES University,True,True,True
+S10367,RV College of Engineering,True,True,True
+S10368,RV College of Engineering,True,True,False
+S10369,New Horizon College of Engineering,True,False,False
+S10370,Dayananda Sagar College of Engineering,True,True,True
+S10371,BMS Institute of Technology,True,True,True
+S10372,Dayananda Sagar College of Engineering,False,False,False
+S10373,New Horizon College of Engineering,True,True,True
+S10374,PES University,True,True,True
+S10375,BMS Institute of Technology,True,True,True
+S10376,Dayananda Sagar College of Engineering,True,True,False
+S10377,Dayananda Sagar College of Engineering,True,False,False
+S10378,Dayananda Sagar College of Engineering,True,True,True
+S10379,PES University,True,True,False
+S10380,PES University,True,True,False
+S10381,RV College of Engineering,True,False,False
+S10382,PES University,True,False,False
+S10383,New Horizon College of Engineering,True,True,True
+S10384,CMR Institute of Technology,True,True,True
+S10385,PES University,True,True,True
+S10386,New Horizon College of Engineering,True,True,False
+S10387,PES University,True,True,False
+S10388,BMS Institute of Technology,True,True,False
+S10389,CMR Institute of Technology,True,True,True
+S10390,Dayananda Sagar College of Engineering,True,True,True
+S10391,CMR Institute of Technology,True,True,True
+S10392,PES University,True,True,True
+S10393,PES University,True,True,True
+S10394,BMS Institute of Technology,True,True,True
+S10395,Dayananda Sagar College of Engineering,True,True,False
+S10396,BMS Institute of Technology,True,True,True
+S10397,BMS Institute of Technology,True,True,False
+S10398,PES University,True,True,True
+S10399,Dayananda Sagar College of Engineering,True,True,True
+S10400,RV College of Engineering,True,False,False
+S10401,RV College of Engineering,False,True,False
+S10402,CMR Institute of Technology,True,True,True
+S10403,New Horizon College of Engineering,True,True,True
+S10404,New Horizon College of Engineering,True,False,False
+S10405,BMS Institute of Technology,True,True,True
+S10406,PES University,False,True,False
+S10407,BMS Institute of Technology,True,False,False
+S10408,New Horizon College of Engineering,True,True,True
+S10409,Dayananda Sagar College of Engineering,True,True,False
+S10410,PES University,True,True,True
+S10411,RV College of Engineering,True,False,False
+S10412,Dayananda Sagar College of Engineering,True,True,True
+S10413,BMS Institute of Technology,True,True,True
+S10414,Dayananda Sagar College of Engineering,False,False,False
+S10415,PES University,True,True,True
+S10416,CMR Institute of Technology,True,True,False
+S10417,BMS Institute of Technology,True,True,True
+S10418,PES University,True,True,True
+S10419,PES University,True,True,False
+S10420,CMR Institute of Technology,True,True,True
+S10421,CMR Institute of Technology,True,True,True
+S10422,PES University,True,False,False
+S10423,CMR Institute of Technology,True,True,True
+S10424,CMR Institute of Technology,True,True,True
+S10425,Dayananda Sagar College of Engineering,True,True,False
+S10426,CMR Institute of Technology,True,True,True
+S10427,Dayananda Sagar College of Engineering,True,True,True
+S10428,BMS Institute of Technology,True,True,True
+S10429,PES University,True,True,True
+S10430,Dayananda Sagar College of Engineering,True,True,True
+S10431,RV College of Engineering,True,True,True
+S10432,BMS Institute of Technology,True,True,False
+S10433,Dayananda Sagar College of Engineering,False,True,False
+S10434,CMR Institute of Technology,False,True,False
+S10435,New Horizon College of Engineering,True,True,True
+S10436,CMR Institute of Technology,True,True,False
+S10437,CMR Institute of Technology,True,False,False
+S10438,Dayananda Sagar College of Engineering,False,True,False
+S10439,Dayananda Sagar College of Engineering,True,True,False
+S10440,RV College of Engineering,True,True,True
+S10441,New Horizon College of Engineering,True,True,False
+S10442,New Horizon College of Engineering,False,True,False
+S10443,New Horizon College of Engineering,True,True,False
+S10444,Dayananda Sagar College of Engineering,True,True,False
+S10445,CMR Institute of Technology,True,True,False
+S10446,RV College of Engineering,True,True,True
+S10447,CMR Institute of Technology,True,True,True
+S10448,CMR Institute of Technology,True,True,False
+S10449,Dayananda Sagar College of Engineering,True,True,False
+S10450,BMS Institute of Technology,True,True,True
+S10451,CMR Institute of Technology,True,True,False
+S10452,New Horizon College of Engineering,False,True,False
+S10453,BMS Institute of Technology,True,True,False
+S10454,Dayananda Sagar College of Engineering,True,True,False
+S10455,BMS Institute of Technology,True,True,False
+S10456,RV College of Engineering,True,True,False
+S10457,BMS Institute of Technology,True,True,True
+S10458,CMR Institute of Technology,True,True,False
+S10459,PES University,True,True,True
+S10460,PES University,True,False,False
+S10461,CMR Institute of Technology,True,False,False
+S10462,PES University,True,True,True
+S10463,CMR Institute of Technology,True,True,False
+S10464,New Horizon College of Engineering,True,True,True
+S10465,Dayananda Sagar College of Engineering,True,True,True
+S10466,Dayananda Sagar College of Engineering,True,True,True
+S10467,New Horizon College of Engineering,True,True,True
+S10468,BMS Institute of Technology,True,True,True
+S10469,Dayananda Sagar College of Engineering,True,True,False
+S10470,PES University,True,True,True
+S10471,PES University,True,True,False
+S10472,CMR Institute of Technology,True,True,False
+S10473,CMR Institute of Technology,True,True,True
+S10474,BMS Institute of Technology,True,True,True
+S10475,Dayananda Sagar College of Engineering,True,False,False
+S10476,New Horizon College of Engineering,True,True,True
+S10477,RV College of Engineering,True,True,True
+S10478,Dayananda Sagar College of Engineering,True,True,False
+S10479,PES University,True,False,False
+S10480,PES University,True,True,False
+S10481,RV College of Engineering,True,True,True
+S10482,PES University,True,True,True
+S10483,Dayananda Sagar College of Engineering,True,True,False
+S10484,New Horizon College of Engineering,True,True,True
+S10485,BMS Institute of Technology,False,False,False
+S10486,PES University,True,True,True
+S10487,Dayananda Sagar College of Engineering,True,True,True
+S10488,CMR Institute of Technology,True,True,True
+S10489,RV College of Engineering,True,True,False
+S10490,Dayananda Sagar College of Engineering,True,True,True
+S10491,Dayananda Sagar College of Engineering,False,True,False
+S10492,Dayananda Sagar College of Engineering,True,True,False
+S10493,BMS Institute of Technology,True,True,True
+S10494,RV College of Engineering,True,True,True
+S10495,New Horizon College of Engineering,True,True,True
+S10496,New Horizon College of Engineering,True,True,True
+S10497,New Horizon College of Engineering,True,True,True
+S10498,New Horizon College of Engineering,True,True,True
+S10499,CMR Institute of Technology,True,True,False
+S10500,RV College of Engineering,True,True,True
+S10501,CMR Institute of Technology,True,False,False
+S10502,CMR Institute of Technology,True,True,False
+S10503,PES University,True,True,True
+S10504,BMS Institute of Technology,True,False,False
+S10505,PES University,True,True,True
+S10506,CMR Institute of Technology,True,True,True
+S10507,New Horizon College of Engineering,True,True,True
+S10508,CMR Institute of Technology,True,False,False
+S10509,Dayananda Sagar College of Engineering,False,True,False
+S10510,CMR Institute of Technology,True,True,False
+S10511,BMS Institute of Technology,True,True,True
+S10512,Dayananda Sagar College of Engineering,True,True,False
+S10513,BMS Institute of Technology,True,True,True
+S10514,Dayananda Sagar College of Engineering,True,True,True
+S10515,PES University,True,True,True
+S10516,RV College of Engineering,True,True,True
+S10517,Dayananda Sagar College of Engineering,True,True,True
+S10518,New Horizon College of Engineering,True,True,True
+S10519,RV College of Engineering,True,True,True
+S10520,CMR Institute of Technology,True,True,False
+S10521,CMR Institute of Technology,True,True,False
+S10522,New Horizon College of Engineering,True,True,False
+S10523,Dayananda Sagar College of Engineering,True,True,False
+S10524,New Horizon College of Engineering,True,False,False
+S10525,Dayananda Sagar College of Engineering,True,True,False
+S10526,Dayananda Sagar College of Engineering,False,True,False
+S10527,RV College of Engineering,True,True,True
+S10528,CMR Institute of Technology,True,True,False
+S10529,BMS Institute of Technology,False,True,False
+S10530,New Horizon College of Engineering,True,True,True
+S10531,RV College of Engineering,True,True,True
+S10532,BMS Institute of Technology,True,True,True
+S10533,New Horizon College of Engineering,True,True,True
+S10534,New Horizon College of Engineering,True,False,False
+S10535,PES University,True,True,True
+S10536,PES University,True,True,False
+S10537,PES University,True,True,False
+S10538,BMS Institute of Technology,True,True,True
+S10539,Dayananda Sagar College of Engineering,True,True,True
+S10540,RV College of Engineering,True,True,True
+S10541,Dayananda Sagar College of Engineering,True,True,False
+S10542,Dayananda Sagar College of Engineering,False,True,False
+S10543,CMR Institute of Technology,True,True,False
+S10544,RV College of Engineering,True,True,False
+S10545,BMS Institute of Technology,True,True,True
+S10546,New Horizon College of Engineering,False,True,False
+S10547,BMS Institute of Technology,True,False,False
+S10548,BMS Institute of Technology,True,True,False
+S10549,RV College of Engineering,False,True,False
+S10550,Dayananda Sagar College of Engineering,True,True,True
+S10551,CMR Institute of Technology,True,True,True
+S10552,CMR Institute of Technology,True,True,True
+S10553,CMR Institute of Technology,False,True,False
+S10554,Dayananda Sagar College of Engineering,True,True,True
+S10555,CMR Institute of Technology,False,True,False
+S10556,PES University,True,False,False
+S10557,CMR Institute of Technology,True,True,True
+S10558,New Horizon College of Engineering,True,True,True
+S10559,New Horizon College of Engineering,True,True,True
+S10560,PES University,False,True,False
+S10561,New Horizon College of Engineering,True,True,True
+S10562,PES University,True,True,True
+S10563,CMR Institute of Technology,True,True,True
+S10564,BMS Institute of Technology,True,True,True
+S10565,RV College of Engineering,True,True,True
+S10566,Dayananda Sagar College of Engineering,True,True,True
+S10567,RV College of Engineering,True,True,False
+S10568,RV College of Engineering,True,True,True
+S10569,BMS Institute of Technology,True,True,True
+S10570,BMS Institute of Technology,True,True,True
+S10571,RV College of Engineering,True,True,True
+S10572,BMS Institute of Technology,True,True,True
+S10573,BMS Institute of Technology,False,True,False
+S10574,BMS Institute of Technology,True,True,True
+S10575,RV College of Engineering,True,True,True
+S10576,Dayananda Sagar College of Engineering,True,True,True
+S10577,CMR Institute of Technology,True,True,True
+S10578,New Horizon College of Engineering,True,True,True
+S10579,BMS Institute of Technology,True,True,True
+S10580,RV College of Engineering,True,True,True
+S10581,PES University,True,True,False
+S10582,BMS Institute of Technology,True,True,True
+S10583,RV College of Engineering,True,True,True
+S10584,BMS Institute of Technology,True,False,False
+S10585,BMS Institute of Technology,False,True,False
+S10586,PES University,True,True,True
+S10587,Dayananda Sagar College of Engineering,True,True,True
+S10588,PES University,True,True,True
+S10589,CMR Institute of Technology,True,True,True
+S10590,Dayananda Sagar College of Engineering,True,True,True
+S10591,CMR Institute of Technology,False,True,False
+S10592,BMS Institute of Technology,True,True,False
+S10593,Dayananda Sagar College of Engineering,False,True,False
+S10594,Dayananda Sagar College of Engineering,True,True,True
+S10595,CMR Institute of Technology,True,True,True
+S10596,BMS Institute of Technology,True,True,True
+S10597,CMR Institute of Technology,False,True,False
+S10598,RV College of Engineering,True,True,True
+S10599,BMS Institute of Technology,True,True,True
+S10600,PES University,True,True,True
+S10601,BMS Institute of Technology,True,True,False
+S10602,Dayananda Sagar College of Engineering,True,True,False
+S10603,BMS Institute of Technology,True,True,True
+S10604,Dayananda Sagar College of Engineering,True,True,False
+S10605,CMR Institute of Technology,False,True,False
+S10606,RV College of Engineering,True,True,True
+S10607,Dayananda Sagar College of Engineering,True,True,True
+S10608,CMR Institute of Technology,False,True,False
+S10609,RV College of Engineering,True,True,True
+S10610,New Horizon College of Engineering,True,True,True
+S10611,Dayananda Sagar College of Engineering,True,True,False
+S10612,Dayananda Sagar College of Engineering,True,True,False
+S10613,Dayananda Sagar College of Engineering,False,True,False
+S10614,Dayananda Sagar College of Engineering,True,True,True
+S10615,CMR Institute of Technology,True,True,True
+S10616,Dayananda Sagar College of Engineering,True,True,True
+S10617,Dayananda Sagar College of Engineering,True,True,True
+S10618,Dayananda Sagar College of Engineering,True,True,True
+S10619,New Horizon College of Engineering,True,True,False
+S10620,BMS Institute of Technology,True,True,True
+S10621,Dayananda Sagar College of Engineering,True,False,False
+S10622,CMR Institute of Technology,True,True,False
+S10623,CMR Institute of Technology,False,True,False
+S10624,RV College of Engineering,True,True,True
+S10625,BMS Institute of Technology,True,True,True
+S10626,New Horizon College of Engineering,True,True,False
+S10627,CMR Institute of Technology,True,True,True
+S10628,PES University,True,True,True
+S10629,BMS Institute of Technology,True,True,True
+S10630,New Horizon College of Engineering,False,True,False
+S10631,BMS Institute of Technology,True,True,True
+S10632,New Horizon College of Engineering,True,True,True
+S10633,Dayananda Sagar College of Engineering,True,True,False
+S10634,CMR Institute of Technology,False,True,False
+S10635,CMR Institute of Technology,True,True,False
+S10636,RV College of Engineering,True,True,True
+S10637,BMS Institute of Technology,True,True,True
+S10638,CMR Institute of Technology,True,True,True
+S10639,New Horizon College of Engineering,True,True,True
+S10640,BMS Institute of Technology,False,True,False
+S10641,RV College of Engineering,True,True,True
+S10642,New Horizon College of Engineering,True,True,False
+S10643,RV College of Engineering,True,True,True
+S10644,Dayananda Sagar College of Engineering,True,True,False
+S10645,New Horizon College of Engineering,True,True,True
+S10646,RV College of Engineering,True,True,True
+S10647,Dayananda Sagar College of Engineering,True,False,False
+S10648,New Horizon College of Engineering,True,True,True
+S10649,New Horizon College of Engineering,True,True,False
+S10650,RV College of Engineering,True,True,True
+S10651,New Horizon College of Engineering,True,True,True
+S10652,BMS Institute of Technology,True,True,False
+S10653,RV College of Engineering,False,True,False
+S10654,RV College of Engineering,True,True,False
+S10655,BMS Institute of Technology,True,True,True
+S10656,New Horizon College of Engineering,False,True,False
+S10657,PES University,False,True,False
+S10658,Dayananda Sagar College of Engineering,True,True,True
+S10659,PES University,True,True,True
+S10660,New Horizon College of Engineering,False,True,False
+S10661,PES University,True,True,True
+S10662,BMS Institute of Technology,True,True,True
+S10663,RV College of Engineering,True,True,True
+S10664,New Horizon College of Engineering,True,False,False
+S10665,Dayananda Sagar College of Engineering,True,True,True
+S10666,Dayananda Sagar College of Engineering,True,True,False
+S10667,CMR Institute of Technology,True,True,True
+S10668,BMS Institute of Technology,True,False,False
+S10669,Dayananda Sagar College of Engineering,True,True,True
+S10670,Dayananda Sagar College of Engineering,True,True,True
+S10671,New Horizon College of Engineering,True,True,False
+S10672,CMR Institute of Technology,True,True,False
+S10673,New Horizon College of Engineering,True,True,False
+S10674,RV College of Engineering,True,True,False
+S10675,CMR Institute of Technology,True,True,True
+S10676,PES University,True,True,True
+S10677,PES University,True,True,True
+S10678,CMR Institute of Technology,True,True,True
+S10679,RV College of Engineering,True,True,True
+S10680,RV College of Engineering,True,True,False
+S10681,Dayananda Sagar College of Engineering,True,True,False
+S10682,RV College of Engineering,True,True,False
+S10683,BMS Institute of Technology,True,True,True
+S10684,RV College of Engineering,True,False,False
+S10685,Dayananda Sagar College of Engineering,True,True,True
+S10686,PES University,True,True,True
+S10687,New Horizon College of Engineering,True,True,False
+S10688,PES University,True,True,True
+S10689,BMS Institute of Technology,True,True,False
+S10690,Dayananda Sagar College of Engineering,True,True,False
+S10691,Dayananda Sagar College of Engineering,True,True,True
+S10692,RV College of Engineering,True,True,True
+S10693,PES University,True,True,False
+S10694,BMS Institute of Technology,False,True,False
+S10695,New Horizon College of Engineering,True,True,False
+S10696,New Horizon College of Engineering,True,True,False
+S10697,Dayananda Sagar College of Engineering,True,True,True
+S10698,CMR Institute of Technology,True,True,True
+S10699,CMR Institute of Technology,True,True,True
+S10700,New Horizon College of Engineering,True,True,True
+S10701,PES University,True,True,False
+S10702,RV College of Engineering,True,True,False
+S10703,RV College of Engineering,False,True,False
+S10704,RV College of Engineering,True,True,True
+S10705,Dayananda Sagar College of Engineering,True,True,False
+S10706,CMR Institute of Technology,True,True,True
+S10707,Dayananda Sagar College of Engineering,True,True,True
+S10708,CMR Institute of Technology,False,True,False
+S10709,BMS Institute of Technology,False,True,False
+S10710,New Horizon College of Engineering,True,True,True
+S10711,CMR Institute of Technology,True,True,False
+S10712,New Horizon College of Engineering,True,True,False
+S10713,New Horizon College of Engineering,True,True,True
+S10714,BMS Institute of Technology,True,True,False
+S10715,BMS Institute of Technology,True,True,True
+S10716,PES University,True,True,False
+S10717,CMR Institute of Technology,True,True,True
+S10718,PES University,True,True,True
+S10719,New Horizon College of Engineering,True,True,False
+S10720,RV College of Engineering,True,True,True
+S10721,BMS Institute of Technology,True,True,True
+S10722,New Horizon College of Engineering,True,True,False
+S10723,RV College of Engineering,True,False,False
+S10724,CMR Institute of Technology,True,True,False
+S10725,New Horizon College of Engineering,True,True,False
+S10726,PES University,True,True,False
+S10727,CMR Institute of Technology,True,False,False
+S10728,RV College of Engineering,True,True,True
+S10729,RV College of Engineering,True,True,True
+S10730,CMR Institute of Technology,True,True,True
+S10731,RV College of Engineering,True,True,False
+S10732,BMS Institute of Technology,True,False,False
+S10733,Dayananda Sagar College of Engineering,True,True,False
+S10734,Dayananda Sagar College of Engineering,True,False,False
+S10735,RV College of Engineering,True,True,True
+S10736,New Horizon College of Engineering,True,True,True
+S10737,Dayananda Sagar College of Engineering,False,True,False
+S10738,BMS Institute of Technology,True,True,True
+S10739,BMS Institute of Technology,True,True,True
+S10740,Dayananda Sagar College of Engineering,True,True,True
+S10741,RV College of Engineering,True,True,False
+S10742,Dayananda Sagar College of Engineering,True,True,True
+S10743,RV College of Engineering,True,True,True
+S10744,New Horizon College of Engineering,True,True,True
+S10745,PES University,True,False,False
+S10746,RV College of Engineering,True,True,True
+S10747,PES University,False,True,False
+S10748,Dayananda Sagar College of Engineering,True,True,False
+S10749,BMS Institute of Technology,True,True,False
+S10750,BMS Institute of Technology,False,True,False
+S10751,PES University,True,True,True
+S10752,RV College of Engineering,True,True,False
+S10753,BMS Institute of Technology,True,True,True
+S10754,CMR Institute of Technology,True,True,True
+S10755,BMS Institute of Technology,True,True,True
+S10756,CMR Institute of Technology,True,True,False
+S10757,RV College of Engineering,True,True,False
+S10758,CMR Institute of Technology,True,True,True
+S10759,New Horizon College of Engineering,True,True,False
+S10760,New Horizon College of Engineering,True,True,True
+S10761,Dayananda Sagar College of Engineering,True,True,True
+S10762,RV College of Engineering,True,True,True
+S10763,BMS Institute of Technology,True,True,True
+S10764,Dayananda Sagar College of Engineering,True,True,False
+S10765,Dayananda Sagar College of Engineering,True,True,True
+S10766,New Horizon College of Engineering,False,True,False
+S10767,RV College of Engineering,True,True,False
+S10768,CMR Institute of Technology,True,True,True
+S10769,BMS Institute of Technology,False,True,False
+S10770,BMS Institute of Technology,True,True,True
+S10771,Dayananda Sagar College of Engineering,True,True,False
+S10772,CMR Institute of Technology,True,True,False
+S10773,New Horizon College of Engineering,True,True,False
+S10774,RV College of Engineering,True,True,False
+S10775,PES University,True,True,False
+S10776,RV College of Engineering,False,True,False
+S10777,PES University,True,True,True
+S10778,RV College of Engineering,True,True,True
+S10779,PES University,True,True,True
+S10780,BMS Institute of Technology,True,True,False
+S10781,BMS Institute of Technology,True,True,True
+S10782,New Horizon College of Engineering,True,True,False
+S10783,New Horizon College of Engineering,False,True,False
+S10784,RV College of Engineering,True,True,True
+S10785,CMR Institute of Technology,True,False,False
+S10786,BMS Institute of Technology,False,True,False
+S10787,PES University,True,True,False
+S10788,RV College of Engineering,True,True,True
+S10789,RV College of Engineering,False,True,False
+S10790,BMS Institute of Technology,True,True,True
+S10791,New Horizon College of Engineering,True,True,True
+S10792,CMR Institute of Technology,True,False,False
+S10793,Dayananda Sagar College of Engineering,True,True,True
+S10794,RV College of Engineering,True,True,True
+S10795,RV College of Engineering,True,True,True
+S10796,PES University,True,True,True
+S10797,RV College of Engineering,True,True,True
+S10798,PES University,True,True,True
+S10799,CMR Institute of Technology,True,True,True
+S10800,New Horizon College of Engineering,True,True,False
+S10801,RV College of Engineering,True,True,True
+S10802,Dayananda Sagar College of Engineering,True,True,True
+S10803,RV College of Engineering,True,True,True
+S10804,BMS Institute of Technology,True,True,False
+S10805,Dayananda Sagar College of Engineering,True,True,True
+S10806,New Horizon College of Engineering,False,True,False
+S10807,BMS Institute of Technology,True,True,True
+S10808,RV College of Engineering,True,True,True
+S10809,New Horizon College of Engineering,True,True,True
+S10810,PES University,True,True,False
+S10811,CMR Institute of Technology,True,True,True
+S10812,BMS Institute of Technology,True,True,False
+S10813,Dayananda Sagar College of Engineering,True,True,False
+S10814,RV College of Engineering,True,True,False
+S10815,RV College of Engineering,True,True,True
+S10816,BMS Institute of Technology,True,True,False
+S10817,PES University,True,True,True
+S10818,PES University,True,True,False
+S10819,New Horizon College of Engineering,True,True,False
+S10820,New Horizon College of Engineering,True,True,True
+S10821,PES University,True,True,True
+S10822,BMS Institute of Technology,True,True,True
+S10823,CMR Institute of Technology,True,True,False
+S10824,BMS Institute of Technology,True,True,False
+S10825,CMR Institute of Technology,True,True,False
+S10826,PES University,True,False,False
+S10827,Dayananda Sagar College of Engineering,True,True,False
+S10828,Dayananda Sagar College of Engineering,True,True,True
+S10829,RV College of Engineering,True,True,True
+S10830,RV College of Engineering,False,True,False
+S10831,CMR Institute of Technology,True,True,False
+S10832,BMS Institute of Technology,True,True,True
+S10833,CMR Institute of Technology,True,True,True
+S10834,Dayananda Sagar College of Engineering,True,True,True
+S10835,PES University,True,True,True
+S10836,New Horizon College of Engineering,True,True,True
+S10837,New Horizon College of Engineering,True,True,True
+S10838,RV College of Engineering,True,True,False
+S10839,Dayananda Sagar College of Engineering,True,True,False
+S10840,New Horizon College of Engineering,True,True,True
+S10841,PES University,True,True,False
+S10842,CMR Institute of Technology,True,True,True
+S10843,PES University,True,False,False
+S10844,New Horizon College of Engineering,True,True,True
+S10845,New Horizon College of Engineering,True,False,False
+S10846,PES University,True,True,False
+S10847,BMS Institute of Technology,True,True,False
+S10848,RV College of Engineering,True,True,False
+S10849,BMS Institute of Technology,False,True,False
+S10850,BMS Institute of Technology,True,True,True
+S10851,RV College of Engineering,True,True,False
+S10852,BMS Institute of Technology,True,True,True
+S10853,Dayananda Sagar College of Engineering,True,True,False
+S10854,BMS Institute of Technology,True,True,True
+S10855,New Horizon College of Engineering,True,True,True
+S10856,New Horizon College of Engineering,True,True,False
+S10857,Dayananda Sagar College of Engineering,False,False,False
+S10858,RV College of Engineering,True,True,True
+S10859,BMS Institute of Technology,True,True,True
+S10860,BMS Institute of Technology,True,False,False
+S10861,RV College of Engineering,True,True,True
+S10862,CMR Institute of Technology,True,True,True
+S10863,BMS Institute of Technology,True,True,True
+S10864,New Horizon College of Engineering,True,False,False
+S10865,New Horizon College of Engineering,True,True,True
+S10866,RV College of Engineering,True,True,True
+S10867,PES University,True,True,True
+S10868,New Horizon College of Engineering,True,True,True
+S10869,RV College of Engineering,True,True,True
+S10870,CMR Institute of Technology,True,True,True
+S10871,RV College of Engineering,True,True,True
+S10872,RV College of Engineering,True,True,True
+S10873,RV College of Engineering,True,True,False
+S10874,RV College of Engineering,False,True,False
+S10875,RV College of Engineering,True,True,True
+S10876,Dayananda Sagar College of Engineering,False,True,False
+S10877,CMR Institute of Technology,True,True,True
+S10878,BMS Institute of Technology,True,False,False
+S10879,New Horizon College of Engineering,True,True,True
+S10880,PES University,True,True,True
+S10881,Dayananda Sagar College of Engineering,True,True,True
+S10882,CMR Institute of Technology,True,True,False
+S10883,New Horizon College of Engineering,True,True,True
+S10884,CMR Institute of Technology,True,False,False
+S10885,CMR Institute of Technology,True,True,True
+S10886,CMR Institute of Technology,False,True,False
+S10887,BMS Institute of Technology,True,True,False
+S10888,New Horizon College of Engineering,True,True,False
+S10889,New Horizon College of Engineering,True,True,True
+S10890,New Horizon College of Engineering,True,True,True
+S10891,RV College of Engineering,True,True,True
+S10892,New Horizon College of Engineering,True,False,False
+S10893,BMS Institute of Technology,True,True,False
+S10894,CMR Institute of Technology,True,True,False
+S10895,RV College of Engineering,True,True,True
+S10896,BMS Institute of Technology,True,False,False
+S10897,RV College of Engineering,True,False,False
+S10898,Dayananda Sagar College of Engineering,True,True,True
+S10899,Dayananda Sagar College of Engineering,True,True,True
+S10900,Dayananda Sagar College of Engineering,True,True,False
+S10901,New Horizon College of Engineering,True,True,False
+S10902,PES University,True,True,False
+S10903,CMR Institute of Technology,True,True,True
+S10904,BMS Institute of Technology,True,True,True
+S10905,BMS Institute of Technology,True,True,False
+S10906,RV College of Engineering,True,True,False
+S10907,PES University,True,True,True
+S10908,New Horizon College of Engineering,True,True,False
+S10909,PES University,True,True,False
+S10910,BMS Institute of Technology,False,True,False
+S10911,PES University,True,True,False
+S10912,BMS Institute of Technology,True,True,True
+S10913,PES University,True,True,True
+S10914,New Horizon College of Engineering,True,True,True
+S10915,New Horizon College of Engineering,True,True,False
+S10916,RV College of Engineering,True,True,True
+S10917,New Horizon College of Engineering,True,True,True
+S10918,BMS Institute of Technology,True,False,False
+S10919,BMS Institute of Technology,True,True,True
+S10920,RV College of Engineering,True,False,False
+S10921,PES University,True,True,True
+S10922,CMR Institute of Technology,True,False,False
+S10923,New Horizon College of Engineering,True,True,False
+S10924,PES University,True,True,True
+S10925,New Horizon College of Engineering,True,True,True
+S10926,Dayananda Sagar College of Engineering,True,True,False
+S10927,RV College of Engineering,True,True,True
+S10928,Dayananda Sagar College of Engineering,True,True,True
+S10929,PES University,True,True,True
+S10930,BMS Institute of Technology,True,True,False
+S10931,Dayananda Sagar College of Engineering,True,True,True
+S10932,CMR Institute of Technology,True,True,True
+S10933,CMR Institute of Technology,True,False,False
+S10934,PES University,True,True,False
+S10935,New Horizon College of Engineering,True,False,False
+S10936,Dayananda Sagar College of Engineering,True,True,False
+S10937,BMS Institute of Technology,False,True,False
+S10938,Dayananda Sagar College of Engineering,True,True,True
+S10939,Dayananda Sagar College of Engineering,True,True,True
+S10940,New Horizon College of Engineering,True,True,True
+S10941,BMS Institute of Technology,True,True,True
+S10942,PES University,True,True,True
+S10943,BMS Institute of Technology,True,True,True
+S10944,New Horizon College of Engineering,True,True,False
+S10945,BMS Institute of Technology,True,True,False
+S10946,CMR Institute of Technology,True,True,True
+S10947,New Horizon College of Engineering,True,True,True
+S10948,Dayananda Sagar College of Engineering,True,True,True
+S10949,CMR Institute of Technology,True,True,True
+S10950,Dayananda Sagar College of Engineering,True,True,False
+S10951,CMR Institute of Technology,True,True,True
+S10952,RV College of Engineering,True,True,True
+S10953,BMS Institute of Technology,True,True,False
+S10954,PES University,True,True,True
+S10955,Dayananda Sagar College of Engineering,True,True,False
+S10956,Dayananda Sagar College of Engineering,True,True,False
+S10957,PES University,True,True,True
+S10958,Dayananda Sagar College of Engineering,True,True,True
+S10959,Dayananda Sagar College of Engineering,True,True,False
+S10960,New Horizon College of Engineering,True,True,False
+S10961,New Horizon College of Engineering,True,True,True
+S10962,New Horizon College of Engineering,True,True,True
+S10963,PES University,True,True,True
+S10964,BMS Institute of Technology,True,True,True
+S10965,CMR Institute of Technology,True,True,True
+S10966,New Horizon College of Engineering,True,True,True
+S10967,PES University,False,True,False
+S10968,BMS Institute of Technology,True,True,True
+S10969,RV College of Engineering,True,True,False
+S10970,New Horizon College of Engineering,True,True,True
+S10971,RV College of Engineering,True,True,True
+S10972,New Horizon College of Engineering,True,True,False
+S10973,BMS Institute of Technology,True,True,False
+S10974,BMS Institute of Technology,True,True,True
+S10975,RV College of Engineering,True,True,False
+S10976,CMR Institute of Technology,True,True,False
+S10977,Dayananda Sagar College of Engineering,True,False,False
+S10978,BMS Institute of Technology,True,True,False
+S10979,RV College of Engineering,True,True,True
+S10980,Dayananda Sagar College of Engineering,True,True,True
+S10981,New Horizon College of Engineering,True,True,False
+S10982,BMS Institute of Technology,True,True,True
+S10983,PES University,True,True,True
+S10984,CMR Institute of Technology,True,True,False
+S10985,Dayananda Sagar College of Engineering,True,True,True
+S10986,CMR Institute of Technology,True,True,False
+S10987,CMR Institute of Technology,False,False,False
+S10988,Dayananda Sagar College of Engineering,True,False,False
+S10989,New Horizon College of Engineering,True,True,True
+S10990,BMS Institute of Technology,True,True,True
+S10991,New Horizon College of Engineering,True,True,False
+S10992,BMS Institute of Technology,True,True,True
+S10993,New Horizon College of Engineering,True,True,True
+S10994,RV College of Engineering,True,True,False
+S10995,BMS Institute of Technology,True,True,False
+S10996,CMR Institute of Technology,True,True,True
+S10997,Dayananda Sagar College of Engineering,True,True,True
+S10998,BMS Institute of Technology,True,True,True
+S10999,CMR Institute of Technology,True,True,True
+S11000,Dayananda Sagar College of Engineering,True,True,False
+S11001,New Horizon College of Engineering,True,True,True
+S11002,New Horizon College of Engineering,True,True,False
+S11003,CMR Institute of Technology,True,True,True
+S11004,Dayananda Sagar College of Engineering,False,True,False
+S11005,RV College of Engineering,True,True,True
+S11006,CMR Institute of Technology,True,True,True
+S11007,BMS Institute of Technology,True,True,True
+S11008,PES University,True,True,True
+S11009,Dayananda Sagar College of Engineering,True,True,True
+S11010,New Horizon College of Engineering,True,True,True
+S11011,BMS Institute of Technology,True,True,False
+S11012,RV College of Engineering,True,True,False
+S11013,New Horizon College of Engineering,True,True,True
+S11014,CMR Institute of Technology,True,False,False
+S11015,BMS Institute of Technology,True,False,False
+S11016,BMS Institute of Technology,True,True,True
+S11017,CMR Institute of Technology,False,True,False
+S11018,New Horizon College of Engineering,True,True,True
+S11019,PES University,True,True,False
+S11020,PES University,False,True,False
+S11021,CMR Institute of Technology,True,True,True
+S11022,New Horizon College of Engineering,True,True,True
+S11023,CMR Institute of Technology,False,True,False
+S11024,PES University,True,True,False
+S11025,BMS Institute of Technology,True,True,True
+S11026,PES University,True,True,False
+S11027,BMS Institute of Technology,True,True,True
+S11028,Dayananda Sagar College of Engineering,True,True,True
+S11029,RV College of Engineering,True,True,True
+S11030,New Horizon College of Engineering,True,True,True
+S11031,Dayananda Sagar College of Engineering,True,True,True
+S11032,PES University,True,True,False
+S11033,BMS Institute of Technology,True,False,False
+S11034,CMR Institute of Technology,True,True,True
+S11035,CMR Institute of Technology,True,True,False
+S11036,BMS Institute of Technology,True,False,False
+S11037,PES University,True,True,True
+S11038,BMS Institute of Technology,True,True,True
+S11039,RV College of Engineering,False,True,False
+S11040,PES University,True,True,True
+S11041,PES University,True,True,False
+S11042,BMS Institute of Technology,True,True,True
+S11043,RV College of Engineering,True,True,True
+S11044,CMR Institute of Technology,True,True,True
+S11045,PES University,True,True,True
+S11046,PES University,True,True,False
+S11047,Dayananda Sagar College of Engineering,True,True,False
+S11048,CMR Institute of Technology,True,True,True
+S11049,New Horizon College of Engineering,False,True,False
+S11050,PES University,True,True,True
+S11051,PES University,True,True,False
+S11052,RV College of Engineering,True,True,True
+S11053,CMR Institute of Technology,True,True,False
+S11054,New Horizon College of Engineering,True,True,True
+S11055,RV College of Engineering,True,True,False
+S11056,New Horizon College of Engineering,True,True,False
+S11057,New Horizon College of Engineering,True,True,True
+S11058,RV College of Engineering,True,True,True
+S11059,Dayananda Sagar College of Engineering,True,True,True
+S11060,CMR Institute of Technology,True,False,False
+S11061,Dayananda Sagar College of Engineering,True,True,False
+S11062,New Horizon College of Engineering,True,True,True
+S11063,New Horizon College of Engineering,True,False,False
+S11064,PES University,True,True,True
+S11065,PES University,False,True,False
+S11066,CMR Institute of Technology,True,True,True
+S11067,New Horizon College of Engineering,True,True,True
+S11068,RV College of Engineering,True,True,False
+S11069,CMR Institute of Technology,True,True,False
+S11070,CMR Institute of Technology,True,True,True
+S11071,RV College of Engineering,True,True,False
+S11072,Dayananda Sagar College of Engineering,True,True,False
+S11073,Dayananda Sagar College of Engineering,True,True,False
+S11074,CMR Institute of Technology,True,True,True
+S11075,RV College of Engineering,False,True,False
+S11076,BMS Institute of Technology,True,True,True
+S11077,PES University,True,True,False
+S11078,New Horizon College of Engineering,True,True,True
+S11079,PES University,True,True,False
+S11080,CMR Institute of Technology,True,True,True
+S11081,New Horizon College of Engineering,True,True,True
+S11082,BMS Institute of Technology,True,True,True
+S11083,CMR Institute of Technology,True,False,False
+S11084,BMS Institute of Technology,True,True,False
+S11085,Dayananda Sagar College of Engineering,True,True,False
+S11086,BMS Institute of Technology,True,True,True
+S11087,New Horizon College of Engineering,True,True,True
+S11088,Dayananda Sagar College of Engineering,True,True,True
+S11089,Dayananda Sagar College of Engineering,True,True,False
+S11090,CMR Institute of Technology,True,True,True
+S11091,CMR Institute of Technology,True,True,False
+S11092,RV College of Engineering,True,True,False
+S11093,Dayananda Sagar College of Engineering,True,False,False
+S11094,PES University,True,True,False
+S11095,BMS Institute of Technology,True,True,False
+S11096,BMS Institute of Technology,True,True,False
+S11097,RV College of Engineering,False,False,False
+S11098,New Horizon College of Engineering,False,True,False
+S11099,New Horizon College of Engineering,True,True,False
+S11100,CMR Institute of Technology,True,True,True
+S11101,CMR Institute of Technology,True,True,True
+S11102,PES University,True,True,False
+S11103,Dayananda Sagar College of Engineering,True,True,True
+S11104,BMS Institute of Technology,False,True,False
+S11105,RV College of Engineering,True,True,True
+S11106,RV College of Engineering,True,True,True
+S11107,Dayananda Sagar College of Engineering,False,True,False
+S11108,CMR Institute of Technology,True,True,True
+S11109,CMR Institute of Technology,False,True,False
+S11110,PES University,False,True,False
+S11111,PES University,True,True,True
+S11112,Dayananda Sagar College of Engineering,True,True,True
+S11113,RV College of Engineering,False,True,False
+S11114,CMR Institute of Technology,True,True,True
+S11115,RV College of Engineering,True,True,True
+S11116,New Horizon College of Engineering,True,True,True
+S11117,BMS Institute of Technology,True,True,False
+S11118,RV College of Engineering,True,True,False
+S11119,RV College of Engineering,True,True,True
+S11120,CMR Institute of Technology,True,True,False
+S11121,Dayananda Sagar College of Engineering,True,True,True
+S11122,Dayananda Sagar College of Engineering,True,True,False
+S11123,RV College of Engineering,False,True,False
+S11124,RV College of Engineering,True,False,False
+S11125,RV College of Engineering,True,False,False
+S11126,PES University,True,True,True
+S11127,Dayananda Sagar College of Engineering,True,True,False
+S11128,BMS Institute of Technology,True,True,True
+S11129,RV College of Engineering,True,True,True
+S11130,RV College of Engineering,True,True,True
+S11131,BMS Institute of Technology,True,True,False
+S11132,RV College of Engineering,True,True,True
+S11133,Dayananda Sagar College of Engineering,True,True,False
+S11134,RV College of Engineering,True,True,False
+S11135,PES University,True,True,True
+S11136,New Horizon College of Engineering,True,True,True
+S11137,CMR Institute of Technology,True,True,True
+S11138,New Horizon College of Engineering,True,True,True
+S11139,BMS Institute of Technology,True,False,False
+S11140,PES University,True,True,True
+S11141,RV College of Engineering,True,True,True
+S11142,PES University,True,True,False
+S11143,BMS Institute of Technology,True,True,True
+S11144,RV College of Engineering,True,True,True
+S11145,Dayananda Sagar College of Engineering,True,True,True
+S11146,RV College of Engineering,True,True,True
+S11147,RV College of Engineering,True,False,False
+S11148,CMR Institute of Technology,True,True,True
+S11149,PES University,True,True,True
+S11150,BMS Institute of Technology,True,True,True
+S11151,BMS Institute of Technology,True,True,True
+S11152,New Horizon College of Engineering,False,True,False
+S11153,New Horizon College of Engineering,True,True,True
+S11154,BMS Institute of Technology,True,True,False
+S11155,CMR Institute of Technology,True,True,True
+S11156,PES University,True,True,False
+S11157,RV College of Engineering,True,False,False
+S11158,Dayananda Sagar College of Engineering,True,True,False
+S11159,Dayananda Sagar College of Engineering,True,True,True
+S11160,Dayananda Sagar College of Engineering,True,True,False
+S11161,PES University,True,False,False
+S11162,RV College of Engineering,True,True,True
+S11163,CMR Institute of Technology,True,True,False
+S11164,BMS Institute of Technology,True,False,False
+S11165,CMR Institute of Technology,True,False,False
+S11166,BMS Institute of Technology,True,True,True
+S11167,RV College of Engineering,False,True,False
+S11168,BMS Institute of Technology,True,True,True
+S11169,CMR Institute of Technology,True,True,True
+S11170,PES University,False,True,False
+S11171,PES University,True,True,True
+S11172,BMS Institute of Technology,True,False,False
+S11173,CMR Institute of Technology,True,True,True
+S11174,Dayananda Sagar College of Engineering,True,True,False
+S11175,Dayananda Sagar College of Engineering,True,True,False
+S11176,BMS Institute of Technology,True,True,False
+S11177,PES University,True,True,True
+S11178,RV College of Engineering,True,True,True
+S11179,RV College of Engineering,True,True,False
+S11180,PES University,True,True,True
+S11181,New Horizon College of Engineering,True,True,True
+S11182,BMS Institute of Technology,True,True,True
+S11183,PES University,True,True,True
+S11184,CMR Institute of Technology,True,True,False
+S11185,RV College of Engineering,False,True,False
+S11186,RV College of Engineering,True,True,True
+S11187,RV College of Engineering,True,True,True
+S11188,PES University,True,True,True
+S11189,BMS Institute of Technology,True,True,False
+S11190,BMS Institute of Technology,True,True,True
+S11191,CMR Institute of Technology,True,False,False
+S11192,CMR Institute of Technology,True,True,True
+S11193,RV College of Engineering,False,True,False
+S11194,CMR Institute of Technology,True,True,True
+S11195,RV College of Engineering,True,True,True
+S11196,PES University,True,True,True
+S11197,PES University,True,True,True
+S11198,CMR Institute of Technology,True,True,True
+S11199,New Horizon College of Engineering,True,True,True
+S11200,Dayananda Sagar College of Engineering,True,True,True
+S11201,New Horizon College of Engineering,True,True,True
+S11202,New Horizon College of Engineering,False,True,False
+S11203,BMS Institute of Technology,True,True,True
+S11204,New Horizon College of Engineering,True,True,True
+S11205,RV College of Engineering,True,True,False
+S11206,Dayananda Sagar College of Engineering,True,True,True
+S11207,RV College of Engineering,False,True,False
+S11208,BMS Institute of Technology,True,True,True
+S11209,PES University,True,True,True
+S11210,RV College of Engineering,True,True,True
+S11211,Dayananda Sagar College of Engineering,True,True,True
+S11212,PES University,True,True,True
+S11213,PES University,True,True,True
+S11214,Dayananda Sagar College of Engineering,True,True,True
+S11215,Dayananda Sagar College of Engineering,True,True,True
+S11216,BMS Institute of Technology,True,False,False
+S11217,PES University,True,True,True
+S11218,BMS Institute of Technology,True,False,False
+S11219,CMR Institute of Technology,True,True,False
+S11220,RV College of Engineering,True,True,False
+S11221,RV College of Engineering,True,True,True
+S11222,BMS Institute of Technology,True,True,True
+S11223,RV College of Engineering,True,True,False
+S11224,New Horizon College of Engineering,True,True,True
+S11225,Dayananda Sagar College of Engineering,True,True,True
+S11226,PES University,True,True,True
+S11227,PES University,False,True,False
+S11228,PES University,True,True,True
+S11229,CMR Institute of Technology,True,True,True
+S11230,PES University,True,True,True
+S11231,RV College of Engineering,True,True,True
+S11232,New Horizon College of Engineering,True,True,False
+S11233,New Horizon College of Engineering,True,True,True
+S11234,PES University,True,False,False
+S11235,RV College of Engineering,True,True,False
+S11236,RV College of Engineering,True,True,True
+S11237,PES University,True,True,True
+S11238,Dayananda Sagar College of Engineering,True,True,True
+S11239,BMS Institute of Technology,True,True,False
+S11240,Dayananda Sagar College of Engineering,True,True,True
+S11241,CMR Institute of Technology,True,True,False
+S11242,Dayananda Sagar College of Engineering,True,True,True
+S11243,BMS Institute of Technology,True,True,False
+S11244,Dayananda Sagar College of Engineering,True,True,True
+S11245,BMS Institute of Technology,True,True,True
+S11246,RV College of Engineering,True,True,False
+S11247,CMR Institute of Technology,False,True,False
+S11248,CMR Institute of Technology,True,True,True
+S11249,Dayananda Sagar College of Engineering,True,True,False
+S11250,RV College of Engineering,True,True,True
+S11251,Dayananda Sagar College of Engineering,True,True,True
+S11252,CMR Institute of Technology,True,True,False
+S11253,RV College of Engineering,True,True,True
+S11254,Dayananda Sagar College of Engineering,True,True,False
+S11255,New Horizon College of Engineering,True,True,False
+S11256,BMS Institute of Technology,True,True,False
+S11257,RV College of Engineering,True,True,True
+S11258,CMR Institute of Technology,True,True,False
+S11259,RV College of Engineering,True,True,False
+S11260,New Horizon College of Engineering,True,True,False
+S11261,BMS Institute of Technology,True,True,True
+S11262,CMR Institute of Technology,False,True,False
+S11263,BMS Institute of Technology,True,True,True
+S11264,PES University,True,True,True
+S11265,CMR Institute of Technology,True,True,True
+S11266,RV College of Engineering,True,True,False
+S11267,BMS Institute of Technology,True,False,False
+S11268,PES University,True,True,True
+S11269,Dayananda Sagar College of Engineering,True,True,False
+S11270,BMS Institute of Technology,True,True,True
+S11271,RV College of Engineering,True,True,True
+S11272,CMR Institute of Technology,True,True,False
+S11273,PES University,True,True,True
+S11274,PES University,True,False,False
+S11275,Dayananda Sagar College of Engineering,True,False,False
+S11276,New Horizon College of Engineering,True,True,True
+S11277,BMS Institute of Technology,True,False,False
+S11278,New Horizon College of Engineering,True,True,True
+S11279,RV College of Engineering,True,False,False
+S11280,Dayananda Sagar College of Engineering,True,True,True
+S11281,BMS Institute of Technology,True,True,True
+S11282,CMR Institute of Technology,True,True,True
+S11283,CMR Institute of Technology,True,True,True
+S11284,BMS Institute of Technology,True,True,True
+S11285,BMS Institute of Technology,True,False,False
+S11286,CMR Institute of Technology,True,True,True
+S11287,New Horizon College of Engineering,True,True,False
+S11288,RV College of Engineering,True,True,True
+S11289,Dayananda Sagar College of Engineering,True,True,False
+S11290,New Horizon College of Engineering,True,True,True
+S11291,RV College of Engineering,True,True,False
+S11292,RV College of Engineering,True,True,True
+S11293,RV College of Engineering,True,True,True
+S11294,BMS Institute of Technology,False,True,False
+S11295,RV College of Engineering,True,True,True
+S11296,RV College of Engineering,True,True,True
+S11297,Dayananda Sagar College of Engineering,True,True,True
+S11298,BMS Institute of Technology,True,True,True
+S11299,PES University,True,True,True
+S11300,New Horizon College of Engineering,True,True,False
+S11301,BMS Institute of Technology,True,True,True
+S11302,CMR Institute of Technology,True,True,False
+S11303,CMR Institute of Technology,True,True,False
+S11304,Dayananda Sagar College of Engineering,True,True,True
+S11305,PES University,True,True,True
+S11306,New Horizon College of Engineering,True,True,True
+S11307,BMS Institute of Technology,True,True,False
+S11308,Dayananda Sagar College of Engineering,True,True,False
+S11309,BMS Institute of Technology,False,True,False
+S11310,PES University,True,True,True
+S11311,New Horizon College of Engineering,True,True,True
+S11312,Dayananda Sagar College of Engineering,True,True,True
+S11313,New Horizon College of Engineering,True,True,False
+S11314,RV College of Engineering,True,True,False
+S11315,Dayananda Sagar College of Engineering,True,True,False
+S11316,Dayananda Sagar College of Engineering,True,True,True
+S11317,Dayananda Sagar College of Engineering,True,False,False
+S11318,Dayananda Sagar College of Engineering,True,True,False
+S11319,RV College of Engineering,True,True,True
+S11320,Dayananda Sagar College of Engineering,True,True,True
+S11321,New Horizon College of Engineering,True,True,False
+S11322,New Horizon College of Engineering,True,True,True
+S11323,RV College of Engineering,True,False,False
+S11324,New Horizon College of Engineering,True,True,False
+S11325,New Horizon College of Engineering,True,True,True
+S11326,BMS Institute of Technology,True,False,False
+S11327,PES University,True,False,False
+S11328,CMR Institute of Technology,True,True,True
+S11329,RV College of Engineering,True,True,True
+S11330,PES University,True,True,True
+S11331,BMS Institute of Technology,True,True,True
+S11332,Dayananda Sagar College of Engineering,True,True,True
+S11333,New Horizon College of Engineering,True,True,True
+S11334,New Horizon College of Engineering,True,True,True
+S11335,CMR Institute of Technology,True,True,True
+S11336,CMR Institute of Technology,True,True,True
+S11337,Dayananda Sagar College of Engineering,True,True,False
+S11338,New Horizon College of Engineering,True,False,False
+S11339,Dayananda Sagar College of Engineering,True,True,True
+S11340,Dayananda Sagar College of Engineering,True,True,False
+S11341,BMS Institute of Technology,True,True,True
+S11342,BMS Institute of Technology,True,True,True
+S11343,PES University,True,True,True
+S11344,CMR Institute of Technology,False,True,False
+S11345,Dayananda Sagar College of Engineering,True,True,True
+S11346,CMR Institute of Technology,True,True,False
+S11347,Dayananda Sagar College of Engineering,False,True,False
+S11348,RV College of Engineering,True,True,True
+S11349,BMS Institute of Technology,True,True,True
+S11350,BMS Institute of Technology,True,True,False
+S11351,CMR Institute of Technology,True,True,True
+S11352,BMS Institute of Technology,True,True,True
+S11353,CMR Institute of Technology,True,False,False
+S11354,PES University,True,True,True
+S11355,PES University,True,True,True
+S11356,PES University,True,True,True
+S11357,PES University,True,True,True
+S11358,RV College of Engineering,True,True,False
+S11359,Dayananda Sagar College of Engineering,True,True,True
+S11360,New Horizon College of Engineering,True,False,False
+S11361,New Horizon College of Engineering,True,True,True
+S11362,CMR Institute of Technology,True,True,False
+S11363,RV College of Engineering,False,False,False
+S11364,New Horizon College of Engineering,True,True,True
+S11365,New Horizon College of Engineering,True,True,True
+S11366,PES University,True,True,True
+S11367,BMS Institute of Technology,True,True,False
+S11368,PES University,True,True,True
+S11369,BMS Institute of Technology,True,True,True
+S11370,RV College of Engineering,False,False,False
+S11371,BMS Institute of Technology,True,True,True
+S11372,New Horizon College of Engineering,True,True,True
+S11373,CMR Institute of Technology,True,True,True
+S11374,New Horizon College of Engineering,True,True,False
+S11375,Dayananda Sagar College of Engineering,False,True,False
+S11376,CMR Institute of Technology,True,True,False
+S11377,RV College of Engineering,True,True,True
+S11378,Dayananda Sagar College of Engineering,True,True,True
+S11379,RV College of Engineering,True,True,True
+S11380,CMR Institute of Technology,True,True,False
+S11381,CMR Institute of Technology,True,True,True
+S11382,New Horizon College of Engineering,True,True,True
+S11383,BMS Institute of Technology,True,True,False
+S11384,RV College of Engineering,True,True,True
+S11385,PES University,True,True,False
+S11386,BMS Institute of Technology,True,True,False
+S11387,RV College of Engineering,True,True,False
+S11388,PES University,True,False,False
+S11389,New Horizon College of Engineering,True,True,True
+S11390,BMS Institute of Technology,True,True,True
+S11391,Dayananda Sagar College of Engineering,True,False,False
+S11392,Dayananda Sagar College of Engineering,True,True,False
+S11393,Dayananda Sagar College of Engineering,True,True,False
+S11394,BMS Institute of Technology,True,True,True
+S11395,New Horizon College of Engineering,True,True,True
+S11396,PES University,True,True,False
+S11397,Dayananda Sagar College of Engineering,True,True,True
+S11398,Dayananda Sagar College of Engineering,True,True,True
+S11399,New Horizon College of Engineering,True,False,False
+S11400,CMR Institute of Technology,True,True,False
+S11401,Dayananda Sagar College of Engineering,False,True,False
+S11402,CMR Institute of Technology,True,True,True
+S11403,New Horizon College of Engineering,True,True,True
+S11404,Dayananda Sagar College of Engineering,True,True,True
+S11405,CMR Institute of Technology,True,False,False
+S11406,RV College of Engineering,True,True,True
+S11407,BMS Institute of Technology,True,True,True
+S11408,CMR Institute of Technology,True,True,True
+S11409,New Horizon College of Engineering,True,False,False
+S11410,New Horizon College of Engineering,True,True,True
+S11411,New Horizon College of Engineering,True,False,False
+S11412,Dayananda Sagar College of Engineering,True,True,False
+S11413,New Horizon College of Engineering,True,True,False
+S11414,Dayananda Sagar College of Engineering,True,True,True
+S11415,PES University,True,True,False
+S11416,CMR Institute of Technology,True,True,True
+S11417,Dayananda Sagar College of Engineering,True,True,True
+S11418,Dayananda Sagar College of Engineering,True,False,False
+S11419,CMR Institute of Technology,True,False,False
+S11420,CMR Institute of Technology,True,True,True
+S11421,Dayananda Sagar College of Engineering,True,True,True
+S11422,CMR Institute of Technology,True,True,True
+S11423,Dayananda Sagar College of Engineering,True,True,False
+S11424,PES University,True,True,True
+S11425,BMS Institute of Technology,True,True,False
+S11426,Dayananda Sagar College of Engineering,True,True,True
+S11427,New Horizon College of Engineering,True,True,False
+S11428,CMR Institute of Technology,True,True,True
+S11429,BMS Institute of Technology,True,True,False
+S11430,BMS Institute of Technology,True,True,True
+S11431,New Horizon College of Engineering,True,True,True
+S11432,PES University,True,True,True
+S11433,RV College of Engineering,True,True,True
+S11434,PES University,True,True,False
+S11435,Dayananda Sagar College of Engineering,True,True,True
+S11436,Dayananda Sagar College of Engineering,True,True,True
+S11437,CMR Institute of Technology,True,True,True
+S11438,New Horizon College of Engineering,True,True,True
+S11439,Dayananda Sagar College of Engineering,True,True,True
+S11440,RV College of Engineering,True,True,True
+S11441,Dayananda Sagar College of Engineering,True,True,False
+S11442,PES University,True,True,True
+S11443,PES University,True,True,True
+S11444,Dayananda Sagar College of Engineering,True,False,False
+S11445,RV College of Engineering,True,False,False
+S11446,Dayananda Sagar College of Engineering,True,True,False
+S11447,Dayananda Sagar College of Engineering,True,True,True
+S11448,Dayananda Sagar College of Engineering,True,True,False
+S11449,PES University,True,True,True
+S11450,BMS Institute of Technology,True,True,True
+S11451,CMR Institute of Technology,True,False,False
+S11452,New Horizon College of Engineering,True,True,True
+S11453,BMS Institute of Technology,True,True,False
+S11454,New Horizon College of Engineering,True,True,True
+S11455,New Horizon College of Engineering,True,True,False
+S11456,BMS Institute of Technology,True,True,True
+S11457,Dayananda Sagar College of Engineering,True,True,True
+S11458,BMS Institute of Technology,True,True,True
+S11459,Dayananda Sagar College of Engineering,True,True,False
+S11460,RV College of Engineering,False,True,False
+S11461,BMS Institute of Technology,True,True,True
+S11462,PES University,True,True,False
+S11463,New Horizon College of Engineering,True,True,True
+S11464,BMS Institute of Technology,True,True,True
+S11465,PES University,True,True,True
+S11466,RV College of Engineering,True,True,True
+S11467,CMR Institute of Technology,True,True,True
+S11468,BMS Institute of Technology,False,True,False
+S11469,Dayananda Sagar College of Engineering,True,True,True
+S11470,CMR Institute of Technology,True,True,True
+S11471,BMS Institute of Technology,True,True,True
+S11472,CMR Institute of Technology,True,True,True
+S11473,RV College of Engineering,True,True,True
+S11474,CMR Institute of Technology,True,True,True
+S11475,BMS Institute of Technology,True,True,False
+S11476,RV College of Engineering,True,True,False
+S11477,Dayananda Sagar College of Engineering,True,True,False
+S11478,RV College of Engineering,True,True,True
+S11479,CMR Institute of Technology,True,True,False
+S11480,Dayananda Sagar College of Engineering,True,True,True
+S11481,PES University,True,True,True
+S11482,Dayananda Sagar College of Engineering,True,True,False
+S11483,Dayananda Sagar College of Engineering,True,True,False
+S11484,New Horizon College of Engineering,True,True,True
+S11485,Dayananda Sagar College of Engineering,True,True,True
+S11486,Dayananda Sagar College of Engineering,True,False,False
+S11487,Dayananda Sagar College of Engineering,True,True,True
+S11488,New Horizon College of Engineering,True,True,True
+S11489,RV College of Engineering,False,True,False
+S11490,CMR Institute of Technology,True,True,False
+S11491,CMR Institute of Technology,True,True,True
+S11492,New Horizon College of Engineering,True,True,True
+S11493,PES University,True,True,True
+S11494,Dayananda Sagar College of Engineering,True,True,True
+S11495,RV College of Engineering,True,True,True
+S11496,New Horizon College of Engineering,True,True,True
+S11497,RV College of Engineering,True,True,True
+S11498,CMR Institute of Technology,True,True,True
+S11499,Dayananda Sagar College of Engineering,True,True,True
+S11500,BMS Institute of Technology,True,True,False
+S11501,CMR Institute of Technology,True,False,False
+S11502,PES University,True,True,True
+S11503,BMS Institute of Technology,True,True,False
+S11504,PES University,True,True,True
+S11505,CMR Institute of Technology,True,True,True
+S11506,RV College of Engineering,True,True,True
+S11507,PES University,True,True,True
+S11508,BMS Institute of Technology,True,True,True
+S11509,Dayananda Sagar College of Engineering,False,True,False
+S11510,CMR Institute of Technology,True,True,True
+S11511,New Horizon College of Engineering,False,True,False
+S11512,PES University,True,True,False
+S11513,PES University,True,True,True
+S11514,CMR Institute of Technology,True,True,True
+S11515,New Horizon College of Engineering,True,True,True
+S11516,RV College of Engineering,True,True,False
+S11517,BMS Institute of Technology,True,True,True
+S11518,New Horizon College of Engineering,True,True,True
+S11519,PES University,True,True,True
+S11520,Dayananda Sagar College of Engineering,True,True,False
+S11521,BMS Institute of Technology,True,True,False
+S11522,BMS Institute of Technology,True,True,True
+S11523,PES University,True,True,True
+S11524,CMR Institute of Technology,True,False,False
+S11525,Dayananda Sagar College of Engineering,True,True,False
+S11526,PES University,True,True,False
+S11527,PES University,True,True,True
+S11528,RV College of Engineering,True,True,True
+S11529,New Horizon College of Engineering,True,True,True
+S11530,RV College of Engineering,True,True,True
+S11531,PES University,True,True,True
+S11532,BMS Institute of Technology,False,True,False
+S11533,CMR Institute of Technology,True,True,False
+S11534,CMR Institute of Technology,True,True,True
+S11535,CMR Institute of Technology,True,True,True
+S11536,Dayananda Sagar College of Engineering,True,True,True
+S11537,Dayananda Sagar College of Engineering,True,True,True
+S11538,Dayananda Sagar College of Engineering,True,True,True
+S11539,Dayananda Sagar College of Engineering,True,True,False
+S11540,CMR Institute of Technology,True,True,True
+S11541,Dayananda Sagar College of Engineering,True,True,False
+S11542,New Horizon College of Engineering,True,True,True
+S11543,CMR Institute of Technology,True,True,True
+S11544,New Horizon College of Engineering,True,True,False
+S11545,PES University,True,True,False
+S11546,New Horizon College of Engineering,True,True,True
+S11547,Dayananda Sagar College of Engineering,True,True,True
+S11548,BMS Institute of Technology,True,True,True
+S11549,RV College of Engineering,True,True,True
+S11550,CMR Institute of Technology,True,True,True
+S11551,RV College of Engineering,True,False,False
+S11552,RV College of Engineering,True,True,False
+S11553,RV College of Engineering,True,False,False
+S11554,Dayananda Sagar College of Engineering,True,True,False
+S11555,BMS Institute of Technology,True,True,True
+S11556,RV College of Engineering,True,True,True
+S11557,BMS Institute of Technology,True,True,True
+S11558,BMS Institute of Technology,False,True,False
+S11559,BMS Institute of Technology,True,True,True
+S11560,RV College of Engineering,True,True,True
+S11561,New Horizon College of Engineering,True,True,True
+S11562,New Horizon College of Engineering,True,True,True
+S11563,RV College of Engineering,True,True,True
+S11564,Dayananda Sagar College of Engineering,True,True,False
+S11565,BMS Institute of Technology,True,True,True
+S11566,New Horizon College of Engineering,True,True,False
+S11567,New Horizon College of Engineering,True,True,True
+S11568,CMR Institute of Technology,True,True,False
+S11569,Dayananda Sagar College of Engineering,True,True,False
+S11570,New Horizon College of Engineering,True,True,True
+S11571,New Horizon College of Engineering,True,True,False
+S11572,BMS Institute of Technology,True,True,True
+S11573,Dayananda Sagar College of Engineering,True,True,False
+S11574,CMR Institute of Technology,True,True,False
+S11575,BMS Institute of Technology,True,True,False
+S11576,RV College of Engineering,True,True,True
+S11577,RV College of Engineering,True,True,True
+S11578,RV College of Engineering,True,True,False
+S11579,RV College of Engineering,True,False,False
+S11580,RV College of Engineering,True,True,False
+S11581,CMR Institute of Technology,True,True,True
+S11582,CMR Institute of Technology,True,True,True
+S11583,BMS Institute of Technology,True,True,False
+S11584,CMR Institute of Technology,True,True,True
+S11585,BMS Institute of Technology,True,True,False
+S11586,New Horizon College of Engineering,True,True,False
+S11587,RV College of Engineering,True,True,True
+S11588,New Horizon College of Engineering,True,True,False
+S11589,CMR Institute of Technology,True,True,True
+S11590,RV College of Engineering,True,True,False
+S11591,PES University,True,True,False
+S11592,RV College of Engineering,True,True,True
+S11593,Dayananda Sagar College of Engineering,True,True,False
+S11594,RV College of Engineering,True,True,True
+S11595,RV College of Engineering,True,True,False
+S11596,PES University,True,False,False
+S11597,New Horizon College of Engineering,True,True,True
+S11598,New Horizon College of Engineering,True,True,False
+S11599,BMS Institute of Technology,True,False,False
+S11600,PES University,True,True,False
+S11601,PES University,True,True,True
+S11602,BMS Institute of Technology,True,True,True
+S11603,BMS Institute of Technology,True,True,True
+S11604,CMR Institute of Technology,True,True,True
+S11605,PES University,True,True,True
+S11606,CMR Institute of Technology,True,True,True
+S11607,RV College of Engineering,True,True,True
+S11608,RV College of Engineering,True,True,True
+S11609,RV College of Engineering,True,True,False
+S11610,New Horizon College of Engineering,True,True,False
+S11611,Dayananda Sagar College of Engineering,True,True,True
+S11612,PES University,True,True,True
+S11613,CMR Institute of Technology,True,True,False
+S11614,CMR Institute of Technology,True,True,False
+S11615,PES University,True,True,False
+S11616,PES University,True,True,False
+S11617,CMR Institute of Technology,True,True,True
+S11618,BMS Institute of Technology,True,True,True
+S11619,RV College of Engineering,True,True,True
+S11620,RV College of Engineering,True,False,False
+S11621,Dayananda Sagar College of Engineering,True,True,True
+S11622,RV College of Engineering,True,True,True
+S11623,New Horizon College of Engineering,False,True,False
+S11624,PES University,True,True,True
+S11625,CMR Institute of Technology,True,False,False
+S11626,BMS Institute of Technology,True,True,False
+S11627,BMS Institute of Technology,True,True,True
+S11628,New Horizon College of Engineering,True,True,False
+S11629,CMR Institute of Technology,True,True,True
+S11630,Dayananda Sagar College of Engineering,True,False,False
+S11631,New Horizon College of Engineering,True,True,True
+S11632,PES University,True,True,True
+S11633,PES University,True,True,True
+S11634,Dayananda Sagar College of Engineering,True,True,True
+S11635,New Horizon College of Engineering,True,True,False
+S11636,New Horizon College of Engineering,True,True,True
+S11637,PES University,True,True,False
+S11638,CMR Institute of Technology,True,True,True
+S11639,PES University,True,True,False
+S11640,BMS Institute of Technology,True,False,False
+S11641,New Horizon College of Engineering,True,False,False
+S11642,CMR Institute of Technology,True,False,False
+S11643,PES University,True,True,False
+S11644,Dayananda Sagar College of Engineering,True,True,True
+S11645,PES University,True,True,True
+S11646,CMR Institute of Technology,True,True,True
+S11647,BMS Institute of Technology,True,True,True
+S11648,BMS Institute of Technology,True,True,False
+S11649,PES University,True,True,True
+S11650,CMR Institute of Technology,False,False,False
+S11651,New Horizon College of Engineering,False,True,False
+S11652,PES University,True,True,False
+S11653,New Horizon College of Engineering,True,True,False
+S11654,PES University,True,True,True
+S11655,Dayananda Sagar College of Engineering,True,True,True
+S11656,PES University,True,True,True
+S11657,PES University,True,True,False
+S11658,PES University,True,True,True
+S11659,Dayananda Sagar College of Engineering,True,True,True
+S11660,PES University,True,True,False
+S11661,New Horizon College of Engineering,True,True,True
+S11662,Dayananda Sagar College of Engineering,True,True,True
+S11663,New Horizon College of Engineering,True,True,True
+S11664,CMR Institute of Technology,True,True,True
+S11665,RV College of Engineering,True,True,True
+S11666,PES University,True,True,True
+S11667,PES University,True,True,True
+S11668,BMS Institute of Technology,True,True,False
+S11669,BMS Institute of Technology,True,True,False
+S11670,Dayananda Sagar College of Engineering,False,True,False
+S11671,New Horizon College of Engineering,True,True,True
+S11672,BMS Institute of Technology,True,True,True
+S11673,PES University,True,True,True
+S11674,PES University,True,True,False
+S11675,PES University,True,True,True
+S11676,BMS Institute of Technology,True,True,True
+S11677,PES University,True,True,True
+S11678,PES University,True,True,True
+S11679,Dayananda Sagar College of Engineering,True,False,False
+S11680,RV College of Engineering,True,True,True
+S11681,CMR Institute of Technology,True,True,True
+S11682,PES University,True,True,True
+S11683,BMS Institute of Technology,True,True,False
+S11684,CMR Institute of Technology,True,True,False
+S11685,BMS Institute of Technology,True,True,True
+S11686,CMR Institute of Technology,True,True,True
+S11687,PES University,True,True,True
+S11688,Dayananda Sagar College of Engineering,True,True,True
+S11689,CMR Institute of Technology,True,False,False
+S11690,CMR Institute of Technology,True,True,True
+S11691,PES University,True,True,True
+S11692,PES University,True,True,True
+S11693,BMS Institute of Technology,True,True,True
+S11694,New Horizon College of Engineering,True,True,True
+S11695,CMR Institute of Technology,True,True,True
+S11696,Dayananda Sagar College of Engineering,True,True,False
+S11697,PES University,True,True,True
+S11698,Dayananda Sagar College of Engineering,True,True,True
+S11699,RV College of Engineering,True,True,True
+S11700,RV College of Engineering,True,True,True
+S11701,New Horizon College of Engineering,True,True,True
+S11702,New Horizon College of Engineering,True,True,False
+S11703,Dayananda Sagar College of Engineering,True,True,True
+S11704,PES University,True,True,True
+S11705,PES University,True,True,False
+S11706,CMR Institute of Technology,True,True,True
+S11707,Dayananda Sagar College of Engineering,True,True,True
+S11708,RV College of Engineering,True,False,False
+S11709,RV College of Engineering,True,True,True
+S11710,BMS Institute of Technology,True,True,True
+S11711,RV College of Engineering,False,True,False
+S11712,CMR Institute of Technology,False,True,False
+S11713,PES University,True,True,True
+S11714,CMR Institute of Technology,True,True,True
+S11715,PES University,True,True,True
+S11716,CMR Institute of Technology,True,True,False
+S11717,New Horizon College of Engineering,True,False,False
+S11718,BMS Institute of Technology,False,True,False
+S11719,New Horizon College of Engineering,True,False,False
+S11720,CMR Institute of Technology,True,True,True
+S11721,Dayananda Sagar College of Engineering,True,True,False
+S11722,PES University,True,True,False
+S11723,BMS Institute of Technology,True,False,False
+S11724,CMR Institute of Technology,True,True,True
+S11725,BMS Institute of Technology,True,True,True
+S11726,New Horizon College of Engineering,True,True,True
+S11727,RV College of Engineering,True,True,True
+S11728,CMR Institute of Technology,False,True,False
+S11729,BMS Institute of Technology,True,True,True
+S11730,Dayananda Sagar College of Engineering,True,True,True
+S11731,BMS Institute of Technology,True,True,False
+S11732,PES University,True,True,True
+S11733,CMR Institute of Technology,True,True,False
+S11734,PES University,True,True,False
+S11735,Dayananda Sagar College of Engineering,True,True,True
+S11736,CMR Institute of Technology,True,True,False
+S11737,BMS Institute of Technology,True,True,True
+S11738,New Horizon College of Engineering,True,True,False
+S11739,BMS Institute of Technology,True,True,True
+S11740,RV College of Engineering,True,True,True
+S11741,PES University,True,True,True
+S11742,New Horizon College of Engineering,True,True,True
+S11743,BMS Institute of Technology,True,True,True
+S11744,BMS Institute of Technology,True,True,True
+S11745,Dayananda Sagar College of Engineering,True,True,True
+S11746,BMS Institute of Technology,True,False,False
+S11747,RV College of Engineering,True,True,True
+S11748,Dayananda Sagar College of Engineering,True,False,False
+S11749,BMS Institute of Technology,True,True,True
+S11750,BMS Institute of Technology,True,True,False
+S11751,PES University,True,False,False
+S11752,PES University,True,True,True
+S11753,BMS Institute of Technology,True,True,True
+S11754,PES University,True,True,False
+S11755,RV College of Engineering,True,True,True
+S11756,BMS Institute of Technology,True,True,True
+S11757,New Horizon College of Engineering,True,True,False
+S11758,CMR Institute of Technology,True,True,True
+S11759,New Horizon College of Engineering,True,True,True
+S11760,BMS Institute of Technology,True,True,True
+S11761,RV College of Engineering,True,True,True
+S11762,Dayananda Sagar College of Engineering,True,True,True
+S11763,BMS Institute of Technology,True,False,False
+S11764,BMS Institute of Technology,True,True,False
+S11765,New Horizon College of Engineering,True,True,True
+S11766,Dayananda Sagar College of Engineering,True,True,True
+S11767,CMR Institute of Technology,True,True,True
+S11768,RV College of Engineering,True,True,False
+S11769,Dayananda Sagar College of Engineering,True,True,True
+S11770,New Horizon College of Engineering,True,True,True
+S11771,CMR Institute of Technology,True,True,False
+S11772,RV College of Engineering,True,True,False
+S11773,RV College of Engineering,True,True,True
+S11774,Dayananda Sagar College of Engineering,True,True,True
+S11775,New Horizon College of Engineering,True,True,False
+S11776,RV College of Engineering,True,True,True
+S11777,BMS Institute of Technology,True,False,False
+S11778,RV College of Engineering,True,True,True
+S11779,New Horizon College of Engineering,True,True,False
+S11780,New Horizon College of Engineering,True,True,False
+S11781,PES University,True,True,True
+S11782,PES University,True,True,False
+S11783,PES University,True,True,True
+S11784,New Horizon College of Engineering,True,True,False
+S11785,CMR Institute of Technology,True,True,True
+S11786,RV College of Engineering,True,True,True
+S11787,CMR Institute of Technology,False,True,False
+S11788,New Horizon College of Engineering,True,True,False
+S11789,CMR Institute of Technology,True,True,False
+S11790,New Horizon College of Engineering,True,True,True
+S11791,BMS Institute of Technology,True,True,True
+S11792,New Horizon College of Engineering,True,True,True
+S11793,CMR Institute of Technology,True,False,False
+S11794,CMR Institute of Technology,True,True,True
+S11795,New Horizon College of Engineering,True,True,False
+S11796,New Horizon College of Engineering,True,True,False
+S11797,BMS Institute of Technology,True,True,True
+S11798,Dayananda Sagar College of Engineering,True,True,False
+S11799,Dayananda Sagar College of Engineering,True,True,True
+S11800,CMR Institute of Technology,True,True,True
+S11801,PES University,True,True,True
+S11802,BMS Institute of Technology,True,True,True
+S11803,New Horizon College of Engineering,True,True,True
+S11804,RV College of Engineering,True,True,True
+S11805,RV College of Engineering,True,True,True
+S11806,New Horizon College of Engineering,True,True,True
+S11807,New Horizon College of Engineering,True,False,False
+S11808,New Horizon College of Engineering,True,True,True
+S11809,CMR Institute of Technology,True,True,True
+S11810,PES University,True,True,True
+S11811,CMR Institute of Technology,True,True,True
+S11812,RV College of Engineering,True,True,False
+S11813,RV College of Engineering,True,True,True
+S11814,BMS Institute of Technology,True,True,True
+S11815,Dayananda Sagar College of Engineering,True,True,True
+S11816,BMS Institute of Technology,True,True,True
+S11817,BMS Institute of Technology,True,True,False
+S11818,BMS Institute of Technology,True,True,False
+S11819,Dayananda Sagar College of Engineering,True,False,False
+S11820,New Horizon College of Engineering,True,True,True
+S11821,New Horizon College of Engineering,True,True,True
+S11822,New Horizon College of Engineering,True,False,False
+S11823,Dayananda Sagar College of Engineering,False,True,False
+S11824,CMR Institute of Technology,True,False,False
+S11825,CMR Institute of Technology,True,True,True
+S11826,BMS Institute of Technology,True,True,True
+S11827,RV College of Engineering,True,False,False
+S11828,CMR Institute of Technology,True,True,True
+S11829,CMR Institute of Technology,True,True,True
+S11830,RV College of Engineering,True,True,False
+S11831,BMS Institute of Technology,True,True,False
+S11832,Dayananda Sagar College of Engineering,True,True,False
+S11833,New Horizon College of Engineering,True,True,False
+S11834,CMR Institute of Technology,True,True,True
+S11835,RV College of Engineering,True,False,False
+S11836,CMR Institute of Technology,True,True,False
+S11837,BMS Institute of Technology,True,True,True
+S11838,Dayananda Sagar College of Engineering,True,True,True
+S11839,Dayananda Sagar College of Engineering,True,True,True
+S11840,RV College of Engineering,True,True,True
+S11841,PES University,True,True,True
+S11842,BMS Institute of Technology,True,True,True
+S11843,New Horizon College of Engineering,True,True,True
+S11844,CMR Institute of Technology,True,True,False
+S11845,CMR Institute of Technology,True,True,False
+S11846,CMR Institute of Technology,True,True,True
+S11847,Dayananda Sagar College of Engineering,True,False,False
+S11848,Dayananda Sagar College of Engineering,True,False,False
+S11849,New Horizon College of Engineering,True,True,False
+S11850,CMR Institute of Technology,True,False,False
+S11851,Dayananda Sagar College of Engineering,True,True,True
+S11852,PES University,True,True,True
+S11853,PES University,True,True,True
+S11854,PES University,True,True,False
+S11855,BMS Institute of Technology,True,True,True
+S11856,BMS Institute of Technology,True,True,False
+S11857,PES University,True,True,True
+S11858,RV College of Engineering,True,True,True
+S11859,CMR Institute of Technology,True,True,True
+S11860,PES University,True,True,True
+S11861,BMS Institute of Technology,True,True,True
+S11862,CMR Institute of Technology,True,True,True
+S11863,PES University,True,True,False
+S11864,Dayananda Sagar College of Engineering,False,True,False
+S11865,New Horizon College of Engineering,True,True,True
+S11866,PES University,True,True,True
+S11867,BMS Institute of Technology,True,True,False
+S11868,CMR Institute of Technology,True,True,True
+S11869,Dayananda Sagar College of Engineering,True,True,True
+S11870,PES University,True,True,False
+S11871,BMS Institute of Technology,True,True,True
+S11872,BMS Institute of Technology,False,False,False
+S11873,Dayananda Sagar College of Engineering,True,True,False
+S11874,RV College of Engineering,True,True,True
+S11875,New Horizon College of Engineering,True,True,True
+S11876,New Horizon College of Engineering,True,True,True
+S11877,PES University,True,True,True
+S11878,RV College of Engineering,True,True,True
+S11879,New Horizon College of Engineering,True,True,True
+S11880,Dayananda Sagar College of Engineering,True,True,False
+S11881,PES University,True,True,False
+S11882,Dayananda Sagar College of Engineering,True,True,True
+S11883,Dayananda Sagar College of Engineering,True,True,True
+S11884,CMR Institute of Technology,True,True,True
+S11885,New Horizon College of Engineering,True,True,False
+S11886,New Horizon College of Engineering,True,True,False
+S11887,CMR Institute of Technology,True,True,True
+S11888,RV College of Engineering,True,True,True
+S11889,Dayananda Sagar College of Engineering,True,True,True
+S11890,Dayananda Sagar College of Engineering,True,True,False
+S11891,PES University,True,True,False
+S11892,Dayananda Sagar College of Engineering,True,True,True
+S11893,CMR Institute of Technology,True,True,True
+S11894,CMR Institute of Technology,True,True,False
+S11895,RV College of Engineering,True,True,True
+S11896,Dayananda Sagar College of Engineering,True,False,False
+S11897,CMR Institute of Technology,True,True,True
+S11898,Dayananda Sagar College of Engineering,True,True,False
+S11899,RV College of Engineering,True,True,False
+S11900,New Horizon College of Engineering,True,True,True
+S11901,CMR Institute of Technology,True,True,True
+S11902,New Horizon College of Engineering,True,True,False
+S11903,RV College of Engineering,True,True,True
+S11904,BMS Institute of Technology,True,False,False
+S11905,PES University,True,True,True
+S11906,PES University,True,True,False
+S11907,RV College of Engineering,True,True,False
+S11908,Dayananda Sagar College of Engineering,True,False,False
+S11909,BMS Institute of Technology,True,False,False
+S11910,RV College of Engineering,True,True,False
+S11911,RV College of Engineering,True,True,True
+S11912,Dayananda Sagar College of Engineering,True,True,False
+S11913,BMS Institute of Technology,True,True,True
+S11914,BMS Institute of Technology,False,True,False
+S11915,PES University,True,True,False
+S11916,Dayananda Sagar College of Engineering,True,True,False
+S11917,RV College of Engineering,True,True,False
+S11918,RV College of Engineering,True,True,True
+S11919,Dayananda Sagar College of Engineering,True,True,False
+S11920,CMR Institute of Technology,True,True,True
+S11921,New Horizon College of Engineering,True,True,True
+S11922,CMR Institute of Technology,True,True,True
+S11923,New Horizon College of Engineering,True,True,False
+S11924,BMS Institute of Technology,True,False,False
+S11925,New Horizon College of Engineering,True,True,False
+S11926,CMR Institute of Technology,True,True,True
+S11927,New Horizon College of Engineering,True,True,False
+S11928,BMS Institute of Technology,True,True,True
+S11929,CMR Institute of Technology,True,True,False
+S11930,CMR Institute of Technology,True,True,True
+S11931,Dayananda Sagar College of Engineering,True,True,True
+S11932,Dayananda Sagar College of Engineering,True,True,False
+S11933,CMR Institute of Technology,True,True,False
+S11934,RV College of Engineering,True,True,True
+S11935,CMR Institute of Technology,True,True,False
+S11936,New Horizon College of Engineering,True,True,True
+S11937,BMS Institute of Technology,True,True,True
+S11938,PES University,False,True,False
+S11939,Dayananda Sagar College of Engineering,True,True,False
+S11940,PES University,True,True,False
+S11941,New Horizon College of Engineering,True,False,False
+S11942,CMR Institute of Technology,True,True,False
+S11943,PES University,True,True,True
+S11944,New Horizon College of Engineering,True,True,False
+S11945,BMS Institute of Technology,True,True,True
+S11946,CMR Institute of Technology,True,True,True
+S11947,CMR Institute of Technology,True,True,False
+S11948,RV College of Engineering,True,True,False
+S11949,CMR Institute of Technology,True,True,False
+S11950,PES University,True,True,False
+S11951,PES University,True,True,True
+S11952,BMS Institute of Technology,True,True,False
+S11953,PES University,False,True,False
+S11954,BMS Institute of Technology,True,True,False
+S11955,New Horizon College of Engineering,True,True,False
+S11956,RV College of Engineering,True,True,True
+S11957,RV College of Engineering,True,True,True
+S11958,Dayananda Sagar College of Engineering,True,True,False
+S11959,PES University,False,True,False
+S11960,RV College of Engineering,True,False,False
+S11961,RV College of Engineering,True,True,False
+S11962,CMR Institute of Technology,True,True,True
+S11963,New Horizon College of Engineering,True,True,True
+S11964,RV College of Engineering,True,True,True
+S11965,New Horizon College of Engineering,True,True,True
+S11966,Dayananda Sagar College of Engineering,True,True,True
+S11967,CMR Institute of Technology,True,True,True
+S11968,RV College of Engineering,True,True,True
+S11969,RV College of Engineering,True,True,False
+S11970,RV College of Engineering,True,True,True
+S11971,Dayananda Sagar College of Engineering,True,True,True
+S11972,New Horizon College of Engineering,True,True,True
+S11973,Dayananda Sagar College of Engineering,False,True,False
+S11974,New Horizon College of Engineering,True,True,True
+S11975,PES University,True,True,True
+S11976,CMR Institute of Technology,True,True,True
+S11977,PES University,True,True,True
+S11978,BMS Institute of Technology,True,True,True
+S11979,CMR Institute of Technology,True,True,True
+S11980,BMS Institute of Technology,True,True,True
+S11981,BMS Institute of Technology,True,True,False
+S11982,Dayananda Sagar College of Engineering,True,True,False
+S11983,CMR Institute of Technology,True,True,True
+S11984,CMR Institute of Technology,True,True,True
+S11985,Dayananda Sagar College of Engineering,True,True,False
+S11986,Dayananda Sagar College of Engineering,True,True,True
+S11987,PES University,True,True,False
+S11988,New Horizon College of Engineering,False,True,False
+S11989,CMR Institute of Technology,True,False,False
+S11990,PES University,True,False,False
+S11991,New Horizon College of Engineering,True,True,False
+S11992,PES University,True,True,True
+S11993,RV College of Engineering,True,True,True
+S11994,PES University,True,True,False
+S11995,PES University,True,False,False
+S11996,PES University,True,True,True
+S11997,Dayananda Sagar College of Engineering,True,True,True
+S11998,CMR Institute of Technology,True,True,False
+S11999,PES University,True,True,True
+S12000,RV College of Engineering,False,True,False
+S12001,Dayananda Sagar College of Engineering,True,True,False
+S12002,BMS Institute of Technology,True,False,False
+S12003,New Horizon College of Engineering,True,True,False
+S12004,PES University,True,True,False
+S12005,PES University,True,True,True
+S12006,New Horizon College of Engineering,True,True,False
+S12007,BMS Institute of Technology,True,True,True
+S12008,BMS Institute of Technology,True,True,True
+S12009,CMR Institute of Technology,True,True,True
+S12010,PES University,True,True,True
+S12011,New Horizon College of Engineering,True,True,True
+S12012,BMS Institute of Technology,True,True,True
+S12013,PES University,True,True,True
+S12014,New Horizon College of Engineering,True,True,False
+S12015,Dayananda Sagar College of Engineering,True,False,False
+S12016,RV College of Engineering,True,True,True
+S12017,CMR Institute of Technology,True,True,False
+S12018,RV College of Engineering,True,True,True
+S12019,New Horizon College of Engineering,True,True,True
+S12020,New Horizon College of Engineering,True,True,True
+S12021,New Horizon College of Engineering,True,True,False
+S12022,New Horizon College of Engineering,True,True,False
+S12023,New Horizon College of Engineering,True,True,True
+S12024,BMS Institute of Technology,True,True,True
+S12025,New Horizon College of Engineering,True,True,False
+S12026,CMR Institute of Technology,True,True,False
+S12027,CMR Institute of Technology,True,True,True
+S12028,RV College of Engineering,True,True,True
+S12029,CMR Institute of Technology,False,True,False
+S12030,PES University,True,True,True
+S12031,New Horizon College of Engineering,True,True,False
+S12032,PES University,True,True,True
+S12033,New Horizon College of Engineering,True,False,False
+S12034,PES University,True,True,False
+S12035,RV College of Engineering,True,True,True
+S12036,CMR Institute of Technology,True,False,False
+S12037,Dayananda Sagar College of Engineering,True,True,False
+S12038,CMR Institute of Technology,True,True,True
+S12039,RV College of Engineering,True,True,True
+S12040,RV College of Engineering,True,True,False
+S12041,New Horizon College of Engineering,True,True,True
+S12042,BMS Institute of Technology,True,True,True
+S12043,RV College of Engineering,True,True,True
+S12044,CMR Institute of Technology,True,True,True
+S12045,CMR Institute of Technology,True,True,True
+S12046,Dayananda Sagar College of Engineering,True,True,True
+S12047,Dayananda Sagar College of Engineering,True,True,True
+S12048,New Horizon College of Engineering,True,True,True
+S12049,PES University,True,True,False
+S12050,RV College of Engineering,True,True,True
+S12051,New Horizon College of Engineering,True,False,False
+S12052,Dayananda Sagar College of Engineering,True,True,True
+S12053,RV College of Engineering,True,True,False
+S12054,RV College of Engineering,True,True,True
+S12055,RV College of Engineering,False,True,False
+S12056,RV College of Engineering,True,True,False
+S12057,New Horizon College of Engineering,True,True,True
+S12058,RV College of Engineering,True,True,True
+S12059,Dayananda Sagar College of Engineering,True,True,False
+S12060,New Horizon College of Engineering,True,True,True
+S12061,RV College of Engineering,True,True,True
+S12062,Dayananda Sagar College of Engineering,True,True,True
+S12063,New Horizon College of Engineering,True,True,False
+S12064,New Horizon College of Engineering,False,False,False
+S12065,CMR Institute of Technology,True,True,True
+S12066,CMR Institute of Technology,True,False,False
+S12067,BMS Institute of Technology,True,True,True
+S12068,PES University,True,True,True
+S12069,CMR Institute of Technology,True,True,False
+S12070,RV College of Engineering,True,False,False
+S12071,RV College of Engineering,True,True,True
+S12072,Dayananda Sagar College of Engineering,True,True,True
+S12073,PES University,True,True,False
+S12074,CMR Institute of Technology,True,True,False
+S12075,BMS Institute of Technology,True,True,True
+S12076,BMS Institute of Technology,False,True,False
+S12077,Dayananda Sagar College of Engineering,True,True,True
+S12078,Dayananda Sagar College of Engineering,True,True,False
+S12079,Dayananda Sagar College of Engineering,True,True,True
+S12080,New Horizon College of Engineering,True,True,False
+S12081,RV College of Engineering,True,True,False
+S12082,PES University,True,True,False
+S12083,New Horizon College of Engineering,True,True,True
+S12084,RV College of Engineering,True,True,True
+S12085,CMR Institute of Technology,True,False,False
+S12086,Dayananda Sagar College of Engineering,True,True,True
+S12087,BMS Institute of Technology,True,False,False
+S12088,Dayananda Sagar College of Engineering,True,True,True
+S12089,CMR Institute of Technology,True,True,True
+S12090,Dayananda Sagar College of Engineering,True,True,True
+S12091,New Horizon College of Engineering,True,True,True
+S12092,CMR Institute of Technology,True,True,True
+S12093,BMS Institute of Technology,True,True,True
+S12094,Dayananda Sagar College of Engineering,True,True,False
+S12095,New Horizon College of Engineering,True,False,False
+S12096,RV College of Engineering,True,True,True
+S12097,Dayananda Sagar College of Engineering,True,True,True
+S12098,PES University,True,True,True
+S12099,Dayananda Sagar College of Engineering,True,True,False
+S12100,Dayananda Sagar College of Engineering,True,False,False
+S12101,CMR Institute of Technology,True,True,True
+S12102,CMR Institute of Technology,True,True,False
+S12103,CMR Institute of Technology,True,True,True
+S12104,New Horizon College of Engineering,True,True,False
+S12105,Dayananda Sagar College of Engineering,True,True,False
+S12106,RV College of Engineering,True,True,False
+S12107,BMS Institute of Technology,True,True,True
+S12108,PES University,True,True,True
+S12109,BMS Institute of Technology,True,False,False
+S12110,BMS Institute of Technology,True,True,True
+S12111,New Horizon College of Engineering,True,True,True
+S12112,BMS Institute of Technology,True,True,True
+S12113,CMR Institute of Technology,True,True,True
+S12114,RV College of Engineering,False,False,False
+S12115,New Horizon College of Engineering,True,True,True
+S12116,BMS Institute of Technology,True,True,True
+S12117,CMR Institute of Technology,True,True,True
+S12118,CMR Institute of Technology,True,True,True
+S12119,PES University,True,True,True
+S12120,CMR Institute of Technology,True,True,True
+S12121,CMR Institute of Technology,True,True,True
+S12122,New Horizon College of Engineering,True,True,True
+S12123,New Horizon College of Engineering,True,True,True
+S12124,New Horizon College of Engineering,True,True,True
+S12125,CMR Institute of Technology,True,True,True
+S12126,Dayananda Sagar College of Engineering,True,True,True
+S12127,New Horizon College of Engineering,True,True,True
+S12128,New Horizon College of Engineering,True,True,True
+S12129,CMR Institute of Technology,True,True,True
+S12130,New Horizon College of Engineering,True,False,False
+S12131,Dayananda Sagar College of Engineering,True,True,True
+S12132,Dayananda Sagar College of Engineering,True,True,False
+S12133,New Horizon College of Engineering,True,True,True
+S12134,New Horizon College of Engineering,True,False,False
+S12135,CMR Institute of Technology,True,True,True
+S12136,BMS Institute of Technology,True,True,False
+S12137,BMS Institute of Technology,True,True,False
+S12138,BMS Institute of Technology,True,True,True
+S12139,BMS Institute of Technology,True,True,False
+S12140,CMR Institute of Technology,True,True,True
+S12141,Dayananda Sagar College of Engineering,True,True,True
+S12142,New Horizon College of Engineering,True,True,True
+S12143,Dayananda Sagar College of Engineering,True,True,False
+S12144,CMR Institute of Technology,True,True,True
+S12145,PES University,True,True,False
+S12146,CMR Institute of Technology,True,True,True
+S12147,RV College of Engineering,True,True,True
+S12148,BMS Institute of Technology,True,True,False
+S12149,BMS Institute of Technology,True,True,True
+S12150,CMR Institute of Technology,True,False,False
+S12151,RV College of Engineering,True,True,True
+S12152,CMR Institute of Technology,True,True,False
+S12153,CMR Institute of Technology,True,True,False
+S12154,CMR Institute of Technology,True,True,True
+S12155,PES University,True,False,False
+S12156,PES University,True,True,False
+S12157,CMR Institute of Technology,True,True,True
+S12158,Dayananda Sagar College of Engineering,True,True,False
+S12159,New Horizon College of Engineering,True,True,True
+S12160,PES University,True,True,True
+S12161,New Horizon College of Engineering,True,True,False
+S12162,RV College of Engineering,True,True,False
+S12163,New Horizon College of Engineering,True,True,True
+S12164,CMR Institute of Technology,True,True,True
+S12165,Dayananda Sagar College of Engineering,True,False,False
+S12166,BMS Institute of Technology,True,True,True
+S12167,CMR Institute of Technology,True,True,True
+S12168,PES University,True,True,True
+S12169,BMS Institute of Technology,True,True,True
+S12170,RV College of Engineering,False,False,False
+S12171,New Horizon College of Engineering,True,True,False
+S12172,RV College of Engineering,True,True,True
+S12173,CMR Institute of Technology,True,True,False
+S12174,CMR Institute of Technology,True,True,False
+S12175,PES University,True,True,True
+S12176,Dayananda Sagar College of Engineering,True,True,False
+S12177,New Horizon College of Engineering,True,True,True
+S12178,PES University,True,True,False
+S12179,New Horizon College of Engineering,True,True,True
+S12180,Dayananda Sagar College of Engineering,True,True,False
+S12181,PES University,False,True,False
+S12182,New Horizon College of Engineering,True,True,True
+S12183,CMR Institute of Technology,True,True,False
+S12184,Dayananda Sagar College of Engineering,True,True,True
+S12185,BMS Institute of Technology,True,True,True
+S12186,PES University,True,False,False
+S12187,CMR Institute of Technology,True,True,True
+S12188,BMS Institute of Technology,True,True,False
+S12189,Dayananda Sagar College of Engineering,True,True,False
+S12190,CMR Institute of Technology,True,True,True
+S12191,PES University,True,True,True
+S12192,RV College of Engineering,True,True,True
+S12193,CMR Institute of Technology,True,True,False
+S12194,BMS Institute of Technology,True,True,False
+S12195,RV College of Engineering,True,True,True
+S12196,BMS Institute of Technology,True,True,False
+S12197,PES University,True,True,False
+S12198,Dayananda Sagar College of Engineering,True,True,False
+S12199,PES University,True,True,True
+S12200,Dayananda Sagar College of Engineering,True,True,True
+S12201,BMS Institute of Technology,True,True,True
+S12202,New Horizon College of Engineering,False,True,False
+S12203,Dayananda Sagar College of Engineering,True,True,False
+S12204,Dayananda Sagar College of Engineering,True,True,True
+S12205,CMR Institute of Technology,False,True,False
+S12206,RV College of Engineering,True,False,False
+S12207,PES University,True,True,True
+S12208,BMS Institute of Technology,True,True,False
+S12209,CMR Institute of Technology,True,True,True
+S12210,BMS Institute of Technology,True,True,True
+S12211,CMR Institute of Technology,True,False,False
+S12212,CMR Institute of Technology,True,True,True
+S12213,BMS Institute of Technology,True,True,True
+S12214,New Horizon College of Engineering,True,True,False
+S12215,New Horizon College of Engineering,True,True,True
+S12216,BMS Institute of Technology,True,False,False
+S12217,Dayananda Sagar College of Engineering,True,True,True
+S12218,CMR Institute of Technology,True,True,False
+S12219,PES University,True,True,True
+S12220,RV College of Engineering,True,True,False
+S12221,PES University,True,True,False
+S12222,RV College of Engineering,True,False,False
+S12223,CMR Institute of Technology,True,True,True
+S12224,BMS Institute of Technology,True,True,True
+S12225,BMS Institute of Technology,True,True,True
+S12226,Dayananda Sagar College of Engineering,True,True,False
+S12227,Dayananda Sagar College of Engineering,True,True,True
+S12228,New Horizon College of Engineering,True,True,False
+S12229,PES University,True,True,True
+S12230,New Horizon College of Engineering,True,True,False
+S12231,RV College of Engineering,True,True,False
+S12232,BMS Institute of Technology,True,True,True
+S12233,RV College of Engineering,True,True,True
+S12234,CMR Institute of Technology,True,False,False
+S12235,New Horizon College of Engineering,True,True,True
+S12236,New Horizon College of Engineering,True,True,False
+S12237,RV College of Engineering,True,True,True
+S12238,Dayananda Sagar College of Engineering,True,True,True
+S12239,Dayananda Sagar College of Engineering,True,True,True
+S12240,CMR Institute of Technology,True,False,False
+S12241,RV College of Engineering,True,True,True
+S12242,Dayananda Sagar College of Engineering,True,True,False
+S12243,Dayananda Sagar College of Engineering,True,True,True
+S12244,New Horizon College of Engineering,True,False,False
+S12245,New Horizon College of Engineering,True,True,True
+S12246,Dayananda Sagar College of Engineering,False,False,False
+S12247,RV College of Engineering,True,True,True
+S12248,PES University,True,True,True
+S12249,Dayananda Sagar College of Engineering,True,True,True
+S12250,CMR Institute of Technology,True,True,False
+S12251,RV College of Engineering,True,True,True
+S12252,RV College of Engineering,True,True,True
+S12253,PES University,True,True,False
+S12254,BMS Institute of Technology,True,True,True
+S12255,CMR Institute of Technology,True,True,False
+S12256,Dayananda Sagar College of Engineering,True,True,True
+S12257,RV College of Engineering,True,True,True
+S12258,PES University,True,True,True
+S12259,PES University,True,True,False
+S12260,RV College of Engineering,True,True,True
+S12261,RV College of Engineering,True,True,True
+S12262,CMR Institute of Technology,True,True,False
+S12263,BMS Institute of Technology,True,True,True
+S12264,New Horizon College of Engineering,True,True,False
+S12265,New Horizon College of Engineering,True,True,True
+S12266,BMS Institute of Technology,True,True,True
+S12267,PES University,True,True,True
+S12268,PES University,True,True,True
+S12269,Dayananda Sagar College of Engineering,True,True,True
+S12270,PES University,True,True,False
+S12271,PES University,True,True,True
+S12272,New Horizon College of Engineering,True,True,True
+S12273,New Horizon College of Engineering,True,True,False
+S12274,Dayananda Sagar College of Engineering,True,True,False
+S12275,New Horizon College of Engineering,True,True,False
+S12276,BMS Institute of Technology,True,False,False
+S12277,CMR Institute of Technology,True,True,False
+S12278,CMR Institute of Technology,True,True,True
+S12279,BMS Institute of Technology,True,True,False
+S12280,Dayananda Sagar College of Engineering,True,True,True
+S12281,BMS Institute of Technology,True,True,True
+S12282,New Horizon College of Engineering,True,True,True
+S12283,PES University,True,True,True
+S12284,New Horizon College of Engineering,True,True,True
+S12285,PES University,True,True,True
+S12286,New Horizon College of Engineering,True,True,True
+S12287,Dayananda Sagar College of Engineering,True,True,True
+S12288,BMS Institute of Technology,True,True,True
+S12289,Dayananda Sagar College of Engineering,True,True,True
+S12290,BMS Institute of Technology,True,True,False
+S12291,Dayananda Sagar College of Engineering,True,True,False
+S12292,New Horizon College of Engineering,True,True,False
+S12293,Dayananda Sagar College of Engineering,True,True,True
+S12294,PES University,True,False,False
+S12295,RV College of Engineering,True,True,True
+S12296,Dayananda Sagar College of Engineering,True,True,False
+S12297,Dayananda Sagar College of Engineering,False,True,False
+S12298,BMS Institute of Technology,False,True,False
+S12299,PES University,True,True,False
+S12300,Dayananda Sagar College of Engineering,True,True,False
+S12301,Dayananda Sagar College of Engineering,True,True,True
+S12302,Dayananda Sagar College of Engineering,True,True,True
+S12303,CMR Institute of Technology,True,True,True
+S12304,PES University,True,True,False
+S12305,New Horizon College of Engineering,True,True,True
+S12306,BMS Institute of Technology,True,True,True
+S12307,BMS Institute of Technology,True,True,False
+S12308,RV College of Engineering,True,True,True
+S12309,New Horizon College of Engineering,True,False,False
+S12310,RV College of Engineering,True,True,True
+S12311,BMS Institute of Technology,True,True,True
+S12312,BMS Institute of Technology,True,True,True
+S12313,CMR Institute of Technology,True,True,True
+S12314,CMR Institute of Technology,True,True,True
+S12315,Dayananda Sagar College of Engineering,True,True,True
+S12316,BMS Institute of Technology,True,True,True
+S12317,RV College of Engineering,True,True,True
+S12318,Dayananda Sagar College of Engineering,True,True,True
+S12319,CMR Institute of Technology,True,True,False
+S12320,CMR Institute of Technology,True,True,False
+S12321,RV College of Engineering,True,True,True
+S12322,BMS Institute of Technology,True,False,False
+S12323,CMR Institute of Technology,True,True,False
+S12324,Dayananda Sagar College of Engineering,True,True,True
+S12325,CMR Institute of Technology,True,True,True
+S12326,Dayananda Sagar College of Engineering,True,True,False
+S12327,CMR Institute of Technology,True,True,True
+S12328,CMR Institute of Technology,True,True,True
+S12329,RV College of Engineering,True,True,False
+S12330,BMS Institute of Technology,True,True,False
+S12331,Dayananda Sagar College of Engineering,True,True,False
+S12332,New Horizon College of Engineering,True,True,True
+S12333,RV College of Engineering,True,True,False
+S12334,BMS Institute of Technology,True,True,False
+S12335,RV College of Engineering,True,True,True
+S12336,Dayananda Sagar College of Engineering,True,True,True
+S12337,New Horizon College of Engineering,True,True,True
+S12338,RV College of Engineering,False,True,False
+S12339,Dayananda Sagar College of Engineering,False,True,False
+S12340,RV College of Engineering,True,True,True
+S12341,CMR Institute of Technology,True,True,True
+S12342,Dayananda Sagar College of Engineering,True,True,False
+S12343,CMR Institute of Technology,True,True,True
+S12344,CMR Institute of Technology,True,True,False
+S12345,Dayananda Sagar College of Engineering,True,True,True
+S12346,RV College of Engineering,True,True,False
+S12347,RV College of Engineering,True,True,True
+S12348,BMS Institute of Technology,True,True,False
+S12349,BMS Institute of Technology,True,True,True
+S12350,Dayananda Sagar College of Engineering,True,True,True
+S12351,CMR Institute of Technology,True,True,False
+S12352,CMR Institute of Technology,True,True,False
+S12353,New Horizon College of Engineering,True,True,True
+S12354,BMS Institute of Technology,True,True,True
+S12355,PES University,True,True,False
+S12356,BMS Institute of Technology,True,True,True
+S12357,CMR Institute of Technology,True,True,True
+S12358,Dayananda Sagar College of Engineering,True,True,True
+S12359,BMS Institute of Technology,True,True,True
+S12360,PES University,False,False,False
+S12361,PES University,True,True,True
+S12362,Dayananda Sagar College of Engineering,False,True,False
+S12363,Dayananda Sagar College of Engineering,True,True,False
+S12364,BMS Institute of Technology,True,True,False
+S12365,PES University,True,True,True
+S12366,BMS Institute of Technology,True,True,False
+S12367,CMR Institute of Technology,True,True,False
+S12368,PES University,True,True,True
+S12369,New Horizon College of Engineering,True,True,True
+S12370,BMS Institute of Technology,True,True,True
+S12371,PES University,True,True,True
+S12372,Dayananda Sagar College of Engineering,True,False,False
+S12373,BMS Institute of Technology,True,True,False
+S12374,BMS Institute of Technology,True,True,True
+S12375,RV College of Engineering,True,True,False
+S12376,BMS Institute of Technology,True,True,False
+S12377,PES University,True,True,True
+S12378,CMR Institute of Technology,True,True,True
+S12379,BMS Institute of Technology,True,True,True
+S12380,PES University,True,True,True
+S12381,CMR Institute of Technology,True,True,True
+S12382,PES University,True,True,True
+S12383,RV College of Engineering,True,True,True
+S12384,PES University,True,True,False
+S12385,PES University,True,True,True
+S12386,CMR Institute of Technology,True,True,False
+S12387,BMS Institute of Technology,True,True,True
+S12388,BMS Institute of Technology,True,True,True
+S12389,New Horizon College of Engineering,True,True,True
+S12390,CMR Institute of Technology,True,True,True
+S12391,PES University,True,True,False
+S12392,New Horizon College of Engineering,True,True,True
+S12393,PES University,True,True,True
+S12394,Dayananda Sagar College of Engineering,True,True,True
+S12395,New Horizon College of Engineering,True,True,True
+S12396,New Horizon College of Engineering,True,True,True
+S12397,BMS Institute of Technology,True,True,False
+S12398,New Horizon College of Engineering,True,False,False
+S12399,BMS Institute of Technology,True,False,False

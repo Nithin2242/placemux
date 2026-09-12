@@ -1,0 +1,7 @@
+week,api_availability_pct,p95_latency_ms,data_freshness_min,model_drift_psi,pipeline_success_pct
+01 Aug,99.69,375,25.1,0.068,98.83
+08 Aug,99.7,427,19.6,0.081,98.76
+15 Aug,99.75,428,17.1,0.08,99.05
+22 Aug,99.91,384,23.9,0.084,99.48
+29 Aug,99.78,370,21.1,0.084,98.28
+05 Sep,99.7,371,25.5,0.057,98.45
