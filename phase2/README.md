@@ -1,11 +1,25 @@
-# Day 20 - Portals Integration & Dry Run
+# Task 21 - DPDP Consent & Security Foundations
 
-College-value dashboard demonstration for PlaceMux Phase 2.
+## Task focus
 
-## Reproduce
-python college_dashboard_demo.py
+Apply compliance-aware reporting governance.
 
-Open `college_dashboard.html` locally.
+## Deliverables
 
-## Data note
-All demonstration records are synthetic and intentionally labeled as such. No production PlaceMux performance is claimed.
+- `reporting_governance.md` - reporting governance framework, privacy, consent and security controls
+- `compliance_reporting_plan.md` - operational lifecycle and control matrix
+- `reporting_metric_catalog.md` - governed metric certification template
+- `reporting_governance_controls.csv` - machine-readable governance control catalog
+- `reporting_governance_demo.py` - deterministic documentation/control validation
+- `reporting_governance_validation.json` - validation output
+- `task21_submission_answer.md` / `task21_written_answer.txt` - written submission
+
+## Reproduction
+
+```bash
+python phase2/reporting_governance_demo.py
+```
+
+## Scope note
+
+The task brief asks for reporting governance. This is a governance/design implementation rather than a production compliance audit. The validation script checks the governance control catalog and does not claim legal compliance or production security certification.

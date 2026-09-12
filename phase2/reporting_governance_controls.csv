@@ -1,0 +1,13 @@
+control_id,domain,control_name,required,evidence,status
+GOV-001,Governance,Metric definition and formula,yes,Metric catalog,CHECKED
+GOV-002,Governance,Source lineage documented,yes,Lineage metadata,CHECKED
+GOV-003,Data Quality,Completeness validation,yes,Validation output,CHECKED
+GOV-004,Data Quality,Uniqueness validation,yes,Validation output,CHECKED
+GOV-005,Data Quality,Referential integrity,yes,Validation output,CHECKED
+GOV-006,Freshness,Refresh SLA and status,yes,Dashboard metadata,CHECKED
+GOV-007,Privacy,Data minimization,yes,Schema/privacy review,CHECKED
+GOV-008,Privacy,Purpose and consent controls,yes,Consent metadata/control,CHECKED
+GOV-009,Security,Role-based access,yes,Access matrix,CHECKED
+GOV-010,Security,Audit logging,yes,Audit record,CHECKED
+GOV-011,Change,Metric versioning and approval,yes,Change record,CHECKED
+GOV-012,Reconciliation,Source-to-report reconciliation,yes,Reconciliation output,CHECKED
