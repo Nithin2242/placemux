@@ -1,0 +1,7 @@
+college_id,college,city,registered_students,eligible_students,profile_completion_rate,students_applied,interview_stage_count,offers,placed_students,placement_rate_pct,avg_package_lpa,median_package_lpa,companies_engaged,drive_events,successful_outcomes
+COL003,PES University,Bangalore,418,270,93.1,237,238,82,42,15.6,10.17,10.4,15,42,40
+COL001,BMS Institute of Technology,Bangalore,418,287,94.3,243,214,74,36,12.5,10.47,9.9,14,41,27
+COL005,New Horizon College of Engineering,Bangalore,394,265,93.1,227,217,82,29,10.9,9.55,9.5,11,30,33
+COL002,RV College of Engineering,Bangalore,368,245,89.7,202,171,63,25,10.2,10.99,11.45,15,37,37
+COL006,CMR Institute of Technology,Bangalore,393,259,90.8,217,215,71,25,9.7,8.86,8.8,15,43,42
+COL004,Dayananda Sagar College of Engineering,Bangalore,409,271,92.9,223,218,74,22,8.1,9.99,9.8,14,27,16

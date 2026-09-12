@@ -1,0 +1,12 @@
+{
+  "duplicate_student_ids": 0,
+  "missing_student_college_ids": 0,
+  "ineligible_applications": 0,
+  "duplicate_application_ids": 0,
+  "missing_application_student_ids": 0,
+  "invalid_application_stages": 0,
+  "placed_without_package": 0,
+  "negative_packages": 0,
+  "college_kpi_rows": 6,
+  "overall_status": "PASS"
+}
