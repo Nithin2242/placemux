@@ -1,25 +1,18 @@
-# Task 21 - DPDP Consent & Security Foundations
+# PlaceMux Task 22 - A/B Experimentation & Data-Subject Rights
 
-## Task focus
+## Run
 
-Apply compliance-aware reporting governance.
-
-## Deliverables
-
-- `reporting_governance.md` - reporting governance framework, privacy, consent and security controls
-- `compliance_reporting_plan.md` - operational lifecycle and control matrix
-- `reporting_metric_catalog.md` - governed metric certification template
-- `reporting_governance_controls.csv` - machine-readable governance control catalog
-- `reporting_governance_demo.py` - deterministic documentation/control validation
-- `reporting_governance_validation.json` - validation output
-- `task21_submission_answer.md` / `task21_written_answer.txt` - written submission
-
-## Reproduction
+From the project root:
 
 ```bash
-python phase2/reporting_governance_demo.py
+python phase2/ab_experiment_demo.py
 ```
 
-## Scope note
+The script generates:
+- `ab_experiment_events_demo.csv`
+- `ab_experiment_results.csv`
+- `ab_experiment_validation.json`
+- `ab_experiment_dashboard.html`
 
-The task brief asks for reporting governance. This is a governance/design implementation rather than a production compliance audit. The validation script checks the governance control catalog and does not claim legal compliance or production security certification.
+## Scope
+Synthetic dry run of the experimentation framework. It validates stable assignment, consent/right exclusions, exposure integrity, analysis arm coverage, and basic statistical comparison. It is not a production experiment result or legal/privacy certification.
