@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>PlaceMux Phase 3 - Task 1</title>
+<style>
+body{font-family:Inter,Arial,sans-serif;margin:0;background:#f5f7fb;color:#18243a} .wrap{max-width:1400px;margin:0 auto;padding:36px}
+h1{margin:0 0 8px;font-size:34px} h2{font-size:22px;margin:0 0 18px} .sub{color:#64748b;margin-bottom:22px} .tabs{display:flex;gap:10px;margin-bottom:24px} button{border:0;padding:12px 18px;border-radius:10px;background:#e7ebf4;font-weight:700;cursor:pointer} button.active{background:#4b3be4;color:white}
+.tab{display:none} .tab.active{display:block} .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px} .card{background:white;border:1px solid #e3e8f2;border-radius:16px;padding:20px;box-shadow:0 2px 8px rgba(20,35,60,.04)} .label{color:#64748b;font-size:14px} .value{font-size:30px;font-weight:800;margin-top:7px} .good{color:#168a5b} .warn{color:#b36c00} .muted{color:#718096;font-size:13px;margin-top:5px}
+.panel{margin-top:18px;background:white;border:1px solid #e3e8f2;border-radius:16px;padding:22px} table{width:100%;border-collapse:collapse} th,td{padding:12px;border-bottom:1px solid #edf0f5;text-align:left} th{color:#64748b;font-size:13px} .two{display:grid;grid-template-columns:1.2fr 1fr;gap:18px} .bar{height:12px;background:#e8ecf5;border-radius:999px;overflow:hidden} .fill{height:100%;background:#4b3be4}
+.note{margin-top:18px;font-size:13px;color:#64748b} ol{padding-left:20px} li{margin:12px 0} .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#e8f7ef;color:#168a5b;font-weight:700;font-size:12px}
+@media(max-width:900px){.grid,.two{grid-template-columns:1fr 1fr}} @media(max-width:600px){.wrap{padding:18px}.grid,.two{grid-template-columns:1fr}}
+</style></head><body><div class='wrap'>
+<h1>PlaceMux Phase 3 - Post-Launch Performance</h1><div class='sub'>Task 1 · real-data substitution · funnel/revenue/retention/quality · evidence-backed decisions</div>
+<div class='tabs'><button class='active' data-tab='overview'>Overview</button><button data-tab='problems'>Biggest Problems</button><button data-tab='backlog'>Analytics Backlog</button></div>
+<section id='overview' class='tab active'>
+<div class='grid'>
+<div class='card'><div class='label'>Raw transaction lines</div><div class='value'>541,909</div></div>
+<div class='card'><div class='label'>Clean purchase lines</div><div class='value'>397,884</div><div class='muted'>73.4% retained</div></div>
+<div class='card'><div class='label'>Identified customers</div><div class='value'>4,338</div></div>
+<div class='card'><div class='label'>Retained revenue</div><div class='value'>£8,911,407.90</div></div>
+</div>
+<div class='grid' style='margin-top:16px'>
+<div class='card'><div class='label'>Clean invoices</div><div class='value'>18,532</div></div>
+<div class='card'><div class='label'>Repeat-purchase continuity</div><div class='value'>76.6%</div><div class='muted'>14,194 invoices had a later invoice</div></div>
+<div class='card'><div class='label'>Mean invoice revenue</div><div class='value'>£480.87</div><div class='muted'>95% bootstrap CI £459.37 - £507.66</div></div>
+<div class='card'><div class='label'>Top 10 customer revenue share</div><div class='value'>17.3%</div></div>
+</div>
+<div class='two'><div class='panel'><h2>Quality control</h2>
+<p>Missing CustomerID: <b>135,080</b> (24.93%)</p><div class='bar'><div class='fill' style='width:24.9%'></div></div>
+<p>Cancellation lines: <b>9,288</b> (1.71%)</p><div class='bar'><div class='fill' style='width:8.6%'></div></div>
+<p>Quantity ≤ 0: <b>10,624</b> (1.96%)</p><div class='bar'><div class='fill' style='width:9.8%'></div></div>
+<p>UnitPrice ≤ 0: <b>2,517</b> (0.46%)</p><div class='bar'><div class='fill' style='width:4.6%'></div></div>
+</div>
+<div class='panel'><h2>Source & validation</h2><div class='pill'>PASS</div><p>Source: UCI Online Retail, real external transaction dataset.</p><p>Coverage: 18,532 invoices, 4,338 identified customers, 3,665 products, 37 countries.</p><p>Revenue reconciliation to invoice aggregation: PASS.</p><p class='note'>This is not PlaceMux production telemetry. It is a documented real-data substitution because the task brief supplies no production dataset.</p></div></div>
+<div class='panel'><h2>Monthly revenue profile</h2><div id='monthly'></div><div class='muted'>Peak month: 2011-11 at £1,161,817.38</div></div>
+</section>
+<section id='problems' class='tab'><div class='panel'><h2>Ranked evidence-backed problems</h2><p class='muted'>Ranked by affected source rows. Issue counts can overlap; they are not additive.</p><table><thead><tr><th>Rank</th><th>Problem</th><th>Affected rows</th><th>Share of raw rows</th><th>Priority</th></tr></thead><tbody><tr><td>1</td><td><b>Customer traceability gap</b><div class='muted'>Missing CustomerID</div></td><td>135,080</td><td>24.93%</td><td><b>P0</b></td></tr><tr><td>2</td><td><b>Transaction-state contamination</b><div class='muted'>Cancellation invoice lines</div></td><td>9,288</td><td>1.71%</td><td><b>P0</b></td></tr><tr><td>3</td><td><b>Invalid quantity states</b><div class='muted'>Quantity <= 0</div></td><td>10,624</td><td>1.96%</td><td><b>P1</b></td></tr><tr><td>4</td><td><b>Invalid price states</b><div class='muted'>UnitPrice <= 0</div></td><td>2,517</td><td>0.46%</td><td><b>P1</b></td></tr></tbody></table></div></section>
+<section id='backlog' class='tab'><div class='panel'><h2>Phase-3 analytics backlog tied to decisions</h2><ol>
+<li><b>P0 - Customer identity completeness.</b> Build a guest-vs-known customer attribution layer. Decision: can retention and customer value reporting be trusted without mixing anonymous demand into customer cohorts?</li>
+<li><b>P0 - Transaction-state semantics.</b> Split sale, cancellation and return states into a governed event model. Decision: are reported revenue and order counts aligned with actual commercial states?</li>
+<li><b>P1 - Numeric data-quality gates.</b> Add pre-publication validation for non-positive quantity and price. Decision: should a batch be published, quarantined or flagged for review?</li>
+<li><b>P1 - Retention cohort model.</b> Move from invoice-level repeat continuity to cohort-based month-1, month-3 and month-6 retention. Decision: which acquisition cohorts deserve intervention?</li>
+<li><b>P2 - Customer concentration monitoring.</b> Track top-customer revenue share and concentration drift over time. Decision: is revenue becoming overly dependent on a small customer set?</li>
+</ol></div></section>
+<div class='note'>Reproduction: python phase3/launch_performance_analysis.py --source data/online_retail/Online Retail.xlsx · No synthetic PlaceMux data is used.</div>
+</div><script>
+const monthly=[{"Month": "2010-12", "LineTotal": 572713.89}, {"Month": "2011-01", "LineTotal": 569445.04}, {"Month": "2011-02", "LineTotal": 447137.35}, {"Month": "2011-03", "LineTotal": 595500.76}, {"Month": "2011-04", "LineTotal": 469200.361}, {"Month": "2011-05", "LineTotal": 678594.56}, {"Month": "2011-06", "LineTotal": 661213.6900000001}, {"Month": "2011-07", "LineTotal": 600091.011}, {"Month": "2011-08", "LineTotal": 645343.9}, {"Month": "2011-09", "LineTotal": 952838.382}, {"Month": "2011-10", "LineTotal": 1039318.79}, {"Month": "2011-11", "LineTotal": 1161817.3800000001}, {"Month": "2011-12", "LineTotal": 518192.79}];
+const el=document.getElementById('monthly'); if(monthly.length){const max=Math.max(...monthly.map(x=>x.LineTotal));el.innerHTML=monthly.map(x=>`<div style="margin:8px 0"><div style="display:flex;justify-content:space-between;font-size:13px"><span>${x.Month}</span><span>£${Number(x.LineTotal).toLocaleString(undefined,{maximumFractionDigits:0})}</span></div><div class="bar"><div class="fill" style="width:${Math.max(2,100*x.LineTotal/max)}%"></div></div></div>`).join('')}
+document.querySelectorAll('button[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('button[data-tab]').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById(b.dataset.tab).classList.add('active')});
+</script></body></html>

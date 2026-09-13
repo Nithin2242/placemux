@@ -1,0 +1,5 @@
+rank,problem,metric,affected_rows,affected_share_pct,decision,priority
+1,Customer traceability gap,Missing CustomerID,135080,24.926694334288598,Protect customer attribution and retention reporting; separate guest activity from known-customer analytics.,P0
+2,Transaction-state contamination,Cancellation invoice lines,9288,1.7139409015166756,Keep returns/cancellations out of sales KPIs and reconcile them in a separate return-value control.,P0
+3,Invalid quantity states,Quantity <= 0,10624,1.9604767590130447,Enforce transaction-state validation so operational and revenue reports cannot mix purchases with non-sales quantity states.,P1
+4,Invalid price states,UnitPrice <= 0,2517,0.46446912673530055,Add a publish-time price-quality gate and quarantine non-positive-price rows from commercial KPIs.,P1

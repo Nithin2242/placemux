@@ -1,0 +1,17 @@
+{
+  "required_columns_present": true,
+  "raw_rows": 541909,
+  "clean_purchase_rows": 397884,
+  "missing_customer_ids": 135080,
+  "cancellation_rows": 9288,
+  "non_positive_quantity_rows": 10624,
+  "non_positive_price_rows": 2517,
+  "missing_description_rows": 1454,
+  "clean_invoices": 18532,
+  "identified_customers": 4338,
+  "clean_revenue_positive": true,
+  "invoice_revenue_reconciles": true,
+  "date_min": "2010-12-01T08:26:00",
+  "date_max": "2011-12-09T12:50:00",
+  "overall_status": "PASS"
+}
