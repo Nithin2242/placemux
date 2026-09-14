@@ -1,0 +1,7 @@
+{
+  "metric": "net_revenue_proxy",
+  "source_value": 100.0,
+  "tampered_dashboard_value": 101.0,
+  "mismatch_detected": true,
+  "expected": true
+}

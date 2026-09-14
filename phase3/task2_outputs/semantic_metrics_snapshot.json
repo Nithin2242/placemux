@@ -1,0 +1,13 @@
+{
+  "raw_transaction_lines": 541909,
+  "valid_purchase_lines": 397884,
+  "valid_purchase_rate": 0.7342265952401602,
+  "net_revenue_proxy": 8911407.904,
+  "identified_customers": 4338,
+  "repeat_customer_rate": 0.6558321807284463,
+  "customerid_null_rate": 0.249266943342886,
+  "cancellation_rate": 0.017139409015166755,
+  "invalid_quantity_rate": 0.019604767590130447,
+  "invalid_price_rate": 0.0046446912673530055,
+  "customer_revenue_top_decile_share": 0.6137506574628907
+}

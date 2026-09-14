@@ -1,0 +1,15 @@
+{
+  "dashboard": {
+    "net_revenue_proxy": 8911407.904,
+    "repeat_customer_rate": 0.6558321807284463
+  },
+  "executive_view": {
+    "net_revenue_proxy": 8911407.904,
+    "repeat_customer_rate": 0.6558321807284463
+  },
+  "ad_hoc_query": {
+    "net_revenue_proxy": 8911407.904,
+    "repeat_customer_rate": 0.6558321807284463
+  },
+  "metric_parity_pass": true
+}

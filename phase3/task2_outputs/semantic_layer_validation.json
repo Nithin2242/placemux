@@ -1,0 +1,11 @@
+{
+  "semantic_layer_metric_count": 10,
+  "metric_dictionary_unique_ids": 1,
+  "metric_dictionary_unique_names": 1,
+  "metric_parity_pass": true,
+  "failure_path_detected": true,
+  "dq_volume_pass": true,
+  "duplicate_full_rows": 5268,
+  "overall_status": "PASS",
+  "scope_note": "Real UCI Online Retail external proxy reused because no PlaceMux production dataset was supplied. This validates the metric-layer implementation on a real source, not PlaceMux production telemetry."
+}
