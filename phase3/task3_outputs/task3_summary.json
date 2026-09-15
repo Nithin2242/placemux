@@ -4,72 +4,77 @@
     "raw_rows": 541909,
     "clean_rows": 397884,
     "customers": 4338,
-    "date_min": "2010-12-01 08:26:00",
-    "date_max": "2011-12-09 12:50:00",
-    "gross_revenue": 8911407.904
+    "invoices": 18532,
+    "gross_revenue": 8911407.9,
+    "average_order_value": 480.87,
+    "cancellation_rows": 9288,
+    "cancellation_value_abs": 896812.49,
+    "cancellation_rate_rows_pct": 1.71,
+    "invalid_quantity_rows": 10624,
+    "invalid_price_rows": 2517
   },
   "benchmarks": [
     {
       "name": "GET /api/customer/orders",
       "before": {
-        "p50_ms": 19.2296455061296,
-        "p95_ms": 19.567010716127697,
-        "p99_ms": 19.77743492956506,
-        "mean_ms": 19.304989550437313,
-        "min_ms": 19.163332995958626,
-        "max_ms": 19.8300409829244
+        "p50_ms": 19.39,
+        "p95_ms": 19.45,
+        "p99_ms": 19.47,
+        "mean_ms": 19.39,
+        "min_ms": 19.34,
+        "max_ms": 19.47
       },
       "after": {
-        "p50_ms": 0.013790995581075549,
-        "p95_ms": 0.016410407260991633,
-        "p99_ms": 0.016948471893556416,
-        "mean_ms": 0.014339550398290157,
-        "min_ms": 0.013457989552989602,
-        "max_ms": 0.017082988051697612
+        "p50_ms": 0.02,
+        "p95_ms": 0.02,
+        "p99_ms": 0.02,
+        "mean_ms": 0.02,
+        "min_ms": 0.02,
+        "max_ms": 0.02
       },
-      "improvement_pct": 99.9161322723278,
+      "improvement_pct": 99.9,
       "fix": "CustomerID index"
     },
     {
       "name": "GET /api/customers/summary",
       "before": {
-        "p50_ms": 198.6657294910401,
-        "p95_ms": 220.60369755054126,
-        "p99_ms": 228.90823950787308,
-        "mean_ms": 202.68758349508667,
-        "min_ms": 197.6379590050783,
-        "max_ms": 230.98437499720603
+        "p50_ms": 200.53,
+        "p95_ms": 201.23,
+        "p99_ms": 201.35,
+        "mean_ms": 200.15,
+        "min_ms": 198.25,
+        "max_ms": 201.38
       },
       "after": {
-        "p50_ms": 0.17310398106928915,
-        "p95_ms": 0.18038979033008218,
-        "p99_ms": 0.1837443676777184,
-        "mean_ms": 0.17437841597711667,
-        "min_ms": 0.17283300985582173,
-        "max_ms": 0.18458301201462746
+        "p50_ms": 0.18,
+        "p95_ms": 0.19,
+        "p99_ms": 0.19,
+        "mean_ms": 0.18,
+        "min_ms": 0.18,
+        "max_ms": 0.19
       },
-      "improvement_pct": 99.91822902683272,
+      "improvement_pct": 99.9,
       "fix": "N+1 -> grouped JOIN"
     },
     {
       "name": "GET /api/revenue",
       "before": {
-        "p50_ms": 324.6788124961313,
-        "p95_ms": 343.7118045214448,
-        "p99_ms": 379.85569451324403,
-        "mean_ms": 329.0919292034232,
-        "min_ms": 317.0762090012431,
-        "max_ms": 388.89166701119393
+        "p50_ms": 318.68,
+        "p95_ms": 434.23,
+        "p99_ms": 458.87,
+        "mean_ms": 338.22,
+        "min_ms": 316.0,
+        "max_ms": 465.02
       },
       "after": {
-        "p50_ms": 71.00368799001444,
-        "p95_ms": 75.95670385635458,
-        "p99_ms": 76.45824078819714,
-        "mean_ms": 71.59512089856435,
-        "min_ms": 70.44999999925494,
-        "max_ms": 76.58362502115779
+        "p50_ms": 71.0,
+        "p95_ms": 71.33,
+        "p99_ms": 71.36,
+        "mean_ms": 71.04,
+        "min_ms": 70.91,
+        "max_ms": 71.36
       },
-      "improvement_pct": 77.90104882719689,
+      "improvement_pct": 83.6,
       "fix": "InvoiceDate index"
     }
   ],
@@ -98,15 +103,62 @@
       "SCAN order_lines"
     ]
   },
+  "financial_model": {
+    "type": "sensitivity_not_observed_loss",
+    "assumption_note": "Illustrative conversion sensitivity scenarios only; no per-session latency/conversion telemetry exists in UCI Online Retail.",
+    "scenarios": [
+      {
+        "conversion_sensitivity_pp": 0.1,
+        "scenario_transactions": 18532,
+        "implied_transactions": 18.53,
+        "revenue_at_risk": 8911.48
+      },
+      {
+        "conversion_sensitivity_pp": 0.25,
+        "scenario_transactions": 18532,
+        "implied_transactions": 46.33,
+        "revenue_at_risk": 22278.71
+      },
+      {
+        "conversion_sensitivity_pp": 0.5,
+        "scenario_transactions": 18532,
+        "implied_transactions": 92.66,
+        "revenue_at_risk": 44557.41
+      }
+    ]
+  },
+  "priority": [
+    {
+      "fix": "CustomerID index",
+      "improvement_pct": 99.9,
+      "financial_priority_score": 44513.0
+    },
+    {
+      "fix": "N+1 -> grouped JOIN",
+      "improvement_pct": 99.9,
+      "financial_priority_score": 44513.0
+    },
+    {
+      "fix": "InvoiceDate index",
+      "improvement_pct": 83.6,
+      "financial_priority_score": 37250.0
+    }
+  ],
+  "correlation_limits": {
+    "conversion_observed_in_source": false,
+    "session_level_latency_observed_in_source": false,
+    "latency_conversion_correlation_estimable": false,
+    "causation_claim_allowed": false,
+    "recommended_next_data": "Join session/request telemetry (latency, errors, abandonment, conversion, order value) to a common session or request identifier and pre-register the analysis before making causal claims."
+  },
   "controls": {
     "happy_path": true,
     "unauthorized_request": "PASS",
     "cross_tenant_attack": "PASS",
     "idempotent_retry": "PASS",
-    "persistence_check": "PASS"
+    "persistence_check": "PASS",
+    "benchmark_on_real_source": true,
+    "causal_claim_blocked": true
   },
-  "decision": {
-    "status": "PASS",
-    "message": "Top critical workloads were profiled on the real source, query plans were compared, N+1 was removed, indexes were added, and API authorization/idempotency/persistence checks passed."
-  }
+  "validation": "PASS"
 }

@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset='utf-8'><title>PlaceMux Phase 3 - Task 3 Performance Profiling & Bottleneck Elimination</title>
+<style>body{font-family:Inter,Arial,sans-serif;background:#f5f7fb;color:#17223b;margin:0}.wrap{max-width:1280px;margin:32px auto;padding:0 22px}h1{font-size:38px;margin:0 0 6px}.sub{color:#66738e;margin-bottom:20px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:#fff;border:1px solid #dde3ef;border-radius:14px;padding:18px;box-shadow:0 2px 8px #0000000b}.label{color:#6b7893;font-size:13px}.value{font-size:27px;font-weight:800;margin-top:6px}.section{margin-top:16px}table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden}th,td{padding:11px;border-bottom:1px solid #e7ebf2;text-align:left}th{color:#6b7893;font-size:13px}.pass{color:#128556;font-weight:800}.warn{color:#b06a00;font-weight:800}.note{font-size:13px;color:#66738e;line-height:1.5}pre{white-space:pre-wrap;background:#0d1526;color:#dce6ff;padding:14px;border-radius:12px;overflow:auto}@media(max-width:950px){.grid{grid-template-columns:1fr 1fr}}</style></head><body><div class='wrap'>
+<h1>PlaceMux Phase 3 - Task 3 Performance Profiling & Bottleneck Elimination</h1><div class='sub'>Real UCI Online Retail source · measured latency evidence · commercial-impact sensitivity model · no causal claim</div>
+<div class='grid'><div class='card'><div class='label'>Raw rows</div><div class='value'>541,909</div></div><div class='card'><div class='label'>Clean purchase rows</div><div class='value'>397,884</div></div><div class='card'><div class='label'>Invoices</div><div class='value'>18,532</div></div><div class='card'><div class='label'>Gross revenue proxy</div><div class='value'>£8,911,407.90</div></div></div>
+<div class='section card'><h2>Measured performance evidence</h2><table><tr><th>Workload</th><th>Baseline p95</th><th>Optimized p95</th><th>Improvement</th><th>Engineering fix</th></tr><tr><td>GET /api/customer/orders</td><td>19.45 ms</td><td>0.02 ms</td><td class='pass'>99.9%</td><td>CustomerID index</td></tr><tr><td>GET /api/customers/summary</td><td>201.23 ms</td><td>0.19 ms</td><td class='pass'>99.9%</td><td>N+1 -> grouped JOIN</td></tr><tr><td>GET /api/revenue</td><td>434.23 ms</td><td>71.33 ms</td><td class='pass'>83.6%</td><td>InvoiceDate index</td></tr></table></div>
+<div class='section card'><h2>Commercial impact sensitivity</h2><p class='note'>The source has purchase and cancellation records but no per-session latency/conversion telemetry. The money model therefore shows scenario sensitivity, not observed lost revenue or causation. Each row asks: if an extra 100 ms were associated with the stated conversion change, what value would be exposed at the dataset's observed average order value?</p><table><tr><th>Assumption</th><th>Observed transactions</th><th>Implied transaction delta</th><th>Revenue exposure</th></tr><tr><td>0.10 pp / +100ms</td><td>18,532</td><td>18.5</td><td>£8,911.48</td></tr><tr><td>0.25 pp / +100ms</td><td>18,532</td><td>46.3</td><td>£22,278.71</td></tr><tr><td>0.50 pp / +100ms</td><td>18,532</td><td>92.7</td><td>£44,557.41</td></tr></table></div>
+<div class='section card'><h2>Engineering priority by financial exposure proxy</h2><table><tr><th>Priority</th><th>Fix</th><th>P95 improvement</th><th>Priority score</th></tr><tr><td>1</td><td>CustomerID index</td><td>99.9%</td><td>44,513</td></tr><tr><td>2</td><td>N+1 -> grouped JOIN</td><td>99.9%</td><td>44,513</td></tr><tr><td>3</td><td>InvoiceDate index</td><td>83.6%</td><td>37,250</td></tr></table></div>
+<div class='section grid'><div class='card'><h2>Correlation limits</h2><pre>{
+  "conversion_observed_in_source": false,
+  "session_level_latency_observed_in_source": false,
+  "latency_conversion_correlation_estimable": false,
+  "causation_claim_allowed": false,
+  "recommended_next_data": "Join session/request telemetry (latency, errors, abandonment, conversion, order value) to a common session or request identifier and pre-register the analysis before making causal claims."
+}</pre></div><div class='card'><h2>Validation & controls</h2><pre>{
+  "happy_path": true,
+  "unauthorized_request": "PASS",
+  "cross_tenant_attack": "PASS",
+  "idempotent_retry": "PASS",
+  "persistence_check": "PASS",
+  "benchmark_on_real_source": true,
+  "causal_claim_blocked": true
+}</pre></div></div>
+<div class='section card'><h2>Scope</h2><p class='note'>Real UCI Online Retail data is used as an external real-data proxy. This report does not present PlaceMux production conversion, latency or revenue telemetry. See task3_summary.json for the full traceable evidence chain.</p></div>
+</div></body></html>
