@@ -1,0 +1,49 @@
+{
+  "validation": "PASS",
+  "source": {
+    "raw_rows": 541909,
+    "clean_rows": 530104,
+    "customers": 4339,
+    "revenue": 10666684.54
+  },
+  "benchmark": {
+    "baseline_startup_ms": null,
+    "baseline": {
+      "requests": 160,
+      "success": 160,
+      "errors": 0,
+      "p50_ms": 133.37,
+      "p95_ms": 266.05,
+      "avg_ms": 115.53,
+      "max_ms": 362.27
+    },
+    "optimized": {
+      "requests": 160,
+      "success": 160,
+      "errors": 0,
+      "p50_ms": 4.27,
+      "p95_ms": 179.76,
+      "avg_ms": 24.81,
+      "max_ms": 302.12
+    }
+  },
+  "p95_improvement_pct": 32.4,
+  "failure_path": {
+    "intentional_pool_exhaustion": true,
+    "requests": 32,
+    "success": 10,
+    "errors": 22,
+    "p50_ms": 258.43,
+    "p95_ms": 358.53,
+    "avg_ms": 278.26,
+    "max_ms": 392.9
+  },
+  "infra_controls": {
+    "connection_pooling": true,
+    "warm_start": true,
+    "cache_layer": true,
+    "rightsizing_rehearsal": true,
+    "rollback_documented": true,
+    "failure_path_verified": true
+  }
+}
