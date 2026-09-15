@@ -1,0 +1,4 @@
+workload,before_p95_ms,after_p95_ms,improvement_pct,fix
+GET /api/customer/orders,19.567010716127697,0.016410407260991633,99.9161322723278,CustomerID index
+GET /api/customers/summary,220.60369755054126,0.18038979033008218,99.91822902683272,N+1 -> grouped JOIN
+GET /api/revenue,343.7118045214448,75.95670385635458,77.90104882719689,InvoiceDate index

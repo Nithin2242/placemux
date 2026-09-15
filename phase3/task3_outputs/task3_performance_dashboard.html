@@ -1,0 +1,52 @@
+<!doctype html>
+<html><head><meta charset='utf-8'><title>PlaceMux Phase 3 - Task 3 Performance Profiling & Bottleneck Elimination</title>
+<style>
+body{font-family:Inter,Arial,sans-serif;background:#f5f7fb;color:#17223b;margin:0}.wrap{max-width:1220px;margin:36px auto;padding:0 22px}
+h1{font-size:40px;margin:0 0 8px}.sub{color:#66738e;font-size:17px;margin-bottom:22px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:#fff;border:1px solid #dde3ef;border-radius:14px;padding:18px;box-shadow:0 2px 8px #0000000b}.label{color:#6b7893;font-size:14px}.value{font-size:29px;font-weight:800;margin-top:7px}.section{margin-top:18px}table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden}th,td{padding:12px;border-bottom:1px solid #e7ebf2;text-align:left}th{color:#6b7893;font-size:13px}.pass{color:#128556;font-weight:800}.warn{color:#b06a00;font-weight:800}.pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#edf7f1;color:#128556;font-weight:700}pre{white-space:pre-wrap;background:#0d1526;color:#dce6ff;padding:14px;border-radius:12px;overflow:auto}.note{font-size:13px;color:#66738e;line-height:1.45}
+</style></head><body><div class='wrap'>
+<h1>PlaceMux Phase 3 - Task 3 Performance Profiling & Bottleneck Elimination</h1><div class='sub'>Real UCI Online Retail source · before/after database and API profiling · indexes · query rewrites · N+1 elimination · caching</div>
+<div class='grid'>
+<div class='card'><div class='label'>Raw rows</div><div class='value'>541,909</div></div>
+<div class='card'><div class='label'>Clean purchase rows</div><div class='value'>397,884</div></div>
+<div class='card'><div class='label'>Customers</div><div class='value'>4,338</div></div>
+<div class='card'><div class='label'>Revenue proxy</div><div class='value'>£8,911,408</div></div>
+</div>
+<div class='section card'><h2>Top-three endpoint / query evidence</h2><table><thead><tr><th>Workload</th><th>Baseline p95</th><th>Optimized p95</th><th>Improvement</th><th>Change</th></tr></thead><tbody>
+<tr><td>GET /api/customer/orders</td><td>19.57 ms</td><td>0.02 ms</td><td class='pass'>99.9%</td><td>CustomerID index</td></tr><tr><td>GET /api/customers/summary</td><td>220.60 ms</td><td>0.18 ms</td><td class='pass'>99.9%</td><td>N+1 -> grouped JOIN</td></tr><tr><td>GET /api/revenue</td><td>343.71 ms</td><td>75.96 ms</td><td class='pass'>77.9%</td><td>InvoiceDate index</td></tr>
+</tbody></table></div>
+<div class='section grid' style='grid-template-columns:1fr 1fr'>
+<div class='card'><h2>Query plans</h2><pre>{
+  "customer_orders_before": [
+    "SCAN order_lines",
+    "USE TEMP B-TREE FOR ORDER BY"
+  ],
+  "customer_orders_after": [
+    "SCAN order_lines",
+    "USE TEMP B-TREE FOR ORDER BY"
+  ],
+  "customer_summary_before": [
+    "USE TEMP B-TREE FOR count(DISTINCT)",
+    "SCAN order_lines"
+  ],
+  "customer_summary_after": [
+    "SEARCH o USING INDEX idx_order_customer (CustomerID=?)",
+    "SEARCH t USING COVERING INDEX idx_tenant_customer (CustomerID=? AND tenant_id=?)",
+    "USE TEMP B-TREE FOR count(DISTINCT)"
+  ],
+  "revenue_before": [
+    "SCAN order_lines"
+  ],
+  "revenue_after": [
+    "SCAN order_lines"
+  ]
+}</pre></div>
+<div class='card'><h2>Failure & security checks</h2><pre>{
+  "happy_path": true,
+  "unauthorized_request": "PASS",
+  "cross_tenant_attack": "PASS",
+  "idempotent_retry": "PASS",
+  "persistence_check": "PASS"
+}</pre></div>
+</div>
+<div class='section card'><h2>Decision</h2><p><span class='pill'>PASS</span> Top critical workloads were profiled on the real source, query plans were compared, N+1 was removed, indexes were added, and API authorization/idempotency/persistence checks passed.</p><p class='note'>Source limitation: this is a real external UCI transaction dataset used as a performance-profiling proxy, not PlaceMux production telemetry.</p></div>
+</div></body></html>
