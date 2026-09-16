@@ -1,0 +1,15 @@
+{
+  "demand_proxy": "clean distinct invoices per week",
+  "seasonal_period_weeks": 4,
+  "peak_factor": 1.5,
+  "capacity_guardrail": 0.9,
+  "baseline_capacity_per_unit_invoices_week": 700.0,
+  "monthly_cost_per_unit_gbp": 250.0,
+  "scope": "UCI Online Retail real-data external proxy; not PlaceMux production traffic",
+  "risks": [
+    "Invoice demand is not equivalent to HTTP traffic or applications.",
+    "The historical source is short relative to a full multi-year placement-season series.",
+    "Capacity and cost are normalized planning units, not cloud SKU measurements.",
+    "Peak factor and unit cost are assumptions and should be replaced by observed production infrastructure data."
+  ]
+}

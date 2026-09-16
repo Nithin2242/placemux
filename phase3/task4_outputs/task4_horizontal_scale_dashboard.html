@@ -1,0 +1,57 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>PlaceMux Phase 3 Task 4</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f7fb;color:#182337;padding:30px}
+h1{font-size:34px;margin:0 0 5px} h2{margin:0 0 10px}
+.sub{color:#607089;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0}
+.card{background:#fff;border:1px solid #dce3ef;border-radius:16px;padding:18px;box-shadow:0 3px 12px rgba(20,30,50,.05)}
+.big{font-size:28px;font-weight:800;margin-top:8px}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{padding:10px;border-bottom:1px solid #e7ebf2;text-align:left;font-size:13px}
+th{background:#eef2f8} .pass{color:#08764f;font-weight:800}
+.note{color:#607089;font-size:12px;line-height:1.45}
+@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}}
+</style></head><body>
+
+<h1>PlaceMux Phase 3 - Task 4</h1>
+<div class="sub">Horizontal Scale & Load Readiness · real UCI Online Retail source used as an external demand proxy</div>
+
+<div class="grid">
+<div class="card">Raw rows<div class="big">541,909</div></div>
+<div class="card">Clean purchase rows<div class="big">530,104</div></div>
+<div class="card">Weekly history<div class="big">54 weeks</div></div>
+<div class="card">Validation<div class="big pass">PASS</div></div>
+</div>
+
+<div class="card">
+<h2>1. Demand forecast</h2>
+<p>Selected model: <b>seasonal_naive</b></p>
+<p>Seasonal-naive mean MAE: <b>79.28</b> ·
+Holt-Winters mean MAE: <b>82.16</b></p>
+<table><tr><th>Week</th><th>Forecast invoices</th><th>Lower</th><th>Upper</th></tr><tr><td>2011-12-12</td><td>690</td><td>451</td><td>929</td></tr><tr><td>2011-12-19</td><td>619</td><td>380</td><td>858</td></tr><tr><td>2011-12-26</td><td>665</td><td>426</td><td>904</td></tr><tr><td>2012-01-02</td><td>512</td><td>273</td><td>751</td></tr><tr><td>2012-01-09</td><td>690</td><td>451</td><td>929</td></tr><tr><td>2012-01-16</td><td>619</td><td>380</td><td>858</td></tr><tr><td>2012-01-23</td><td>665</td><td>426</td><td>904</td></tr><tr><td>2012-01-30</td><td>512</td><td>273</td><td>751</td></tr></table>
+</div><br>
+
+<div class="card">
+<h2>2. Rolling backtest</h2>
+<table><tr><th>Test start</th><th>SN MAE</th><th>HW MAE</th><th>SN MAPE</th><th>HW MAPE</th></tr><tr><td>2011-04-18</td><td>79.25</td><td>93.73</td><td>29.5%</td><td>36.5%</td></tr><tr><td>2011-05-16</td><td>115.25</td><td>86.73</td><td>32.2%</td><td>23.0%</td></tr><tr><td>2011-06-13</td><td>43.50</td><td>31.75</td><td>12.5%</td><td>10.0%</td></tr><tr><td>2011-07-11</td><td>44.00</td><td>16.31</td><td>13.1%</td><td>5.1%</td></tr><tr><td>2011-08-08</td><td>36.00</td><td>52.26</td><td>12.0%</td><td>17.7%</td></tr><tr><td>2011-09-05</td><td>106.50</td><td>71.60</td><td>25.0%</td><td>16.2%</td></tr><tr><td>2011-10-03</td><td>72.25</td><td>105.54</td><td>14.8%</td><td>21.5%</td></tr><tr><td>2011-10-31</td><td>137.50</td><td>199.32</td><td>21.2%</td><td>31.6%</td></tr></table>
+</div><br>
+
+<div class="card">
+<h2>3. Capacity & cost projection</h2>
+<table><tr><th>Scale</th><th>Avg demand</th><th>Peak demand</th><th>Capacity units</th><th>Normalized monthly cost</th></tr><tr><td>2x</td><td>1,243</td><td>2,787</td><td>4</td><td>GBP 1,000.00</td></tr><tr><td>5x</td><td>3,108</td><td>6,968</td><td>10</td><td>GBP 2,500.00</td></tr><tr><td>10x</td><td>6,215</td><td>13,935</td><td>20</td><td>GBP 5,000.00</td></tr></table>
+<p class="note">Cost is a normalized planning assumption: one capacity unit costs GBP 250.00 per month and handles 700 invoices/week. It is not a cloud-provider quote.</p>
+</div><br>
+
+<div class="grid">
+<div class="card"><h2>Failure rehearsal</h2><div class="pass">PASS</div>
+<p>Guardrail breached; excess demand is explicitly degraded/rejected.</p><p>Peak/guardrail utilization: 1.99x</p></div>
+<div class="card"><h2>Observed source</h2><p>2010-11-29 → 2011-12-05</p>
+<p>Clean invoices: 19,960</p><p>Gross revenue: GBP 10,666,684.54</p>
+<p>Peak week: 690 invoices</p></div>
+<div class="card"><h2>Assumptions</h2><p>Seasonality: 4-week cycle</p>
+<p>Peak factor: 1.50x</p><p>Guardrail: 90%</p></div>
+<div class="card"><h2>Scope</h2><p class="note">This is a real-data capacity-planning rehearsal, not PlaceMux production telemetry. Invoice demand is a transaction proxy for traffic/application demand.</p></div>
+</div>
+
+</body></html>

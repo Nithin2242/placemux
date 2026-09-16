@@ -1,0 +1,4 @@
+scale,scaled_avg_weekly_demand,scaled_peak_weekly_demand,capacity_units,normalized_monthly_cost
+2x,1243,2787,4,1000.0
+5x,3108,6968,10,2500.0
+10x,6215,13935,20,5000.0

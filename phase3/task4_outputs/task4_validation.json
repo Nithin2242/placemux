@@ -1,0 +1,13 @@
+{
+  "validation": "PASS",
+  "real_source_used": true,
+  "rolling_backtest_folds": 8,
+  "selected_model": "seasonal_naive",
+  "scale_scenarios_present": [
+    "2x",
+    "5x",
+    "10x"
+  ],
+  "failure_path_verified": true,
+  "scope_warning": "UCI Online Retail real-data external proxy; not PlaceMux production traffic"
+}
