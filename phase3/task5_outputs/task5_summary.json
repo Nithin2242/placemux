@@ -1,0 +1,161 @@
+{
+  "validation": "PASS",
+  "source": {
+    "raw_rows": 541909,
+    "clean_purchase_rows": 530104,
+    "clean_invoices": 19960,
+    "gross_revenue": 10666684.54,
+    "customers_non_null": 397884,
+    "start_event_date": "2010-12-01",
+    "end_event_date": "2011-12-09",
+    "weeks": 53
+  },
+  "warehouse": {
+    "rows": 530104,
+    "invoices": 19960,
+    "revenue": 10666684.54,
+    "customers_non_null": 397884,
+    "start_event_date": "2010-12-01",
+    "end_event_date": "2011-12-09"
+  },
+  "reconciliation": {
+    "row_count": {
+      "name": "row_count",
+      "status": "PASS",
+      "source_value": 530104,
+      "warehouse_value": 530104,
+      "difference": 0.0,
+      "threshold": 0.0,
+      "detail": "Clean purchase row counts must reconcile exactly."
+    },
+    "distinct_invoice_count": {
+      "name": "distinct_invoice_count",
+      "status": "PASS",
+      "source_value": 19960,
+      "warehouse_value": 19960,
+      "difference": 0.0,
+      "threshold": 0.0,
+      "detail": "Distinct invoice counts must reconcile exactly."
+    },
+    "gross_revenue": {
+      "name": "gross_revenue",
+      "status": "PASS",
+      "source_value": 10666684.54,
+      "warehouse_value": 10666684.54,
+      "difference": 0.0,
+      "threshold": 0.01,
+      "detail": "Gross revenue must reconcile within \u00a30.01."
+    },
+    "customer_non_null_count": {
+      "name": "customer_non_null_count",
+      "status": "PASS",
+      "source_value": 397884,
+      "warehouse_value": 397884,
+      "difference": 0.0,
+      "threshold": 0.0,
+      "detail": "CustomerID non-null count must reconcile exactly."
+    },
+    "start_event_date_parity": {
+      "name": "start_event_date_parity",
+      "status": "PASS",
+      "source_value": "2010-12-01",
+      "warehouse_value": "2010-12-01",
+      "difference": null,
+      "threshold": 0.0,
+      "detail": "Warehouse must preserve the earliest source event date."
+    },
+    "latest_event_date_parity": {
+      "name": "latest_event_date_parity",
+      "status": "PASS",
+      "source_value": "2011-12-09",
+      "warehouse_value": "2011-12-09",
+      "difference": null,
+      "threshold": 0.0,
+      "detail": "Warehouse must contain the latest source event date; this is an extract-level freshness check."
+    }
+  },
+  "completeness": {
+    "checks": [
+      {
+        "metric": "raw_rows_present",
+        "value": 530104.0,
+        "status": "PASS",
+        "detail": "A source extract was successfully loaded."
+      },
+      {
+        "metric": "invoice_no_non_null_pct",
+        "value": 100.0,
+        "status": "PASS",
+        "detail": "All retained purchase rows require an InvoiceNo."
+      },
+      {
+        "metric": "invoice_date_non_null_pct",
+        "value": 100.0,
+        "status": "PASS",
+        "detail": "All retained purchase rows require an event date."
+      },
+      {
+        "metric": "quantity_positive_pct",
+        "value": 100.0,
+        "status": "PASS",
+        "detail": "Retained purchase quantity must be positive."
+      },
+      {
+        "metric": "unit_price_positive_pct",
+        "value": 100.0,
+        "status": "PASS",
+        "detail": "Retained purchase unit price must be positive."
+      },
+      {
+        "metric": "revenue_non_negative_pct",
+        "value": 100.0,
+        "status": "PASS",
+        "detail": "Derived revenue must be non-negative."
+      }
+    ],
+    "status": "PASS"
+  },
+  "freshness": {
+    "checks": [
+      {
+        "metric": "source_start_event_date",
+        "value": "2010-12-01",
+        "status": "PASS",
+        "detail": "Earliest retained event date."
+      },
+      {
+        "metric": "source_latest_event_date",
+        "value": "2011-12-09",
+        "status": "PASS",
+        "detail": "Latest retained event date."
+      },
+      {
+        "metric": "warehouse_latest_event_date",
+        "value": "2011-12-09",
+        "status": "PASS",
+        "detail": "Canonical warehouse latest event date matches source extract."
+      },
+      {
+        "metric": "event_date_lag_days",
+        "value": 0,
+        "status": "PASS",
+        "detail": "Source vs warehouse latest event-date lag inside this loaded extract."
+      },
+      {
+        "metric": "freshness_scope",
+        "value": "extract-level parity",
+        "status": "PASS",
+        "detail": "No live source-ingestion timestamp is available, so real-world wall-clock freshness is not asserted."
+      }
+    ],
+    "status": "PASS"
+  },
+  "signoff": {
+    "status": "PASS",
+    "reconciliation_pass": true,
+    "completeness_pass": true,
+    "freshness_pass": true,
+    "failure_path_verified": true
+  },
+  "scope_warning": "UCI Online Retail real-data external proxy; not PlaceMux production telemetry"
+}

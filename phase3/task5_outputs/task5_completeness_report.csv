@@ -1,0 +1,7 @@
+metric,value,status,detail
+raw_rows_present,530104.0,PASS,A source extract was successfully loaded.
+invoice_no_non_null_pct,100.0,PASS,All retained purchase rows require an InvoiceNo.
+invoice_date_non_null_pct,100.0,PASS,All retained purchase rows require an event date.
+quantity_positive_pct,100.0,PASS,Retained purchase quantity must be positive.
+unit_price_positive_pct,100.0,PASS,Retained purchase unit price must be positive.
+revenue_non_negative_pct,100.0,PASS,Derived revenue must be non-negative.

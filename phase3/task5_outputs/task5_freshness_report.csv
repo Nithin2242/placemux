@@ -1,0 +1,6 @@
+metric,value,status,detail
+source_start_event_date,2010-12-01,PASS,Earliest retained event date.
+source_latest_event_date,2011-12-09,PASS,Latest retained event date.
+warehouse_latest_event_date,2011-12-09,PASS,Canonical warehouse latest event date matches source extract.
+event_date_lag_days,0,PASS,Source vs warehouse latest event-date lag inside this loaded extract.
+freshness_scope,extract-level parity,PASS,"No live source-ingestion timestamp is available, so real-world wall-clock freshness is not asserted."

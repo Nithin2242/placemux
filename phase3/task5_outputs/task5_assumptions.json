@@ -1,0 +1,12 @@
+{
+  "source": "UCI Online Retail.xlsx",
+  "warehouse": "SQLite canonical warehouse_orders table built from the clean purchase subset",
+  "completeness_definition": "row-count, distinct-invoice, field-validity, and derived-revenue integrity checks",
+  "freshness_definition": "source-vs-warehouse earliest/latest event-date parity within the loaded extract",
+  "failure_rehearsal": "remove the latest event window from a copy of the warehouse and verify reconciliation/freshness controls detect the break",
+  "limitations": [
+    "No live PlaceMux source-system feed is available in this exercise.",
+    "No wall-clock ingestion timestamp is available, so real-world freshness age cannot be asserted.",
+    "UCI Online Retail represents transactions, not PlaceMux applications or HTTP traffic."
+  ]
+}

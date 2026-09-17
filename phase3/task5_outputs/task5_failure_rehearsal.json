@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "triggered": true,
+  "failure_type": "latest_event_window_removed",
+  "removed_latest_days": 7,
+  "source_clean_rows": 530104,
+  "mutated_warehouse_rows": 510632,
+  "rows_missing": 19472,
+  "source_latest_event_date": "2011-12-09",
+  "mutated_latest_event_date": "2011-12-02",
+  "message": "Latest event window was removed and the reconciliation/freshness controls detected the break."
+}

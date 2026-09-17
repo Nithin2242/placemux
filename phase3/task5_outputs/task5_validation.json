@@ -1,0 +1,12 @@
+{
+  "validation": "PASS",
+  "real_source_used": true,
+  "source_rows": 541909,
+  "clean_rows": 530104,
+  "reconciliation_verified": true,
+  "completeness_verified": true,
+  "freshness_verified_within_extract": true,
+  "failure_path_verified": true,
+  "signoff_status": "PASS",
+  "scope_warning": "UCI Online Retail real-data external proxy; not PlaceMux production telemetry"
+}

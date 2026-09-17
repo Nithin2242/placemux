@@ -1,0 +1,7 @@
+name,status,source_value,warehouse_value,difference,threshold,detail
+row_count,PASS,530104,530104,0.0,0.0,Clean purchase row counts must reconcile exactly.
+distinct_invoice_count,PASS,19960,19960,0.0,0.0,Distinct invoice counts must reconcile exactly.
+gross_revenue,PASS,10666684.54,10666684.54,0.0,0.01,Gross revenue must reconcile within £0.01.
+customer_non_null_count,PASS,397884,397884,0.0,0.0,CustomerID non-null count must reconcile exactly.
+start_event_date_parity,PASS,2010-12-01,2010-12-01,,0.0,Warehouse must preserve the earliest source event date.
+latest_event_date_parity,PASS,2011-12-09,2011-12-09,,0.0,Warehouse must contain the latest source event date; this is an extract-level freshness check.
