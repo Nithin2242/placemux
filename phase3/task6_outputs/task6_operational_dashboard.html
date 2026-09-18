@@ -1,0 +1,86 @@
+
+<html>
+<head>
+<title>Task 6 Operational Monitoring</title>
+
+<style>
+body {
+font-family: Arial;
+background:#f4f6fa;
+padding:20px;
+}
+
+.card {
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:12px;
+}
+
+h1 {
+margin-bottom:5px;
+}
+
+.pass {
+color:green;
+font-weight:bold;
+}
+
+.alert {
+color:red;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Task 6 - Operational Monitoring & SLA Readiness</h1>
+
+<div class="card">
+<h2>Source Summary</h2>
+
+<p>Clean rows: 530104</p>
+<p>Invoices: 19960</p>
+<p>Revenue: GBP 10,666,684.54</p>
+<p>Customers: 397884</p>
+</div>
+
+<div class="card">
+<h2>SLA Monitoring</h2>
+
+<p>Average weekly demand:
+369.63</p>
+
+<p>Peak weekly demand:
+683</p>
+
+<p>SLA capacity target:
+462.04</p>
+
+<p>Status:
+<span class="alert">
+ALERT
+</span>
+</p>
+</div>
+
+<div class="card">
+<h2>Incident Rehearsal</h2>
+
+<p>Status:
+<span class="pass">
+PASS
+</span>
+</p>
+
+<p>Rows removed:
+21465</p>
+
+<p>Detection:
+True</p>
+
+</div>
+
+</body>
+</html>

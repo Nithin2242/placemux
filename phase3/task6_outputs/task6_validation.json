@@ -1,0 +1,8 @@
+{
+  "validation": "PASS",
+  "real_source_used": true,
+  "operational_monitoring_verified": true,
+  "sla_monitoring_verified": true,
+  "incident_detection_verified": true,
+  "scope_warning": "UCI Online Retail external demand proxy; not PlaceMux production telemetry"
+}

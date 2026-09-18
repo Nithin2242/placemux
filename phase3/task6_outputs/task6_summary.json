@@ -1,0 +1,23 @@
+{
+  "source": {
+    "clean_rows": 530104,
+    "invoices": 19960,
+    "revenue": 10666684.54,
+    "customers_non_null": 397884,
+    "earliest_event": "2010-12-01",
+    "latest_event": "2011-12-09"
+  },
+  "sla_monitoring": {
+    "average_weekly_demand": 369.63,
+    "peak_weekly_demand": 683,
+    "sla_capacity_target": 462.04,
+    "utilization_ratio": 1.48,
+    "status": "ALERT"
+  },
+  "incident_rehearsal": {
+    "incident_detected": true,
+    "rows_removed": 21465,
+    "latest_event_removed_after": "2011-12-02",
+    "status": "PASS"
+  }
+}
