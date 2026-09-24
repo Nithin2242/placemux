@@ -1,0 +1,17 @@
+[
+  {
+    "hypothesis": "Single-purchase customers are not sufficiently re-engaged.",
+    "metric": "Second purchase conversion rate",
+    "test": "Email onboarding campaign"
+  },
+  {
+    "hypothesis": "High-value customers retain better than low-value customers.",
+    "metric": "Repeat customer rate",
+    "test": "Segmented onboarding journey"
+  },
+  {
+    "hypothesis": "Customers with larger first orders convert more frequently.",
+    "metric": "Third purchase conversion",
+    "test": "Targeted upsell campaign"
+  }
+]

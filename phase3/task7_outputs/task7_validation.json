@@ -1,0 +1,9 @@
+{
+  "validation": "PASS",
+  "real_source_used": true,
+  "activation_funnel_verified": true,
+  "segmented_dropoffs_verified": true,
+  "opportunity_analysis_verified": true,
+  "hypotheses_generated": true,
+  "scope_warning": "UCI Online Retail external customer behavior proxy; not PlaceMux production funnel"
+}

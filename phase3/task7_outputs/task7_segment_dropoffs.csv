@@ -1,0 +1,5 @@
+from_step,to_step,users_lost,conversion_pct
+Customers,First Purchase,0,100.0
+First Purchase,Second Purchase,1493,65.58
+Second Purchase,Third Purchase,835,70.65
+Third Purchase,Repeat Customer,508,74.73

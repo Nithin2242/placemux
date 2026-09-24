@@ -1,0 +1,10 @@
+{
+  "customers": 4338,
+  "revenue": 8911407.904,
+  "largest_dropoff": {
+    "from_step": "First Purchase",
+    "to_step": "Second Purchase",
+    "users_lost": 1493,
+    "conversion_pct": 65.58
+  }
+}
