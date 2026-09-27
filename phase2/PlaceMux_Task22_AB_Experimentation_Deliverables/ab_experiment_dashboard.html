@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PlaceMux A/B Experimentation & Data-Subject Rights Framework</title>
+<style>
+:root { --ink:#172033; --muted:#667085; --panel:#fff; --bg:#f5f7fb; --line:#e5e7eb; --brand:#4f46e5; --ok:#0f8b5f; --warn:#b45309; }
+* { box-sizing:border-box } body { margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+.header { background:#fff; border-bottom:1px solid var(--line); padding:28px 42px 20px; }
+h1 { margin:0 0 8px; font-size:30px; } .sub { color:var(--muted); font-size:15px }
+.tabs { display:flex; gap:10px; padding:18px 42px 0; background:#fff; } .tab { border:0; background:#eef0f7; color:#334155; padding:11px 18px; border-radius:11px 11px 0 0; font-weight:700; cursor:pointer; } .tab.active { background:var(--brand); color:#fff; }
+.wrap { padding:26px 42px 42px; } .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; } .card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:18px; box-shadow:0 2px 8px rgba(15,23,42,.03); } .metric { font-size:30px; font-weight:800; margin-top:7px; } .label { color:var(--muted); font-size:13px; } .section { margin-top:20px; } .cols { display:grid; grid-template-columns:1.25fr .75fr; gap:18px; }
+.badge { display:inline-flex; align-items:center; padding:5px 9px; border-radius:999px; background:#e9f8f1; color:var(--ok); font-size:12px; font-weight:800; } .badge.warn { background:#fff4e5; color:var(--warn); }
+table { width:100%; border-collapse:collapse; } th,td { padding:11px 9px; border-bottom:1px solid var(--line); text-align:left; font-size:13px; } th { color:var(--muted); font-size:12px; }
+.bar { height:12px; background:#e9ecf4; border-radius:99px; overflow:hidden; } .fill { height:100%; background:var(--brand); } .note { color:var(--muted); font-size:12px; line-height:1.5; } ul { margin-top:8px; padding-left:20px; } li { margin:7px 0; } .view { display:none; } .view.active { display:block; }
+.kpi-big { font-size:36px; font-weight:900; } .positive { color:var(--ok); } .mono { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; }
+.footer { margin-top:26px; color:var(--muted); font-size:12px; }
+@media(max-width:1000px) { .grid { grid-template-columns:repeat(2,1fr) } .cols { grid-template-columns:1fr } .header,.tabs,.wrap { padding-left:20px; padding-right:20px } }
+</style>
+</head>
+<body>
+<div class="header"><h1>PlaceMux A/B Experimentation & Data-Subject Rights Framework</h1><div class="sub">Synthetic experimentation dry run · exp_offer_nudge_v1 · stable assignment · consent-aware exclusion · resilience controls</div></div>
+<div class="tabs">
+<button class="tab active" data-tab="overview">Overview</button><button class="tab" data-tab="design">Experiment Design</button><button class="tab" data-tab="results">Results & Guardrails</button><button class="tab" data-tab="rights">Data Rights & Resilience</button>
+</div>
+<div class="wrap">
+<section id="overview" class="view active">
+<div class="grid">
+<div class="card"><div class="label">Subjects</div><div class="metric">6,000</div></div>
+<div class="card"><div class="label">Eligible</div><div class="metric">4,874</div></div>
+<div class="card"><div class="label">Exposed</div><div class="metric">4,796</div></div>
+<div class="card"><div class="label">Validation</div><div class="metric" style="font-size:24px"><span class="badge">PASS</span></div></div>
+</div>
+<div class="section cols">
+<div class="card"><h2>Primary Outcome</h2><div class="kpi-big positive">20.61%</div><div class="label">Treatment application submitted within 7 days</div><p>Control: <b>20.04%</b> · Treatment: <b>20.61%</b> · Absolute lift: <b>+0.57 pp</b> · Relative lift: <b>+2.9%</b></p><div class="note">Synthetic demonstration only. The experiment framework is ready for a governed production assignment source.</div></div>
+<div class="card"><h2>Experiment Health</h2><p><span class="badge">PASS</span> Stable assignment and data-rights checks</p><ul><li>Control: 2,385 exposed subjects</li><li>Treatment: 2,411 exposed subjects</li><li>p-value: 0.6227</li><li>95% CI: -1.71 to +2.85 pp</li></ul></div>
+</div>
+</section>
+<section id="design" class="view">
+<div class="cols">
+<div class="card"><h2>Experiment Contract</h2><table><tr><th>Field</th><th>Definition</th></tr><tr><td>Experiment ID</td><td class="mono">exp_offer_nudge_v1</td></tr><tr><td>Hypothesis</td><td>The treatment nudge increases 7-day application submission.</td></tr><tr><td>Primary metric</td><td><b>application_submitted_7d</b></td></tr><tr><td>Guardrails</td><td>Exposure rate, application start rate, interview completion, offer rate, rights violations.</td></tr><tr><td>Assignment</td><td>Deterministic 50/50 split on stable subject ID hash.</td></tr><tr><td>Eligibility</td><td>Consent, no deletion request, no withdrawal, eligibility score threshold.</td></tr><tr><td>Analysis</td><td>Exposed eligible subjects; pre-registered denominator and variant rules.</td></tr></table></div>
+<div class="card"><h2>Lifecycle</h2><ul><li><b>Draft:</b> hypothesis, metric, population, guardrails.</li><li><b>Approved:</b> privacy, analytics and product review.</li><li><b>Running:</b> log assignment, exposure and outcome events.</li><li><b>Stopped:</b> preserve immutable experiment metadata and freeze cohort.</li><li><b>Analyzed:</b> calculate effect, uncertainty and guardrails.</li><li><b>Archived:</b> retain approved outputs; honor data-subject requests.</li></ul></div>
+</div>
+</section>
+<section id="results" class="view">
+<div class="grid">
+<div class="card"><div class="label">Control conversion</div><div class="metric">20.04%</div></div>
+<div class="card"><div class="label">Treatment conversion</div><div class="metric">20.61%</div></div>
+<div class="card"><div class="label">Absolute lift</div><div class="metric positive">+0.57 pp</div></div>
+<div class="card"><div class="label">P-value</div><div class="metric">0.6227</div></div>
+</div>
+<div class="section card"><h2>Primary Metric Comparison</h2><table><tr><th>Variant</th><th>n</th><th>Successes</th><th>Rate</th><th>Exposure</th></tr><tr><td>Control</td><td>2,385</td><td>478</td><td>20.04%</td><td>100.00%</td></tr><tr><td>Treatment</td><td>2,411</td><td>497</td><td>20.61%</td><td>100.00%</td></tr></table><p>95% CI for treatment-control difference: <b>-1.71 to +2.85 percentage points</b>. Decision guidance: ship only after confirming guardrails remain within approved thresholds and the result is replicated or otherwise accepted by the experiment owner.</p></div>
+<div class="section cols">
+<div class="card"><h2>Guardrail Rates</h2><table><tr><th>Metric</th><th>Control</th><th>Treatment</th></tr><tr><td>Application start</td><td>29.85%</td><td>34.51%</td></tr><tr><td>Interview complete</td><td>11.95%</td><td>11.03%</td></tr><tr><td>Offer received</td><td>4.99%</td><td>5.18%</td></tr></table></div>
+<div class="card"><h2>Decision Rule</h2><p><b>Primary:</b> compare treatment vs control on the pre-registered 7-day submission rate.</p><p><b>Guardrails:</b> do not ship if approved rights, exposure, quality or downstream thresholds fail.</p><p><b>Uncertainty:</b> use 95% confidence interval and the pre-declared alpha of 0.05.</p></div>
+</div>
+</section>
+<section id="rights" class="view">
+<div class="grid">
+<div class="card"><div class="label">Rights exclusions</div><div class="metric">490</div><div class="note">Consent absent, deletion requested or withdrawn</div></div>
+<div class="card"><div class="label">Rights breaches</div><div class="metric">0</div></div>
+<div class="card"><div class="label">Assignment mismatches</div><div class="metric">0</div></div>
+<div class="card"><div class="label">Duplicate subject IDs</div><div class="metric">0</div></div>
+</div>
+<div class="section cols">
+<div class="card"><h2>Data-Subject Controls</h2><ul><li>Consent is required before experimentation exposure.</li><li>Deletion requests exclude the subject before exposure and analysis.</li><li>Experiment withdrawal is honored before exposure and downstream measurement.</li><li>Use opaque subject identifiers; do not export direct identifiers into analytics outputs.</li><li>Version consent and purpose metadata so experiment eligibility can be audited.</li><li>Production deletion workflows must propagate to derived experiment datasets according to governed retention rules.</li></ul></div>
+<div class="card"><h2>Resilience Checks</h2><ul><li>Stable assignment from immutable subject ID hash.</li><li>No exposure without eligibility.</li><li>No invalid variant values.</li><li>No duplicate subject identifiers.</li><li>Balanced control/treatment allocation within tolerance.</li><li>Primary analysis rows exist for both arms.</li><li>Machine-readable validation output retained alongside the experiment results.</li></ul></div>
+</div>
+</section>
+<div class="footer">Source: synthetic demonstration generated by <span class="mono">phase2/ab_experiment_demo.py</span>. This dashboard demonstrates the experimentation and governance framework; it is not a production PlaceMux performance report or legal/privacy certification.</div>
+</div>
+<script>
+const tabs = [...document.querySelectorAll('.tab')]; const views=[...document.querySelectorAll('.view')];
+function activate(name) { tabs.forEach(t=>t.classList.toggle('active',t.dataset.tab===name)); views.forEach(v=>v.classList.toggle('active',v.id===name)); }
+function fromHash() { const n=location.hash.slice(1); activate(['overview','design','results','rights'].includes(n)?n:'overview'); }
+tabs.forEach(t=>t.addEventListener('click',()=>{ location.hash=t.dataset.tab; activate(t.dataset.tab); })); window.addEventListener('hashchange',fromHash); fromHash();
+</script>
+</body></html>

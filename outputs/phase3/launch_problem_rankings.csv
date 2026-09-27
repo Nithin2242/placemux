@@ -1,0 +1,5 @@
+rank,problem,metric,affected_rows,affected_share_pct,priority
+1,Customer traceability gap,Missing CustomerID,135080,24.93,P0
+2,Invalid quantity states,Quantity <= 0,10624,1.96,P1
+3,Transaction-state contamination,Cancellation invoice lines,9288,1.71,P0
+4,Invalid price states,UnitPrice <= 0,2517,0.46,P1

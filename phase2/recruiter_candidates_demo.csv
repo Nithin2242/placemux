@@ -1,0 +1,1321 @@
+candidate_id,batch_id,recruiter_id,company_id,company,role,stage,import_source,skill_focus,created_at
+CAN0001,B019,R004,C008,Aster Mobility,Business Analyst,Screening,Manual Review,Excel,2026-08-11T12:22
+CAN0002,B043,R003,C003,Vertex Digital,Software Engineer,Placed,API,React,2026-08-19T13:46
+CAN0003,B005,R006,C002,BlueOrbit Labs,Backend Developer,Placed,Manual Review,SQL,2026-08-22T10:14
+CAN0004,B004,R002,C003,Vertex Digital,Business Analyst,Offer,API,SQL,2026-08-25T11:45
+CAN0005,B034,R008,C005,CloudMint,QA Engineer,Rejected,CSV,Python,2026-08-11T12:26
+CAN0006,B033,R007,C008,Aster Mobility,Software Engineer,Placed,API,Node.js,2026-08-01T13:47
+CAN0007,B018,R007,C004,FinEdge Solutions,QA Engineer,Screening,API,Python,2026-08-29T11:27
+CAN0008,B017,R010,C007,DataForge,Data Analyst,Screening,CSV,SQL,2026-08-27T17:00
+CAN0009,B018,R007,C004,FinEdge Solutions,Business Analyst,Applied,Manual Review,Java,2026-08-29T11:27
+CAN0010,B012,R010,C003,Vertex Digital,QA Engineer,Applied,Manual Review,Java,2026-08-07T17:08
+CAN0011,B016,R008,C003,Vertex Digital,Data Analyst,Offer,CSV,Node.js,2026-08-27T16:10
+CAN0012,B026,R008,C002,BlueOrbit Labs,Business Analyst,Screening,API,React,2026-08-13T14:50
+CAN0013,B028,R008,C002,BlueOrbit Labs,Software Engineer,Applied,API,SQL,2026-08-23T09:04
+CAN0014,B025,R009,C009,NextWave Retail,QA Engineer,Applied,Manual Review,Power BI,2026-08-09T13:27
+CAN0015,B024,R010,C006,GreenByte,Software Engineer,Applied,Manual Review,Node.js,2026-08-31T13:19
+CAN0016,B032,R008,C005,CloudMint,Business Analyst,Applied,API,Excel,2026-08-29T15:36
+CAN0017,B002,R006,C004,FinEdge Solutions,Frontend Developer,Offer,API,Power BI,2026-08-24T12:01
+CAN0018,B014,R004,C002,BlueOrbit Labs,Backend Developer,Shortlisted,API,Python,2026-08-31T10:49
+CAN0019,B006,R002,C002,BlueOrbit Labs,Backend Developer,Placed,Manual Review,Node.js,2026-08-02T13:25
+CAN0020,B035,R002,C006,GreenByte,Backend Developer,Applied,API,Python,2026-08-26T09:23
+CAN0021,B033,R007,C008,Aster Mobility,Data Analyst,Placed,CSV,SQL,2026-08-01T13:47
+CAN0022,B040,R004,C004,FinEdge Solutions,Data Analyst,Interview,API,Node.js,2026-08-18T15:18
+CAN0023,B025,R009,C009,NextWave Retail,Software Engineer,Screening,CSV,SQL,2026-08-09T13:27
+CAN0024,B011,R003,C006,GreenByte,Frontend Developer,Shortlisted,Manual Review,Power BI,2026-08-02T17:25
+CAN0025,B036,R004,C007,DataForge,Backend Developer,Interview,Manual Review,Python,2026-08-16T16:03
+CAN0026,B033,R007,C008,Aster Mobility,QA Engineer,Interview,CSV,Java,2026-08-01T13:47
+CAN0027,B031,R003,C002,BlueOrbit Labs,Business Analyst,Shortlisted,API,Python,2026-08-27T09:21
+CAN0028,B032,R008,C005,CloudMint,Software Engineer,Shortlisted,CSV,Excel,2026-08-29T15:36
+CAN0029,B023,R005,C001,Nova Systems,Data Analyst,Interview,API,SQL,2026-08-24T13:33
+CAN0030,B007,R002,C010,BrightPath Consulting,Frontend Developer,Applied,Manual Review,SQL,2026-08-14T15:30
+CAN0031,B004,R002,C003,Vertex Digital,Frontend Developer,Applied,CSV,Java,2026-08-25T11:45
+CAN0032,B007,R002,C010,BrightPath Consulting,Software Engineer,Applied,API,React,2026-08-14T15:30
+CAN0033,B016,R008,C003,Vertex Digital,Frontend Developer,Offer,Manual Review,Python,2026-08-27T16:10
+CAN0034,B036,R004,C007,DataForge,Frontend Developer,Rejected,API,React,2026-08-16T16:03
+CAN0035,B011,R003,C006,GreenByte,Data Analyst,Applied,API,Node.js,2026-08-02T17:25
+CAN0036,B045,R007,C004,FinEdge Solutions,Backend Developer,Screening,Manual Review,React,2026-08-13T10:28
+CAN0037,B047,R010,C008,Aster Mobility,Software Engineer,Applied,Manual Review,React,2026-08-27T15:16
+CAN0038,B047,R010,C008,Aster Mobility,Business Analyst,Placed,CSV,React,2026-08-27T15:16
+CAN0039,B011,R003,C006,GreenByte,Data Analyst,Interview,Manual Review,Python,2026-08-02T17:25
+CAN0040,B032,R008,C005,CloudMint,Business Analyst,Screening,Manual Review,Node.js,2026-08-29T15:36
+CAN0041,B022,R009,C009,NextWave Retail,Data Analyst,Screening,API,Excel,2026-08-10T16:08
+CAN0042,B043,R003,C003,Vertex Digital,QA Engineer,Applied,API,Node.js,2026-08-19T13:46
+CAN0043,B048,R006,C004,FinEdge Solutions,Data Analyst,Rejected,API,Excel,2026-08-12T15:41
+CAN0044,B040,R004,C004,FinEdge Solutions,Software Engineer,Applied,Manual Review,Node.js,2026-08-18T15:18
+CAN0045,B032,R008,C005,CloudMint,Backend Developer,Applied,CSV,Java,2026-08-29T15:36
+CAN0046,B001,R004,C003,Vertex Digital,Business Analyst,Applied,Manual Review,Power BI,2026-08-10T13:43
+CAN0047,B019,R004,C008,Aster Mobility,QA Engineer,Shortlisted,Manual Review,React,2026-08-11T12:22
+CAN0048,B017,R010,C007,DataForge,Software Engineer,Screening,Manual Review,SQL,2026-08-27T17:00
+CAN0049,B025,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,API,Python,2026-08-09T13:27
+CAN0050,B030,R007,C004,FinEdge Solutions,QA Engineer,Screening,CSV,Java,2026-08-22T09:40
+CAN0051,B039,R005,C008,Aster Mobility,QA Engineer,Interview,CSV,Power BI,2026-08-24T14:18
+CAN0052,B015,R009,C007,DataForge,Frontend Developer,Applied,CSV,Python,2026-08-01T16:05
+CAN0053,B037,R004,C009,NextWave Retail,Software Engineer,Applied,Manual Review,React,2026-08-27T16:00
+CAN0054,B004,R002,C003,Vertex Digital,Frontend Developer,Applied,Manual Review,Python,2026-08-25T11:45
+CAN0055,B046,R005,C006,GreenByte,Data Analyst,Applied,API,Python,2026-08-05T15:24
+CAN0056,B013,R004,C006,GreenByte,Software Engineer,Screening,API,Excel,2026-08-05T14:02
+CAN0057,B006,R002,C002,BlueOrbit Labs,Data Analyst,Interview,Manual Review,React,2026-08-02T13:25
+CAN0058,B005,R006,C002,BlueOrbit Labs,QA Engineer,Screening,Manual Review,Java,2026-08-22T10:14
+CAN0059,B023,R005,C001,Nova Systems,QA Engineer,Placed,API,SQL,2026-08-24T13:33
+CAN0060,B013,R004,C006,GreenByte,Data Analyst,Applied,Manual Review,Excel,2026-08-05T14:02
+CAN0061,B015,R009,C007,DataForge,QA Engineer,Applied,CSV,SQL,2026-08-01T16:05
+CAN0062,B038,R003,C001,Nova Systems,Data Analyst,Applied,CSV,Power BI,2026-08-04T17:22
+CAN0063,B010,R007,C001,Nova Systems,Data Analyst,Applied,CSV,Java,2026-08-17T15:35
+CAN0064,B014,R004,C002,BlueOrbit Labs,Business Analyst,Rejected,API,Python,2026-08-31T10:49
+CAN0065,B018,R007,C004,FinEdge Solutions,Business Analyst,Offer,Manual Review,Java,2026-08-29T11:27
+CAN0066,B015,R009,C007,DataForge,QA Engineer,Rejected,API,Node.js,2026-08-01T16:05
+CAN0067,B044,R008,C004,FinEdge Solutions,QA Engineer,Applied,Manual Review,Node.js,2026-08-03T15:17
+CAN0068,B006,R002,C002,BlueOrbit Labs,Data Analyst,Rejected,CSV,Excel,2026-08-02T13:25
+CAN0069,B029,R005,C001,Nova Systems,Backend Developer,Shortlisted,API,Python,2026-08-26T09:46
+CAN0070,B007,R002,C010,BrightPath Consulting,Data Analyst,Rejected,CSV,Excel,2026-08-14T15:30
+CAN0071,B003,R006,C002,BlueOrbit Labs,Business Analyst,Offer,API,Java,2026-08-14T13:36
+CAN0072,B032,R008,C005,CloudMint,Software Engineer,Applied,API,SQL,2026-08-29T15:36
+CAN0073,B040,R004,C004,FinEdge Solutions,Backend Developer,Screening,API,Python,2026-08-18T15:18
+CAN0074,B047,R010,C008,Aster Mobility,QA Engineer,Screening,API,Java,2026-08-27T15:16
+CAN0075,B020,R009,C007,DataForge,Business Analyst,Applied,API,Python,2026-08-26T16:22
+CAN0076,B034,R008,C005,CloudMint,Backend Developer,Applied,Manual Review,Power BI,2026-08-11T12:26
+CAN0077,B044,R008,C004,FinEdge Solutions,Data Analyst,Screening,API,Node.js,2026-08-03T15:17
+CAN0078,B021,R002,C001,Nova Systems,Backend Developer,Offer,CSV,Excel,2026-08-10T16:40
+CAN0079,B011,R003,C006,GreenByte,Business Analyst,Screening,Manual Review,SQL,2026-08-02T17:25
+CAN0080,B013,R004,C006,GreenByte,QA Engineer,Screening,API,SQL,2026-08-05T14:02
+CAN0081,B004,R002,C003,Vertex Digital,Software Engineer,Applied,API,Excel,2026-08-25T11:45
+CAN0082,B003,R006,C002,BlueOrbit Labs,Frontend Developer,Placed,Manual Review,Java,2026-08-14T13:36
+CAN0083,B021,R002,C001,Nova Systems,Software Engineer,Shortlisted,CSV,SQL,2026-08-10T16:40
+CAN0084,B005,R006,C002,BlueOrbit Labs,QA Engineer,Offer,Manual Review,Python,2026-08-22T10:14
+CAN0085,B014,R004,C002,BlueOrbit Labs,Backend Developer,Applied,API,Node.js,2026-08-31T10:49
+CAN0086,B036,R004,C007,DataForge,Data Analyst,Rejected,Manual Review,React,2026-08-16T16:03
+CAN0087,B009,R009,C008,Aster Mobility,Backend Developer,Shortlisted,Manual Review,Excel,2026-08-31T14:23
+CAN0088,B031,R003,C002,BlueOrbit Labs,Data Analyst,Interview,API,Node.js,2026-08-27T09:21
+CAN0089,B046,R005,C006,GreenByte,Data Analyst,Interview,Manual Review,SQL,2026-08-05T15:24
+CAN0090,B020,R009,C007,DataForge,QA Engineer,Shortlisted,Manual Review,SQL,2026-08-26T16:22
+CAN0091,B010,R007,C001,Nova Systems,Software Engineer,Applied,Manual Review,Java,2026-08-17T15:35
+CAN0092,B030,R007,C004,FinEdge Solutions,Business Analyst,Applied,Manual Review,React,2026-08-22T09:40
+CAN0093,B032,R008,C005,CloudMint,Backend Developer,Screening,API,Node.js,2026-08-29T15:36
+CAN0094,B013,R004,C006,GreenByte,Business Analyst,Applied,API,Java,2026-08-05T14:02
+CAN0095,B001,R004,C003,Vertex Digital,Backend Developer,Interview,CSV,Excel,2026-08-10T13:43
+CAN0096,B011,R003,C006,GreenByte,Software Engineer,Rejected,API,Node.js,2026-08-02T17:25
+CAN0097,B005,R006,C002,BlueOrbit Labs,QA Engineer,Rejected,CSV,Python,2026-08-22T10:14
+CAN0098,B040,R004,C004,FinEdge Solutions,Data Analyst,Screening,API,SQL,2026-08-18T15:18
+CAN0099,B008,R003,C002,BlueOrbit Labs,Business Analyst,Placed,CSV,Java,2026-08-28T16:48
+CAN0100,B015,R009,C007,DataForge,Data Analyst,Interview,CSV,Python,2026-08-01T16:05
+CAN0101,B030,R007,C004,FinEdge Solutions,QA Engineer,Screening,Manual Review,Python,2026-08-22T09:40
+CAN0102,B021,R002,C001,Nova Systems,Backend Developer,Rejected,Manual Review,Node.js,2026-08-10T16:40
+CAN0103,B035,R002,C006,GreenByte,Frontend Developer,Offer,Manual Review,Power BI,2026-08-26T09:23
+CAN0104,B048,R006,C004,FinEdge Solutions,Data Analyst,Rejected,Manual Review,SQL,2026-08-12T15:41
+CAN0105,B048,R006,C004,FinEdge Solutions,Software Engineer,Placed,Manual Review,Power BI,2026-08-12T15:41
+CAN0106,B025,R009,C009,NextWave Retail,QA Engineer,Placed,CSV,React,2026-08-09T13:27
+CAN0107,B013,R004,C006,GreenByte,Business Analyst,Shortlisted,CSV,Power BI,2026-08-05T14:02
+CAN0108,B035,R002,C006,GreenByte,Software Engineer,Screening,API,Python,2026-08-26T09:23
+CAN0109,B026,R008,C002,BlueOrbit Labs,Software Engineer,Rejected,CSV,Power BI,2026-08-13T14:50
+CAN0110,B031,R003,C002,BlueOrbit Labs,Backend Developer,Shortlisted,CSV,Excel,2026-08-27T09:21
+CAN0111,B020,R009,C007,DataForge,Frontend Developer,Shortlisted,Manual Review,SQL,2026-08-26T16:22
+CAN0112,B041,R002,C005,CloudMint,Data Analyst,Rejected,CSV,React,2026-08-09T09:05
+CAN0113,B008,R003,C002,BlueOrbit Labs,QA Engineer,Applied,API,Java,2026-08-28T16:48
+CAN0114,B005,R006,C002,BlueOrbit Labs,Data Analyst,Placed,API,SQL,2026-08-22T10:14
+CAN0115,B022,R009,C009,NextWave Retail,Business Analyst,Placed,API,SQL,2026-08-10T16:08
+CAN0116,B046,R005,C006,GreenByte,Data Analyst,Shortlisted,Manual Review,Python,2026-08-05T15:24
+CAN0117,B009,R009,C008,Aster Mobility,Software Engineer,Applied,CSV,SQL,2026-08-31T14:23
+CAN0118,B045,R007,C004,FinEdge Solutions,Frontend Developer,Shortlisted,API,Node.js,2026-08-13T10:28
+CAN0119,B025,R009,C009,NextWave Retail,Frontend Developer,Screening,API,SQL,2026-08-09T13:27
+CAN0120,B002,R006,C004,FinEdge Solutions,Business Analyst,Offer,API,SQL,2026-08-24T12:01
+CAN0121,B035,R002,C006,GreenByte,Software Engineer,Applied,CSV,SQL,2026-08-26T09:23
+CAN0122,B031,R003,C002,BlueOrbit Labs,Data Analyst,Interview,API,SQL,2026-08-27T09:21
+CAN0123,B044,R008,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,Python,2026-08-03T15:17
+CAN0124,B015,R009,C007,DataForge,Frontend Developer,Offer,Manual Review,SQL,2026-08-01T16:05
+CAN0125,B001,R004,C003,Vertex Digital,Backend Developer,Applied,CSV,Python,2026-08-10T13:43
+CAN0126,B013,R004,C006,GreenByte,Backend Developer,Screening,API,Node.js,2026-08-05T14:02
+CAN0127,B028,R008,C002,BlueOrbit Labs,Backend Developer,Screening,Manual Review,SQL,2026-08-23T09:04
+CAN0128,B007,R002,C010,BrightPath Consulting,QA Engineer,Placed,Manual Review,Excel,2026-08-14T15:30
+CAN0129,B021,R002,C001,Nova Systems,Software Engineer,Applied,Manual Review,React,2026-08-10T16:40
+CAN0130,B021,R002,C001,Nova Systems,QA Engineer,Interview,CSV,Excel,2026-08-10T16:40
+CAN0131,B019,R004,C008,Aster Mobility,QA Engineer,Shortlisted,API,React,2026-08-11T12:22
+CAN0132,B022,R009,C009,NextWave Retail,Frontend Developer,Screening,Manual Review,SQL,2026-08-10T16:08
+CAN0133,B015,R009,C007,DataForge,Software Engineer,Applied,Manual Review,Python,2026-08-01T16:05
+CAN0134,B045,R007,C004,FinEdge Solutions,Business Analyst,Interview,Manual Review,Python,2026-08-13T10:28
+CAN0135,B021,R002,C001,Nova Systems,Data Analyst,Applied,API,React,2026-08-10T16:40
+CAN0136,B003,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,CSV,Python,2026-08-14T13:36
+CAN0137,B048,R006,C004,FinEdge Solutions,Frontend Developer,Shortlisted,Manual Review,Node.js,2026-08-12T15:41
+CAN0138,B042,R004,C006,GreenByte,Backend Developer,Applied,Manual Review,Node.js,2026-08-10T14:15
+CAN0139,B037,R004,C009,NextWave Retail,Backend Developer,Shortlisted,API,Power BI,2026-08-27T16:00
+CAN0140,B017,R010,C007,DataForge,Backend Developer,Shortlisted,Manual Review,SQL,2026-08-27T17:00
+CAN0141,B020,R009,C007,DataForge,Frontend Developer,Rejected,CSV,Power BI,2026-08-26T16:22
+CAN0142,B047,R010,C008,Aster Mobility,Backend Developer,Applied,API,SQL,2026-08-27T15:16
+CAN0143,B019,R004,C008,Aster Mobility,Data Analyst,Applied,API,Node.js,2026-08-11T12:22
+CAN0144,B031,R003,C002,BlueOrbit Labs,QA Engineer,Screening,Manual Review,Node.js,2026-08-27T09:21
+CAN0145,B006,R002,C002,BlueOrbit Labs,Backend Developer,Offer,Manual Review,Power BI,2026-08-02T13:25
+CAN0146,B017,R010,C007,DataForge,Backend Developer,Applied,API,React,2026-08-27T17:00
+CAN0147,B028,R008,C002,BlueOrbit Labs,Software Engineer,Interview,Manual Review,React,2026-08-23T09:04
+CAN0148,B031,R003,C002,BlueOrbit Labs,QA Engineer,Shortlisted,API,Python,2026-08-27T09:21
+CAN0149,B023,R005,C001,Nova Systems,Frontend Developer,Screening,CSV,Java,2026-08-24T13:33
+CAN0150,B018,R007,C004,FinEdge Solutions,Backend Developer,Interview,CSV,Power BI,2026-08-29T11:27
+CAN0151,B011,R003,C006,GreenByte,Software Engineer,Interview,Manual Review,Java,2026-08-02T17:25
+CAN0152,B046,R005,C006,GreenByte,Backend Developer,Shortlisted,API,Node.js,2026-08-05T15:24
+CAN0153,B020,R009,C007,DataForge,Software Engineer,Interview,Manual Review,Power BI,2026-08-26T16:22
+CAN0154,B004,R002,C003,Vertex Digital,Frontend Developer,Shortlisted,Manual Review,Power BI,2026-08-25T11:45
+CAN0155,B009,R009,C008,Aster Mobility,Business Analyst,Applied,CSV,React,2026-08-31T14:23
+CAN0156,B041,R002,C005,CloudMint,Frontend Developer,Screening,Manual Review,Power BI,2026-08-09T09:05
+CAN0157,B020,R009,C007,DataForge,Business Analyst,Rejected,Manual Review,Excel,2026-08-26T16:22
+CAN0158,B042,R004,C006,GreenByte,Software Engineer,Interview,API,Excel,2026-08-10T14:15
+CAN0159,B040,R004,C004,FinEdge Solutions,Backend Developer,Applied,API,Node.js,2026-08-18T15:18
+CAN0160,B005,R006,C002,BlueOrbit Labs,Data Analyst,Applied,CSV,React,2026-08-22T10:14
+CAN0161,B037,R004,C009,NextWave Retail,Data Analyst,Applied,Manual Review,React,2026-08-27T16:00
+CAN0162,B045,R007,C004,FinEdge Solutions,QA Engineer,Shortlisted,CSV,Excel,2026-08-13T10:28
+CAN0163,B048,R006,C004,FinEdge Solutions,Frontend Developer,Applied,CSV,Excel,2026-08-12T15:41
+CAN0164,B022,R009,C009,NextWave Retail,QA Engineer,Interview,API,Node.js,2026-08-10T16:08
+CAN0165,B047,R010,C008,Aster Mobility,QA Engineer,Rejected,Manual Review,Power BI,2026-08-27T15:16
+CAN0166,B009,R009,C008,Aster Mobility,Business Analyst,Interview,Manual Review,React,2026-08-31T14:23
+CAN0167,B048,R006,C004,FinEdge Solutions,QA Engineer,Shortlisted,Manual Review,Python,2026-08-12T15:41
+CAN0168,B030,R007,C004,FinEdge Solutions,Software Engineer,Placed,Manual Review,Java,2026-08-22T09:40
+CAN0169,B012,R010,C003,Vertex Digital,Business Analyst,Applied,CSV,Power BI,2026-08-07T17:08
+CAN0170,B037,R004,C009,NextWave Retail,Business Analyst,Shortlisted,Manual Review,Python,2026-08-27T16:00
+CAN0171,B010,R007,C001,Nova Systems,QA Engineer,Applied,Manual Review,Excel,2026-08-17T15:35
+CAN0172,B032,R008,C005,CloudMint,QA Engineer,Applied,API,Power BI,2026-08-29T15:36
+CAN0173,B042,R004,C006,GreenByte,Frontend Developer,Interview,API,Java,2026-08-10T14:15
+CAN0174,B041,R002,C005,CloudMint,QA Engineer,Applied,API,SQL,2026-08-09T09:05
+CAN0175,B007,R002,C010,BrightPath Consulting,QA Engineer,Applied,CSV,Java,2026-08-14T15:30
+CAN0176,B003,R006,C002,BlueOrbit Labs,Data Analyst,Screening,CSV,Python,2026-08-14T13:36
+CAN0177,B008,R003,C002,BlueOrbit Labs,Backend Developer,Placed,API,Node.js,2026-08-28T16:48
+CAN0178,B018,R007,C004,FinEdge Solutions,QA Engineer,Applied,Manual Review,Node.js,2026-08-29T11:27
+CAN0179,B014,R004,C002,BlueOrbit Labs,Business Analyst,Shortlisted,API,Power BI,2026-08-31T10:49
+CAN0180,B047,R010,C008,Aster Mobility,Data Analyst,Rejected,Manual Review,Java,2026-08-27T15:16
+CAN0181,B009,R009,C008,Aster Mobility,Business Analyst,Shortlisted,API,Python,2026-08-31T14:23
+CAN0182,B029,R005,C001,Nova Systems,Frontend Developer,Applied,CSV,Python,2026-08-26T09:46
+CAN0183,B028,R008,C002,BlueOrbit Labs,QA Engineer,Interview,API,SQL,2026-08-23T09:04
+CAN0184,B029,R005,C001,Nova Systems,Backend Developer,Rejected,CSV,Node.js,2026-08-26T09:46
+CAN0185,B016,R008,C003,Vertex Digital,Software Engineer,Shortlisted,Manual Review,SQL,2026-08-27T16:10
+CAN0186,B042,R004,C006,GreenByte,Backend Developer,Screening,CSV,SQL,2026-08-10T14:15
+CAN0187,B011,R003,C006,GreenByte,Software Engineer,Applied,CSV,Node.js,2026-08-02T17:25
+CAN0188,B005,R006,C002,BlueOrbit Labs,Backend Developer,Shortlisted,API,SQL,2026-08-22T10:14
+CAN0189,B038,R003,C001,Nova Systems,Data Analyst,Placed,API,Python,2026-08-04T17:22
+CAN0190,B010,R007,C001,Nova Systems,Frontend Developer,Shortlisted,Manual Review,Java,2026-08-17T15:35
+CAN0191,B045,R007,C004,FinEdge Solutions,Backend Developer,Applied,CSV,Excel,2026-08-13T10:28
+CAN0192,B017,R010,C007,DataForge,Software Engineer,Shortlisted,CSV,Node.js,2026-08-27T17:00
+CAN0193,B038,R003,C001,Nova Systems,Business Analyst,Rejected,CSV,SQL,2026-08-04T17:22
+CAN0194,B024,R010,C006,GreenByte,Backend Developer,Placed,Manual Review,Excel,2026-08-31T13:19
+CAN0195,B024,R010,C006,GreenByte,Software Engineer,Applied,Manual Review,Node.js,2026-08-31T13:19
+CAN0196,B007,R002,C010,BrightPath Consulting,Frontend Developer,Applied,CSV,Java,2026-08-14T15:30
+CAN0197,B035,R002,C006,GreenByte,Data Analyst,Rejected,CSV,React,2026-08-26T09:23
+CAN0198,B026,R008,C002,BlueOrbit Labs,Software Engineer,Rejected,CSV,Python,2026-08-13T14:50
+CAN0199,B035,R002,C006,GreenByte,Software Engineer,Applied,Manual Review,SQL,2026-08-26T09:23
+CAN0200,B010,R007,C001,Nova Systems,QA Engineer,Applied,Manual Review,Power BI,2026-08-17T15:35
+CAN0201,B021,R002,C001,Nova Systems,Software Engineer,Offer,CSV,Node.js,2026-08-10T16:40
+CAN0202,B007,R002,C010,BrightPath Consulting,Data Analyst,Applied,Manual Review,React,2026-08-14T15:30
+CAN0203,B032,R008,C005,CloudMint,Data Analyst,Applied,CSV,SQL,2026-08-29T15:36
+CAN0204,B017,R010,C007,DataForge,Backend Developer,Placed,Manual Review,Java,2026-08-27T17:00
+CAN0205,B014,R004,C002,BlueOrbit Labs,Business Analyst,Shortlisted,Manual Review,React,2026-08-31T10:49
+CAN0206,B025,R009,C009,NextWave Retail,QA Engineer,Shortlisted,CSV,Excel,2026-08-09T13:27
+CAN0207,B044,R008,C004,FinEdge Solutions,Software Engineer,Applied,CSV,Node.js,2026-08-03T15:17
+CAN0208,B023,R005,C001,Nova Systems,Frontend Developer,Offer,API,Node.js,2026-08-24T13:33
+CAN0209,B002,R006,C004,FinEdge Solutions,Backend Developer,Rejected,CSV,Node.js,2026-08-24T12:01
+CAN0210,B013,R004,C006,GreenByte,QA Engineer,Applied,Manual Review,React,2026-08-05T14:02
+CAN0211,B042,R004,C006,GreenByte,Frontend Developer,Interview,API,SQL,2026-08-10T14:15
+CAN0212,B013,R004,C006,GreenByte,Business Analyst,Shortlisted,API,SQL,2026-08-05T14:02
+CAN0213,B012,R010,C003,Vertex Digital,Backend Developer,Shortlisted,API,SQL,2026-08-07T17:08
+CAN0214,B047,R010,C008,Aster Mobility,Software Engineer,Interview,Manual Review,Java,2026-08-27T15:16
+CAN0215,B011,R003,C006,GreenByte,Data Analyst,Interview,Manual Review,Power BI,2026-08-02T17:25
+CAN0216,B021,R002,C001,Nova Systems,Software Engineer,Applied,CSV,Excel,2026-08-10T16:40
+CAN0217,B029,R005,C001,Nova Systems,Frontend Developer,Shortlisted,CSV,SQL,2026-08-26T09:46
+CAN0218,B004,R002,C003,Vertex Digital,Software Engineer,Rejected,Manual Review,React,2026-08-25T11:45
+CAN0219,B031,R003,C002,BlueOrbit Labs,Software Engineer,Placed,CSV,Java,2026-08-27T09:21
+CAN0220,B020,R009,C007,DataForge,Business Analyst,Applied,CSV,Java,2026-08-26T16:22
+CAN0221,B031,R003,C002,BlueOrbit Labs,Business Analyst,Applied,Manual Review,React,2026-08-27T09:21
+CAN0222,B014,R004,C002,BlueOrbit Labs,Backend Developer,Applied,API,Node.js,2026-08-31T10:49
+CAN0223,B037,R004,C009,NextWave Retail,Software Engineer,Applied,Manual Review,SQL,2026-08-27T16:00
+CAN0224,B012,R010,C003,Vertex Digital,Data Analyst,Shortlisted,Manual Review,Node.js,2026-08-07T17:08
+CAN0225,B020,R009,C007,DataForge,Backend Developer,Applied,Manual Review,Power BI,2026-08-26T16:22
+CAN0226,B038,R003,C001,Nova Systems,Software Engineer,Applied,Manual Review,Java,2026-08-04T17:22
+CAN0227,B001,R004,C003,Vertex Digital,Software Engineer,Applied,CSV,Node.js,2026-08-10T13:43
+CAN0228,B026,R008,C002,BlueOrbit Labs,QA Engineer,Shortlisted,API,React,2026-08-13T14:50
+CAN0229,B034,R008,C005,CloudMint,Backend Developer,Shortlisted,API,Java,2026-08-11T12:26
+CAN0230,B014,R004,C002,BlueOrbit Labs,Business Analyst,Screening,CSV,SQL,2026-08-31T10:49
+CAN0231,B014,R004,C002,BlueOrbit Labs,Data Analyst,Screening,Manual Review,Node.js,2026-08-31T10:49
+CAN0232,B007,R002,C010,BrightPath Consulting,Frontend Developer,Applied,CSV,Power BI,2026-08-14T15:30
+CAN0233,B033,R007,C008,Aster Mobility,Frontend Developer,Placed,CSV,Excel,2026-08-01T13:47
+CAN0234,B043,R003,C003,Vertex Digital,Data Analyst,Applied,Manual Review,SQL,2026-08-19T13:46
+CAN0235,B020,R009,C007,DataForge,Business Analyst,Offer,API,Python,2026-08-26T16:22
+CAN0236,B020,R009,C007,DataForge,Business Analyst,Applied,API,SQL,2026-08-26T16:22
+CAN0237,B015,R009,C007,DataForge,Backend Developer,Rejected,CSV,SQL,2026-08-01T16:05
+CAN0238,B016,R008,C003,Vertex Digital,QA Engineer,Screening,CSV,React,2026-08-27T16:10
+CAN0239,B019,R004,C008,Aster Mobility,Data Analyst,Screening,API,Excel,2026-08-11T12:22
+CAN0240,B018,R007,C004,FinEdge Solutions,Backend Developer,Interview,API,Excel,2026-08-29T11:27
+CAN0241,B034,R008,C005,CloudMint,QA Engineer,Applied,CSV,Power BI,2026-08-11T12:26
+CAN0242,B041,R002,C005,CloudMint,Software Engineer,Interview,CSV,Excel,2026-08-09T09:05
+CAN0243,B007,R002,C010,BrightPath Consulting,Backend Developer,Applied,API,Node.js,2026-08-14T15:30
+CAN0244,B007,R002,C010,BrightPath Consulting,Backend Developer,Shortlisted,Manual Review,Java,2026-08-14T15:30
+CAN0245,B044,R008,C004,FinEdge Solutions,Business Analyst,Shortlisted,Manual Review,Python,2026-08-03T15:17
+CAN0246,B026,R008,C002,BlueOrbit Labs,Backend Developer,Screening,CSV,React,2026-08-13T14:50
+CAN0247,B002,R006,C004,FinEdge Solutions,QA Engineer,Screening,CSV,Java,2026-08-24T12:01
+CAN0248,B027,R001,C005,CloudMint,QA Engineer,Shortlisted,Manual Review,Python,2026-08-09T13:14
+CAN0249,B004,R002,C003,Vertex Digital,QA Engineer,Shortlisted,CSV,Python,2026-08-25T11:45
+CAN0250,B048,R006,C004,FinEdge Solutions,Frontend Developer,Rejected,API,Java,2026-08-12T15:41
+CAN0251,B020,R009,C007,DataForge,Frontend Developer,Applied,API,Node.js,2026-08-26T16:22
+CAN0252,B021,R002,C001,Nova Systems,Frontend Developer,Shortlisted,CSV,SQL,2026-08-10T16:40
+CAN0253,B015,R009,C007,DataForge,Frontend Developer,Applied,API,Python,2026-08-01T16:05
+CAN0254,B047,R010,C008,Aster Mobility,Business Analyst,Interview,Manual Review,SQL,2026-08-27T15:16
+CAN0255,B002,R006,C004,FinEdge Solutions,QA Engineer,Interview,Manual Review,Power BI,2026-08-24T12:01
+CAN0256,B005,R006,C002,BlueOrbit Labs,Backend Developer,Offer,API,Python,2026-08-22T10:14
+CAN0257,B031,R003,C002,BlueOrbit Labs,QA Engineer,Placed,Manual Review,Power BI,2026-08-27T09:21
+CAN0258,B027,R001,C005,CloudMint,Software Engineer,Rejected,Manual Review,Excel,2026-08-09T13:14
+CAN0259,B031,R003,C002,BlueOrbit Labs,Software Engineer,Rejected,API,Excel,2026-08-27T09:21
+CAN0260,B043,R003,C003,Vertex Digital,Data Analyst,Rejected,CSV,Excel,2026-08-19T13:46
+CAN0261,B048,R006,C004,FinEdge Solutions,Data Analyst,Offer,CSV,Python,2026-08-12T15:41
+CAN0262,B013,R004,C006,GreenByte,Business Analyst,Offer,Manual Review,Python,2026-08-05T14:02
+CAN0263,B007,R002,C010,BrightPath Consulting,Business Analyst,Rejected,API,Excel,2026-08-14T15:30
+CAN0264,B014,R004,C002,BlueOrbit Labs,Data Analyst,Applied,Manual Review,Java,2026-08-31T10:49
+CAN0265,B015,R009,C007,DataForge,Business Analyst,Applied,API,Excel,2026-08-01T16:05
+CAN0266,B014,R004,C002,BlueOrbit Labs,Software Engineer,Applied,API,Excel,2026-08-31T10:49
+CAN0267,B014,R004,C002,BlueOrbit Labs,Business Analyst,Screening,Manual Review,SQL,2026-08-31T10:49
+CAN0268,B043,R003,C003,Vertex Digital,Software Engineer,Shortlisted,API,Excel,2026-08-19T13:46
+CAN0269,B044,R008,C004,FinEdge Solutions,Business Analyst,Applied,CSV,Python,2026-08-03T15:17
+CAN0270,B003,R006,C002,BlueOrbit Labs,Backend Developer,Rejected,Manual Review,Node.js,2026-08-14T13:36
+CAN0271,B013,R004,C006,GreenByte,Data Analyst,Applied,Manual Review,Excel,2026-08-05T14:02
+CAN0272,B040,R004,C004,FinEdge Solutions,QA Engineer,Applied,CSV,Excel,2026-08-18T15:18
+CAN0273,B035,R002,C006,GreenByte,QA Engineer,Rejected,Manual Review,Excel,2026-08-26T09:23
+CAN0274,B025,R009,C009,NextWave Retail,QA Engineer,Offer,API,SQL,2026-08-09T13:27
+CAN0275,B041,R002,C005,CloudMint,Frontend Developer,Placed,API,Excel,2026-08-09T09:05
+CAN0276,B042,R004,C006,GreenByte,Software Engineer,Rejected,CSV,React,2026-08-10T14:15
+CAN0277,B043,R003,C003,Vertex Digital,Data Analyst,Shortlisted,Manual Review,Power BI,2026-08-19T13:46
+CAN0278,B022,R009,C009,NextWave Retail,Software Engineer,Offer,API,Power BI,2026-08-10T16:08
+CAN0279,B045,R007,C004,FinEdge Solutions,Software Engineer,Shortlisted,CSV,React,2026-08-13T10:28
+CAN0280,B004,R002,C003,Vertex Digital,QA Engineer,Shortlisted,CSV,Java,2026-08-25T11:45
+CAN0281,B005,R006,C002,BlueOrbit Labs,Backend Developer,Applied,CSV,Java,2026-08-22T10:14
+CAN0282,B007,R002,C010,BrightPath Consulting,Business Analyst,Applied,CSV,Excel,2026-08-14T15:30
+CAN0283,B002,R006,C004,FinEdge Solutions,Business Analyst,Applied,CSV,Power BI,2026-08-24T12:01
+CAN0284,B010,R007,C001,Nova Systems,Data Analyst,Rejected,Manual Review,Java,2026-08-17T15:35
+CAN0285,B002,R006,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,Power BI,2026-08-24T12:01
+CAN0286,B042,R004,C006,GreenByte,Software Engineer,Applied,API,Python,2026-08-10T14:15
+CAN0287,B023,R005,C001,Nova Systems,Frontend Developer,Screening,Manual Review,React,2026-08-24T13:33
+CAN0288,B046,R005,C006,GreenByte,Data Analyst,Shortlisted,API,React,2026-08-05T15:24
+CAN0289,B048,R006,C004,FinEdge Solutions,Frontend Developer,Screening,API,Python,2026-08-12T15:41
+CAN0290,B023,R005,C001,Nova Systems,QA Engineer,Placed,Manual Review,SQL,2026-08-24T13:33
+CAN0291,B047,R010,C008,Aster Mobility,Frontend Developer,Screening,Manual Review,Java,2026-08-27T15:16
+CAN0292,B008,R003,C002,BlueOrbit Labs,Business Analyst,Placed,Manual Review,Excel,2026-08-28T16:48
+CAN0293,B048,R006,C004,FinEdge Solutions,Software Engineer,Rejected,CSV,Power BI,2026-08-12T15:41
+CAN0294,B036,R004,C007,DataForge,QA Engineer,Applied,CSV,Power BI,2026-08-16T16:03
+CAN0295,B025,R009,C009,NextWave Retail,Data Analyst,Applied,API,Excel,2026-08-09T13:27
+CAN0296,B048,R006,C004,FinEdge Solutions,Software Engineer,Applied,Manual Review,Java,2026-08-12T15:41
+CAN0297,B018,R007,C004,FinEdge Solutions,Software Engineer,Applied,CSV,Power BI,2026-08-29T11:27
+CAN0298,B039,R005,C008,Aster Mobility,QA Engineer,Rejected,Manual Review,SQL,2026-08-24T14:18
+CAN0299,B048,R006,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,React,2026-08-12T15:41
+CAN0300,B046,R005,C006,GreenByte,Software Engineer,Interview,CSV,Python,2026-08-05T15:24
+CAN0301,B040,R004,C004,FinEdge Solutions,Software Engineer,Applied,Manual Review,Python,2026-08-18T15:18
+CAN0302,B008,R003,C002,BlueOrbit Labs,Data Analyst,Shortlisted,CSV,SQL,2026-08-28T16:48
+CAN0303,B003,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,Manual Review,React,2026-08-14T13:36
+CAN0304,B032,R008,C005,CloudMint,QA Engineer,Applied,CSV,Node.js,2026-08-29T15:36
+CAN0305,B045,R007,C004,FinEdge Solutions,Data Analyst,Shortlisted,CSV,React,2026-08-13T10:28
+CAN0306,B019,R004,C008,Aster Mobility,Software Engineer,Offer,API,Java,2026-08-11T12:22
+CAN0307,B040,R004,C004,FinEdge Solutions,Frontend Developer,Rejected,API,Python,2026-08-18T15:18
+CAN0308,B011,R003,C006,GreenByte,Software Engineer,Shortlisted,CSV,Excel,2026-08-02T17:25
+CAN0309,B029,R005,C001,Nova Systems,Business Analyst,Shortlisted,API,SQL,2026-08-26T09:46
+CAN0310,B027,R001,C005,CloudMint,Data Analyst,Applied,Manual Review,Python,2026-08-09T13:14
+CAN0311,B016,R008,C003,Vertex Digital,Software Engineer,Applied,API,Python,2026-08-27T16:10
+CAN0312,B027,R001,C005,CloudMint,Backend Developer,Interview,CSV,Excel,2026-08-09T13:14
+CAN0313,B016,R008,C003,Vertex Digital,Business Analyst,Applied,CSV,SQL,2026-08-27T16:10
+CAN0314,B037,R004,C009,NextWave Retail,QA Engineer,Screening,CSV,Power BI,2026-08-27T16:00
+CAN0315,B003,R006,C002,BlueOrbit Labs,Backend Developer,Rejected,CSV,SQL,2026-08-14T13:36
+CAN0316,B019,R004,C008,Aster Mobility,Software Engineer,Placed,CSV,Power BI,2026-08-11T12:22
+CAN0317,B042,R004,C006,GreenByte,Backend Developer,Shortlisted,Manual Review,Java,2026-08-10T14:15
+CAN0318,B014,R004,C002,BlueOrbit Labs,QA Engineer,Screening,Manual Review,Power BI,2026-08-31T10:49
+CAN0319,B013,R004,C006,GreenByte,Software Engineer,Screening,API,React,2026-08-05T14:02
+CAN0320,B028,R008,C002,BlueOrbit Labs,QA Engineer,Applied,Manual Review,Python,2026-08-23T09:04
+CAN0321,B023,R005,C001,Nova Systems,Data Analyst,Screening,CSV,Node.js,2026-08-24T13:33
+CAN0322,B048,R006,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,SQL,2026-08-12T15:41
+CAN0323,B005,R006,C002,BlueOrbit Labs,Data Analyst,Shortlisted,CSV,Node.js,2026-08-22T10:14
+CAN0324,B036,R004,C007,DataForge,Business Analyst,Applied,Manual Review,Python,2026-08-16T16:03
+CAN0325,B010,R007,C001,Nova Systems,Software Engineer,Applied,API,Java,2026-08-17T15:35
+CAN0326,B012,R010,C003,Vertex Digital,Software Engineer,Shortlisted,Manual Review,Python,2026-08-07T17:08
+CAN0327,B008,R003,C002,BlueOrbit Labs,Data Analyst,Applied,API,SQL,2026-08-28T16:48
+CAN0328,B026,R008,C002,BlueOrbit Labs,Software Engineer,Applied,Manual Review,Python,2026-08-13T14:50
+CAN0329,B032,R008,C005,CloudMint,Data Analyst,Shortlisted,CSV,Python,2026-08-29T15:36
+CAN0330,B012,R010,C003,Vertex Digital,Data Analyst,Shortlisted,CSV,React,2026-08-07T17:08
+CAN0331,B031,R003,C002,BlueOrbit Labs,Software Engineer,Placed,Manual Review,Java,2026-08-27T09:21
+CAN0332,B025,R009,C009,NextWave Retail,Frontend Developer,Offer,Manual Review,Python,2026-08-09T13:27
+CAN0333,B010,R007,C001,Nova Systems,Software Engineer,Applied,CSV,Java,2026-08-17T15:35
+CAN0334,B011,R003,C006,GreenByte,Frontend Developer,Applied,CSV,Java,2026-08-02T17:25
+CAN0335,B046,R005,C006,GreenByte,Data Analyst,Screening,Manual Review,Excel,2026-08-05T15:24
+CAN0336,B014,R004,C002,BlueOrbit Labs,Backend Developer,Applied,Manual Review,Java,2026-08-31T10:49
+CAN0337,B009,R009,C008,Aster Mobility,Frontend Developer,Shortlisted,Manual Review,Power BI,2026-08-31T14:23
+CAN0338,B015,R009,C007,DataForge,QA Engineer,Applied,CSV,SQL,2026-08-01T16:05
+CAN0339,B043,R003,C003,Vertex Digital,Business Analyst,Applied,CSV,Power BI,2026-08-19T13:46
+CAN0340,B044,R008,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,Java,2026-08-03T15:17
+CAN0341,B003,R006,C002,BlueOrbit Labs,QA Engineer,Screening,API,Python,2026-08-14T13:36
+CAN0342,B001,R004,C003,Vertex Digital,QA Engineer,Offer,Manual Review,Power BI,2026-08-10T13:43
+CAN0343,B014,R004,C002,BlueOrbit Labs,QA Engineer,Interview,API,SQL,2026-08-31T10:49
+CAN0344,B023,R005,C001,Nova Systems,QA Engineer,Interview,API,React,2026-08-24T13:33
+CAN0345,B019,R004,C008,Aster Mobility,Data Analyst,Interview,CSV,Java,2026-08-11T12:22
+CAN0346,B034,R008,C005,CloudMint,Software Engineer,Screening,Manual Review,SQL,2026-08-11T12:26
+CAN0347,B013,R004,C006,GreenByte,Data Analyst,Screening,Manual Review,React,2026-08-05T14:02
+CAN0348,B044,R008,C004,FinEdge Solutions,Software Engineer,Applied,CSV,Node.js,2026-08-03T15:17
+CAN0349,B020,R009,C007,DataForge,Business Analyst,Applied,API,Python,2026-08-26T16:22
+CAN0350,B011,R003,C006,GreenByte,Data Analyst,Rejected,CSV,Node.js,2026-08-02T17:25
+CAN0351,B013,R004,C006,GreenByte,QA Engineer,Applied,API,Excel,2026-08-05T14:02
+CAN0352,B033,R007,C008,Aster Mobility,Frontend Developer,Shortlisted,Manual Review,React,2026-08-01T13:47
+CAN0353,B041,R002,C005,CloudMint,Frontend Developer,Applied,CSV,React,2026-08-09T09:05
+CAN0354,B027,R001,C005,CloudMint,Data Analyst,Rejected,CSV,Java,2026-08-09T13:14
+CAN0355,B013,R004,C006,GreenByte,Backend Developer,Shortlisted,API,Python,2026-08-05T14:02
+CAN0356,B046,R005,C006,GreenByte,Business Analyst,Interview,Manual Review,Excel,2026-08-05T15:24
+CAN0357,B015,R009,C007,DataForge,Backend Developer,Shortlisted,CSV,Python,2026-08-01T16:05
+CAN0358,B042,R004,C006,GreenByte,Business Analyst,Applied,API,Excel,2026-08-10T14:15
+CAN0359,B039,R005,C008,Aster Mobility,QA Engineer,Applied,API,Python,2026-08-24T14:18
+CAN0360,B038,R003,C001,Nova Systems,QA Engineer,Screening,API,Node.js,2026-08-04T17:22
+CAN0361,B040,R004,C004,FinEdge Solutions,Software Engineer,Screening,Manual Review,React,2026-08-18T15:18
+CAN0362,B001,R004,C003,Vertex Digital,Business Analyst,Screening,API,Node.js,2026-08-10T13:43
+CAN0363,B024,R010,C006,GreenByte,Software Engineer,Offer,CSV,Java,2026-08-31T13:19
+CAN0364,B023,R005,C001,Nova Systems,Business Analyst,Applied,API,Excel,2026-08-24T13:33
+CAN0365,B039,R005,C008,Aster Mobility,Backend Developer,Applied,API,SQL,2026-08-24T14:18
+CAN0366,B012,R010,C003,Vertex Digital,Backend Developer,Screening,CSV,SQL,2026-08-07T17:08
+CAN0367,B031,R003,C002,BlueOrbit Labs,Frontend Developer,Rejected,Manual Review,Python,2026-08-27T09:21
+CAN0368,B030,R007,C004,FinEdge Solutions,Business Analyst,Interview,CSV,React,2026-08-22T09:40
+CAN0369,B022,R009,C009,NextWave Retail,Software Engineer,Applied,CSV,React,2026-08-10T16:08
+CAN0370,B040,R004,C004,FinEdge Solutions,Business Analyst,Applied,CSV,React,2026-08-18T15:18
+CAN0371,B034,R008,C005,CloudMint,QA Engineer,Offer,Manual Review,Python,2026-08-11T12:26
+CAN0372,B043,R003,C003,Vertex Digital,Software Engineer,Shortlisted,API,SQL,2026-08-19T13:46
+CAN0373,B034,R008,C005,CloudMint,Frontend Developer,Shortlisted,API,Power BI,2026-08-11T12:26
+CAN0374,B047,R010,C008,Aster Mobility,Frontend Developer,Screening,CSV,Excel,2026-08-27T15:16
+CAN0375,B038,R003,C001,Nova Systems,Software Engineer,Offer,CSV,Java,2026-08-04T17:22
+CAN0376,B021,R002,C001,Nova Systems,Frontend Developer,Shortlisted,Manual Review,SQL,2026-08-10T16:40
+CAN0377,B045,R007,C004,FinEdge Solutions,Frontend Developer,Placed,Manual Review,Java,2026-08-13T10:28
+CAN0378,B022,R009,C009,NextWave Retail,Business Analyst,Applied,Manual Review,Excel,2026-08-10T16:08
+CAN0379,B007,R002,C010,BrightPath Consulting,Backend Developer,Shortlisted,API,SQL,2026-08-14T15:30
+CAN0380,B048,R006,C004,FinEdge Solutions,QA Engineer,Applied,API,Excel,2026-08-12T15:41
+CAN0381,B037,R004,C009,NextWave Retail,Backend Developer,Interview,Manual Review,Node.js,2026-08-27T16:00
+CAN0382,B039,R005,C008,Aster Mobility,Software Engineer,Rejected,CSV,Power BI,2026-08-24T14:18
+CAN0383,B008,R003,C002,BlueOrbit Labs,Data Analyst,Shortlisted,API,SQL,2026-08-28T16:48
+CAN0384,B032,R008,C005,CloudMint,Frontend Developer,Screening,CSV,Power BI,2026-08-29T15:36
+CAN0385,B008,R003,C002,BlueOrbit Labs,QA Engineer,Interview,API,Node.js,2026-08-28T16:48
+CAN0386,B012,R010,C003,Vertex Digital,Data Analyst,Applied,Manual Review,SQL,2026-08-07T17:08
+CAN0387,B040,R004,C004,FinEdge Solutions,Software Engineer,Rejected,API,Node.js,2026-08-18T15:18
+CAN0388,B030,R007,C004,FinEdge Solutions,Data Analyst,Interview,Manual Review,Excel,2026-08-22T09:40
+CAN0389,B036,R004,C007,DataForge,Backend Developer,Shortlisted,API,Node.js,2026-08-16T16:03
+CAN0390,B028,R008,C002,BlueOrbit Labs,QA Engineer,Rejected,Manual Review,SQL,2026-08-23T09:04
+CAN0391,B003,R006,C002,BlueOrbit Labs,Software Engineer,Screening,Manual Review,Python,2026-08-14T13:36
+CAN0392,B021,R002,C001,Nova Systems,Frontend Developer,Screening,CSV,Java,2026-08-10T16:40
+CAN0393,B035,R002,C006,GreenByte,QA Engineer,Shortlisted,API,Python,2026-08-26T09:23
+CAN0394,B026,R008,C002,BlueOrbit Labs,Frontend Developer,Applied,Manual Review,Python,2026-08-13T14:50
+CAN0395,B006,R002,C002,BlueOrbit Labs,QA Engineer,Shortlisted,API,Excel,2026-08-02T13:25
+CAN0396,B027,R001,C005,CloudMint,Data Analyst,Applied,API,React,2026-08-09T13:14
+CAN0397,B033,R007,C008,Aster Mobility,Data Analyst,Screening,API,Excel,2026-08-01T13:47
+CAN0398,B034,R008,C005,CloudMint,Data Analyst,Applied,API,Excel,2026-08-11T12:26
+CAN0399,B007,R002,C010,BrightPath Consulting,QA Engineer,Interview,API,SQL,2026-08-14T15:30
+CAN0400,B022,R009,C009,NextWave Retail,QA Engineer,Screening,Manual Review,Python,2026-08-10T16:08
+CAN0401,B011,R003,C006,GreenByte,QA Engineer,Interview,CSV,Power BI,2026-08-02T17:25
+CAN0402,B045,R007,C004,FinEdge Solutions,Data Analyst,Applied,API,Node.js,2026-08-13T10:28
+CAN0403,B004,R002,C003,Vertex Digital,Backend Developer,Shortlisted,API,Node.js,2026-08-25T11:45
+CAN0404,B001,R004,C003,Vertex Digital,Software Engineer,Placed,CSV,Power BI,2026-08-10T13:43
+CAN0405,B030,R007,C004,FinEdge Solutions,Data Analyst,Rejected,CSV,Node.js,2026-08-22T09:40
+CAN0406,B019,R004,C008,Aster Mobility,Data Analyst,Placed,CSV,Node.js,2026-08-11T12:22
+CAN0407,B026,R008,C002,BlueOrbit Labs,Data Analyst,Applied,Manual Review,SQL,2026-08-13T14:50
+CAN0408,B019,R004,C008,Aster Mobility,Software Engineer,Shortlisted,API,Node.js,2026-08-11T12:22
+CAN0409,B041,R002,C005,CloudMint,Backend Developer,Screening,CSV,Node.js,2026-08-09T09:05
+CAN0410,B008,R003,C002,BlueOrbit Labs,Backend Developer,Applied,Manual Review,Node.js,2026-08-28T16:48
+CAN0411,B030,R007,C004,FinEdge Solutions,Frontend Developer,Applied,Manual Review,Python,2026-08-22T09:40
+CAN0412,B031,R003,C002,BlueOrbit Labs,Business Analyst,Applied,API,SQL,2026-08-27T09:21
+CAN0413,B025,R009,C009,NextWave Retail,Business Analyst,Applied,CSV,React,2026-08-09T13:27
+CAN0414,B027,R001,C005,CloudMint,Data Analyst,Interview,Manual Review,Power BI,2026-08-09T13:14
+CAN0415,B024,R010,C006,GreenByte,Frontend Developer,Shortlisted,Manual Review,SQL,2026-08-31T13:19
+CAN0416,B030,R007,C004,FinEdge Solutions,Backend Developer,Screening,Manual Review,Power BI,2026-08-22T09:40
+CAN0417,B038,R003,C001,Nova Systems,Software Engineer,Interview,API,Excel,2026-08-04T17:22
+CAN0418,B030,R007,C004,FinEdge Solutions,Frontend Developer,Applied,Manual Review,Java,2026-08-22T09:40
+CAN0419,B033,R007,C008,Aster Mobility,Backend Developer,Applied,API,SQL,2026-08-01T13:47
+CAN0420,B032,R008,C005,CloudMint,Frontend Developer,Rejected,CSV,Python,2026-08-29T15:36
+CAN0421,B005,R006,C002,BlueOrbit Labs,Backend Developer,Applied,API,Java,2026-08-22T10:14
+CAN0422,B028,R008,C002,BlueOrbit Labs,Software Engineer,Placed,CSV,Java,2026-08-23T09:04
+CAN0423,B039,R005,C008,Aster Mobility,Business Analyst,Applied,Manual Review,Java,2026-08-24T14:18
+CAN0424,B036,R004,C007,DataForge,Software Engineer,Screening,CSV,React,2026-08-16T16:03
+CAN0425,B041,R002,C005,CloudMint,Backend Developer,Shortlisted,CSV,Python,2026-08-09T09:05
+CAN0426,B021,R002,C001,Nova Systems,Data Analyst,Applied,API,SQL,2026-08-10T16:40
+CAN0427,B037,R004,C009,NextWave Retail,Business Analyst,Applied,Manual Review,Excel,2026-08-27T16:00
+CAN0428,B016,R008,C003,Vertex Digital,Business Analyst,Placed,CSV,Power BI,2026-08-27T16:10
+CAN0429,B026,R008,C002,BlueOrbit Labs,Frontend Developer,Screening,CSV,SQL,2026-08-13T14:50
+CAN0430,B004,R002,C003,Vertex Digital,Backend Developer,Applied,Manual Review,Excel,2026-08-25T11:45
+CAN0431,B025,R009,C009,NextWave Retail,Backend Developer,Applied,API,React,2026-08-09T13:27
+CAN0432,B046,R005,C006,GreenByte,QA Engineer,Rejected,CSV,React,2026-08-05T15:24
+CAN0433,B037,R004,C009,NextWave Retail,Business Analyst,Rejected,Manual Review,Node.js,2026-08-27T16:00
+CAN0434,B017,R010,C007,DataForge,QA Engineer,Rejected,Manual Review,Python,2026-08-27T17:00
+CAN0435,B002,R006,C004,FinEdge Solutions,Frontend Developer,Applied,CSV,Python,2026-08-24T12:01
+CAN0436,B021,R002,C001,Nova Systems,Frontend Developer,Shortlisted,API,Excel,2026-08-10T16:40
+CAN0437,B016,R008,C003,Vertex Digital,QA Engineer,Applied,Manual Review,Python,2026-08-27T16:10
+CAN0438,B019,R004,C008,Aster Mobility,Data Analyst,Applied,Manual Review,Node.js,2026-08-11T12:22
+CAN0439,B044,R008,C004,FinEdge Solutions,Backend Developer,Shortlisted,Manual Review,Java,2026-08-03T15:17
+CAN0440,B009,R009,C008,Aster Mobility,Frontend Developer,Applied,Manual Review,Excel,2026-08-31T14:23
+CAN0441,B029,R005,C001,Nova Systems,Backend Developer,Shortlisted,API,Power BI,2026-08-26T09:46
+CAN0442,B001,R004,C003,Vertex Digital,Frontend Developer,Offer,Manual Review,Excel,2026-08-10T13:43
+CAN0443,B014,R004,C002,BlueOrbit Labs,Software Engineer,Screening,CSV,SQL,2026-08-31T10:49
+CAN0444,B020,R009,C007,DataForge,Software Engineer,Applied,CSV,SQL,2026-08-26T16:22
+CAN0445,B038,R003,C001,Nova Systems,Frontend Developer,Rejected,CSV,Node.js,2026-08-04T17:22
+CAN0446,B021,R002,C001,Nova Systems,QA Engineer,Screening,CSV,Power BI,2026-08-10T16:40
+CAN0447,B033,R007,C008,Aster Mobility,QA Engineer,Screening,CSV,Excel,2026-08-01T13:47
+CAN0448,B002,R006,C004,FinEdge Solutions,Data Analyst,Applied,CSV,React,2026-08-24T12:01
+CAN0449,B038,R003,C001,Nova Systems,Data Analyst,Interview,Manual Review,SQL,2026-08-04T17:22
+CAN0450,B025,R009,C009,NextWave Retail,Frontend Developer,Interview,CSV,Node.js,2026-08-09T13:27
+CAN0451,B001,R004,C003,Vertex Digital,Frontend Developer,Placed,API,Node.js,2026-08-10T13:43
+CAN0452,B029,R005,C001,Nova Systems,Frontend Developer,Applied,Manual Review,Excel,2026-08-26T09:46
+CAN0453,B047,R010,C008,Aster Mobility,Data Analyst,Applied,API,Power BI,2026-08-27T15:16
+CAN0454,B033,R007,C008,Aster Mobility,Backend Developer,Applied,Manual Review,Python,2026-08-01T13:47
+CAN0455,B038,R003,C001,Nova Systems,QA Engineer,Placed,Manual Review,Node.js,2026-08-04T17:22
+CAN0456,B023,R005,C001,Nova Systems,Software Engineer,Shortlisted,CSV,Power BI,2026-08-24T13:33
+CAN0457,B043,R003,C003,Vertex Digital,QA Engineer,Applied,API,Python,2026-08-19T13:46
+CAN0458,B007,R002,C010,BrightPath Consulting,Business Analyst,Shortlisted,Manual Review,Java,2026-08-14T15:30
+CAN0459,B014,R004,C002,BlueOrbit Labs,Business Analyst,Shortlisted,API,Python,2026-08-31T10:49
+CAN0460,B023,R005,C001,Nova Systems,Data Analyst,Applied,API,Node.js,2026-08-24T13:33
+CAN0461,B046,R005,C006,GreenByte,Backend Developer,Rejected,CSV,Python,2026-08-05T15:24
+CAN0462,B034,R008,C005,CloudMint,Frontend Developer,Applied,API,Power BI,2026-08-11T12:26
+CAN0463,B002,R006,C004,FinEdge Solutions,Software Engineer,Applied,API,Excel,2026-08-24T12:01
+CAN0464,B006,R002,C002,BlueOrbit Labs,Software Engineer,Offer,API,Java,2026-08-02T13:25
+CAN0465,B016,R008,C003,Vertex Digital,Backend Developer,Offer,Manual Review,React,2026-08-27T16:10
+CAN0466,B016,R008,C003,Vertex Digital,Backend Developer,Applied,Manual Review,Power BI,2026-08-27T16:10
+CAN0467,B027,R001,C005,CloudMint,Software Engineer,Applied,CSV,SQL,2026-08-09T13:14
+CAN0468,B039,R005,C008,Aster Mobility,Frontend Developer,Applied,CSV,Excel,2026-08-24T14:18
+CAN0469,B026,R008,C002,BlueOrbit Labs,QA Engineer,Screening,CSV,Power BI,2026-08-13T14:50
+CAN0470,B001,R004,C003,Vertex Digital,Software Engineer,Screening,CSV,Node.js,2026-08-10T13:43
+CAN0471,B033,R007,C008,Aster Mobility,Data Analyst,Applied,CSV,Excel,2026-08-01T13:47
+CAN0472,B028,R008,C002,BlueOrbit Labs,Frontend Developer,Screening,CSV,Power BI,2026-08-23T09:04
+CAN0473,B003,R006,C002,BlueOrbit Labs,QA Engineer,Offer,Manual Review,Excel,2026-08-14T13:36
+CAN0474,B046,R005,C006,GreenByte,Software Engineer,Shortlisted,CSV,Node.js,2026-08-05T15:24
+CAN0475,B012,R010,C003,Vertex Digital,Backend Developer,Shortlisted,CSV,Excel,2026-08-07T17:08
+CAN0476,B011,R003,C006,GreenByte,Data Analyst,Applied,API,Python,2026-08-02T17:25
+CAN0477,B026,R008,C002,BlueOrbit Labs,Backend Developer,Applied,CSV,Python,2026-08-13T14:50
+CAN0478,B014,R004,C002,BlueOrbit Labs,Frontend Developer,Applied,API,Node.js,2026-08-31T10:49
+CAN0479,B024,R010,C006,GreenByte,Data Analyst,Applied,Manual Review,React,2026-08-31T13:19
+CAN0480,B010,R007,C001,Nova Systems,Data Analyst,Applied,CSV,Python,2026-08-17T15:35
+CAN0481,B012,R010,C003,Vertex Digital,Business Analyst,Applied,API,Node.js,2026-08-07T17:08
+CAN0482,B012,R010,C003,Vertex Digital,Data Analyst,Applied,CSV,Python,2026-08-07T17:08
+CAN0483,B015,R009,C007,DataForge,Business Analyst,Screening,API,Power BI,2026-08-01T16:05
+CAN0484,B028,R008,C002,BlueOrbit Labs,Business Analyst,Interview,CSV,Java,2026-08-23T09:04
+CAN0485,B014,R004,C002,BlueOrbit Labs,Frontend Developer,Interview,API,SQL,2026-08-31T10:49
+CAN0486,B023,R005,C001,Nova Systems,Backend Developer,Applied,Manual Review,Node.js,2026-08-24T13:33
+CAN0487,B022,R009,C009,NextWave Retail,Data Analyst,Shortlisted,API,React,2026-08-10T16:08
+CAN0488,B035,R002,C006,GreenByte,Software Engineer,Applied,Manual Review,Excel,2026-08-26T09:23
+CAN0489,B003,R006,C002,BlueOrbit Labs,Business Analyst,Placed,Manual Review,Python,2026-08-14T13:36
+CAN0490,B016,R008,C003,Vertex Digital,Software Engineer,Applied,Manual Review,Java,2026-08-27T16:10
+CAN0491,B021,R002,C001,Nova Systems,Backend Developer,Applied,Manual Review,SQL,2026-08-10T16:40
+CAN0492,B019,R004,C008,Aster Mobility,Backend Developer,Interview,Manual Review,React,2026-08-11T12:22
+CAN0493,B030,R007,C004,FinEdge Solutions,Business Analyst,Applied,API,Excel,2026-08-22T09:40
+CAN0494,B030,R007,C004,FinEdge Solutions,Frontend Developer,Interview,API,SQL,2026-08-22T09:40
+CAN0495,B020,R009,C007,DataForge,QA Engineer,Screening,API,SQL,2026-08-26T16:22
+CAN0496,B006,R002,C002,BlueOrbit Labs,Frontend Developer,Interview,CSV,SQL,2026-08-02T13:25
+CAN0497,B036,R004,C007,DataForge,Software Engineer,Screening,Manual Review,Excel,2026-08-16T16:03
+CAN0498,B030,R007,C004,FinEdge Solutions,Software Engineer,Shortlisted,CSV,Java,2026-08-22T09:40
+CAN0499,B016,R008,C003,Vertex Digital,QA Engineer,Applied,Manual Review,Python,2026-08-27T16:10
+CAN0500,B004,R002,C003,Vertex Digital,QA Engineer,Applied,Manual Review,Power BI,2026-08-25T11:45
+CAN0501,B035,R002,C006,GreenByte,QA Engineer,Applied,Manual Review,SQL,2026-08-26T09:23
+CAN0502,B003,R006,C002,BlueOrbit Labs,Software Engineer,Screening,CSV,Power BI,2026-08-14T13:36
+CAN0503,B008,R003,C002,BlueOrbit Labs,Business Analyst,Shortlisted,API,Python,2026-08-28T16:48
+CAN0504,B014,R004,C002,BlueOrbit Labs,QA Engineer,Interview,CSV,Java,2026-08-31T10:49
+CAN0505,B031,R003,C002,BlueOrbit Labs,Software Engineer,Interview,Manual Review,Python,2026-08-27T09:21
+CAN0506,B026,R008,C002,BlueOrbit Labs,Business Analyst,Placed,CSV,Power BI,2026-08-13T14:50
+CAN0507,B016,R008,C003,Vertex Digital,Business Analyst,Screening,CSV,SQL,2026-08-27T16:10
+CAN0508,B007,R002,C010,BrightPath Consulting,Business Analyst,Screening,CSV,Java,2026-08-14T15:30
+CAN0509,B040,R004,C004,FinEdge Solutions,Business Analyst,Applied,Manual Review,Python,2026-08-18T15:18
+CAN0510,B020,R009,C007,DataForge,QA Engineer,Interview,CSV,SQL,2026-08-26T16:22
+CAN0511,B014,R004,C002,BlueOrbit Labs,Software Engineer,Shortlisted,API,React,2026-08-31T10:49
+CAN0512,B044,R008,C004,FinEdge Solutions,Backend Developer,Interview,CSV,Node.js,2026-08-03T15:17
+CAN0513,B026,R008,C002,BlueOrbit Labs,Software Engineer,Applied,CSV,Python,2026-08-13T14:50
+CAN0514,B013,R004,C006,GreenByte,Software Engineer,Screening,API,React,2026-08-05T14:02
+CAN0515,B007,R002,C010,BrightPath Consulting,QA Engineer,Screening,Manual Review,Java,2026-08-14T15:30
+CAN0516,B038,R003,C001,Nova Systems,QA Engineer,Screening,Manual Review,React,2026-08-04T17:22
+CAN0517,B017,R010,C007,DataForge,Data Analyst,Applied,API,SQL,2026-08-27T17:00
+CAN0518,B006,R002,C002,BlueOrbit Labs,Software Engineer,Applied,API,Python,2026-08-02T13:25
+CAN0519,B042,R004,C006,GreenByte,Data Analyst,Interview,API,SQL,2026-08-10T14:15
+CAN0520,B032,R008,C005,CloudMint,QA Engineer,Interview,Manual Review,Node.js,2026-08-29T15:36
+CAN0521,B041,R002,C005,CloudMint,Software Engineer,Screening,CSV,Power BI,2026-08-09T09:05
+CAN0522,B005,R006,C002,BlueOrbit Labs,Software Engineer,Offer,API,SQL,2026-08-22T10:14
+CAN0523,B044,R008,C004,FinEdge Solutions,Backend Developer,Placed,Manual Review,Java,2026-08-03T15:17
+CAN0524,B041,R002,C005,CloudMint,Backend Developer,Screening,API,Node.js,2026-08-09T09:05
+CAN0525,B018,R007,C004,FinEdge Solutions,Data Analyst,Applied,CSV,Node.js,2026-08-29T11:27
+CAN0526,B011,R003,C006,GreenByte,QA Engineer,Placed,Manual Review,SQL,2026-08-02T17:25
+CAN0527,B025,R009,C009,NextWave Retail,Business Analyst,Shortlisted,CSV,Java,2026-08-09T13:27
+CAN0528,B037,R004,C009,NextWave Retail,Frontend Developer,Screening,CSV,React,2026-08-27T16:00
+CAN0529,B014,R004,C002,BlueOrbit Labs,Data Analyst,Applied,Manual Review,SQL,2026-08-31T10:49
+CAN0530,B023,R005,C001,Nova Systems,Frontend Developer,Offer,Manual Review,React,2026-08-24T13:33
+CAN0531,B017,R010,C007,DataForge,QA Engineer,Interview,Manual Review,Power BI,2026-08-27T17:00
+CAN0532,B003,R006,C002,BlueOrbit Labs,Data Analyst,Shortlisted,CSV,React,2026-08-14T13:36
+CAN0533,B038,R003,C001,Nova Systems,Backend Developer,Screening,CSV,React,2026-08-04T17:22
+CAN0534,B005,R006,C002,BlueOrbit Labs,QA Engineer,Screening,API,Excel,2026-08-22T10:14
+CAN0535,B036,R004,C007,DataForge,Business Analyst,Applied,API,Power BI,2026-08-16T16:03
+CAN0536,B022,R009,C009,NextWave Retail,Data Analyst,Offer,API,SQL,2026-08-10T16:08
+CAN0537,B025,R009,C009,NextWave Retail,QA Engineer,Offer,CSV,SQL,2026-08-09T13:27
+CAN0538,B028,R008,C002,BlueOrbit Labs,Business Analyst,Offer,API,Python,2026-08-23T09:04
+CAN0539,B004,R002,C003,Vertex Digital,QA Engineer,Applied,Manual Review,Node.js,2026-08-25T11:45
+CAN0540,B021,R002,C001,Nova Systems,Data Analyst,Offer,CSV,SQL,2026-08-10T16:40
+CAN0541,B017,R010,C007,DataForge,Backend Developer,Applied,CSV,Power BI,2026-08-27T17:00
+CAN0542,B022,R009,C009,NextWave Retail,Backend Developer,Applied,CSV,Excel,2026-08-10T16:08
+CAN0543,B007,R002,C010,BrightPath Consulting,Business Analyst,Rejected,API,SQL,2026-08-14T15:30
+CAN0544,B047,R010,C008,Aster Mobility,Frontend Developer,Applied,Manual Review,SQL,2026-08-27T15:16
+CAN0545,B035,R002,C006,GreenByte,QA Engineer,Applied,CSV,Excel,2026-08-26T09:23
+CAN0546,B022,R009,C009,NextWave Retail,Data Analyst,Screening,CSV,Excel,2026-08-10T16:08
+CAN0547,B022,R009,C009,NextWave Retail,Software Engineer,Applied,Manual Review,Node.js,2026-08-10T16:08
+CAN0548,B020,R009,C007,DataForge,Backend Developer,Applied,CSV,Excel,2026-08-26T16:22
+CAN0549,B004,R002,C003,Vertex Digital,Business Analyst,Screening,API,SQL,2026-08-25T11:45
+CAN0550,B015,R009,C007,DataForge,Software Engineer,Applied,Manual Review,Python,2026-08-01T16:05
+CAN0551,B038,R003,C001,Nova Systems,Frontend Developer,Screening,API,React,2026-08-04T17:22
+CAN0552,B006,R002,C002,BlueOrbit Labs,Software Engineer,Applied,Manual Review,SQL,2026-08-02T13:25
+CAN0553,B021,R002,C001,Nova Systems,Data Analyst,Interview,CSV,Python,2026-08-10T16:40
+CAN0554,B022,R009,C009,NextWave Retail,QA Engineer,Applied,CSV,Python,2026-08-10T16:08
+CAN0555,B037,R004,C009,NextWave Retail,Software Engineer,Applied,API,SQL,2026-08-27T16:00
+CAN0556,B039,R005,C008,Aster Mobility,QA Engineer,Shortlisted,API,Node.js,2026-08-24T14:18
+CAN0557,B044,R008,C004,FinEdge Solutions,Backend Developer,Interview,Manual Review,Power BI,2026-08-03T15:17
+CAN0558,B014,R004,C002,BlueOrbit Labs,Backend Developer,Screening,API,Java,2026-08-31T10:49
+CAN0559,B023,R005,C001,Nova Systems,QA Engineer,Screening,Manual Review,Python,2026-08-24T13:33
+CAN0560,B012,R010,C003,Vertex Digital,QA Engineer,Applied,Manual Review,Node.js,2026-08-07T17:08
+CAN0561,B038,R003,C001,Nova Systems,Software Engineer,Applied,API,Excel,2026-08-04T17:22
+CAN0562,B048,R006,C004,FinEdge Solutions,Software Engineer,Placed,API,Java,2026-08-12T15:41
+CAN0563,B015,R009,C007,DataForge,Backend Developer,Placed,CSV,Power BI,2026-08-01T16:05
+CAN0564,B005,R006,C002,BlueOrbit Labs,Data Analyst,Screening,API,Python,2026-08-22T10:14
+CAN0565,B013,R004,C006,GreenByte,Business Analyst,Shortlisted,CSV,Excel,2026-08-05T14:02
+CAN0566,B018,R007,C004,FinEdge Solutions,QA Engineer,Interview,API,Power BI,2026-08-29T11:27
+CAN0567,B002,R006,C004,FinEdge Solutions,Data Analyst,Screening,CSV,Python,2026-08-24T12:01
+CAN0568,B046,R005,C006,GreenByte,Software Engineer,Placed,API,SQL,2026-08-05T15:24
+CAN0569,B047,R010,C008,Aster Mobility,QA Engineer,Placed,Manual Review,Python,2026-08-27T15:16
+CAN0570,B046,R005,C006,GreenByte,QA Engineer,Applied,Manual Review,React,2026-08-05T15:24
+CAN0571,B032,R008,C005,CloudMint,Backend Developer,Applied,Manual Review,SQL,2026-08-29T15:36
+CAN0572,B017,R010,C007,DataForge,Software Engineer,Rejected,CSV,React,2026-08-27T17:00
+CAN0573,B044,R008,C004,FinEdge Solutions,Business Analyst,Rejected,Manual Review,Node.js,2026-08-03T15:17
+CAN0574,B008,R003,C002,BlueOrbit Labs,Business Analyst,Applied,API,Excel,2026-08-28T16:48
+CAN0575,B044,R008,C004,FinEdge Solutions,QA Engineer,Rejected,API,Python,2026-08-03T15:17
+CAN0576,B045,R007,C004,FinEdge Solutions,Data Analyst,Screening,Manual Review,Java,2026-08-13T10:28
+CAN0577,B041,R002,C005,CloudMint,Backend Developer,Applied,CSV,React,2026-08-09T09:05
+CAN0578,B031,R003,C002,BlueOrbit Labs,Software Engineer,Applied,CSV,React,2026-08-27T09:21
+CAN0579,B006,R002,C002,BlueOrbit Labs,Backend Developer,Applied,CSV,Power BI,2026-08-02T13:25
+CAN0580,B017,R010,C007,DataForge,Software Engineer,Applied,Manual Review,Python,2026-08-27T17:00
+CAN0581,B003,R006,C002,BlueOrbit Labs,Backend Developer,Shortlisted,API,React,2026-08-14T13:36
+CAN0582,B012,R010,C003,Vertex Digital,Software Engineer,Placed,CSV,Java,2026-08-07T17:08
+CAN0583,B033,R007,C008,Aster Mobility,Frontend Developer,Screening,API,Node.js,2026-08-01T13:47
+CAN0584,B032,R008,C005,CloudMint,QA Engineer,Applied,API,Power BI,2026-08-29T15:36
+CAN0585,B039,R005,C008,Aster Mobility,Business Analyst,Offer,API,React,2026-08-24T14:18
+CAN0586,B011,R003,C006,GreenByte,Software Engineer,Applied,API,SQL,2026-08-02T17:25
+CAN0587,B024,R010,C006,GreenByte,QA Engineer,Interview,API,Node.js,2026-08-31T13:19
+CAN0588,B031,R003,C002,BlueOrbit Labs,Business Analyst,Rejected,API,Python,2026-08-27T09:21
+CAN0589,B006,R002,C002,BlueOrbit Labs,Software Engineer,Applied,CSV,Java,2026-08-02T13:25
+CAN0590,B001,R004,C003,Vertex Digital,Software Engineer,Applied,Manual Review,Power BI,2026-08-10T13:43
+CAN0591,B033,R007,C008,Aster Mobility,Software Engineer,Shortlisted,API,React,2026-08-01T13:47
+CAN0592,B036,R004,C007,DataForge,Business Analyst,Applied,Manual Review,Power BI,2026-08-16T16:03
+CAN0593,B045,R007,C004,FinEdge Solutions,QA Engineer,Applied,CSV,Power BI,2026-08-13T10:28
+CAN0594,B009,R009,C008,Aster Mobility,Frontend Developer,Applied,Manual Review,React,2026-08-31T14:23
+CAN0595,B004,R002,C003,Vertex Digital,Business Analyst,Rejected,API,Node.js,2026-08-25T11:45
+CAN0596,B007,R002,C010,BrightPath Consulting,Business Analyst,Applied,Manual Review,Python,2026-08-14T15:30
+CAN0597,B030,R007,C004,FinEdge Solutions,Backend Developer,Rejected,Manual Review,Power BI,2026-08-22T09:40
+CAN0598,B005,R006,C002,BlueOrbit Labs,Data Analyst,Offer,CSV,Excel,2026-08-22T10:14
+CAN0599,B020,R009,C007,DataForge,Software Engineer,Screening,CSV,Python,2026-08-26T16:22
+CAN0600,B027,R001,C005,CloudMint,Backend Developer,Interview,Manual Review,SQL,2026-08-09T13:14
+CAN0601,B026,R008,C002,BlueOrbit Labs,Frontend Developer,Screening,Manual Review,Excel,2026-08-13T14:50
+CAN0602,B022,R009,C009,NextWave Retail,Backend Developer,Shortlisted,Manual Review,Node.js,2026-08-10T16:08
+CAN0603,B037,R004,C009,NextWave Retail,Business Analyst,Applied,CSV,Node.js,2026-08-27T16:00
+CAN0604,B006,R002,C002,BlueOrbit Labs,Data Analyst,Rejected,API,React,2026-08-02T13:25
+CAN0605,B013,R004,C006,GreenByte,Software Engineer,Interview,API,SQL,2026-08-05T14:02
+CAN0606,B046,R005,C006,GreenByte,Software Engineer,Offer,Manual Review,Node.js,2026-08-05T15:24
+CAN0607,B003,R006,C002,BlueOrbit Labs,Data Analyst,Applied,API,Java,2026-08-14T13:36
+CAN0608,B025,R009,C009,NextWave Retail,Frontend Developer,Screening,Manual Review,Java,2026-08-09T13:27
+CAN0609,B034,R008,C005,CloudMint,Data Analyst,Shortlisted,Manual Review,Java,2026-08-11T12:26
+CAN0610,B019,R004,C008,Aster Mobility,Backend Developer,Shortlisted,CSV,Power BI,2026-08-11T12:22
+CAN0611,B044,R008,C004,FinEdge Solutions,Software Engineer,Rejected,Manual Review,Java,2026-08-03T15:17
+CAN0612,B012,R010,C003,Vertex Digital,QA Engineer,Applied,CSV,SQL,2026-08-07T17:08
+CAN0613,B038,R003,C001,Nova Systems,Software Engineer,Interview,Manual Review,Power BI,2026-08-04T17:22
+CAN0614,B046,R005,C006,GreenByte,QA Engineer,Screening,CSV,Excel,2026-08-05T15:24
+CAN0615,B010,R007,C001,Nova Systems,Software Engineer,Shortlisted,CSV,SQL,2026-08-17T15:35
+CAN0616,B027,R001,C005,CloudMint,Software Engineer,Placed,Manual Review,Node.js,2026-08-09T13:14
+CAN0617,B006,R002,C002,BlueOrbit Labs,Software Engineer,Applied,Manual Review,Python,2026-08-02T13:25
+CAN0618,B028,R008,C002,BlueOrbit Labs,Backend Developer,Applied,API,React,2026-08-23T09:04
+CAN0619,B005,R006,C002,BlueOrbit Labs,Software Engineer,Offer,API,React,2026-08-22T10:14
+CAN0620,B037,R004,C009,NextWave Retail,Software Engineer,Applied,Manual Review,Excel,2026-08-27T16:00
+CAN0621,B014,R004,C002,BlueOrbit Labs,Data Analyst,Applied,CSV,Power BI,2026-08-31T10:49
+CAN0622,B004,R002,C003,Vertex Digital,Software Engineer,Applied,CSV,React,2026-08-25T11:45
+CAN0623,B036,R004,C007,DataForge,Business Analyst,Applied,Manual Review,SQL,2026-08-16T16:03
+CAN0624,B025,R009,C009,NextWave Retail,Business Analyst,Interview,Manual Review,Python,2026-08-09T13:27
+CAN0625,B017,R010,C007,DataForge,Frontend Developer,Applied,Manual Review,Power BI,2026-08-27T17:00
+CAN0626,B027,R001,C005,CloudMint,Data Analyst,Interview,Manual Review,Excel,2026-08-09T13:14
+CAN0627,B039,R005,C008,Aster Mobility,QA Engineer,Applied,API,Python,2026-08-24T14:18
+CAN0628,B044,R008,C004,FinEdge Solutions,Software Engineer,Shortlisted,Manual Review,Excel,2026-08-03T15:17
+CAN0629,B008,R003,C002,BlueOrbit Labs,Backend Developer,Offer,Manual Review,Node.js,2026-08-28T16:48
+CAN0630,B046,R005,C006,GreenByte,Frontend Developer,Applied,API,Node.js,2026-08-05T15:24
+CAN0631,B031,R003,C002,BlueOrbit Labs,Software Engineer,Offer,API,SQL,2026-08-27T09:21
+CAN0632,B047,R010,C008,Aster Mobility,Data Analyst,Applied,API,Power BI,2026-08-27T15:16
+CAN0633,B019,R004,C008,Aster Mobility,Business Analyst,Applied,API,Node.js,2026-08-11T12:22
+CAN0634,B004,R002,C003,Vertex Digital,Business Analyst,Rejected,API,SQL,2026-08-25T11:45
+CAN0635,B003,R006,C002,BlueOrbit Labs,Business Analyst,Placed,Manual Review,React,2026-08-14T13:36
+CAN0636,B029,R005,C001,Nova Systems,Software Engineer,Placed,CSV,React,2026-08-26T09:46
+CAN0637,B025,R009,C009,NextWave Retail,Frontend Developer,Interview,Manual Review,Java,2026-08-09T13:27
+CAN0638,B039,R005,C008,Aster Mobility,Business Analyst,Rejected,API,React,2026-08-24T14:18
+CAN0639,B028,R008,C002,BlueOrbit Labs,QA Engineer,Applied,API,Excel,2026-08-23T09:04
+CAN0640,B042,R004,C006,GreenByte,Frontend Developer,Screening,API,React,2026-08-10T14:15
+CAN0641,B011,R003,C006,GreenByte,QA Engineer,Applied,Manual Review,Java,2026-08-02T17:25
+CAN0642,B048,R006,C004,FinEdge Solutions,Business Analyst,Applied,CSV,Python,2026-08-12T15:41
+CAN0643,B004,R002,C003,Vertex Digital,Software Engineer,Shortlisted,Manual Review,Excel,2026-08-25T11:45
+CAN0644,B038,R003,C001,Nova Systems,Frontend Developer,Screening,CSV,Java,2026-08-04T17:22
+CAN0645,B011,R003,C006,GreenByte,QA Engineer,Rejected,CSV,SQL,2026-08-02T17:25
+CAN0646,B036,R004,C007,DataForge,Software Engineer,Interview,Manual Review,React,2026-08-16T16:03
+CAN0647,B007,R002,C010,BrightPath Consulting,Business Analyst,Shortlisted,Manual Review,Excel,2026-08-14T15:30
+CAN0648,B003,R006,C002,BlueOrbit Labs,Data Analyst,Applied,CSV,Python,2026-08-14T13:36
+CAN0649,B004,R002,C003,Vertex Digital,Business Analyst,Rejected,Manual Review,SQL,2026-08-25T11:45
+CAN0650,B004,R002,C003,Vertex Digital,QA Engineer,Shortlisted,Manual Review,Python,2026-08-25T11:45
+CAN0651,B012,R010,C003,Vertex Digital,Software Engineer,Screening,Manual Review,Python,2026-08-07T17:08
+CAN0652,B002,R006,C004,FinEdge Solutions,Software Engineer,Shortlisted,API,Power BI,2026-08-24T12:01
+CAN0653,B004,R002,C003,Vertex Digital,QA Engineer,Applied,CSV,SQL,2026-08-25T11:45
+CAN0654,B010,R007,C001,Nova Systems,Backend Developer,Shortlisted,Manual Review,Python,2026-08-17T15:35
+CAN0655,B020,R009,C007,DataForge,Business Analyst,Applied,API,Excel,2026-08-26T16:22
+CAN0656,B029,R005,C001,Nova Systems,Backend Developer,Offer,CSV,Java,2026-08-26T09:46
+CAN0657,B044,R008,C004,FinEdge Solutions,Business Analyst,Applied,CSV,Power BI,2026-08-03T15:17
+CAN0658,B029,R005,C001,Nova Systems,Business Analyst,Applied,API,Java,2026-08-26T09:46
+CAN0659,B034,R008,C005,CloudMint,Business Analyst,Rejected,CSV,Java,2026-08-11T12:26
+CAN0660,B024,R010,C006,GreenByte,Software Engineer,Placed,Manual Review,Java,2026-08-31T13:19
+CAN0661,B033,R007,C008,Aster Mobility,Backend Developer,Interview,CSV,Node.js,2026-08-01T13:47
+CAN0662,B002,R006,C004,FinEdge Solutions,QA Engineer,Applied,Manual Review,Python,2026-08-24T12:01
+CAN0663,B032,R008,C005,CloudMint,Business Analyst,Shortlisted,Manual Review,Node.js,2026-08-29T15:36
+CAN0664,B003,R006,C002,BlueOrbit Labs,Software Engineer,Interview,API,Power BI,2026-08-14T13:36
+CAN0665,B020,R009,C007,DataForge,Backend Developer,Screening,Manual Review,Node.js,2026-08-26T16:22
+CAN0666,B033,R007,C008,Aster Mobility,QA Engineer,Offer,CSV,Power BI,2026-08-01T13:47
+CAN0667,B033,R007,C008,Aster Mobility,Business Analyst,Shortlisted,Manual Review,Java,2026-08-01T13:47
+CAN0668,B045,R007,C004,FinEdge Solutions,Data Analyst,Interview,API,Power BI,2026-08-13T10:28
+CAN0669,B038,R003,C001,Nova Systems,Data Analyst,Applied,API,SQL,2026-08-04T17:22
+CAN0670,B027,R001,C005,CloudMint,QA Engineer,Interview,API,SQL,2026-08-09T13:14
+CAN0671,B041,R002,C005,CloudMint,Data Analyst,Applied,API,Power BI,2026-08-09T09:05
+CAN0672,B032,R008,C005,CloudMint,Backend Developer,Screening,Manual Review,SQL,2026-08-29T15:36
+CAN0673,B030,R007,C004,FinEdge Solutions,Business Analyst,Offer,Manual Review,React,2026-08-22T09:40
+CAN0674,B018,R007,C004,FinEdge Solutions,QA Engineer,Shortlisted,Manual Review,Excel,2026-08-29T11:27
+CAN0675,B006,R002,C002,BlueOrbit Labs,Data Analyst,Shortlisted,CSV,Excel,2026-08-02T13:25
+CAN0676,B004,R002,C003,Vertex Digital,Business Analyst,Shortlisted,Manual Review,Power BI,2026-08-25T11:45
+CAN0677,B004,R002,C003,Vertex Digital,Frontend Developer,Applied,Manual Review,Python,2026-08-25T11:45
+CAN0678,B002,R006,C004,FinEdge Solutions,QA Engineer,Applied,CSV,SQL,2026-08-24T12:01
+CAN0679,B046,R005,C006,GreenByte,Frontend Developer,Screening,API,Python,2026-08-05T15:24
+CAN0680,B020,R009,C007,DataForge,QA Engineer,Shortlisted,CSV,Power BI,2026-08-26T16:22
+CAN0681,B043,R003,C003,Vertex Digital,Software Engineer,Rejected,API,Python,2026-08-19T13:46
+CAN0682,B019,R004,C008,Aster Mobility,Software Engineer,Screening,API,Excel,2026-08-11T12:22
+CAN0683,B007,R002,C010,BrightPath Consulting,Frontend Developer,Shortlisted,CSV,Power BI,2026-08-14T15:30
+CAN0684,B004,R002,C003,Vertex Digital,Business Analyst,Rejected,CSV,Java,2026-08-25T11:45
+CAN0685,B039,R005,C008,Aster Mobility,QA Engineer,Screening,CSV,Excel,2026-08-24T14:18
+CAN0686,B040,R004,C004,FinEdge Solutions,Backend Developer,Applied,CSV,Excel,2026-08-18T15:18
+CAN0687,B046,R005,C006,GreenByte,Data Analyst,Applied,Manual Review,Power BI,2026-08-05T15:24
+CAN0688,B010,R007,C001,Nova Systems,Backend Developer,Rejected,Manual Review,Java,2026-08-17T15:35
+CAN0689,B006,R002,C002,BlueOrbit Labs,Software Engineer,Interview,Manual Review,React,2026-08-02T13:25
+CAN0690,B034,R008,C005,CloudMint,Data Analyst,Interview,Manual Review,Node.js,2026-08-11T12:26
+CAN0691,B021,R002,C001,Nova Systems,Business Analyst,Applied,Manual Review,Excel,2026-08-10T16:40
+CAN0692,B006,R002,C002,BlueOrbit Labs,QA Engineer,Placed,CSV,Node.js,2026-08-02T13:25
+CAN0693,B044,R008,C004,FinEdge Solutions,QA Engineer,Screening,API,SQL,2026-08-03T15:17
+CAN0694,B023,R005,C001,Nova Systems,Data Analyst,Rejected,Manual Review,Excel,2026-08-24T13:33
+CAN0695,B010,R007,C001,Nova Systems,QA Engineer,Placed,Manual Review,React,2026-08-17T15:35
+CAN0696,B003,R006,C002,BlueOrbit Labs,Software Engineer,Screening,CSV,Node.js,2026-08-14T13:36
+CAN0697,B011,R003,C006,GreenByte,QA Engineer,Screening,API,Python,2026-08-02T17:25
+CAN0698,B031,R003,C002,BlueOrbit Labs,Data Analyst,Rejected,CSV,React,2026-08-27T09:21
+CAN0699,B023,R005,C001,Nova Systems,Data Analyst,Applied,API,Java,2026-08-24T13:33
+CAN0700,B021,R002,C001,Nova Systems,Frontend Developer,Offer,CSV,Java,2026-08-10T16:40
+CAN0701,B037,R004,C009,NextWave Retail,Business Analyst,Applied,Manual Review,React,2026-08-27T16:00
+CAN0702,B007,R002,C010,BrightPath Consulting,QA Engineer,Applied,API,Java,2026-08-14T15:30
+CAN0703,B008,R003,C002,BlueOrbit Labs,Data Analyst,Placed,CSV,Power BI,2026-08-28T16:48
+CAN0704,B045,R007,C004,FinEdge Solutions,Frontend Developer,Interview,API,Python,2026-08-13T10:28
+CAN0705,B025,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,Manual Review,React,2026-08-09T13:27
+CAN0706,B006,R002,C002,BlueOrbit Labs,Frontend Developer,Rejected,API,React,2026-08-02T13:25
+CAN0707,B038,R003,C001,Nova Systems,Frontend Developer,Interview,API,Python,2026-08-04T17:22
+CAN0708,B035,R002,C006,GreenByte,Software Engineer,Shortlisted,CSV,Power BI,2026-08-26T09:23
+CAN0709,B036,R004,C007,DataForge,Data Analyst,Placed,API,React,2026-08-16T16:03
+CAN0710,B011,R003,C006,GreenByte,QA Engineer,Offer,Manual Review,Power BI,2026-08-02T17:25
+CAN0711,B047,R010,C008,Aster Mobility,Business Analyst,Applied,CSV,Power BI,2026-08-27T15:16
+CAN0712,B046,R005,C006,GreenByte,Software Engineer,Interview,API,Node.js,2026-08-05T15:24
+CAN0713,B025,R009,C009,NextWave Retail,Software Engineer,Shortlisted,Manual Review,React,2026-08-09T13:27
+CAN0714,B023,R005,C001,Nova Systems,Frontend Developer,Screening,Manual Review,Node.js,2026-08-24T13:33
+CAN0715,B039,R005,C008,Aster Mobility,Software Engineer,Applied,API,SQL,2026-08-24T14:18
+CAN0716,B015,R009,C007,DataForge,QA Engineer,Screening,CSV,Excel,2026-08-01T16:05
+CAN0717,B039,R005,C008,Aster Mobility,Data Analyst,Rejected,Manual Review,Python,2026-08-24T14:18
+CAN0718,B040,R004,C004,FinEdge Solutions,Frontend Developer,Applied,Manual Review,React,2026-08-18T15:18
+CAN0719,B016,R008,C003,Vertex Digital,Backend Developer,Shortlisted,Manual Review,Node.js,2026-08-27T16:10
+CAN0720,B043,R003,C003,Vertex Digital,Business Analyst,Screening,API,Node.js,2026-08-19T13:46
+CAN0721,B043,R003,C003,Vertex Digital,Business Analyst,Interview,CSV,Power BI,2026-08-19T13:46
+CAN0722,B017,R010,C007,DataForge,QA Engineer,Shortlisted,API,React,2026-08-27T17:00
+CAN0723,B008,R003,C002,BlueOrbit Labs,Data Analyst,Interview,Manual Review,Python,2026-08-28T16:48
+CAN0724,B013,R004,C006,GreenByte,Data Analyst,Screening,API,SQL,2026-08-05T14:02
+CAN0725,B038,R003,C001,Nova Systems,Backend Developer,Interview,CSV,Java,2026-08-04T17:22
+CAN0726,B029,R005,C001,Nova Systems,Software Engineer,Offer,Manual Review,Java,2026-08-26T09:46
+CAN0727,B026,R008,C002,BlueOrbit Labs,Data Analyst,Placed,CSV,React,2026-08-13T14:50
+CAN0728,B016,R008,C003,Vertex Digital,Frontend Developer,Rejected,API,Java,2026-08-27T16:10
+CAN0729,B009,R009,C008,Aster Mobility,Business Analyst,Applied,Manual Review,Python,2026-08-31T14:23
+CAN0730,B022,R009,C009,NextWave Retail,QA Engineer,Shortlisted,API,Power BI,2026-08-10T16:08
+CAN0731,B044,R008,C004,FinEdge Solutions,Business Analyst,Applied,API,Java,2026-08-03T15:17
+CAN0732,B026,R008,C002,BlueOrbit Labs,Data Analyst,Rejected,API,Node.js,2026-08-13T14:50
+CAN0733,B021,R002,C001,Nova Systems,Business Analyst,Screening,CSV,SQL,2026-08-10T16:40
+CAN0734,B012,R010,C003,Vertex Digital,Data Analyst,Interview,CSV,Python,2026-08-07T17:08
+CAN0735,B045,R007,C004,FinEdge Solutions,QA Engineer,Screening,Manual Review,React,2026-08-13T10:28
+CAN0736,B010,R007,C001,Nova Systems,Data Analyst,Placed,Manual Review,Node.js,2026-08-17T15:35
+CAN0737,B020,R009,C007,DataForge,QA Engineer,Screening,CSV,Node.js,2026-08-26T16:22
+CAN0738,B040,R004,C004,FinEdge Solutions,Software Engineer,Applied,API,Python,2026-08-18T15:18
+CAN0739,B019,R004,C008,Aster Mobility,Data Analyst,Shortlisted,CSV,Power BI,2026-08-11T12:22
+CAN0740,B019,R004,C008,Aster Mobility,Business Analyst,Rejected,CSV,Java,2026-08-11T12:22
+CAN0741,B013,R004,C006,GreenByte,Data Analyst,Applied,Manual Review,Python,2026-08-05T14:02
+CAN0742,B011,R003,C006,GreenByte,Frontend Developer,Rejected,Manual Review,Java,2026-08-02T17:25
+CAN0743,B033,R007,C008,Aster Mobility,QA Engineer,Screening,CSV,Excel,2026-08-01T13:47
+CAN0744,B016,R008,C003,Vertex Digital,Data Analyst,Applied,CSV,Node.js,2026-08-27T16:10
+CAN0745,B021,R002,C001,Nova Systems,Business Analyst,Rejected,API,Java,2026-08-10T16:40
+CAN0746,B031,R003,C002,BlueOrbit Labs,Backend Developer,Applied,API,Python,2026-08-27T09:21
+CAN0747,B041,R002,C005,CloudMint,Frontend Developer,Applied,API,Python,2026-08-09T09:05
+CAN0748,B003,R006,C002,BlueOrbit Labs,Backend Developer,Shortlisted,API,Java,2026-08-14T13:36
+CAN0749,B033,R007,C008,Aster Mobility,Backend Developer,Interview,Manual Review,Excel,2026-08-01T13:47
+CAN0750,B028,R008,C002,BlueOrbit Labs,Frontend Developer,Screening,API,React,2026-08-23T09:04
+CAN0751,B024,R010,C006,GreenByte,Data Analyst,Applied,CSV,SQL,2026-08-31T13:19
+CAN0752,B042,R004,C006,GreenByte,Data Analyst,Screening,Manual Review,SQL,2026-08-10T14:15
+CAN0753,B025,R009,C009,NextWave Retail,Software Engineer,Placed,Manual Review,Excel,2026-08-09T13:27
+CAN0754,B032,R008,C005,CloudMint,Software Engineer,Placed,API,Excel,2026-08-29T15:36
+CAN0755,B040,R004,C004,FinEdge Solutions,Business Analyst,Applied,CSV,Java,2026-08-18T15:18
+CAN0756,B031,R003,C002,BlueOrbit Labs,Data Analyst,Shortlisted,Manual Review,Power BI,2026-08-27T09:21
+CAN0757,B006,R002,C002,BlueOrbit Labs,Data Analyst,Applied,CSV,Excel,2026-08-02T13:25
+CAN0758,B037,R004,C009,NextWave Retail,Frontend Developer,Shortlisted,CSV,Java,2026-08-27T16:00
+CAN0759,B028,R008,C002,BlueOrbit Labs,Data Analyst,Screening,CSV,Python,2026-08-23T09:04
+CAN0760,B023,R005,C001,Nova Systems,Backend Developer,Interview,API,Java,2026-08-24T13:33
+CAN0761,B006,R002,C002,BlueOrbit Labs,Backend Developer,Interview,Manual Review,Power BI,2026-08-02T13:25
+CAN0762,B038,R003,C001,Nova Systems,Business Analyst,Applied,Manual Review,Python,2026-08-04T17:22
+CAN0763,B044,R008,C004,FinEdge Solutions,Backend Developer,Placed,Manual Review,React,2026-08-03T15:17
+CAN0764,B017,R010,C007,DataForge,Business Analyst,Applied,API,SQL,2026-08-27T17:00
+CAN0765,B048,R006,C004,FinEdge Solutions,QA Engineer,Rejected,CSV,Python,2026-08-12T15:41
+CAN0766,B048,R006,C004,FinEdge Solutions,Data Analyst,Rejected,Manual Review,Power BI,2026-08-12T15:41
+CAN0767,B001,R004,C003,Vertex Digital,Backend Developer,Offer,API,React,2026-08-10T13:43
+CAN0768,B035,R002,C006,GreenByte,Software Engineer,Screening,API,Excel,2026-08-26T09:23
+CAN0769,B019,R004,C008,Aster Mobility,Data Analyst,Placed,CSV,Node.js,2026-08-11T12:22
+CAN0770,B024,R010,C006,GreenByte,Frontend Developer,Screening,API,Excel,2026-08-31T13:19
+CAN0771,B027,R001,C005,CloudMint,Backend Developer,Applied,CSV,React,2026-08-09T13:14
+CAN0772,B037,R004,C009,NextWave Retail,Backend Developer,Screening,Manual Review,React,2026-08-27T16:00
+CAN0773,B020,R009,C007,DataForge,Backend Developer,Shortlisted,CSV,Excel,2026-08-26T16:22
+CAN0774,B035,R002,C006,GreenByte,Frontend Developer,Applied,API,Node.js,2026-08-26T09:23
+CAN0775,B009,R009,C008,Aster Mobility,Software Engineer,Interview,API,SQL,2026-08-31T14:23
+CAN0776,B036,R004,C007,DataForge,QA Engineer,Rejected,CSV,Java,2026-08-16T16:03
+CAN0777,B032,R008,C005,CloudMint,Frontend Developer,Interview,CSV,Node.js,2026-08-29T15:36
+CAN0778,B038,R003,C001,Nova Systems,Software Engineer,Shortlisted,API,Power BI,2026-08-04T17:22
+CAN0779,B042,R004,C006,GreenByte,Frontend Developer,Applied,API,Java,2026-08-10T14:15
+CAN0780,B025,R009,C009,NextWave Retail,Frontend Developer,Interview,Manual Review,Python,2026-08-09T13:27
+CAN0781,B012,R010,C003,Vertex Digital,Software Engineer,Applied,CSV,Power BI,2026-08-07T17:08
+CAN0782,B026,R008,C002,BlueOrbit Labs,QA Engineer,Rejected,API,Python,2026-08-13T14:50
+CAN0783,B034,R008,C005,CloudMint,Business Analyst,Applied,Manual Review,React,2026-08-11T12:26
+CAN0784,B031,R003,C002,BlueOrbit Labs,QA Engineer,Screening,Manual Review,Excel,2026-08-27T09:21
+CAN0785,B039,R005,C008,Aster Mobility,Business Analyst,Shortlisted,Manual Review,Python,2026-08-24T14:18
+CAN0786,B047,R010,C008,Aster Mobility,Frontend Developer,Shortlisted,Manual Review,Excel,2026-08-27T15:16
+CAN0787,B039,R005,C008,Aster Mobility,Software Engineer,Applied,Manual Review,Power BI,2026-08-24T14:18
+CAN0788,B001,R004,C003,Vertex Digital,Software Engineer,Applied,Manual Review,Power BI,2026-08-10T13:43
+CAN0789,B007,R002,C010,BrightPath Consulting,Software Engineer,Interview,API,Python,2026-08-14T15:30
+CAN0790,B032,R008,C005,CloudMint,Backend Developer,Interview,API,Java,2026-08-29T15:36
+CAN0791,B023,R005,C001,Nova Systems,Data Analyst,Interview,CSV,Python,2026-08-24T13:33
+CAN0792,B046,R005,C006,GreenByte,Frontend Developer,Shortlisted,CSV,Excel,2026-08-05T15:24
+CAN0793,B018,R007,C004,FinEdge Solutions,Frontend Developer,Shortlisted,API,Excel,2026-08-29T11:27
+CAN0794,B014,R004,C002,BlueOrbit Labs,Business Analyst,Shortlisted,CSV,Python,2026-08-31T10:49
+CAN0795,B042,R004,C006,GreenByte,Data Analyst,Rejected,Manual Review,Excel,2026-08-10T14:15
+CAN0796,B030,R007,C004,FinEdge Solutions,Backend Developer,Placed,API,Power BI,2026-08-22T09:40
+CAN0797,B016,R008,C003,Vertex Digital,Software Engineer,Applied,CSV,Node.js,2026-08-27T16:10
+CAN0798,B001,R004,C003,Vertex Digital,QA Engineer,Applied,CSV,SQL,2026-08-10T13:43
+CAN0799,B038,R003,C001,Nova Systems,Software Engineer,Interview,CSV,Power BI,2026-08-04T17:22
+CAN0800,B003,R006,C002,BlueOrbit Labs,QA Engineer,Interview,Manual Review,Power BI,2026-08-14T13:36
+CAN0801,B030,R007,C004,FinEdge Solutions,Data Analyst,Screening,API,Python,2026-08-22T09:40
+CAN0802,B015,R009,C007,DataForge,Business Analyst,Interview,CSV,SQL,2026-08-01T16:05
+CAN0803,B048,R006,C004,FinEdge Solutions,QA Engineer,Applied,CSV,Python,2026-08-12T15:41
+CAN0804,B001,R004,C003,Vertex Digital,Frontend Developer,Applied,API,SQL,2026-08-10T13:43
+CAN0805,B029,R005,C001,Nova Systems,Backend Developer,Screening,CSV,Node.js,2026-08-26T09:46
+CAN0806,B033,R007,C008,Aster Mobility,Data Analyst,Offer,Manual Review,Java,2026-08-01T13:47
+CAN0807,B037,R004,C009,NextWave Retail,Backend Developer,Shortlisted,API,SQL,2026-08-27T16:00
+CAN0808,B027,R001,C005,CloudMint,Software Engineer,Applied,API,React,2026-08-09T13:14
+CAN0809,B045,R007,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,Python,2026-08-13T10:28
+CAN0810,B013,R004,C006,GreenByte,Backend Developer,Placed,CSV,Python,2026-08-05T14:02
+CAN0811,B004,R002,C003,Vertex Digital,Frontend Developer,Rejected,CSV,Python,2026-08-25T11:45
+CAN0812,B047,R010,C008,Aster Mobility,Business Analyst,Screening,Manual Review,Java,2026-08-27T15:16
+CAN0813,B046,R005,C006,GreenByte,Data Analyst,Shortlisted,CSV,Python,2026-08-05T15:24
+CAN0814,B029,R005,C001,Nova Systems,QA Engineer,Screening,Manual Review,Node.js,2026-08-26T09:46
+CAN0815,B047,R010,C008,Aster Mobility,Backend Developer,Shortlisted,Manual Review,React,2026-08-27T15:16
+CAN0816,B027,R001,C005,CloudMint,Data Analyst,Placed,Manual Review,Power BI,2026-08-09T13:14
+CAN0817,B033,R007,C008,Aster Mobility,Data Analyst,Applied,CSV,Node.js,2026-08-01T13:47
+CAN0818,B015,R009,C007,DataForge,Data Analyst,Screening,API,Power BI,2026-08-01T16:05
+CAN0819,B018,R007,C004,FinEdge Solutions,Business Analyst,Screening,API,Excel,2026-08-29T11:27
+CAN0820,B036,R004,C007,DataForge,Software Engineer,Applied,API,Excel,2026-08-16T16:03
+CAN0821,B012,R010,C003,Vertex Digital,Business Analyst,Applied,CSV,Power BI,2026-08-07T17:08
+CAN0822,B030,R007,C004,FinEdge Solutions,Backend Developer,Applied,API,Power BI,2026-08-22T09:40
+CAN0823,B039,R005,C008,Aster Mobility,Data Analyst,Interview,CSV,Python,2026-08-24T14:18
+CAN0824,B027,R001,C005,CloudMint,Software Engineer,Interview,API,Python,2026-08-09T13:14
+CAN0825,B017,R010,C007,DataForge,Frontend Developer,Interview,CSV,SQL,2026-08-27T17:00
+CAN0826,B033,R007,C008,Aster Mobility,Data Analyst,Applied,Manual Review,React,2026-08-01T13:47
+CAN0827,B016,R008,C003,Vertex Digital,Data Analyst,Shortlisted,Manual Review,Java,2026-08-27T16:10
+CAN0828,B016,R008,C003,Vertex Digital,QA Engineer,Applied,Manual Review,SQL,2026-08-27T16:10
+CAN0829,B030,R007,C004,FinEdge Solutions,Software Engineer,Screening,Manual Review,Excel,2026-08-22T09:40
+CAN0830,B021,R002,C001,Nova Systems,Backend Developer,Applied,Manual Review,Python,2026-08-10T16:40
+CAN0831,B038,R003,C001,Nova Systems,QA Engineer,Applied,Manual Review,Excel,2026-08-04T17:22
+CAN0832,B032,R008,C005,CloudMint,QA Engineer,Applied,API,React,2026-08-29T15:36
+CAN0833,B028,R008,C002,BlueOrbit Labs,QA Engineer,Applied,CSV,SQL,2026-08-23T09:04
+CAN0834,B006,R002,C002,BlueOrbit Labs,Frontend Developer,Offer,CSV,Java,2026-08-02T13:25
+CAN0835,B040,R004,C004,FinEdge Solutions,Business Analyst,Interview,API,Node.js,2026-08-18T15:18
+CAN0836,B020,R009,C007,DataForge,Software Engineer,Shortlisted,CSV,SQL,2026-08-26T16:22
+CAN0837,B022,R009,C009,NextWave Retail,Frontend Developer,Applied,Manual Review,SQL,2026-08-10T16:08
+CAN0838,B004,R002,C003,Vertex Digital,QA Engineer,Screening,CSV,Power BI,2026-08-25T11:45
+CAN0839,B029,R005,C001,Nova Systems,Data Analyst,Interview,CSV,Node.js,2026-08-26T09:46
+CAN0840,B012,R010,C003,Vertex Digital,QA Engineer,Screening,CSV,Node.js,2026-08-07T17:08
+CAN0841,B033,R007,C008,Aster Mobility,Software Engineer,Shortlisted,Manual Review,Python,2026-08-01T13:47
+CAN0842,B004,R002,C003,Vertex Digital,Frontend Developer,Interview,API,Power BI,2026-08-25T11:45
+CAN0843,B029,R005,C001,Nova Systems,Frontend Developer,Shortlisted,CSV,Power BI,2026-08-26T09:46
+CAN0844,B025,R009,C009,NextWave Retail,QA Engineer,Applied,CSV,Excel,2026-08-09T13:27
+CAN0845,B040,R004,C004,FinEdge Solutions,Backend Developer,Screening,API,Python,2026-08-18T15:18
+CAN0846,B003,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,API,React,2026-08-14T13:36
+CAN0847,B047,R010,C008,Aster Mobility,Backend Developer,Applied,Manual Review,Java,2026-08-27T15:16
+CAN0848,B006,R002,C002,BlueOrbit Labs,Frontend Developer,Interview,Manual Review,Node.js,2026-08-02T13:25
+CAN0849,B030,R007,C004,FinEdge Solutions,Backend Developer,Screening,Manual Review,Power BI,2026-08-22T09:40
+CAN0850,B020,R009,C007,DataForge,Backend Developer,Rejected,Manual Review,React,2026-08-26T16:22
+CAN0851,B006,R002,C002,BlueOrbit Labs,QA Engineer,Screening,CSV,Excel,2026-08-02T13:25
+CAN0852,B016,R008,C003,Vertex Digital,Software Engineer,Shortlisted,CSV,Node.js,2026-08-27T16:10
+CAN0853,B043,R003,C003,Vertex Digital,Business Analyst,Shortlisted,Manual Review,Python,2026-08-19T13:46
+CAN0854,B034,R008,C005,CloudMint,Data Analyst,Applied,CSV,Node.js,2026-08-11T12:26
+CAN0855,B041,R002,C005,CloudMint,Frontend Developer,Placed,Manual Review,Java,2026-08-09T09:05
+CAN0856,B011,R003,C006,GreenByte,QA Engineer,Interview,Manual Review,Excel,2026-08-02T17:25
+CAN0857,B039,R005,C008,Aster Mobility,Business Analyst,Offer,API,Node.js,2026-08-24T14:18
+CAN0858,B036,R004,C007,DataForge,Data Analyst,Applied,API,React,2026-08-16T16:03
+CAN0859,B007,R002,C010,BrightPath Consulting,QA Engineer,Shortlisted,CSV,SQL,2026-08-14T15:30
+CAN0860,B008,R003,C002,BlueOrbit Labs,Backend Developer,Applied,CSV,SQL,2026-08-28T16:48
+CAN0861,B018,R007,C004,FinEdge Solutions,QA Engineer,Applied,Manual Review,Node.js,2026-08-29T11:27
+CAN0862,B013,R004,C006,GreenByte,Data Analyst,Shortlisted,Manual Review,Java,2026-08-05T14:02
+CAN0863,B019,R004,C008,Aster Mobility,Business Analyst,Offer,CSV,React,2026-08-11T12:22
+CAN0864,B012,R010,C003,Vertex Digital,Backend Developer,Offer,API,Python,2026-08-07T17:08
+CAN0865,B011,R003,C006,GreenByte,Frontend Developer,Applied,Manual Review,SQL,2026-08-02T17:25
+CAN0866,B007,R002,C010,BrightPath Consulting,Backend Developer,Applied,Manual Review,Python,2026-08-14T15:30
+CAN0867,B001,R004,C003,Vertex Digital,Frontend Developer,Screening,Manual Review,Python,2026-08-10T13:43
+CAN0868,B015,R009,C007,DataForge,Data Analyst,Placed,Manual Review,SQL,2026-08-01T16:05
+CAN0869,B037,R004,C009,NextWave Retail,Software Engineer,Screening,Manual Review,Node.js,2026-08-27T16:00
+CAN0870,B006,R002,C002,BlueOrbit Labs,QA Engineer,Applied,API,Node.js,2026-08-02T13:25
+CAN0871,B042,R004,C006,GreenByte,Business Analyst,Screening,Manual Review,Node.js,2026-08-10T14:15
+CAN0872,B044,R008,C004,FinEdge Solutions,QA Engineer,Interview,API,Python,2026-08-03T15:17
+CAN0873,B042,R004,C006,GreenByte,QA Engineer,Applied,Manual Review,Excel,2026-08-10T14:15
+CAN0874,B006,R002,C002,BlueOrbit Labs,Data Analyst,Interview,Manual Review,Node.js,2026-08-02T13:25
+CAN0875,B030,R007,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,Node.js,2026-08-22T09:40
+CAN0876,B046,R005,C006,GreenByte,Frontend Developer,Screening,API,Node.js,2026-08-05T15:24
+CAN0877,B029,R005,C001,Nova Systems,Backend Developer,Rejected,Manual Review,Excel,2026-08-26T09:46
+CAN0878,B015,R009,C007,DataForge,Frontend Developer,Shortlisted,CSV,Java,2026-08-01T16:05
+CAN0879,B041,R002,C005,CloudMint,QA Engineer,Offer,API,Excel,2026-08-09T09:05
+CAN0880,B016,R008,C003,Vertex Digital,Business Analyst,Shortlisted,API,Java,2026-08-27T16:10
+CAN0881,B041,R002,C005,CloudMint,Data Analyst,Applied,API,Java,2026-08-09T09:05
+CAN0882,B002,R006,C004,FinEdge Solutions,Software Engineer,Applied,API,React,2026-08-24T12:01
+CAN0883,B017,R010,C007,DataForge,QA Engineer,Offer,API,SQL,2026-08-27T17:00
+CAN0884,B022,R009,C009,NextWave Retail,Data Analyst,Rejected,CSV,Power BI,2026-08-10T16:08
+CAN0885,B046,R005,C006,GreenByte,Data Analyst,Shortlisted,CSV,Java,2026-08-05T15:24
+CAN0886,B003,R006,C002,BlueOrbit Labs,Backend Developer,Shortlisted,Manual Review,SQL,2026-08-14T13:36
+CAN0887,B041,R002,C005,CloudMint,Data Analyst,Applied,CSV,Java,2026-08-09T09:05
+CAN0888,B022,R009,C009,NextWave Retail,Frontend Developer,Applied,CSV,Node.js,2026-08-10T16:08
+CAN0889,B006,R002,C002,BlueOrbit Labs,Software Engineer,Rejected,API,Excel,2026-08-02T13:25
+CAN0890,B023,R005,C001,Nova Systems,Backend Developer,Applied,API,Java,2026-08-24T13:33
+CAN0891,B045,R007,C004,FinEdge Solutions,Software Engineer,Shortlisted,Manual Review,Power BI,2026-08-13T10:28
+CAN0892,B013,R004,C006,GreenByte,Data Analyst,Applied,Manual Review,SQL,2026-08-05T14:02
+CAN0893,B032,R008,C005,CloudMint,Software Engineer,Placed,CSV,Excel,2026-08-29T15:36
+CAN0894,B018,R007,C004,FinEdge Solutions,Business Analyst,Screening,API,Power BI,2026-08-29T11:27
+CAN0895,B033,R007,C008,Aster Mobility,Frontend Developer,Shortlisted,CSV,Power BI,2026-08-01T13:47
+CAN0896,B016,R008,C003,Vertex Digital,Business Analyst,Interview,Manual Review,Java,2026-08-27T16:10
+CAN0897,B009,R009,C008,Aster Mobility,Business Analyst,Applied,CSV,SQL,2026-08-31T14:23
+CAN0898,B011,R003,C006,GreenByte,QA Engineer,Applied,CSV,SQL,2026-08-02T17:25
+CAN0899,B017,R010,C007,DataForge,Frontend Developer,Screening,API,Excel,2026-08-27T17:00
+CAN0900,B028,R008,C002,BlueOrbit Labs,Business Analyst,Screening,API,React,2026-08-23T09:04
+CAN0901,B030,R007,C004,FinEdge Solutions,Data Analyst,Applied,API,Java,2026-08-22T09:40
+CAN0902,B033,R007,C008,Aster Mobility,Data Analyst,Applied,Manual Review,React,2026-08-01T13:47
+CAN0903,B020,R009,C007,DataForge,Software Engineer,Offer,Manual Review,Node.js,2026-08-26T16:22
+CAN0904,B002,R006,C004,FinEdge Solutions,Frontend Developer,Shortlisted,API,Power BI,2026-08-24T12:01
+CAN0905,B013,R004,C006,GreenByte,QA Engineer,Applied,Manual Review,Power BI,2026-08-05T14:02
+CAN0906,B031,R003,C002,BlueOrbit Labs,QA Engineer,Applied,CSV,Java,2026-08-27T09:21
+CAN0907,B013,R004,C006,GreenByte,Business Analyst,Applied,Manual Review,React,2026-08-05T14:02
+CAN0908,B028,R008,C002,BlueOrbit Labs,QA Engineer,Applied,Manual Review,Python,2026-08-23T09:04
+CAN0909,B004,R002,C003,Vertex Digital,Business Analyst,Rejected,CSV,Python,2026-08-25T11:45
+CAN0910,B045,R007,C004,FinEdge Solutions,QA Engineer,Applied,Manual Review,Node.js,2026-08-13T10:28
+CAN0911,B036,R004,C007,DataForge,Business Analyst,Screening,Manual Review,Node.js,2026-08-16T16:03
+CAN0912,B001,R004,C003,Vertex Digital,Backend Developer,Rejected,API,SQL,2026-08-10T13:43
+CAN0913,B011,R003,C006,GreenByte,QA Engineer,Screening,Manual Review,Java,2026-08-02T17:25
+CAN0914,B021,R002,C001,Nova Systems,Backend Developer,Applied,Manual Review,Node.js,2026-08-10T16:40
+CAN0915,B027,R001,C005,CloudMint,Backend Developer,Placed,API,Node.js,2026-08-09T13:14
+CAN0916,B028,R008,C002,BlueOrbit Labs,Backend Developer,Rejected,Manual Review,SQL,2026-08-23T09:04
+CAN0917,B003,R006,C002,BlueOrbit Labs,QA Engineer,Applied,CSV,SQL,2026-08-14T13:36
+CAN0918,B011,R003,C006,GreenByte,Frontend Developer,Interview,Manual Review,Node.js,2026-08-02T17:25
+CAN0919,B023,R005,C001,Nova Systems,Backend Developer,Offer,CSV,SQL,2026-08-24T13:33
+CAN0920,B015,R009,C007,DataForge,Backend Developer,Shortlisted,Manual Review,Java,2026-08-01T16:05
+CAN0921,B029,R005,C001,Nova Systems,Data Analyst,Applied,Manual Review,React,2026-08-26T09:46
+CAN0922,B046,R005,C006,GreenByte,Software Engineer,Applied,Manual Review,Node.js,2026-08-05T15:24
+CAN0923,B036,R004,C007,DataForge,QA Engineer,Screening,API,Python,2026-08-16T16:03
+CAN0924,B004,R002,C003,Vertex Digital,QA Engineer,Applied,API,SQL,2026-08-25T11:45
+CAN0925,B016,R008,C003,Vertex Digital,Data Analyst,Rejected,API,SQL,2026-08-27T16:10
+CAN0926,B047,R010,C008,Aster Mobility,Frontend Developer,Shortlisted,Manual Review,SQL,2026-08-27T15:16
+CAN0927,B030,R007,C004,FinEdge Solutions,Business Analyst,Applied,API,React,2026-08-22T09:40
+CAN0928,B033,R007,C008,Aster Mobility,Business Analyst,Screening,API,Power BI,2026-08-01T13:47
+CAN0929,B032,R008,C005,CloudMint,Business Analyst,Shortlisted,Manual Review,Python,2026-08-29T15:36
+CAN0930,B015,R009,C007,DataForge,Frontend Developer,Offer,CSV,Python,2026-08-01T16:05
+CAN0931,B045,R007,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,Python,2026-08-13T10:28
+CAN0932,B038,R003,C001,Nova Systems,Business Analyst,Rejected,Manual Review,Python,2026-08-04T17:22
+CAN0933,B037,R004,C009,NextWave Retail,Frontend Developer,Screening,API,Power BI,2026-08-27T16:00
+CAN0934,B024,R010,C006,GreenByte,Software Engineer,Shortlisted,API,Node.js,2026-08-31T13:19
+CAN0935,B021,R002,C001,Nova Systems,QA Engineer,Shortlisted,API,Java,2026-08-10T16:40
+CAN0936,B048,R006,C004,FinEdge Solutions,Frontend Developer,Applied,API,Excel,2026-08-12T15:41
+CAN0937,B012,R010,C003,Vertex Digital,QA Engineer,Applied,CSV,SQL,2026-08-07T17:08
+CAN0938,B022,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,CSV,SQL,2026-08-10T16:08
+CAN0939,B020,R009,C007,DataForge,QA Engineer,Shortlisted,CSV,Node.js,2026-08-26T16:22
+CAN0940,B013,R004,C006,GreenByte,Software Engineer,Screening,CSV,Python,2026-08-05T14:02
+CAN0941,B001,R004,C003,Vertex Digital,QA Engineer,Applied,CSV,SQL,2026-08-10T13:43
+CAN0942,B029,R005,C001,Nova Systems,Data Analyst,Screening,API,Java,2026-08-26T09:46
+CAN0943,B021,R002,C001,Nova Systems,Data Analyst,Shortlisted,API,React,2026-08-10T16:40
+CAN0944,B020,R009,C007,DataForge,Business Analyst,Offer,Manual Review,Node.js,2026-08-26T16:22
+CAN0945,B045,R007,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,Excel,2026-08-13T10:28
+CAN0946,B038,R003,C001,Nova Systems,Data Analyst,Interview,CSV,Power BI,2026-08-04T17:22
+CAN0947,B037,R004,C009,NextWave Retail,Business Analyst,Offer,Manual Review,Node.js,2026-08-27T16:00
+CAN0948,B005,R006,C002,BlueOrbit Labs,Software Engineer,Interview,Manual Review,React,2026-08-22T10:14
+CAN0949,B007,R002,C010,BrightPath Consulting,Data Analyst,Interview,Manual Review,SQL,2026-08-14T15:30
+CAN0950,B016,R008,C003,Vertex Digital,Business Analyst,Placed,API,Java,2026-08-27T16:10
+CAN0951,B003,R006,C002,BlueOrbit Labs,Business Analyst,Screening,API,Power BI,2026-08-14T13:36
+CAN0952,B017,R010,C007,DataForge,Data Analyst,Applied,CSV,Excel,2026-08-27T17:00
+CAN0953,B006,R002,C002,BlueOrbit Labs,QA Engineer,Rejected,Manual Review,Excel,2026-08-02T13:25
+CAN0954,B031,R003,C002,BlueOrbit Labs,Backend Developer,Rejected,CSV,Node.js,2026-08-27T09:21
+CAN0955,B030,R007,C004,FinEdge Solutions,Data Analyst,Screening,CSV,Power BI,2026-08-22T09:40
+CAN0956,B002,R006,C004,FinEdge Solutions,Data Analyst,Shortlisted,API,Power BI,2026-08-24T12:01
+CAN0957,B022,R009,C009,NextWave Retail,Business Analyst,Interview,CSV,Java,2026-08-10T16:08
+CAN0958,B005,R006,C002,BlueOrbit Labs,Business Analyst,Interview,CSV,React,2026-08-22T10:14
+CAN0959,B003,R006,C002,BlueOrbit Labs,Frontend Developer,Interview,Manual Review,SQL,2026-08-14T13:36
+CAN0960,B005,R006,C002,BlueOrbit Labs,QA Engineer,Applied,Manual Review,Python,2026-08-22T10:14
+CAN0961,B034,R008,C005,CloudMint,Backend Developer,Offer,Manual Review,Node.js,2026-08-11T12:26
+CAN0962,B041,R002,C005,CloudMint,Business Analyst,Placed,API,Excel,2026-08-09T09:05
+CAN0963,B014,R004,C002,BlueOrbit Labs,Data Analyst,Rejected,API,Excel,2026-08-31T10:49
+CAN0964,B043,R003,C003,Vertex Digital,Business Analyst,Placed,CSV,React,2026-08-19T13:46
+CAN0965,B025,R009,C009,NextWave Retail,QA Engineer,Rejected,API,Excel,2026-08-09T13:27
+CAN0966,B047,R010,C008,Aster Mobility,Frontend Developer,Placed,CSV,Python,2026-08-27T15:16
+CAN0967,B006,R002,C002,BlueOrbit Labs,Business Analyst,Applied,Manual Review,Java,2026-08-02T13:25
+CAN0968,B001,R004,C003,Vertex Digital,Business Analyst,Interview,Manual Review,Java,2026-08-10T13:43
+CAN0969,B030,R007,C004,FinEdge Solutions,QA Engineer,Screening,CSV,Excel,2026-08-22T09:40
+CAN0970,B020,R009,C007,DataForge,Backend Developer,Applied,API,Excel,2026-08-26T16:22
+CAN0971,B007,R002,C010,BrightPath Consulting,QA Engineer,Shortlisted,API,SQL,2026-08-14T15:30
+CAN0972,B037,R004,C009,NextWave Retail,QA Engineer,Screening,CSV,Java,2026-08-27T16:00
+CAN0973,B023,R005,C001,Nova Systems,Software Engineer,Shortlisted,API,Power BI,2026-08-24T13:33
+CAN0974,B004,R002,C003,Vertex Digital,Business Analyst,Screening,CSV,Node.js,2026-08-25T11:45
+CAN0975,B035,R002,C006,GreenByte,Business Analyst,Rejected,API,Python,2026-08-26T09:23
+CAN0976,B010,R007,C001,Nova Systems,Business Analyst,Interview,Manual Review,Excel,2026-08-17T15:35
+CAN0977,B029,R005,C001,Nova Systems,Backend Developer,Applied,CSV,Python,2026-08-26T09:46
+CAN0978,B018,R007,C004,FinEdge Solutions,Frontend Developer,Shortlisted,CSV,SQL,2026-08-29T11:27
+CAN0979,B005,R006,C002,BlueOrbit Labs,Backend Developer,Rejected,CSV,Excel,2026-08-22T10:14
+CAN0980,B010,R007,C001,Nova Systems,Data Analyst,Screening,CSV,React,2026-08-17T15:35
+CAN0981,B013,R004,C006,GreenByte,Backend Developer,Rejected,API,Power BI,2026-08-05T14:02
+CAN0982,B025,R009,C009,NextWave Retail,Data Analyst,Interview,Manual Review,Excel,2026-08-09T13:27
+CAN0983,B036,R004,C007,DataForge,Backend Developer,Applied,CSV,Python,2026-08-16T16:03
+CAN0984,B032,R008,C005,CloudMint,Data Analyst,Shortlisted,CSV,Excel,2026-08-29T15:36
+CAN0985,B023,R005,C001,Nova Systems,Business Analyst,Shortlisted,API,Excel,2026-08-24T13:33
+CAN0986,B032,R008,C005,CloudMint,Business Analyst,Rejected,API,Node.js,2026-08-29T15:36
+CAN0987,B001,R004,C003,Vertex Digital,Business Analyst,Shortlisted,Manual Review,React,2026-08-10T13:43
+CAN0988,B023,R005,C001,Nova Systems,Backend Developer,Screening,CSV,Power BI,2026-08-24T13:33
+CAN0989,B036,R004,C007,DataForge,Frontend Developer,Applied,CSV,React,2026-08-16T16:03
+CAN0990,B007,R002,C010,BrightPath Consulting,QA Engineer,Applied,API,React,2026-08-14T15:30
+CAN0991,B043,R003,C003,Vertex Digital,Software Engineer,Screening,CSV,Excel,2026-08-19T13:46
+CAN0992,B016,R008,C003,Vertex Digital,Software Engineer,Applied,CSV,Java,2026-08-27T16:10
+CAN0993,B005,R006,C002,BlueOrbit Labs,Data Analyst,Applied,CSV,SQL,2026-08-22T10:14
+CAN0994,B025,R009,C009,NextWave Retail,Business Analyst,Offer,API,Node.js,2026-08-09T13:27
+CAN0995,B009,R009,C008,Aster Mobility,Data Analyst,Offer,Manual Review,Excel,2026-08-31T14:23
+CAN0996,B005,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,CSV,Node.js,2026-08-22T10:14
+CAN0997,B037,R004,C009,NextWave Retail,QA Engineer,Screening,CSV,Node.js,2026-08-27T16:00
+CAN0998,B036,R004,C007,DataForge,Data Analyst,Screening,Manual Review,Java,2026-08-16T16:03
+CAN0999,B034,R008,C005,CloudMint,Backend Developer,Screening,API,Python,2026-08-11T12:26
+CAN1000,B030,R007,C004,FinEdge Solutions,Business Analyst,Applied,CSV,Java,2026-08-22T09:40
+CAN1001,B024,R010,C006,GreenByte,Data Analyst,Screening,CSV,Power BI,2026-08-31T13:19
+CAN1002,B024,R010,C006,GreenByte,Software Engineer,Interview,API,Node.js,2026-08-31T13:19
+CAN1003,B014,R004,C002,BlueOrbit Labs,Business Analyst,Applied,CSV,Power BI,2026-08-31T10:49
+CAN1004,B024,R010,C006,GreenByte,Business Analyst,Applied,Manual Review,Node.js,2026-08-31T13:19
+CAN1005,B013,R004,C006,GreenByte,Frontend Developer,Applied,CSV,React,2026-08-05T14:02
+CAN1006,B006,R002,C002,BlueOrbit Labs,Data Analyst,Shortlisted,CSV,Node.js,2026-08-02T13:25
+CAN1007,B046,R005,C006,GreenByte,Frontend Developer,Rejected,API,Power BI,2026-08-05T15:24
+CAN1008,B007,R002,C010,BrightPath Consulting,Data Analyst,Shortlisted,API,SQL,2026-08-14T15:30
+CAN1009,B018,R007,C004,FinEdge Solutions,Business Analyst,Placed,Manual Review,Java,2026-08-29T11:27
+CAN1010,B027,R001,C005,CloudMint,Frontend Developer,Placed,API,React,2026-08-09T13:14
+CAN1011,B017,R010,C007,DataForge,Backend Developer,Applied,CSV,Java,2026-08-27T17:00
+CAN1012,B001,R004,C003,Vertex Digital,Frontend Developer,Applied,CSV,SQL,2026-08-10T13:43
+CAN1013,B038,R003,C001,Nova Systems,QA Engineer,Offer,CSV,Node.js,2026-08-04T17:22
+CAN1014,B025,R009,C009,NextWave Retail,QA Engineer,Applied,Manual Review,Python,2026-08-09T13:27
+CAN1015,B017,R010,C007,DataForge,Software Engineer,Shortlisted,API,Python,2026-08-27T17:00
+CAN1016,B009,R009,C008,Aster Mobility,QA Engineer,Interview,CSV,SQL,2026-08-31T14:23
+CAN1017,B044,R008,C004,FinEdge Solutions,Frontend Developer,Shortlisted,API,Power BI,2026-08-03T15:17
+CAN1018,B041,R002,C005,CloudMint,Backend Developer,Applied,Manual Review,Python,2026-08-09T09:05
+CAN1019,B046,R005,C006,GreenByte,Business Analyst,Screening,CSV,Excel,2026-08-05T15:24
+CAN1020,B017,R010,C007,DataForge,Business Analyst,Applied,CSV,Python,2026-08-27T17:00
+CAN1021,B027,R001,C005,CloudMint,Backend Developer,Screening,CSV,Node.js,2026-08-09T13:14
+CAN1022,B003,R006,C002,BlueOrbit Labs,Business Analyst,Offer,CSV,Power BI,2026-08-14T13:36
+CAN1023,B001,R004,C003,Vertex Digital,Frontend Developer,Shortlisted,Manual Review,SQL,2026-08-10T13:43
+CAN1024,B026,R008,C002,BlueOrbit Labs,Data Analyst,Applied,Manual Review,Power BI,2026-08-13T14:50
+CAN1025,B045,R007,C004,FinEdge Solutions,Software Engineer,Applied,CSV,SQL,2026-08-13T10:28
+CAN1026,B028,R008,C002,BlueOrbit Labs,Data Analyst,Shortlisted,API,Node.js,2026-08-23T09:04
+CAN1027,B044,R008,C004,FinEdge Solutions,Software Engineer,Screening,Manual Review,Python,2026-08-03T15:17
+CAN1028,B017,R010,C007,DataForge,QA Engineer,Interview,CSV,Java,2026-08-27T17:00
+CAN1029,B007,R002,C010,BrightPath Consulting,Data Analyst,Shortlisted,API,SQL,2026-08-14T15:30
+CAN1030,B010,R007,C001,Nova Systems,Business Analyst,Applied,CSV,React,2026-08-17T15:35
+CAN1031,B021,R002,C001,Nova Systems,Software Engineer,Screening,Manual Review,Python,2026-08-10T16:40
+CAN1032,B024,R010,C006,GreenByte,Software Engineer,Applied,Manual Review,Java,2026-08-31T13:19
+CAN1033,B018,R007,C004,FinEdge Solutions,Backend Developer,Shortlisted,Manual Review,Java,2026-08-29T11:27
+CAN1034,B040,R004,C004,FinEdge Solutions,QA Engineer,Applied,API,Node.js,2026-08-18T15:18
+CAN1035,B007,R002,C010,BrightPath Consulting,Business Analyst,Placed,CSV,Python,2026-08-14T15:30
+CAN1036,B042,R004,C006,GreenByte,Frontend Developer,Shortlisted,Manual Review,SQL,2026-08-10T14:15
+CAN1037,B028,R008,C002,BlueOrbit Labs,Backend Developer,Offer,Manual Review,SQL,2026-08-23T09:04
+CAN1038,B033,R007,C008,Aster Mobility,Backend Developer,Interview,Manual Review,React,2026-08-01T13:47
+CAN1039,B028,R008,C002,BlueOrbit Labs,Data Analyst,Offer,API,Python,2026-08-23T09:04
+CAN1040,B007,R002,C010,BrightPath Consulting,Business Analyst,Screening,CSV,Power BI,2026-08-14T15:30
+CAN1041,B042,R004,C006,GreenByte,Frontend Developer,Placed,API,Power BI,2026-08-10T14:15
+CAN1042,B004,R002,C003,Vertex Digital,Business Analyst,Applied,API,Python,2026-08-25T11:45
+CAN1043,B043,R003,C003,Vertex Digital,Software Engineer,Rejected,CSV,SQL,2026-08-19T13:46
+CAN1044,B014,R004,C002,BlueOrbit Labs,Software Engineer,Rejected,Manual Review,Node.js,2026-08-31T10:49
+CAN1045,B012,R010,C003,Vertex Digital,Backend Developer,Shortlisted,CSV,SQL,2026-08-07T17:08
+CAN1046,B042,R004,C006,GreenByte,Backend Developer,Offer,CSV,Java,2026-08-10T14:15
+CAN1047,B016,R008,C003,Vertex Digital,Data Analyst,Screening,API,Node.js,2026-08-27T16:10
+CAN1048,B010,R007,C001,Nova Systems,Frontend Developer,Shortlisted,CSV,Power BI,2026-08-17T15:35
+CAN1049,B023,R005,C001,Nova Systems,Frontend Developer,Applied,Manual Review,Java,2026-08-24T13:33
+CAN1050,B018,R007,C004,FinEdge Solutions,Data Analyst,Placed,API,Power BI,2026-08-29T11:27
+CAN1051,B008,R003,C002,BlueOrbit Labs,Software Engineer,Applied,Manual Review,SQL,2026-08-28T16:48
+CAN1052,B038,R003,C001,Nova Systems,Business Analyst,Interview,Manual Review,Java,2026-08-04T17:22
+CAN1053,B028,R008,C002,BlueOrbit Labs,Business Analyst,Applied,CSV,Power BI,2026-08-23T09:04
+CAN1054,B018,R007,C004,FinEdge Solutions,Backend Developer,Applied,API,SQL,2026-08-29T11:27
+CAN1055,B034,R008,C005,CloudMint,Business Analyst,Screening,Manual Review,Node.js,2026-08-11T12:26
+CAN1056,B031,R003,C002,BlueOrbit Labs,Business Analyst,Screening,CSV,SQL,2026-08-27T09:21
+CAN1057,B013,R004,C006,GreenByte,Frontend Developer,Applied,Manual Review,Excel,2026-08-05T14:02
+CAN1058,B040,R004,C004,FinEdge Solutions,Business Analyst,Interview,CSV,Python,2026-08-18T15:18
+CAN1059,B036,R004,C007,DataForge,Software Engineer,Shortlisted,Manual Review,Power BI,2026-08-16T16:03
+CAN1060,B012,R010,C003,Vertex Digital,Data Analyst,Offer,API,Node.js,2026-08-07T17:08
+CAN1061,B046,R005,C006,GreenByte,Business Analyst,Placed,CSV,Python,2026-08-05T15:24
+CAN1062,B019,R004,C008,Aster Mobility,Data Analyst,Rejected,Manual Review,Power BI,2026-08-11T12:22
+CAN1063,B012,R010,C003,Vertex Digital,Business Analyst,Rejected,CSV,React,2026-08-07T17:08
+CAN1064,B031,R003,C002,BlueOrbit Labs,Software Engineer,Rejected,API,Java,2026-08-27T09:21
+CAN1065,B033,R007,C008,Aster Mobility,Business Analyst,Rejected,API,Excel,2026-08-01T13:47
+CAN1066,B025,R009,C009,NextWave Retail,Data Analyst,Applied,Manual Review,React,2026-08-09T13:27
+CAN1067,B029,R005,C001,Nova Systems,Backend Developer,Applied,Manual Review,Java,2026-08-26T09:46
+CAN1068,B022,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,CSV,React,2026-08-10T16:08
+CAN1069,B020,R009,C007,DataForge,Frontend Developer,Screening,CSV,Python,2026-08-26T16:22
+CAN1070,B023,R005,C001,Nova Systems,Software Engineer,Interview,API,React,2026-08-24T13:33
+CAN1071,B038,R003,C001,Nova Systems,Frontend Developer,Applied,CSV,Python,2026-08-04T17:22
+CAN1072,B037,R004,C009,NextWave Retail,QA Engineer,Screening,Manual Review,Python,2026-08-27T16:00
+CAN1073,B006,R002,C002,BlueOrbit Labs,QA Engineer,Applied,CSV,Java,2026-08-02T13:25
+CAN1074,B009,R009,C008,Aster Mobility,Backend Developer,Applied,CSV,React,2026-08-31T14:23
+CAN1075,B031,R003,C002,BlueOrbit Labs,Frontend Developer,Applied,CSV,React,2026-08-27T09:21
+CAN1076,B041,R002,C005,CloudMint,Frontend Developer,Rejected,API,React,2026-08-09T09:05
+CAN1077,B020,R009,C007,DataForge,QA Engineer,Screening,CSV,Python,2026-08-26T16:22
+CAN1078,B040,R004,C004,FinEdge Solutions,Backend Developer,Applied,Manual Review,React,2026-08-18T15:18
+CAN1079,B024,R010,C006,GreenByte,Business Analyst,Applied,API,Excel,2026-08-31T13:19
+CAN1080,B006,R002,C002,BlueOrbit Labs,QA Engineer,Applied,Manual Review,Python,2026-08-02T13:25
+CAN1081,B020,R009,C007,DataForge,Frontend Developer,Shortlisted,API,Power BI,2026-08-26T16:22
+CAN1082,B007,R002,C010,BrightPath Consulting,Backend Developer,Screening,API,Python,2026-08-14T15:30
+CAN1083,B047,R010,C008,Aster Mobility,QA Engineer,Screening,API,Python,2026-08-27T15:16
+CAN1084,B028,R008,C002,BlueOrbit Labs,Software Engineer,Interview,CSV,React,2026-08-23T09:04
+CAN1085,B017,R010,C007,DataForge,QA Engineer,Applied,API,Java,2026-08-27T17:00
+CAN1086,B031,R003,C002,BlueOrbit Labs,Business Analyst,Interview,Manual Review,Excel,2026-08-27T09:21
+CAN1087,B031,R003,C002,BlueOrbit Labs,Software Engineer,Rejected,Manual Review,Java,2026-08-27T09:21
+CAN1088,B039,R005,C008,Aster Mobility,Software Engineer,Placed,Manual Review,Python,2026-08-24T14:18
+CAN1089,B027,R001,C005,CloudMint,Data Analyst,Applied,CSV,Java,2026-08-09T13:14
+CAN1090,B012,R010,C003,Vertex Digital,Software Engineer,Applied,API,Python,2026-08-07T17:08
+CAN1091,B032,R008,C005,CloudMint,Business Analyst,Screening,Manual Review,Power BI,2026-08-29T15:36
+CAN1092,B012,R010,C003,Vertex Digital,Business Analyst,Shortlisted,Manual Review,Power BI,2026-08-07T17:08
+CAN1093,B043,R003,C003,Vertex Digital,Software Engineer,Rejected,CSV,SQL,2026-08-19T13:46
+CAN1094,B040,R004,C004,FinEdge Solutions,Frontend Developer,Applied,Manual Review,Python,2026-08-18T15:18
+CAN1095,B009,R009,C008,Aster Mobility,Frontend Developer,Applied,CSV,Python,2026-08-31T14:23
+CAN1096,B013,R004,C006,GreenByte,Software Engineer,Rejected,Manual Review,Node.js,2026-08-05T14:02
+CAN1097,B024,R010,C006,GreenByte,Business Analyst,Shortlisted,API,SQL,2026-08-31T13:19
+CAN1098,B030,R007,C004,FinEdge Solutions,Frontend Developer,Screening,API,Java,2026-08-22T09:40
+CAN1099,B021,R002,C001,Nova Systems,Software Engineer,Screening,Manual Review,React,2026-08-10T16:40
+CAN1100,B046,R005,C006,GreenByte,Data Analyst,Rejected,Manual Review,React,2026-08-05T15:24
+CAN1101,B001,R004,C003,Vertex Digital,Data Analyst,Applied,API,React,2026-08-10T13:43
+CAN1102,B012,R010,C003,Vertex Digital,Data Analyst,Shortlisted,Manual Review,Java,2026-08-07T17:08
+CAN1103,B034,R008,C005,CloudMint,Software Engineer,Rejected,CSV,Python,2026-08-11T12:26
+CAN1104,B042,R004,C006,GreenByte,Business Analyst,Rejected,CSV,Power BI,2026-08-10T14:15
+CAN1105,B043,R003,C003,Vertex Digital,Frontend Developer,Screening,CSV,Python,2026-08-19T13:46
+CAN1106,B025,R009,C009,NextWave Retail,QA Engineer,Shortlisted,Manual Review,Node.js,2026-08-09T13:27
+CAN1107,B045,R007,C004,FinEdge Solutions,Data Analyst,Rejected,Manual Review,SQL,2026-08-13T10:28
+CAN1108,B001,R004,C003,Vertex Digital,Backend Developer,Applied,Manual Review,Power BI,2026-08-10T13:43
+CAN1109,B015,R009,C007,DataForge,Software Engineer,Screening,API,React,2026-08-01T16:05
+CAN1110,B013,R004,C006,GreenByte,Business Analyst,Applied,CSV,Excel,2026-08-05T14:02
+CAN1111,B027,R001,C005,CloudMint,QA Engineer,Screening,Manual Review,Power BI,2026-08-09T13:14
+CAN1112,B029,R005,C001,Nova Systems,Data Analyst,Applied,CSV,Java,2026-08-26T09:46
+CAN1113,B019,R004,C008,Aster Mobility,QA Engineer,Applied,CSV,Power BI,2026-08-11T12:22
+CAN1114,B008,R003,C002,BlueOrbit Labs,Frontend Developer,Applied,Manual Review,Power BI,2026-08-28T16:48
+CAN1115,B034,R008,C005,CloudMint,Backend Developer,Applied,CSV,Node.js,2026-08-11T12:26
+CAN1116,B041,R002,C005,CloudMint,Software Engineer,Placed,API,Power BI,2026-08-09T09:05
+CAN1117,B007,R002,C010,BrightPath Consulting,Data Analyst,Shortlisted,API,SQL,2026-08-14T15:30
+CAN1118,B024,R010,C006,GreenByte,Software Engineer,Applied,API,Java,2026-08-31T13:19
+CAN1119,B006,R002,C002,BlueOrbit Labs,Backend Developer,Rejected,Manual Review,SQL,2026-08-02T13:25
+CAN1120,B030,R007,C004,FinEdge Solutions,Frontend Developer,Rejected,CSV,Java,2026-08-22T09:40
+CAN1121,B027,R001,C005,CloudMint,QA Engineer,Shortlisted,API,Excel,2026-08-09T13:14
+CAN1122,B020,R009,C007,DataForge,Backend Developer,Shortlisted,API,Java,2026-08-26T16:22
+CAN1123,B019,R004,C008,Aster Mobility,Business Analyst,Offer,API,SQL,2026-08-11T12:22
+CAN1124,B043,R003,C003,Vertex Digital,QA Engineer,Screening,API,Power BI,2026-08-19T13:46
+CAN1125,B048,R006,C004,FinEdge Solutions,Data Analyst,Interview,CSV,Python,2026-08-12T15:41
+CAN1126,B045,R007,C004,FinEdge Solutions,QA Engineer,Applied,CSV,Excel,2026-08-13T10:28
+CAN1127,B002,R006,C004,FinEdge Solutions,Data Analyst,Shortlisted,API,SQL,2026-08-24T12:01
+CAN1128,B042,R004,C006,GreenByte,QA Engineer,Rejected,CSV,Python,2026-08-10T14:15
+CAN1129,B016,R008,C003,Vertex Digital,Data Analyst,Applied,Manual Review,Python,2026-08-27T16:10
+CAN1130,B022,R009,C009,NextWave Retail,Data Analyst,Placed,Manual Review,SQL,2026-08-10T16:08
+CAN1131,B012,R010,C003,Vertex Digital,Software Engineer,Interview,Manual Review,Java,2026-08-07T17:08
+CAN1132,B025,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,API,Python,2026-08-09T13:27
+CAN1133,B037,R004,C009,NextWave Retail,Data Analyst,Applied,Manual Review,Node.js,2026-08-27T16:00
+CAN1134,B048,R006,C004,FinEdge Solutions,Business Analyst,Screening,CSV,Power BI,2026-08-12T15:41
+CAN1135,B020,R009,C007,DataForge,Business Analyst,Applied,Manual Review,Java,2026-08-26T16:22
+CAN1136,B003,R006,C002,BlueOrbit Labs,Software Engineer,Shortlisted,CSV,Power BI,2026-08-14T13:36
+CAN1137,B025,R009,C009,NextWave Retail,Frontend Developer,Applied,Manual Review,SQL,2026-08-09T13:27
+CAN1138,B015,R009,C007,DataForge,Frontend Developer,Placed,API,Excel,2026-08-01T16:05
+CAN1139,B035,R002,C006,GreenByte,Frontend Developer,Shortlisted,Manual Review,React,2026-08-26T09:23
+CAN1140,B028,R008,C002,BlueOrbit Labs,Data Analyst,Placed,API,SQL,2026-08-23T09:04
+CAN1141,B010,R007,C001,Nova Systems,Frontend Developer,Applied,CSV,React,2026-08-17T15:35
+CAN1142,B048,R006,C004,FinEdge Solutions,Business Analyst,Rejected,Manual Review,Java,2026-08-12T15:41
+CAN1143,B037,R004,C009,NextWave Retail,Data Analyst,Applied,Manual Review,SQL,2026-08-27T16:00
+CAN1144,B023,R005,C001,Nova Systems,Backend Developer,Screening,CSV,Power BI,2026-08-24T13:33
+CAN1145,B035,R002,C006,GreenByte,QA Engineer,Rejected,API,Excel,2026-08-26T09:23
+CAN1146,B047,R010,C008,Aster Mobility,QA Engineer,Screening,API,Power BI,2026-08-27T15:16
+CAN1147,B029,R005,C001,Nova Systems,Software Engineer,Applied,API,SQL,2026-08-26T09:46
+CAN1148,B039,R005,C008,Aster Mobility,Backend Developer,Shortlisted,Manual Review,Excel,2026-08-24T14:18
+CAN1149,B026,R008,C002,BlueOrbit Labs,Frontend Developer,Rejected,Manual Review,Power BI,2026-08-13T14:50
+CAN1150,B012,R010,C003,Vertex Digital,QA Engineer,Applied,API,Python,2026-08-07T17:08
+CAN1151,B040,R004,C004,FinEdge Solutions,Data Analyst,Screening,CSV,Java,2026-08-18T15:18
+CAN1152,B022,R009,C009,NextWave Retail,Software Engineer,Applied,API,React,2026-08-10T16:08
+CAN1153,B044,R008,C004,FinEdge Solutions,Business Analyst,Shortlisted,Manual Review,Java,2026-08-03T15:17
+CAN1154,B023,R005,C001,Nova Systems,Software Engineer,Screening,Manual Review,Power BI,2026-08-24T13:33
+CAN1155,B022,R009,C009,NextWave Retail,Data Analyst,Applied,API,Power BI,2026-08-10T16:08
+CAN1156,B016,R008,C003,Vertex Digital,Business Analyst,Interview,CSV,Power BI,2026-08-27T16:10
+CAN1157,B002,R006,C004,FinEdge Solutions,QA Engineer,Placed,CSV,Java,2026-08-24T12:01
+CAN1158,B004,R002,C003,Vertex Digital,QA Engineer,Applied,API,SQL,2026-08-25T11:45
+CAN1159,B043,R003,C003,Vertex Digital,Business Analyst,Shortlisted,API,Excel,2026-08-19T13:46
+CAN1160,B018,R007,C004,FinEdge Solutions,Data Analyst,Applied,CSV,Excel,2026-08-29T11:27
+CAN1161,B041,R002,C005,CloudMint,QA Engineer,Shortlisted,CSV,SQL,2026-08-09T09:05
+CAN1162,B046,R005,C006,GreenByte,Frontend Developer,Applied,CSV,Excel,2026-08-05T15:24
+CAN1163,B025,R009,C009,NextWave Retail,QA Engineer,Rejected,Manual Review,React,2026-08-09T13:27
+CAN1164,B001,R004,C003,Vertex Digital,Frontend Developer,Applied,API,Power BI,2026-08-10T13:43
+CAN1165,B016,R008,C003,Vertex Digital,Backend Developer,Shortlisted,Manual Review,SQL,2026-08-27T16:10
+CAN1166,B044,R008,C004,FinEdge Solutions,Business Analyst,Interview,Manual Review,SQL,2026-08-03T15:17
+CAN1167,B031,R003,C002,BlueOrbit Labs,Business Analyst,Applied,API,Excel,2026-08-27T09:21
+CAN1168,B039,R005,C008,Aster Mobility,Backend Developer,Applied,Manual Review,React,2026-08-24T14:18
+CAN1169,B041,R002,C005,CloudMint,Data Analyst,Applied,API,React,2026-08-09T09:05
+CAN1170,B016,R008,C003,Vertex Digital,Data Analyst,Screening,API,Excel,2026-08-27T16:10
+CAN1171,B024,R010,C006,GreenByte,Backend Developer,Screening,API,Power BI,2026-08-31T13:19
+CAN1172,B029,R005,C001,Nova Systems,Data Analyst,Applied,Manual Review,React,2026-08-26T09:46
+CAN1173,B041,R002,C005,CloudMint,Software Engineer,Offer,CSV,SQL,2026-08-09T09:05
+CAN1174,B030,R007,C004,FinEdge Solutions,Backend Developer,Applied,API,Python,2026-08-22T09:40
+CAN1175,B031,R003,C002,BlueOrbit Labs,Business Analyst,Shortlisted,API,React,2026-08-27T09:21
+CAN1176,B019,R004,C008,Aster Mobility,Backend Developer,Shortlisted,API,Power BI,2026-08-11T12:22
+CAN1177,B033,R007,C008,Aster Mobility,Business Analyst,Applied,CSV,React,2026-08-01T13:47
+CAN1178,B016,R008,C003,Vertex Digital,Software Engineer,Applied,Manual Review,Excel,2026-08-27T16:10
+CAN1179,B003,R006,C002,BlueOrbit Labs,Backend Developer,Screening,Manual Review,Power BI,2026-08-14T13:36
+CAN1180,B019,R004,C008,Aster Mobility,Software Engineer,Applied,API,SQL,2026-08-11T12:22
+CAN1181,B030,R007,C004,FinEdge Solutions,Business Analyst,Interview,Manual Review,React,2026-08-22T09:40
+CAN1182,B017,R010,C007,DataForge,Business Analyst,Placed,Manual Review,React,2026-08-27T17:00
+CAN1183,B022,R009,C009,NextWave Retail,Business Analyst,Applied,API,Excel,2026-08-10T16:08
+CAN1184,B008,R003,C002,BlueOrbit Labs,QA Engineer,Rejected,API,Java,2026-08-28T16:48
+CAN1185,B028,R008,C002,BlueOrbit Labs,Frontend Developer,Shortlisted,API,React,2026-08-23T09:04
+CAN1186,B033,R007,C008,Aster Mobility,Data Analyst,Screening,Manual Review,Power BI,2026-08-01T13:47
+CAN1187,B030,R007,C004,FinEdge Solutions,Data Analyst,Rejected,Manual Review,Node.js,2026-08-22T09:40
+CAN1188,B035,R002,C006,GreenByte,Backend Developer,Offer,CSV,SQL,2026-08-26T09:23
+CAN1189,B026,R008,C002,BlueOrbit Labs,Business Analyst,Rejected,Manual Review,Java,2026-08-13T14:50
+CAN1190,B016,R008,C003,Vertex Digital,Business Analyst,Applied,CSV,Node.js,2026-08-27T16:10
+CAN1191,B040,R004,C004,FinEdge Solutions,QA Engineer,Shortlisted,Manual Review,SQL,2026-08-18T15:18
+CAN1192,B029,R005,C001,Nova Systems,Software Engineer,Rejected,Manual Review,React,2026-08-26T09:46
+CAN1193,B010,R007,C001,Nova Systems,Frontend Developer,Screening,Manual Review,SQL,2026-08-17T15:35
+CAN1194,B001,R004,C003,Vertex Digital,Frontend Developer,Applied,API,Python,2026-08-10T13:43
+CAN1195,B047,R010,C008,Aster Mobility,Software Engineer,Interview,API,SQL,2026-08-27T15:16
+CAN1196,B027,R001,C005,CloudMint,Software Engineer,Screening,Manual Review,Node.js,2026-08-09T13:14
+CAN1197,B033,R007,C008,Aster Mobility,QA Engineer,Placed,CSV,Node.js,2026-08-01T13:47
+CAN1198,B037,R004,C009,NextWave Retail,Frontend Developer,Shortlisted,Manual Review,Node.js,2026-08-27T16:00
+CAN1199,B023,R005,C001,Nova Systems,QA Engineer,Applied,CSV,Java,2026-08-24T13:33
+CAN1200,B035,R002,C006,GreenByte,QA Engineer,Applied,API,Power BI,2026-08-26T09:23
+CAN1201,B041,R002,C005,CloudMint,QA Engineer,Applied,Manual Review,Java,2026-08-09T09:05
+CAN1202,B006,R002,C002,BlueOrbit Labs,Data Analyst,Applied,Manual Review,React,2026-08-02T13:25
+CAN1203,B039,R005,C008,Aster Mobility,Software Engineer,Shortlisted,Manual Review,Node.js,2026-08-24T14:18
+CAN1204,B045,R007,C004,FinEdge Solutions,Data Analyst,Applied,Manual Review,Python,2026-08-13T10:28
+CAN1205,B008,R003,C002,BlueOrbit Labs,Backend Developer,Interview,CSV,Java,2026-08-28T16:48
+CAN1206,B034,R008,C005,CloudMint,Frontend Developer,Applied,Manual Review,Python,2026-08-11T12:26
+CAN1207,B026,R008,C002,BlueOrbit Labs,Frontend Developer,Applied,CSV,Python,2026-08-13T14:50
+CAN1208,B024,R010,C006,GreenByte,Business Analyst,Screening,CSV,React,2026-08-31T13:19
+CAN1209,B009,R009,C008,Aster Mobility,Data Analyst,Rejected,Manual Review,Power BI,2026-08-31T14:23
+CAN1210,B022,R009,C009,NextWave Retail,Backend Developer,Screening,API,Power BI,2026-08-10T16:08
+CAN1211,B037,R004,C009,NextWave Retail,Frontend Developer,Interview,Manual Review,Excel,2026-08-27T16:00
+CAN1212,B002,R006,C004,FinEdge Solutions,Data Analyst,Screening,Manual Review,Node.js,2026-08-24T12:01
+CAN1213,B041,R002,C005,CloudMint,Frontend Developer,Applied,API,Power BI,2026-08-09T09:05
+CAN1214,B044,R008,C004,FinEdge Solutions,Backend Developer,Applied,CSV,Python,2026-08-03T15:17
+CAN1215,B032,R008,C005,CloudMint,Backend Developer,Applied,CSV,Java,2026-08-29T15:36
+CAN1216,B046,R005,C006,GreenByte,Business Analyst,Placed,Manual Review,Excel,2026-08-05T15:24
+CAN1217,B028,R008,C002,BlueOrbit Labs,Backend Developer,Placed,Manual Review,React,2026-08-23T09:04
+CAN1218,B017,R010,C007,DataForge,Data Analyst,Rejected,Manual Review,Python,2026-08-27T17:00
+CAN1219,B016,R008,C003,Vertex Digital,QA Engineer,Applied,CSV,SQL,2026-08-27T16:10
+CAN1220,B019,R004,C008,Aster Mobility,Frontend Developer,Applied,CSV,Excel,2026-08-11T12:22
+CAN1221,B040,R004,C004,FinEdge Solutions,Frontend Developer,Interview,CSV,Node.js,2026-08-18T15:18
+CAN1222,B001,R004,C003,Vertex Digital,Backend Developer,Screening,CSV,Java,2026-08-10T13:43
+CAN1223,B003,R006,C002,BlueOrbit Labs,Backend Developer,Screening,API,Java,2026-08-14T13:36
+CAN1224,B006,R002,C002,BlueOrbit Labs,Software Engineer,Applied,Manual Review,React,2026-08-02T13:25
+CAN1225,B011,R003,C006,GreenByte,Backend Developer,Applied,Manual Review,SQL,2026-08-02T17:25
+CAN1226,B029,R005,C001,Nova Systems,Frontend Developer,Interview,API,Python,2026-08-26T09:46
+CAN1227,B011,R003,C006,GreenByte,Frontend Developer,Screening,CSV,Excel,2026-08-02T17:25
+CAN1228,B021,R002,C001,Nova Systems,Backend Developer,Shortlisted,API,Excel,2026-08-10T16:40
+CAN1229,B021,R002,C001,Nova Systems,Backend Developer,Screening,Manual Review,SQL,2026-08-10T16:40
+CAN1230,B042,R004,C006,GreenByte,Software Engineer,Applied,Manual Review,Java,2026-08-10T14:15
+CAN1231,B025,R009,C009,NextWave Retail,Frontend Developer,Rejected,API,Python,2026-08-09T13:27
+CAN1232,B035,R002,C006,GreenByte,Data Analyst,Placed,API,React,2026-08-26T09:23
+CAN1233,B023,R005,C001,Nova Systems,Data Analyst,Placed,Manual Review,Excel,2026-08-24T13:33
+CAN1234,B037,R004,C009,NextWave Retail,Backend Developer,Screening,API,Excel,2026-08-27T16:00
+CAN1235,B012,R010,C003,Vertex Digital,Data Analyst,Rejected,Manual Review,Power BI,2026-08-07T17:08
+CAN1236,B005,R006,C002,BlueOrbit Labs,Business Analyst,Applied,Manual Review,Node.js,2026-08-22T10:14
+CAN1237,B034,R008,C005,CloudMint,QA Engineer,Shortlisted,API,Excel,2026-08-11T12:26
+CAN1238,B003,R006,C002,BlueOrbit Labs,Software Engineer,Placed,CSV,Java,2026-08-14T13:36
+CAN1239,B026,R008,C002,BlueOrbit Labs,Business Analyst,Applied,API,Node.js,2026-08-13T14:50
+CAN1240,B032,R008,C005,CloudMint,Business Analyst,Applied,CSV,Excel,2026-08-29T15:36
+CAN1241,B043,R003,C003,Vertex Digital,Backend Developer,Applied,API,Node.js,2026-08-19T13:46
+CAN1242,B025,R009,C009,NextWave Retail,Data Analyst,Screening,Manual Review,Java,2026-08-09T13:27
+CAN1243,B017,R010,C007,DataForge,QA Engineer,Shortlisted,Manual Review,React,2026-08-27T17:00
+CAN1244,B035,R002,C006,GreenByte,Data Analyst,Placed,CSV,React,2026-08-26T09:23
+CAN1245,B004,R002,C003,Vertex Digital,QA Engineer,Applied,CSV,Node.js,2026-08-25T11:45
+CAN1246,B030,R007,C004,FinEdge Solutions,Data Analyst,Interview,API,React,2026-08-22T09:40
+CAN1247,B020,R009,C007,DataForge,Data Analyst,Placed,Manual Review,Excel,2026-08-26T16:22
+CAN1248,B025,R009,C009,NextWave Retail,QA Engineer,Rejected,API,SQL,2026-08-09T13:27
+CAN1249,B001,R004,C003,Vertex Digital,Business Analyst,Rejected,CSV,Power BI,2026-08-10T13:43
+CAN1250,B043,R003,C003,Vertex Digital,Business Analyst,Applied,CSV,SQL,2026-08-19T13:46
+CAN1251,B035,R002,C006,GreenByte,Business Analyst,Shortlisted,CSV,Power BI,2026-08-26T09:23
+CAN1252,B003,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,CSV,Node.js,2026-08-14T13:36
+CAN1253,B019,R004,C008,Aster Mobility,QA Engineer,Shortlisted,CSV,Power BI,2026-08-11T12:22
+CAN1254,B045,R007,C004,FinEdge Solutions,Software Engineer,Shortlisted,CSV,Node.js,2026-08-13T10:28
+CAN1255,B035,R002,C006,GreenByte,QA Engineer,Applied,API,SQL,2026-08-26T09:23
+CAN1256,B048,R006,C004,FinEdge Solutions,Business Analyst,Applied,API,Python,2026-08-12T15:41
+CAN1257,B041,R002,C005,CloudMint,Backend Developer,Applied,CSV,Node.js,2026-08-09T09:05
+CAN1258,B044,R008,C004,FinEdge Solutions,Software Engineer,Shortlisted,CSV,Power BI,2026-08-03T15:17
+CAN1259,B008,R003,C002,BlueOrbit Labs,Data Analyst,Offer,CSV,React,2026-08-28T16:48
+CAN1260,B021,R002,C001,Nova Systems,Backend Developer,Applied,CSV,Excel,2026-08-10T16:40
+CAN1261,B023,R005,C001,Nova Systems,Backend Developer,Rejected,Manual Review,Java,2026-08-24T13:33
+CAN1262,B020,R009,C007,DataForge,Backend Developer,Rejected,CSV,Node.js,2026-08-26T16:22
+CAN1263,B036,R004,C007,DataForge,Data Analyst,Applied,API,Java,2026-08-16T16:03
+CAN1264,B034,R008,C005,CloudMint,Business Analyst,Shortlisted,API,React,2026-08-11T12:26
+CAN1265,B014,R004,C002,BlueOrbit Labs,Frontend Developer,Offer,CSV,Power BI,2026-08-31T10:49
+CAN1266,B048,R006,C004,FinEdge Solutions,Business Analyst,Applied,API,SQL,2026-08-12T15:41
+CAN1267,B043,R003,C003,Vertex Digital,Business Analyst,Applied,API,Node.js,2026-08-19T13:46
+CAN1268,B010,R007,C001,Nova Systems,Data Analyst,Applied,CSV,Excel,2026-08-17T15:35
+CAN1269,B038,R003,C001,Nova Systems,Software Engineer,Interview,API,React,2026-08-04T17:22
+CAN1270,B039,R005,C008,Aster Mobility,Backend Developer,Rejected,Manual Review,Node.js,2026-08-24T14:18
+CAN1271,B030,R007,C004,FinEdge Solutions,QA Engineer,Shortlisted,Manual Review,React,2026-08-22T09:40
+CAN1272,B023,R005,C001,Nova Systems,Data Analyst,Applied,API,SQL,2026-08-24T13:33
+CAN1273,B015,R009,C007,DataForge,Backend Developer,Offer,Manual Review,Java,2026-08-01T16:05
+CAN1274,B003,R006,C002,BlueOrbit Labs,Frontend Developer,Shortlisted,CSV,Power BI,2026-08-14T13:36
+CAN1275,B001,R004,C003,Vertex Digital,Frontend Developer,Applied,CSV,SQL,2026-08-10T13:43
+CAN1276,B007,R002,C010,BrightPath Consulting,Data Analyst,Applied,API,Java,2026-08-14T15:30
+CAN1277,B040,R004,C004,FinEdge Solutions,Software Engineer,Interview,API,Excel,2026-08-18T15:18
+CAN1278,B028,R008,C002,BlueOrbit Labs,Software Engineer,Offer,API,Power BI,2026-08-23T09:04
+CAN1279,B040,R004,C004,FinEdge Solutions,Data Analyst,Shortlisted,Manual Review,Python,2026-08-18T15:18
+CAN1280,B039,R005,C008,Aster Mobility,Business Analyst,Interview,Manual Review,Excel,2026-08-24T14:18
+CAN1281,B040,R004,C004,FinEdge Solutions,Frontend Developer,Applied,CSV,Java,2026-08-18T15:18
+CAN1282,B046,R005,C006,GreenByte,Data Analyst,Offer,API,React,2026-08-05T15:24
+CAN1283,B045,R007,C004,FinEdge Solutions,Business Analyst,Applied,Manual Review,React,2026-08-13T10:28
+CAN1284,B024,R010,C006,GreenByte,Data Analyst,Applied,API,Excel,2026-08-31T13:19
+CAN1285,B041,R002,C005,CloudMint,Software Engineer,Screening,CSV,Power BI,2026-08-09T09:05
+CAN1286,B016,R008,C003,Vertex Digital,Data Analyst,Rejected,Manual Review,Java,2026-08-27T16:10
+CAN1287,B048,R006,C004,FinEdge Solutions,Software Engineer,Applied,API,Java,2026-08-12T15:41
+CAN1288,B005,R006,C002,BlueOrbit Labs,Software Engineer,Applied,Manual Review,Java,2026-08-22T10:14
+CAN1289,B010,R007,C001,Nova Systems,Backend Developer,Shortlisted,API,Excel,2026-08-17T15:35
+CAN1290,B021,R002,C001,Nova Systems,Software Engineer,Shortlisted,API,Java,2026-08-10T16:40
+CAN1291,B035,R002,C006,GreenByte,QA Engineer,Applied,API,Node.js,2026-08-26T09:23
+CAN1292,B018,R007,C004,FinEdge Solutions,Backend Developer,Rejected,Manual Review,Python,2026-08-29T11:27
+CAN1293,B028,R008,C002,BlueOrbit Labs,Software Engineer,Applied,CSV,React,2026-08-23T09:04
+CAN1294,B027,R001,C005,CloudMint,QA Engineer,Applied,Manual Review,Java,2026-08-09T13:14
+CAN1295,B033,R007,C008,Aster Mobility,Backend Developer,Shortlisted,API,Power BI,2026-08-01T13:47
+CAN1296,B027,R001,C005,CloudMint,Frontend Developer,Placed,CSV,Excel,2026-08-09T13:14
+CAN1297,B005,R006,C002,BlueOrbit Labs,QA Engineer,Offer,CSV,Node.js,2026-08-22T10:14
+CAN1298,B021,R002,C001,Nova Systems,QA Engineer,Applied,CSV,Power BI,2026-08-10T16:40
+CAN1299,B023,R005,C001,Nova Systems,Software Engineer,Screening,Manual Review,React,2026-08-24T13:33
+CAN1300,B015,R009,C007,DataForge,Business Analyst,Interview,Manual Review,Java,2026-08-01T16:05
+CAN1301,B020,R009,C007,DataForge,Backend Developer,Screening,Manual Review,Java,2026-08-26T16:22
+CAN1302,B035,R002,C006,GreenByte,Backend Developer,Applied,Manual Review,SQL,2026-08-26T09:23
+CAN1303,B026,R008,C002,BlueOrbit Labs,Frontend Developer,Rejected,CSV,Java,2026-08-13T14:50
+CAN1304,B022,R009,C009,NextWave Retail,Backend Developer,Applied,Manual Review,Power BI,2026-08-10T16:08
+CAN1305,B014,R004,C002,BlueOrbit Labs,Backend Developer,Applied,CSV,Java,2026-08-31T10:49
+CAN1306,B030,R007,C004,FinEdge Solutions,Business Analyst,Placed,API,Power BI,2026-08-22T09:40
+CAN1307,B002,R006,C004,FinEdge Solutions,Frontend Developer,Applied,API,React,2026-08-24T12:01
+CAN1308,B031,R003,C002,BlueOrbit Labs,Data Analyst,Screening,Manual Review,SQL,2026-08-27T09:21
+CAN1309,B016,R008,C003,Vertex Digital,Software Engineer,Interview,CSV,Excel,2026-08-27T16:10
+CAN1310,B030,R007,C004,FinEdge Solutions,QA Engineer,Applied,API,Java,2026-08-22T09:40
+CAN1311,B023,R005,C001,Nova Systems,Backend Developer,Shortlisted,CSV,Power BI,2026-08-24T13:33
+CAN1312,B026,R008,C002,BlueOrbit Labs,Data Analyst,Interview,API,Node.js,2026-08-13T14:50
+CAN1313,B012,R010,C003,Vertex Digital,Business Analyst,Interview,CSV,Power BI,2026-08-07T17:08
+CAN1314,B002,R006,C004,FinEdge Solutions,Backend Developer,Screening,API,Node.js,2026-08-24T12:01
+CAN1315,B008,R003,C002,BlueOrbit Labs,Backend Developer,Applied,API,Excel,2026-08-28T16:48
+CAN1316,B012,R010,C003,Vertex Digital,Frontend Developer,Screening,API,React,2026-08-07T17:08
+CAN1317,B028,R008,C002,BlueOrbit Labs,Data Analyst,Shortlisted,CSV,Excel,2026-08-23T09:04
+CAN1318,B041,R002,C005,CloudMint,QA Engineer,Applied,Manual Review,Node.js,2026-08-09T09:05
+CAN1319,B024,R010,C006,GreenByte,Frontend Developer,Applied,API,Java,2026-08-31T13:19
+CAN1320,B019,R004,C008,Aster Mobility,Software Engineer,Applied,API,SQL,2026-08-11T12:22

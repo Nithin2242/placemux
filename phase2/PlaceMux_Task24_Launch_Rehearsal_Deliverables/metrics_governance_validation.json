@@ -1,0 +1,22 @@
+{
+  "metrics": 10,
+  "certified_metrics": 8,
+  "degraded_metrics": 1,
+  "deprecated_metrics": 1,
+  "launch_ready_metrics": 8,
+  "validation_status": "PASS",
+  "checks": {
+    "missing_columns": [],
+    "duplicate_metric_ids": 0,
+    "duplicate_metric_names": 0,
+    "invalid_status_values": 0,
+    "missing_owner": 0,
+    "missing_reviewer": 0,
+    "missing_source": 0,
+    "missing_version": 0,
+    "invalid_refresh_sla": 0,
+    "critical_not_certified": 0,
+    "deprecated_launch_candidates": 1
+  },
+  "scope_note": "Synthetic governance registry validation only; not a production KPI certification."
+}

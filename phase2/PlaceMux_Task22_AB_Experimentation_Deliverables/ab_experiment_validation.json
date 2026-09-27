@@ -1,0 +1,22 @@
+{
+  "experiment_id": "exp_offer_nudge_v1",
+  "validation_status": "PASS",
+  "subjects": 6000,
+  "eligible_subjects": 4874,
+  "exposed_subjects": 4796,
+  "control_subjects": 2385,
+  "treatment_subjects": 2411,
+  "checks": {
+    "duplicate_subject_ids": 0,
+    "assignment_mismatches": 0,
+    "exposed_without_eligibility": 0,
+    "data_subject_rights_breaches": 0,
+    "invalid_variant_values": 0,
+    "missing_analysis_rows": 0,
+    "arm_size_imbalance": 26,
+    "p_value_present": 0
+  },
+  "scope_note": "Synthetic experimentation dry run; no production experiment result is claimed.",
+  "data_subject_rule": "Subjects with deletion request or experiment withdrawal are excluded before exposure and analysis.",
+  "analysis_rule": "Primary analysis uses eligible exposed subjects with stable assignment; report intent-to-treat and treatment-on-exposed separately in production when both are needed."
+}

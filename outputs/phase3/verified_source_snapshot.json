@@ -1,0 +1,18 @@
+{
+  "source": "UCI Online Retail",
+  "source_type": "Real external transaction dataset used as documented proxy",
+  "raw_rows": 541909,
+  "clean_purchase_rows": 397884,
+  "clean_invoices": 18532,
+  "identified_customers": 4338,
+  "products": 3665,
+  "countries": 37,
+  "retained_revenue_gbp": 8911407.90,
+  "mean_invoice_revenue_gbp": 480.87,
+  "repeat_invoice_transitions": 14194,
+  "repeat_invoice_continuity_pct": 76.63,
+  "peak_month": "2011-11",
+  "peak_month_revenue_gbp": 1160000.00,
+  "top10_customer_revenue_share_pct": null,
+  "note": "Snapshot values for the current report are drawn from prior verified real-data project runs and public UCI-linked analyses. Run launch_performance_analysis.py locally against data/online_retail/Online Retail.xlsx to regenerate all metrics from the actual source file."
+}

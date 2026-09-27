@@ -1,0 +1,142 @@
+{
+  "overall_status": "WATCH",
+  "counts": {
+    "PASS": 8,
+    "WATCH": 4,
+    "BLOCKED": 0
+  },
+  "metrics": [
+    {
+      "metric_id": "placement_conversion",
+      "metric_name": "Placement Conversion",
+      "category": "Business",
+      "unit": "%",
+      "current_value": 11.2,
+      "target": 10.0,
+      "direction": "min",
+      "status": "PASS",
+      "description": "Core placement outcome"
+    },
+    {
+      "metric_id": "application_submission_rate",
+      "metric_name": "Application Submission Rate",
+      "category": "Business",
+      "unit": "%",
+      "current_value": 62.1,
+      "target": 60.0,
+      "direction": "min",
+      "status": "PASS",
+      "description": "Application funnel health"
+    },
+    {
+      "metric_id": "offer_rate",
+      "metric_name": "Offer Rate",
+      "category": "Business",
+      "unit": "%",
+      "current_value": 18.4,
+      "target": 17.0,
+      "direction": "min",
+      "status": "PASS",
+      "description": "Offer conversion"
+    },
+    {
+      "metric_id": "api_availability",
+      "metric_name": "API Availability",
+      "category": "Reliability",
+      "unit": "%",
+      "current_value": 99.93,
+      "target": 99.9,
+      "direction": "min",
+      "status": "WATCH",
+      "description": "Launch availability SLO"
+    },
+    {
+      "metric_id": "api_p95_latency_ms",
+      "metric_name": "API p95 Latency",
+      "category": "Reliability",
+      "unit": "ms",
+      "current_value": 710.0,
+      "target": 750.0,
+      "direction": "max",
+      "status": "WATCH",
+      "description": "Customer-facing latency"
+    },
+    {
+      "metric_id": "data_freshness_min",
+      "metric_name": "Core Data Freshness",
+      "category": "Data",
+      "unit": "min",
+      "current_value": 9.0,
+      "target": 15.0,
+      "direction": "max",
+      "status": "PASS",
+      "description": "Warehouse/report freshness"
+    },
+    {
+      "metric_id": "pipeline_success_rate",
+      "metric_name": "Data Pipeline Success",
+      "category": "Data",
+      "unit": "%",
+      "current_value": 99.4,
+      "target": 99.0,
+      "direction": "min",
+      "status": "WATCH",
+      "description": "Scheduled pipeline completion"
+    },
+    {
+      "metric_id": "model_drift_psi",
+      "metric_name": "Model Drift (PSI)",
+      "category": "MLOps",
+      "unit": "PSI",
+      "current_value": 0.085,
+      "target": 0.1,
+      "direction": "max",
+      "status": "PASS",
+      "description": "Prediction population stability"
+    },
+    {
+      "metric_id": "error_rate",
+      "metric_name": "5xx Error Rate",
+      "category": "Reliability",
+      "unit": "%",
+      "current_value": 0.7,
+      "target": 1.0,
+      "direction": "max",
+      "status": "PASS",
+      "description": "Application/API error rate"
+    },
+    {
+      "metric_id": "payment_success_rate",
+      "metric_name": "Payment Success Rate",
+      "category": "Business",
+      "unit": "%",
+      "current_value": 93.1,
+      "target": 92.0,
+      "direction": "min",
+      "status": "WATCH",
+      "description": "Monetization guardrail"
+    },
+    {
+      "metric_id": "recruiter_response_hours",
+      "metric_name": "Median Recruiter Response",
+      "category": "Marketplace",
+      "unit": "hrs",
+      "current_value": 4.8,
+      "target": 6.0,
+      "direction": "max",
+      "status": "PASS",
+      "description": "Recruiter responsiveness"
+    },
+    {
+      "metric_id": "dashboard_freshness_min",
+      "metric_name": "Executive Dashboard Freshness",
+      "category": "Data",
+      "unit": "min",
+      "current_value": 12.0,
+      "target": 15.0,
+      "direction": "max",
+      "status": "PASS",
+      "description": "Reporting freshness"
+    }
+  ]
+}

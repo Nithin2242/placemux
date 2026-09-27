@@ -1,0 +1,13 @@
+{
+  "controls": 12,
+  "checked_controls": 12,
+  "validation_status": "PASS",
+  "checks": {
+    "missing_columns": [],
+    "duplicate_control_ids": 0,
+    "invalid_status_values": 0,
+    "missing_evidence": 0,
+    "unchecked_required_controls": 0
+  },
+  "scope_note": "Documentation/control-catalog validation only; not a production legal or security certification."
+}

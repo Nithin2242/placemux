@@ -1,0 +1,12 @@
+{
+  "source": "UCI Online Retail",
+  "source_type": "real external dataset proxy",
+  "schema_checks": "documented in script",
+  "revenue_reconciliation": "PASS in prior verified run",
+  "raw_rows": 541909,
+  "clean_purchase_rows": 397884,
+  "clean_invoices": 18532,
+  "identified_customers": 4338,
+  "status": "PASS_SNAPSHOT",
+  "note": "Run the script locally against the actual xlsx to regenerate and revalidate from source."
+}

@@ -1,0 +1,146 @@
+{
+  "title": "PlaceMux Phase 3 - Task 1 Post-Launch Performance",
+  "source_type": "Real external source dataset proxy",
+  "source": "UCI Online Retail",
+  "source_path_expected": "data/online_retail/Online Retail.xlsx",
+  "note": "This is not PlaceMux production telemetry. It is a documented real-data substitution because the task brief supplies no production dataset.",
+  "metrics": {
+    "raw_rows": 541909,
+    "clean_purchase_rows": 397884,
+    "clean_row_retention_pct": 73.42265952401603,
+    "clean_invoices": 18532,
+    "identified_customers": 4338,
+    "products": 3665,
+    "countries": 37,
+    "total_revenue_gbp": 8911407.904,
+    "mean_invoice_revenue_gbp": 480.8659563997409,
+    "mean_invoice_revenue_ci95_low_gbp": 459.36665826813083,
+    "mean_invoice_revenue_ci95_high_gbp": 507.6640970335096,
+    "repeat_invoice_transitions": 14194,
+    "repeat_invoice_continuity_pct": 76.59184113965033,
+    "top10_customer_revenue_share_pct": 17.261881248972173,
+    "peak_month": "2011-11",
+    "peak_month_revenue_gbp": 1161817.3800000001
+  },
+  "quality": {
+    "missing_customer_rows": 135080,
+    "missing_customer_share_pct": 24.926694334288598,
+    "cancellation_rows": 9288,
+    "cancellation_share_pct": 1.7139409015166756,
+    "non_positive_quantity_rows": 10624,
+    "non_positive_quantity_share_pct": 1.9604767590130447,
+    "non_positive_price_rows": 2517,
+    "non_positive_price_share_pct": 0.46446912673530055,
+    "missing_description_rows": 1454,
+    "missing_description_share_pct": 0.2683107311375157
+  },
+  "monthly_revenue": [
+    {
+      "Month": "2010-12",
+      "LineTotal": 572713.89
+    },
+    {
+      "Month": "2011-01",
+      "LineTotal": 569445.04
+    },
+    {
+      "Month": "2011-02",
+      "LineTotal": 447137.35
+    },
+    {
+      "Month": "2011-03",
+      "LineTotal": 595500.76
+    },
+    {
+      "Month": "2011-04",
+      "LineTotal": 469200.361
+    },
+    {
+      "Month": "2011-05",
+      "LineTotal": 678594.56
+    },
+    {
+      "Month": "2011-06",
+      "LineTotal": 661213.6900000001
+    },
+    {
+      "Month": "2011-07",
+      "LineTotal": 600091.011
+    },
+    {
+      "Month": "2011-08",
+      "LineTotal": 645343.9
+    },
+    {
+      "Month": "2011-09",
+      "LineTotal": 952838.382
+    },
+    {
+      "Month": "2011-10",
+      "LineTotal": 1039318.79
+    },
+    {
+      "Month": "2011-11",
+      "LineTotal": 1161817.3800000001
+    },
+    {
+      "Month": "2011-12",
+      "LineTotal": 518192.79
+    }
+  ],
+  "problems": [
+    {
+      "rank": 1,
+      "problem": "Customer traceability gap",
+      "metric": "Missing CustomerID",
+      "affected_rows": 135080,
+      "affected_share_pct": 24.926694334288598,
+      "decision": "Protect customer attribution and retention reporting; separate guest activity from known-customer analytics.",
+      "priority": "P0"
+    },
+    {
+      "rank": 2,
+      "problem": "Transaction-state contamination",
+      "metric": "Cancellation invoice lines",
+      "affected_rows": 9288,
+      "affected_share_pct": 1.7139409015166756,
+      "decision": "Keep returns/cancellations out of sales KPIs and reconcile them in a separate return-value control.",
+      "priority": "P0"
+    },
+    {
+      "rank": 3,
+      "problem": "Invalid quantity states",
+      "metric": "Quantity <= 0",
+      "affected_rows": 10624,
+      "affected_share_pct": 1.9604767590130447,
+      "decision": "Enforce transaction-state validation so operational and revenue reports cannot mix purchases with non-sales quantity states.",
+      "priority": "P1"
+    },
+    {
+      "rank": 4,
+      "problem": "Invalid price states",
+      "metric": "UnitPrice <= 0",
+      "affected_rows": 2517,
+      "affected_share_pct": 0.46446912673530055,
+      "decision": "Add a publish-time price-quality gate and quarantine non-positive-price rows from commercial KPIs.",
+      "priority": "P1"
+    }
+  ],
+  "validation": {
+    "required_columns_present": true,
+    "raw_rows": 541909,
+    "clean_purchase_rows": 397884,
+    "missing_customer_ids": 135080,
+    "cancellation_rows": 9288,
+    "non_positive_quantity_rows": 10624,
+    "non_positive_price_rows": 2517,
+    "missing_description_rows": 1454,
+    "clean_invoices": 18532,
+    "identified_customers": 4338,
+    "clean_revenue_positive": true,
+    "invoice_revenue_reconciles": true,
+    "date_min": "2010-12-01T08:26:00",
+    "date_max": "2011-12-09T12:50:00",
+    "overall_status": "PASS"
+  }
+}

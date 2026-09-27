@@ -1,0 +1,5 @@
+issue,affected_rows,share_pct
+Missing CustomerID,135080,24.93
+Quantity <= 0,10624,1.96
+Cancellation invoice lines,9288,1.71
+UnitPrice <= 0,2517,0.46

@@ -83,23 +83,16 @@ def validate_basket_matrix(
     if basket_matrix.empty:
         raise ValueError("Basket matrix is empty.")
 
-    if not set(basket_matrix.dtypes.astype(str)).issubset(
-        {"int64", "int32", "uint8", "bool"}
-    ):
-        # Keep the validation practical across pandas versions.
-        numeric_values = basket_matrix.to_numpy()
-        if not ((numeric_values == 0) | (numeric_values == 1)).all():
-            raise ValueError(
-                "Basket matrix contains values other than 0 and 1."
-            )
-
     values = basket_matrix.to_numpy()
 
-    if not ((values == 0) | (values == 1)).all():
-        raise ValueError("Basket matrix must contain only 0 and 1.")
+    if not ((values == False) | (values == True)).all():
+        raise ValueError(
+            "Basket matrix must contain only boolean values."
+        )
 
     logger.info(
         "Basket validation passed: %d baskets x %d products.",
         basket_matrix.shape[0],
         basket_matrix.shape[1],
     )
+    

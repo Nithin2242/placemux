@@ -1,0 +1,73 @@
+college,company,invites,interviews,offers
+PES University,TechNova,3,8,0
+PES University,FinEdge,1,0,0
+PES University,CloudSprint,1,1,0
+PES University,DataForge,3,7,2
+PES University,NextGen Systems,3,9,2
+PES University,InnoWorks,2,5,2
+PES University,RetailPulse,2,7,0
+PES University,SecureStack,3,7,2
+PES University,BuildRight,1,3,1
+PES University,MarketMint,1,3,0
+PES University,LogicLoop,4,11,2
+PES University,HealthByte,3,9,3
+BMS Institute of Technology,TechNova,1,1,1
+BMS Institute of Technology,FinEdge,1,6,1
+BMS Institute of Technology,CloudSprint,4,13,2
+BMS Institute of Technology,DataForge,4,13,2
+BMS Institute of Technology,NextGen Systems,2,6,0
+BMS Institute of Technology,InnoWorks,2,4,1
+BMS Institute of Technology,RetailPulse,3,7,0
+BMS Institute of Technology,SecureStack,1,4,1
+BMS Institute of Technology,BuildRight,4,14,3
+BMS Institute of Technology,MarketMint,2,8,2
+BMS Institute of Technology,LogicLoop,4,12,2
+BMS Institute of Technology,HealthByte,1,2,0
+New Horizon College of Engineering,TechNova,3,5,1
+New Horizon College of Engineering,FinEdge,2,8,0
+New Horizon College of Engineering,CloudSprint,3,8,2
+New Horizon College of Engineering,DataForge,4,12,1
+New Horizon College of Engineering,NextGen Systems,1,5,1
+New Horizon College of Engineering,InnoWorks,4,11,2
+New Horizon College of Engineering,RetailPulse,4,14,2
+New Horizon College of Engineering,SecureStack,2,2,0
+New Horizon College of Engineering,BuildRight,3,12,3
+New Horizon College of Engineering,MarketMint,1,3,0
+New Horizon College of Engineering,LogicLoop,1,3,0
+New Horizon College of Engineering,HealthByte,4,11,3
+RV College of Engineering,TechNova,3,14,2
+RV College of Engineering,FinEdge,3,10,1
+RV College of Engineering,CloudSprint,2,8,0
+RV College of Engineering,DataForge,4,11,1
+RV College of Engineering,NextGen Systems,2,8,1
+RV College of Engineering,InnoWorks,4,12,3
+RV College of Engineering,RetailPulse,3,5,1
+RV College of Engineering,SecureStack,2,5,1
+RV College of Engineering,BuildRight,3,11,2
+RV College of Engineering,MarketMint,3,11,2
+RV College of Engineering,LogicLoop,3,11,1
+RV College of Engineering,HealthByte,2,2,0
+CMR Institute of Technology,TechNova,3,9,3
+CMR Institute of Technology,FinEdge,3,11,3
+CMR Institute of Technology,CloudSprint,3,8,1
+CMR Institute of Technology,DataForge,1,2,0
+CMR Institute of Technology,NextGen Systems,4,11,2
+CMR Institute of Technology,InnoWorks,2,4,1
+CMR Institute of Technology,RetailPulse,1,4,2
+CMR Institute of Technology,SecureStack,4,10,1
+CMR Institute of Technology,BuildRight,3,10,2
+CMR Institute of Technology,MarketMint,3,5,0
+CMR Institute of Technology,LogicLoop,4,13,2
+CMR Institute of Technology,HealthByte,2,4,0
+Dayananda Sagar College of Engineering,TechNova,2,7,1
+Dayananda Sagar College of Engineering,FinEdge,1,2,0
+Dayananda Sagar College of Engineering,CloudSprint,2,9,3
+Dayananda Sagar College of Engineering,DataForge,2,3,0
+Dayananda Sagar College of Engineering,NextGen Systems,3,8,3
+Dayananda Sagar College of Engineering,InnoWorks,2,3,0
+Dayananda Sagar College of Engineering,RetailPulse,1,2,1
+Dayananda Sagar College of Engineering,SecureStack,3,10,1
+Dayananda Sagar College of Engineering,BuildRight,2,6,2
+Dayananda Sagar College of Engineering,MarketMint,1,4,0
+Dayananda Sagar College of Engineering,LogicLoop,3,11,1
+Dayananda Sagar College of Engineering,HealthByte,2,5,1

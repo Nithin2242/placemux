@@ -1,0 +1,18 @@
+{
+  "colleges": 6,
+  "registered_students": 2400,
+  "eligible_students": 1597,
+  "profile_completion_rate": 92.4,
+  "documents_verified_rate": 90.2,
+  "students_with_application": 1349,
+  "applications": 3200,
+  "interview_stage_count": 1273,
+  "offers": 446,
+  "placed_students": 179,
+  "placement_rate_pct": 11.2,
+  "avg_package_lpa": 10.04,
+  "median_package_lpa": 9.9,
+  "company_engagements": 15,
+  "drive_events": 220,
+  "successful_outcomes": 195
+}

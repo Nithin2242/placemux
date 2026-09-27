@@ -1,0 +1,14 @@
+{
+  "validation_status": "PASS",
+  "checks": {
+    "duplicate_metric_ids": 0,
+    "duplicate_timeseries_rows": 0,
+    "missing_metric_fields": 0,
+    "missing_timeseries_fields": 0,
+    "invalid_status_values": 0,
+    "timeseries_rows_expected": 168,
+    "timeseries_rows_actual": 168,
+    "blocked_metrics": 0
+  },
+  "monitoring_scope_note": "Synthetic launch-rehearsal monitoring data; not live PlaceMux production telemetry."
+}

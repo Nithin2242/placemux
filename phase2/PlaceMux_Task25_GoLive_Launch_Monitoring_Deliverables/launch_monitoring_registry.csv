@@ -1,0 +1,13 @@
+metric_id,metric_name,category,unit,direction,target,owner,refresh,criticality,governance_status
+placement_conversion,Placement Conversion,Business,%,min,10.0,Data & Analytics,daily,High,CERTIFIED
+application_submission_rate,Application Submission Rate,Business,%,min,60.0,Data & Analytics,daily,High,CERTIFIED
+offer_rate,Offer Rate,Business,%,min,17.0,Data & Analytics,daily,High,CERTIFIED
+api_availability,API Availability,Reliability,%,min,99.9,Data & Analytics,5 min,Critical,CERTIFIED
+api_p95_latency_ms,API p95 Latency,Reliability,ms,max,750.0,Data & Analytics,5 min,Critical,CERTIFIED
+data_freshness_min,Core Data Freshness,Data,min,max,15.0,Data & Analytics,5 min,Critical,CERTIFIED
+pipeline_success_rate,Data Pipeline Success,Data,%,min,99.0,Data & Analytics,5 min,Critical,CERTIFIED
+model_drift_psi,Model Drift (PSI),MLOps,PSI,max,0.1,Data & Analytics,5 min,High,CERTIFIED
+error_rate,5xx Error Rate,Reliability,%,max,1.0,Data & Analytics,5 min,Critical,CERTIFIED
+payment_success_rate,Payment Success Rate,Business,%,min,92.0,Data & Analytics,daily,High,CERTIFIED
+recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,max,6.0,Data & Analytics,daily,High,CERTIFIED
+dashboard_freshness_min,Executive Dashboard Freshness,Data,min,max,15.0,Data & Analytics,5 min,Critical,CERTIFIED

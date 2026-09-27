@@ -1,0 +1,17 @@
+{
+  "total_events": 1838,
+  "invalid_event_names": 0,
+  "duplicate_event_ids": 0,
+  "missing_event_ids": 0,
+  "missing_application_ids": 0,
+  "missing_candidate_ids": 0,
+  "missing_company_ids": 0,
+  "invalid_timestamps": 0,
+  "submitted_without_start": 0,
+  "reviewed_without_submission": 0,
+  "shortlisted_without_review": 0,
+  "next_step_without_shortlist": 0,
+  "selected_without_next_step": 0,
+  "outcome_without_selection": 0,
+  "validation_passed": true
+}

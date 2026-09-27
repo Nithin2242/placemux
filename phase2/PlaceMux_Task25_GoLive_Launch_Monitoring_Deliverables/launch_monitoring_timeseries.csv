@@ -1,0 +1,169 @@
+date,metric_id,metric_name,category,unit,value,target,direction
+2026-08-30,placement_conversion,Placement Conversion,Business,%,10.5,10.0,min
+2026-08-30,application_submission_rate,Application Submission Rate,Business,%,59.6,60.0,min
+2026-08-30,offer_rate,Offer Rate,Business,%,17.4,17.0,min
+2026-08-30,api_availability,API Availability,Reliability,%,99.83,99.9,min
+2026-08-30,api_p95_latency_ms,API p95 Latency,Reliability,ms,768.0,750.0,max
+2026-08-30,data_freshness_min,Core Data Freshness,Data,min,12.0,15.0,max
+2026-08-30,pipeline_success_rate,Data Pipeline Success,Data,%,98.6,99.0,min
+2026-08-30,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.11,0.1,max
+2026-08-30,error_rate,5xx Error Rate,Reliability,%,0.89,1.0,max
+2026-08-30,payment_success_rate,Payment Success Rate,Business,%,92.2,92.0,min
+2026-08-30,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,5.6,6.0,max
+2026-08-30,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,13.0,15.0,max
+2026-08-31,placement_conversion,Placement Conversion,Business,%,10.8,10.0,min
+2026-08-31,application_submission_rate,Application Submission Rate,Business,%,59.9,60.0,min
+2026-08-31,offer_rate,Offer Rate,Business,%,17.7,17.0,min
+2026-08-31,api_availability,API Availability,Reliability,%,99.85,99.9,min
+2026-08-31,api_p95_latency_ms,API p95 Latency,Reliability,ms,751.0,750.0,max
+2026-08-31,data_freshness_min,Core Data Freshness,Data,min,13.0,15.0,max
+2026-08-31,pipeline_success_rate,Data Pipeline Success,Data,%,98.9,99.0,min
+2026-08-31,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.104,0.1,max
+2026-08-31,error_rate,5xx Error Rate,Reliability,%,0.85,1.0,max
+2026-08-31,payment_success_rate,Payment Success Rate,Business,%,92.4,92.0,min
+2026-08-31,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,5.4,6.0,max
+2026-08-31,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,14.0,15.0,max
+2026-09-01,placement_conversion,Placement Conversion,Business,%,10.9,10.0,min
+2026-09-01,application_submission_rate,Application Submission Rate,Business,%,60.3,60.0,min
+2026-09-01,offer_rate,Offer Rate,Business,%,18.0,17.0,min
+2026-09-01,api_availability,API Availability,Reliability,%,99.88,99.9,min
+2026-09-01,api_p95_latency_ms,API p95 Latency,Reliability,ms,738.0,750.0,max
+2026-09-01,data_freshness_min,Core Data Freshness,Data,min,11.0,15.0,max
+2026-09-01,pipeline_success_rate,Data Pipeline Success,Data,%,98.8,99.0,min
+2026-09-01,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.107,0.1,max
+2026-09-01,error_rate,5xx Error Rate,Reliability,%,0.83,1.0,max
+2026-09-01,payment_success_rate,Payment Success Rate,Business,%,92.5,92.0,min
+2026-09-01,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,5.3,6.0,max
+2026-09-01,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,12.0,15.0,max
+2026-09-02,placement_conversion,Placement Conversion,Business,%,11.1,10.0,min
+2026-09-02,application_submission_rate,Application Submission Rate,Business,%,60.8,60.0,min
+2026-09-02,offer_rate,Offer Rate,Business,%,18.1,17.0,min
+2026-09-02,api_availability,API Availability,Reliability,%,99.89,99.9,min
+2026-09-02,api_p95_latency_ms,API p95 Latency,Reliability,ms,728.0,750.0,max
+2026-09-02,data_freshness_min,Core Data Freshness,Data,min,14.0,15.0,max
+2026-09-02,pipeline_success_rate,Data Pipeline Success,Data,%,99.2,99.0,min
+2026-09-02,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.099,0.1,max
+2026-09-02,error_rate,5xx Error Rate,Reliability,%,0.78,1.0,max
+2026-09-02,payment_success_rate,Payment Success Rate,Business,%,92.7,92.0,min
+2026-09-02,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,5.2,6.0,max
+2026-09-02,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,13.0,15.0,max
+2026-09-03,placement_conversion,Placement Conversion,Business,%,11.4,10.0,min
+2026-09-03,application_submission_rate,Application Submission Rate,Business,%,61.1,60.0,min
+2026-09-03,offer_rate,Offer Rate,Business,%,17.8,17.0,min
+2026-09-03,api_availability,API Availability,Reliability,%,99.91,99.9,min
+2026-09-03,api_p95_latency_ms,API p95 Latency,Reliability,ms,745.0,750.0,max
+2026-09-03,data_freshness_min,Core Data Freshness,Data,min,10.0,15.0,max
+2026-09-03,pipeline_success_rate,Data Pipeline Success,Data,%,99.1,99.0,min
+2026-09-03,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.096,0.1,max
+2026-09-03,error_rate,5xx Error Rate,Reliability,%,0.8,1.0,max
+2026-09-03,payment_success_rate,Payment Success Rate,Business,%,92.8,92.0,min
+2026-09-03,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,5.0,6.0,max
+2026-09-03,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,14.0,15.0,max
+2026-09-04,placement_conversion,Placement Conversion,Business,%,11.2,10.0,min
+2026-09-04,application_submission_rate,Application Submission Rate,Business,%,61.5,60.0,min
+2026-09-04,offer_rate,Offer Rate,Business,%,18.2,17.0,min
+2026-09-04,api_availability,API Availability,Reliability,%,99.92,99.9,min
+2026-09-04,api_p95_latency_ms,API p95 Latency,Reliability,ms,720.0,750.0,max
+2026-09-04,data_freshness_min,Core Data Freshness,Data,min,12.0,15.0,max
+2026-09-04,pipeline_success_rate,Data Pipeline Success,Data,%,99.3,99.0,min
+2026-09-04,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.098,0.1,max
+2026-09-04,error_rate,5xx Error Rate,Reliability,%,0.76,1.0,max
+2026-09-04,payment_success_rate,Payment Success Rate,Business,%,92.9,92.0,min
+2026-09-04,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,5.1,6.0,max
+2026-09-04,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,13.0,15.0,max
+2026-09-05,placement_conversion,Placement Conversion,Business,%,11.5,10.0,min
+2026-09-05,application_submission_rate,Application Submission Rate,Business,%,61.2,60.0,min
+2026-09-05,offer_rate,Offer Rate,Business,%,18.4,17.0,min
+2026-09-05,api_availability,API Availability,Reliability,%,99.9,99.9,min
+2026-09-05,api_p95_latency_ms,API p95 Latency,Reliability,ms,732.0,750.0,max
+2026-09-05,data_freshness_min,Core Data Freshness,Data,min,11.0,15.0,max
+2026-09-05,pipeline_success_rate,Data Pipeline Success,Data,%,99.0,99.0,min
+2026-09-05,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.093,0.1,max
+2026-09-05,error_rate,5xx Error Rate,Reliability,%,0.73,1.0,max
+2026-09-05,payment_success_rate,Payment Success Rate,Business,%,92.7,92.0,min
+2026-09-05,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,4.9,6.0,max
+2026-09-05,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,15.0,15.0,max
+2026-09-06,placement_conversion,Placement Conversion,Business,%,11.3,10.0,min
+2026-09-06,application_submission_rate,Application Submission Rate,Business,%,61.9,60.0,min
+2026-09-06,offer_rate,Offer Rate,Business,%,18.7,17.0,min
+2026-09-06,api_availability,API Availability,Reliability,%,99.91,99.9,min
+2026-09-06,api_p95_latency_ms,API p95 Latency,Reliability,ms,719.0,750.0,max
+2026-09-06,data_freshness_min,Core Data Freshness,Data,min,13.0,15.0,max
+2026-09-06,pipeline_success_rate,Data Pipeline Success,Data,%,99.4,99.0,min
+2026-09-06,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.095,0.1,max
+2026-09-06,error_rate,5xx Error Rate,Reliability,%,0.75,1.0,max
+2026-09-06,payment_success_rate,Payment Success Rate,Business,%,93.0,92.0,min
+2026-09-06,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,5.0,6.0,max
+2026-09-06,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,12.0,15.0,max
+2026-09-07,placement_conversion,Placement Conversion,Business,%,11.6,10.0,min
+2026-09-07,application_submission_rate,Application Submission Rate,Business,%,62.2,60.0,min
+2026-09-07,offer_rate,Offer Rate,Business,%,18.5,17.0,min
+2026-09-07,api_availability,API Availability,Reliability,%,99.93,99.9,min
+2026-09-07,api_p95_latency_ms,API p95 Latency,Reliability,ms,728.0,750.0,max
+2026-09-07,data_freshness_min,Core Data Freshness,Data,min,9.0,15.0,max
+2026-09-07,pipeline_success_rate,Data Pipeline Success,Data,%,99.5,99.0,min
+2026-09-07,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.091,0.1,max
+2026-09-07,error_rate,5xx Error Rate,Reliability,%,0.72,1.0,max
+2026-09-07,payment_success_rate,Payment Success Rate,Business,%,93.1,92.0,min
+2026-09-07,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,4.8,6.0,max
+2026-09-07,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,14.0,15.0,max
+2026-09-08,placement_conversion,Placement Conversion,Business,%,11.4,10.0,min
+2026-09-08,application_submission_rate,Application Submission Rate,Business,%,62.4,60.0,min
+2026-09-08,offer_rate,Offer Rate,Business,%,18.9,17.0,min
+2026-09-08,api_availability,API Availability,Reliability,%,99.94,99.9,min
+2026-09-08,api_p95_latency_ms,API p95 Latency,Reliability,ms,742.0,750.0,max
+2026-09-08,data_freshness_min,Core Data Freshness,Data,min,11.0,15.0,max
+2026-09-08,pipeline_success_rate,Data Pipeline Success,Data,%,99.6,99.0,min
+2026-09-08,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.09,0.1,max
+2026-09-08,error_rate,5xx Error Rate,Reliability,%,0.71,1.0,max
+2026-09-08,payment_success_rate,Payment Success Rate,Business,%,93.4,92.0,min
+2026-09-08,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,4.6,6.0,max
+2026-09-08,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,13.0,15.0,max
+2026-09-09,placement_conversion,Placement Conversion,Business,%,11.7,10.0,min
+2026-09-09,application_submission_rate,Application Submission Rate,Business,%,62.7,60.0,min
+2026-09-09,offer_rate,Offer Rate,Business,%,19.1,17.0,min
+2026-09-09,api_availability,API Availability,Reliability,%,99.95,99.9,min
+2026-09-09,api_p95_latency_ms,API p95 Latency,Reliability,ms,754.0,750.0,max
+2026-09-09,data_freshness_min,Core Data Freshness,Data,min,10.0,15.0,max
+2026-09-09,pipeline_success_rate,Data Pipeline Success,Data,%,99.4,99.0,min
+2026-09-09,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.089,0.1,max
+2026-09-09,error_rate,5xx Error Rate,Reliability,%,0.74,1.0,max
+2026-09-09,payment_success_rate,Payment Success Rate,Business,%,93.3,92.0,min
+2026-09-09,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,4.9,6.0,max
+2026-09-09,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,12.0,15.0,max
+2026-09-10,placement_conversion,Placement Conversion,Business,%,11.6,10.0,min
+2026-09-10,application_submission_rate,Application Submission Rate,Business,%,62.3,60.0,min
+2026-09-10,offer_rate,Offer Rate,Business,%,18.8,17.0,min
+2026-09-10,api_availability,API Availability,Reliability,%,99.92,99.9,min
+2026-09-10,api_p95_latency_ms,API p95 Latency,Reliability,ms,738.0,750.0,max
+2026-09-10,data_freshness_min,Core Data Freshness,Data,min,13.0,15.0,max
+2026-09-10,pipeline_success_rate,Data Pipeline Success,Data,%,99.5,99.0,min
+2026-09-10,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.088,0.1,max
+2026-09-10,error_rate,5xx Error Rate,Reliability,%,0.72,1.0,max
+2026-09-10,payment_success_rate,Payment Success Rate,Business,%,93.2,92.0,min
+2026-09-10,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,4.8,6.0,max
+2026-09-10,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,14.0,15.0,max
+2026-09-11,placement_conversion,Placement Conversion,Business,%,11.8,10.0,min
+2026-09-11,application_submission_rate,Application Submission Rate,Business,%,62.5,60.0,min
+2026-09-11,offer_rate,Offer Rate,Business,%,18.6,17.0,min
+2026-09-11,api_availability,API Availability,Reliability,%,99.93,99.9,min
+2026-09-11,api_p95_latency_ms,API p95 Latency,Reliability,ms,726.0,750.0,max
+2026-09-11,data_freshness_min,Core Data Freshness,Data,min,12.0,15.0,max
+2026-09-11,pipeline_success_rate,Data Pipeline Success,Data,%,99.6,99.0,min
+2026-09-11,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.087,0.1,max
+2026-09-11,error_rate,5xx Error Rate,Reliability,%,0.71,1.0,max
+2026-09-11,payment_success_rate,Payment Success Rate,Business,%,93.5,92.0,min
+2026-09-11,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,4.7,6.0,max
+2026-09-11,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,13.0,15.0,max
+2026-09-12,placement_conversion,Placement Conversion,Business,%,11.2,10.0,min
+2026-09-12,application_submission_rate,Application Submission Rate,Business,%,62.1,60.0,min
+2026-09-12,offer_rate,Offer Rate,Business,%,18.4,17.0,min
+2026-09-12,api_availability,API Availability,Reliability,%,99.93,99.9,min
+2026-09-12,api_p95_latency_ms,API p95 Latency,Reliability,ms,710.0,750.0,max
+2026-09-12,data_freshness_min,Core Data Freshness,Data,min,9.0,15.0,max
+2026-09-12,pipeline_success_rate,Data Pipeline Success,Data,%,99.4,99.0,min
+2026-09-12,model_drift_psi,Model Drift (PSI),MLOps,PSI,0.085,0.1,max
+2026-09-12,error_rate,5xx Error Rate,Reliability,%,0.7,1.0,max
+2026-09-12,payment_success_rate,Payment Success Rate,Business,%,93.1,92.0,min
+2026-09-12,recruiter_response_hours,Median Recruiter Response,Marketplace,hrs,4.8,6.0,max
+2026-09-12,dashboard_freshness_min,Executive Dashboard Freshness,Data,min,12.0,15.0,max

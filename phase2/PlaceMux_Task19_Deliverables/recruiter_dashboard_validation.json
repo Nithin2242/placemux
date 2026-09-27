@@ -1,0 +1,10 @@
+{
+  "duplicate_batch_ids": 0,
+  "duplicate_candidate_ids": 0,
+  "duplicate_application_ids": 0,
+  "row_math_errors": 0,
+  "missing_recruiter_ids": 0,
+  "missing_company_ids": 0,
+  "orphan_application_candidates": 0,
+  "overall": "PASS"
+}

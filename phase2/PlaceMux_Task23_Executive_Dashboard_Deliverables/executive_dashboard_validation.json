@@ -1,0 +1,14 @@
+{
+  "validation_status": "PASS",
+  "checks": {
+    "duplicate_student_ids": 0,
+    "duplicate_application_ids": 0,
+    "applications_without_student": 0,
+    "invalid_application_stages": 0,
+    "negative_offer_values": 0,
+    "ops_missing_rows": 0,
+    "latency_threshold_breaches": 0,
+    "drift_threshold_breaches": 0
+  },
+  "scope_note": "Synthetic executive demonstration; not production PlaceMux performance."
+}

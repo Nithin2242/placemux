@@ -1,0 +1,1274 @@
+application_id,candidate_id,recruiter_id,company_id,company,role,stage,applied_at
+APP0001,CAN0001,R004,C008,Aster Mobility,Business Analyst,Screening,2026-08-11T12:22
+APP0002,CAN0002,R003,C003,Vertex Digital,Software Engineer,Placed,2026-08-19T13:46
+APP0003,CAN0003,R006,C002,BlueOrbit Labs,Backend Developer,Placed,2026-08-22T10:14
+APP0004,CAN0004,R002,C003,Vertex Digital,Business Analyst,Offer,2026-08-25T11:45
+APP0006,CAN0006,R007,C008,Aster Mobility,Software Engineer,Placed,2026-08-01T13:47
+APP0007,CAN0007,R007,C004,FinEdge Solutions,QA Engineer,Screening,2026-08-29T11:27
+APP0008,CAN0008,R010,C007,DataForge,Data Analyst,Screening,2026-08-27T17:00
+APP0009,CAN0009,R007,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-29T11:27
+APP0010,CAN0010,R010,C003,Vertex Digital,QA Engineer,Applied,2026-08-07T17:08
+APP0011,CAN0011,R008,C003,Vertex Digital,Data Analyst,Offer,2026-08-27T16:10
+APP0012,CAN0012,R008,C002,BlueOrbit Labs,Business Analyst,Screening,2026-08-13T14:50
+APP0013,CAN0013,R008,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-23T09:04
+APP0014,CAN0014,R009,C009,NextWave Retail,QA Engineer,Applied,2026-08-09T13:27
+APP0015,CAN0015,R010,C006,GreenByte,Software Engineer,Applied,2026-08-31T13:19
+APP0016,CAN0016,R008,C005,CloudMint,Business Analyst,Applied,2026-08-29T15:36
+APP0017,CAN0017,R006,C004,FinEdge Solutions,Frontend Developer,Offer,2026-08-24T12:01
+APP0018,CAN0018,R004,C002,BlueOrbit Labs,Backend Developer,Shortlisted,2026-08-31T10:49
+APP0019,CAN0019,R002,C002,BlueOrbit Labs,Backend Developer,Placed,2026-08-02T13:25
+APP0020,CAN0020,R002,C006,GreenByte,Backend Developer,Applied,2026-08-26T09:23
+APP0021,CAN0021,R007,C008,Aster Mobility,Data Analyst,Placed,2026-08-01T13:47
+APP0022,CAN0022,R004,C004,FinEdge Solutions,Data Analyst,Interview,2026-08-18T15:18
+APP0023,CAN0023,R009,C009,NextWave Retail,Software Engineer,Screening,2026-08-09T13:27
+APP0024,CAN0024,R003,C006,GreenByte,Frontend Developer,Shortlisted,2026-08-02T17:25
+APP0025,CAN0025,R004,C007,DataForge,Backend Developer,Interview,2026-08-16T16:03
+APP0026,CAN0026,R007,C008,Aster Mobility,QA Engineer,Interview,2026-08-01T13:47
+APP0027,CAN0027,R003,C002,BlueOrbit Labs,Business Analyst,Shortlisted,2026-08-27T09:21
+APP0028,CAN0028,R008,C005,CloudMint,Software Engineer,Shortlisted,2026-08-29T15:36
+APP0029,CAN0029,R005,C001,Nova Systems,Data Analyst,Interview,2026-08-24T13:33
+APP0030,CAN0030,R002,C010,BrightPath Consulting,Frontend Developer,Applied,2026-08-14T15:30
+APP0031,CAN0031,R002,C003,Vertex Digital,Frontend Developer,Applied,2026-08-25T11:45
+APP0032,CAN0032,R002,C010,BrightPath Consulting,Software Engineer,Applied,2026-08-14T15:30
+APP0033,CAN0033,R008,C003,Vertex Digital,Frontend Developer,Offer,2026-08-27T16:10
+APP0035,CAN0035,R003,C006,GreenByte,Data Analyst,Applied,2026-08-02T17:25
+APP0036,CAN0036,R007,C004,FinEdge Solutions,Backend Developer,Screening,2026-08-13T10:28
+APP0037,CAN0037,R010,C008,Aster Mobility,Software Engineer,Applied,2026-08-27T15:16
+APP0038,CAN0038,R010,C008,Aster Mobility,Business Analyst,Placed,2026-08-27T15:16
+APP0039,CAN0039,R003,C006,GreenByte,Data Analyst,Interview,2026-08-02T17:25
+APP0040,CAN0040,R008,C005,CloudMint,Business Analyst,Screening,2026-08-29T15:36
+APP0041,CAN0041,R009,C009,NextWave Retail,Data Analyst,Screening,2026-08-10T16:08
+APP0042,CAN0042,R003,C003,Vertex Digital,QA Engineer,Applied,2026-08-19T13:46
+APP0043,CAN0043,R006,C004,FinEdge Solutions,Data Analyst,Rejected,2026-08-12T15:41
+APP0044,CAN0044,R004,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-18T15:18
+APP0045,CAN0045,R008,C005,CloudMint,Backend Developer,Applied,2026-08-29T15:36
+APP0046,CAN0046,R004,C003,Vertex Digital,Business Analyst,Applied,2026-08-10T13:43
+APP0047,CAN0047,R004,C008,Aster Mobility,QA Engineer,Shortlisted,2026-08-11T12:22
+APP0048,CAN0048,R010,C007,DataForge,Software Engineer,Screening,2026-08-27T17:00
+APP0049,CAN0049,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,2026-08-09T13:27
+APP0050,CAN0050,R007,C004,FinEdge Solutions,QA Engineer,Screening,2026-08-22T09:40
+APP0051,CAN0051,R005,C008,Aster Mobility,QA Engineer,Interview,2026-08-24T14:18
+APP0052,CAN0052,R009,C007,DataForge,Frontend Developer,Applied,2026-08-01T16:05
+APP0053,CAN0053,R004,C009,NextWave Retail,Software Engineer,Applied,2026-08-27T16:00
+APP0054,CAN0054,R002,C003,Vertex Digital,Frontend Developer,Applied,2026-08-25T11:45
+APP0055,CAN0055,R005,C006,GreenByte,Data Analyst,Applied,2026-08-05T15:24
+APP0056,CAN0056,R004,C006,GreenByte,Software Engineer,Screening,2026-08-05T14:02
+APP0057,CAN0057,R002,C002,BlueOrbit Labs,Data Analyst,Interview,2026-08-02T13:25
+APP0058,CAN0058,R006,C002,BlueOrbit Labs,QA Engineer,Screening,2026-08-22T10:14
+APP0059,CAN0059,R005,C001,Nova Systems,QA Engineer,Placed,2026-08-24T13:33
+APP0060,CAN0060,R004,C006,GreenByte,Data Analyst,Applied,2026-08-05T14:02
+APP0061,CAN0061,R009,C007,DataForge,QA Engineer,Applied,2026-08-01T16:05
+APP0062,CAN0062,R003,C001,Nova Systems,Data Analyst,Applied,2026-08-04T17:22
+APP0063,CAN0063,R007,C001,Nova Systems,Data Analyst,Applied,2026-08-17T15:35
+APP0065,CAN0065,R007,C004,FinEdge Solutions,Business Analyst,Offer,2026-08-29T11:27
+APP0066,CAN0066,R009,C007,DataForge,QA Engineer,Rejected,2026-08-01T16:05
+APP0067,CAN0067,R008,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-03T15:17
+APP0069,CAN0069,R005,C001,Nova Systems,Backend Developer,Shortlisted,2026-08-26T09:46
+APP0070,CAN0070,R002,C010,BrightPath Consulting,Data Analyst,Rejected,2026-08-14T15:30
+APP0071,CAN0071,R006,C002,BlueOrbit Labs,Business Analyst,Offer,2026-08-14T13:36
+APP0072,CAN0072,R008,C005,CloudMint,Software Engineer,Applied,2026-08-29T15:36
+APP0073,CAN0073,R004,C004,FinEdge Solutions,Backend Developer,Screening,2026-08-18T15:18
+APP0074,CAN0074,R010,C008,Aster Mobility,QA Engineer,Screening,2026-08-27T15:16
+APP0075,CAN0075,R009,C007,DataForge,Business Analyst,Applied,2026-08-26T16:22
+APP0076,CAN0076,R008,C005,CloudMint,Backend Developer,Applied,2026-08-11T12:26
+APP0077,CAN0077,R008,C004,FinEdge Solutions,Data Analyst,Screening,2026-08-03T15:17
+APP0078,CAN0078,R002,C001,Nova Systems,Backend Developer,Offer,2026-08-10T16:40
+APP0079,CAN0079,R003,C006,GreenByte,Business Analyst,Screening,2026-08-02T17:25
+APP0080,CAN0080,R004,C006,GreenByte,QA Engineer,Screening,2026-08-05T14:02
+APP0081,CAN0081,R002,C003,Vertex Digital,Software Engineer,Applied,2026-08-25T11:45
+APP0082,CAN0082,R006,C002,BlueOrbit Labs,Frontend Developer,Placed,2026-08-14T13:36
+APP0083,CAN0083,R002,C001,Nova Systems,Software Engineer,Shortlisted,2026-08-10T16:40
+APP0084,CAN0084,R006,C002,BlueOrbit Labs,QA Engineer,Offer,2026-08-22T10:14
+APP0085,CAN0085,R004,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-31T10:49
+APP0086,CAN0086,R004,C007,DataForge,Data Analyst,Rejected,2026-08-16T16:03
+APP0087,CAN0087,R009,C008,Aster Mobility,Backend Developer,Shortlisted,2026-08-31T14:23
+APP0088,CAN0088,R003,C002,BlueOrbit Labs,Data Analyst,Interview,2026-08-27T09:21
+APP0089,CAN0089,R005,C006,GreenByte,Data Analyst,Interview,2026-08-05T15:24
+APP0090,CAN0090,R009,C007,DataForge,QA Engineer,Shortlisted,2026-08-26T16:22
+APP0091,CAN0091,R007,C001,Nova Systems,Software Engineer,Applied,2026-08-17T15:35
+APP0092,CAN0092,R007,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-22T09:40
+APP0093,CAN0093,R008,C005,CloudMint,Backend Developer,Screening,2026-08-29T15:36
+APP0094,CAN0094,R004,C006,GreenByte,Business Analyst,Applied,2026-08-05T14:02
+APP0095,CAN0095,R004,C003,Vertex Digital,Backend Developer,Interview,2026-08-10T13:43
+APP0096,CAN0096,R003,C006,GreenByte,Software Engineer,Rejected,2026-08-02T17:25
+APP0097,CAN0097,R006,C002,BlueOrbit Labs,QA Engineer,Rejected,2026-08-22T10:14
+APP0098,CAN0098,R004,C004,FinEdge Solutions,Data Analyst,Screening,2026-08-18T15:18
+APP0099,CAN0099,R003,C002,BlueOrbit Labs,Business Analyst,Placed,2026-08-28T16:48
+APP0100,CAN0100,R009,C007,DataForge,Data Analyst,Interview,2026-08-01T16:05
+APP0101,CAN0101,R007,C004,FinEdge Solutions,QA Engineer,Screening,2026-08-22T09:40
+APP0102,CAN0102,R002,C001,Nova Systems,Backend Developer,Rejected,2026-08-10T16:40
+APP0103,CAN0103,R002,C006,GreenByte,Frontend Developer,Offer,2026-08-26T09:23
+APP0104,CAN0104,R006,C004,FinEdge Solutions,Data Analyst,Rejected,2026-08-12T15:41
+APP0105,CAN0105,R006,C004,FinEdge Solutions,Software Engineer,Placed,2026-08-12T15:41
+APP0106,CAN0106,R009,C009,NextWave Retail,QA Engineer,Placed,2026-08-09T13:27
+APP0107,CAN0107,R004,C006,GreenByte,Business Analyst,Shortlisted,2026-08-05T14:02
+APP0108,CAN0108,R002,C006,GreenByte,Software Engineer,Screening,2026-08-26T09:23
+APP0109,CAN0109,R008,C002,BlueOrbit Labs,Software Engineer,Rejected,2026-08-13T14:50
+APP0110,CAN0110,R003,C002,BlueOrbit Labs,Backend Developer,Shortlisted,2026-08-27T09:21
+APP0111,CAN0111,R009,C007,DataForge,Frontend Developer,Shortlisted,2026-08-26T16:22
+APP0112,CAN0112,R002,C005,CloudMint,Data Analyst,Rejected,2026-08-09T09:05
+APP0113,CAN0113,R003,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-28T16:48
+APP0114,CAN0114,R006,C002,BlueOrbit Labs,Data Analyst,Placed,2026-08-22T10:14
+APP0115,CAN0115,R009,C009,NextWave Retail,Business Analyst,Placed,2026-08-10T16:08
+APP0116,CAN0116,R005,C006,GreenByte,Data Analyst,Shortlisted,2026-08-05T15:24
+APP0117,CAN0117,R009,C008,Aster Mobility,Software Engineer,Applied,2026-08-31T14:23
+APP0118,CAN0118,R007,C004,FinEdge Solutions,Frontend Developer,Shortlisted,2026-08-13T10:28
+APP0119,CAN0119,R009,C009,NextWave Retail,Frontend Developer,Screening,2026-08-09T13:27
+APP0120,CAN0120,R006,C004,FinEdge Solutions,Business Analyst,Offer,2026-08-24T12:01
+APP0121,CAN0121,R002,C006,GreenByte,Software Engineer,Applied,2026-08-26T09:23
+APP0122,CAN0122,R003,C002,BlueOrbit Labs,Data Analyst,Interview,2026-08-27T09:21
+APP0123,CAN0123,R008,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-03T15:17
+APP0124,CAN0124,R009,C007,DataForge,Frontend Developer,Offer,2026-08-01T16:05
+APP0125,CAN0125,R004,C003,Vertex Digital,Backend Developer,Applied,2026-08-10T13:43
+APP0126,CAN0126,R004,C006,GreenByte,Backend Developer,Screening,2026-08-05T14:02
+APP0127,CAN0127,R008,C002,BlueOrbit Labs,Backend Developer,Screening,2026-08-23T09:04
+APP0128,CAN0128,R002,C010,BrightPath Consulting,QA Engineer,Placed,2026-08-14T15:30
+APP0129,CAN0129,R002,C001,Nova Systems,Software Engineer,Applied,2026-08-10T16:40
+APP0130,CAN0130,R002,C001,Nova Systems,QA Engineer,Interview,2026-08-10T16:40
+APP0131,CAN0131,R004,C008,Aster Mobility,QA Engineer,Shortlisted,2026-08-11T12:22
+APP0132,CAN0132,R009,C009,NextWave Retail,Frontend Developer,Screening,2026-08-10T16:08
+APP0133,CAN0133,R009,C007,DataForge,Software Engineer,Applied,2026-08-01T16:05
+APP0134,CAN0134,R007,C004,FinEdge Solutions,Business Analyst,Interview,2026-08-13T10:28
+APP0135,CAN0135,R002,C001,Nova Systems,Data Analyst,Applied,2026-08-10T16:40
+APP0136,CAN0136,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-14T13:36
+APP0137,CAN0137,R006,C004,FinEdge Solutions,Frontend Developer,Shortlisted,2026-08-12T15:41
+APP0138,CAN0138,R004,C006,GreenByte,Backend Developer,Applied,2026-08-10T14:15
+APP0139,CAN0139,R004,C009,NextWave Retail,Backend Developer,Shortlisted,2026-08-27T16:00
+APP0140,CAN0140,R010,C007,DataForge,Backend Developer,Shortlisted,2026-08-27T17:00
+APP0141,CAN0141,R009,C007,DataForge,Frontend Developer,Rejected,2026-08-26T16:22
+APP0142,CAN0142,R010,C008,Aster Mobility,Backend Developer,Applied,2026-08-27T15:16
+APP0143,CAN0143,R004,C008,Aster Mobility,Data Analyst,Applied,2026-08-11T12:22
+APP0144,CAN0144,R003,C002,BlueOrbit Labs,QA Engineer,Screening,2026-08-27T09:21
+APP0145,CAN0145,R002,C002,BlueOrbit Labs,Backend Developer,Offer,2026-08-02T13:25
+APP0146,CAN0146,R010,C007,DataForge,Backend Developer,Applied,2026-08-27T17:00
+APP0147,CAN0147,R008,C002,BlueOrbit Labs,Software Engineer,Interview,2026-08-23T09:04
+APP0148,CAN0148,R003,C002,BlueOrbit Labs,QA Engineer,Shortlisted,2026-08-27T09:21
+APP0149,CAN0149,R005,C001,Nova Systems,Frontend Developer,Screening,2026-08-24T13:33
+APP0150,CAN0150,R007,C004,FinEdge Solutions,Backend Developer,Interview,2026-08-29T11:27
+APP0151,CAN0151,R003,C006,GreenByte,Software Engineer,Interview,2026-08-02T17:25
+APP0152,CAN0152,R005,C006,GreenByte,Backend Developer,Shortlisted,2026-08-05T15:24
+APP0153,CAN0153,R009,C007,DataForge,Software Engineer,Interview,2026-08-26T16:22
+APP0154,CAN0154,R002,C003,Vertex Digital,Frontend Developer,Shortlisted,2026-08-25T11:45
+APP0155,CAN0155,R009,C008,Aster Mobility,Business Analyst,Applied,2026-08-31T14:23
+APP0156,CAN0156,R002,C005,CloudMint,Frontend Developer,Screening,2026-08-09T09:05
+APP0157,CAN0157,R009,C007,DataForge,Business Analyst,Rejected,2026-08-26T16:22
+APP0158,CAN0158,R004,C006,GreenByte,Software Engineer,Interview,2026-08-10T14:15
+APP0159,CAN0159,R004,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-18T15:18
+APP0160,CAN0160,R006,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-22T10:14
+APP0161,CAN0161,R004,C009,NextWave Retail,Data Analyst,Applied,2026-08-27T16:00
+APP0162,CAN0162,R007,C004,FinEdge Solutions,QA Engineer,Shortlisted,2026-08-13T10:28
+APP0163,CAN0163,R006,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-12T15:41
+APP0164,CAN0164,R009,C009,NextWave Retail,QA Engineer,Interview,2026-08-10T16:08
+APP0165,CAN0165,R010,C008,Aster Mobility,QA Engineer,Rejected,2026-08-27T15:16
+APP0166,CAN0166,R009,C008,Aster Mobility,Business Analyst,Interview,2026-08-31T14:23
+APP0167,CAN0167,R006,C004,FinEdge Solutions,QA Engineer,Shortlisted,2026-08-12T15:41
+APP0168,CAN0168,R007,C004,FinEdge Solutions,Software Engineer,Placed,2026-08-22T09:40
+APP0169,CAN0169,R010,C003,Vertex Digital,Business Analyst,Applied,2026-08-07T17:08
+APP0170,CAN0170,R004,C009,NextWave Retail,Business Analyst,Shortlisted,2026-08-27T16:00
+APP0171,CAN0171,R007,C001,Nova Systems,QA Engineer,Applied,2026-08-17T15:35
+APP0172,CAN0172,R008,C005,CloudMint,QA Engineer,Applied,2026-08-29T15:36
+APP0173,CAN0173,R004,C006,GreenByte,Frontend Developer,Interview,2026-08-10T14:15
+APP0174,CAN0174,R002,C005,CloudMint,QA Engineer,Applied,2026-08-09T09:05
+APP0175,CAN0175,R002,C010,BrightPath Consulting,QA Engineer,Applied,2026-08-14T15:30
+APP0176,CAN0176,R006,C002,BlueOrbit Labs,Data Analyst,Screening,2026-08-14T13:36
+APP0177,CAN0177,R003,C002,BlueOrbit Labs,Backend Developer,Placed,2026-08-28T16:48
+APP0178,CAN0178,R007,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-29T11:27
+APP0179,CAN0179,R004,C002,BlueOrbit Labs,Business Analyst,Shortlisted,2026-08-31T10:49
+APP0180,CAN0180,R010,C008,Aster Mobility,Data Analyst,Rejected,2026-08-27T15:16
+APP0181,CAN0181,R009,C008,Aster Mobility,Business Analyst,Shortlisted,2026-08-31T14:23
+APP0182,CAN0182,R005,C001,Nova Systems,Frontend Developer,Applied,2026-08-26T09:46
+APP0183,CAN0183,R008,C002,BlueOrbit Labs,QA Engineer,Interview,2026-08-23T09:04
+APP0184,CAN0184,R005,C001,Nova Systems,Backend Developer,Rejected,2026-08-26T09:46
+APP0185,CAN0185,R008,C003,Vertex Digital,Software Engineer,Shortlisted,2026-08-27T16:10
+APP0186,CAN0186,R004,C006,GreenByte,Backend Developer,Screening,2026-08-10T14:15
+APP0187,CAN0187,R003,C006,GreenByte,Software Engineer,Applied,2026-08-02T17:25
+APP0188,CAN0188,R006,C002,BlueOrbit Labs,Backend Developer,Shortlisted,2026-08-22T10:14
+APP0189,CAN0189,R003,C001,Nova Systems,Data Analyst,Placed,2026-08-04T17:22
+APP0190,CAN0190,R007,C001,Nova Systems,Frontend Developer,Shortlisted,2026-08-17T15:35
+APP0191,CAN0191,R007,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-13T10:28
+APP0192,CAN0192,R010,C007,DataForge,Software Engineer,Shortlisted,2026-08-27T17:00
+APP0194,CAN0194,R010,C006,GreenByte,Backend Developer,Placed,2026-08-31T13:19
+APP0195,CAN0195,R010,C006,GreenByte,Software Engineer,Applied,2026-08-31T13:19
+APP0196,CAN0196,R002,C010,BrightPath Consulting,Frontend Developer,Applied,2026-08-14T15:30
+APP0198,CAN0198,R008,C002,BlueOrbit Labs,Software Engineer,Rejected,2026-08-13T14:50
+APP0199,CAN0199,R002,C006,GreenByte,Software Engineer,Applied,2026-08-26T09:23
+APP0200,CAN0200,R007,C001,Nova Systems,QA Engineer,Applied,2026-08-17T15:35
+APP0201,CAN0201,R002,C001,Nova Systems,Software Engineer,Offer,2026-08-10T16:40
+APP0202,CAN0202,R002,C010,BrightPath Consulting,Data Analyst,Applied,2026-08-14T15:30
+APP0203,CAN0203,R008,C005,CloudMint,Data Analyst,Applied,2026-08-29T15:36
+APP0204,CAN0204,R010,C007,DataForge,Backend Developer,Placed,2026-08-27T17:00
+APP0205,CAN0205,R004,C002,BlueOrbit Labs,Business Analyst,Shortlisted,2026-08-31T10:49
+APP0206,CAN0206,R009,C009,NextWave Retail,QA Engineer,Shortlisted,2026-08-09T13:27
+APP0207,CAN0207,R008,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-03T15:17
+APP0208,CAN0208,R005,C001,Nova Systems,Frontend Developer,Offer,2026-08-24T13:33
+APP0209,CAN0209,R006,C004,FinEdge Solutions,Backend Developer,Rejected,2026-08-24T12:01
+APP0210,CAN0210,R004,C006,GreenByte,QA Engineer,Applied,2026-08-05T14:02
+APP0211,CAN0211,R004,C006,GreenByte,Frontend Developer,Interview,2026-08-10T14:15
+APP0212,CAN0212,R004,C006,GreenByte,Business Analyst,Shortlisted,2026-08-05T14:02
+APP0213,CAN0213,R010,C003,Vertex Digital,Backend Developer,Shortlisted,2026-08-07T17:08
+APP0214,CAN0214,R010,C008,Aster Mobility,Software Engineer,Interview,2026-08-27T15:16
+APP0215,CAN0215,R003,C006,GreenByte,Data Analyst,Interview,2026-08-02T17:25
+APP0216,CAN0216,R002,C001,Nova Systems,Software Engineer,Applied,2026-08-10T16:40
+APP0217,CAN0217,R005,C001,Nova Systems,Frontend Developer,Shortlisted,2026-08-26T09:46
+APP0218,CAN0218,R002,C003,Vertex Digital,Software Engineer,Rejected,2026-08-25T11:45
+APP0219,CAN0219,R003,C002,BlueOrbit Labs,Software Engineer,Placed,2026-08-27T09:21
+APP0220,CAN0220,R009,C007,DataForge,Business Analyst,Applied,2026-08-26T16:22
+APP0221,CAN0221,R003,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-27T09:21
+APP0222,CAN0222,R004,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-31T10:49
+APP0223,CAN0223,R004,C009,NextWave Retail,Software Engineer,Applied,2026-08-27T16:00
+APP0224,CAN0224,R010,C003,Vertex Digital,Data Analyst,Shortlisted,2026-08-07T17:08
+APP0225,CAN0225,R009,C007,DataForge,Backend Developer,Applied,2026-08-26T16:22
+APP0226,CAN0226,R003,C001,Nova Systems,Software Engineer,Applied,2026-08-04T17:22
+APP0227,CAN0227,R004,C003,Vertex Digital,Software Engineer,Applied,2026-08-10T13:43
+APP0228,CAN0228,R008,C002,BlueOrbit Labs,QA Engineer,Shortlisted,2026-08-13T14:50
+APP0229,CAN0229,R008,C005,CloudMint,Backend Developer,Shortlisted,2026-08-11T12:26
+APP0230,CAN0230,R004,C002,BlueOrbit Labs,Business Analyst,Screening,2026-08-31T10:49
+APP0231,CAN0231,R004,C002,BlueOrbit Labs,Data Analyst,Screening,2026-08-31T10:49
+APP0232,CAN0232,R002,C010,BrightPath Consulting,Frontend Developer,Applied,2026-08-14T15:30
+APP0233,CAN0233,R007,C008,Aster Mobility,Frontend Developer,Placed,2026-08-01T13:47
+APP0234,CAN0234,R003,C003,Vertex Digital,Data Analyst,Applied,2026-08-19T13:46
+APP0235,CAN0235,R009,C007,DataForge,Business Analyst,Offer,2026-08-26T16:22
+APP0236,CAN0236,R009,C007,DataForge,Business Analyst,Applied,2026-08-26T16:22
+APP0237,CAN0237,R009,C007,DataForge,Backend Developer,Rejected,2026-08-01T16:05
+APP0238,CAN0238,R008,C003,Vertex Digital,QA Engineer,Screening,2026-08-27T16:10
+APP0239,CAN0239,R004,C008,Aster Mobility,Data Analyst,Screening,2026-08-11T12:22
+APP0240,CAN0240,R007,C004,FinEdge Solutions,Backend Developer,Interview,2026-08-29T11:27
+APP0241,CAN0241,R008,C005,CloudMint,QA Engineer,Applied,2026-08-11T12:26
+APP0242,CAN0242,R002,C005,CloudMint,Software Engineer,Interview,2026-08-09T09:05
+APP0243,CAN0243,R002,C010,BrightPath Consulting,Backend Developer,Applied,2026-08-14T15:30
+APP0244,CAN0244,R002,C010,BrightPath Consulting,Backend Developer,Shortlisted,2026-08-14T15:30
+APP0245,CAN0245,R008,C004,FinEdge Solutions,Business Analyst,Shortlisted,2026-08-03T15:17
+APP0246,CAN0246,R008,C002,BlueOrbit Labs,Backend Developer,Screening,2026-08-13T14:50
+APP0247,CAN0247,R006,C004,FinEdge Solutions,QA Engineer,Screening,2026-08-24T12:01
+APP0248,CAN0248,R001,C005,CloudMint,QA Engineer,Shortlisted,2026-08-09T13:14
+APP0249,CAN0249,R002,C003,Vertex Digital,QA Engineer,Shortlisted,2026-08-25T11:45
+APP0250,CAN0250,R006,C004,FinEdge Solutions,Frontend Developer,Rejected,2026-08-12T15:41
+APP0251,CAN0251,R009,C007,DataForge,Frontend Developer,Applied,2026-08-26T16:22
+APP0252,CAN0252,R002,C001,Nova Systems,Frontend Developer,Shortlisted,2026-08-10T16:40
+APP0253,CAN0253,R009,C007,DataForge,Frontend Developer,Applied,2026-08-01T16:05
+APP0254,CAN0254,R010,C008,Aster Mobility,Business Analyst,Interview,2026-08-27T15:16
+APP0255,CAN0255,R006,C004,FinEdge Solutions,QA Engineer,Interview,2026-08-24T12:01
+APP0256,CAN0256,R006,C002,BlueOrbit Labs,Backend Developer,Offer,2026-08-22T10:14
+APP0257,CAN0257,R003,C002,BlueOrbit Labs,QA Engineer,Placed,2026-08-27T09:21
+APP0259,CAN0259,R003,C002,BlueOrbit Labs,Software Engineer,Rejected,2026-08-27T09:21
+APP0260,CAN0260,R003,C003,Vertex Digital,Data Analyst,Rejected,2026-08-19T13:46
+APP0261,CAN0261,R006,C004,FinEdge Solutions,Data Analyst,Offer,2026-08-12T15:41
+APP0262,CAN0262,R004,C006,GreenByte,Business Analyst,Offer,2026-08-05T14:02
+APP0264,CAN0264,R004,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-31T10:49
+APP0265,CAN0265,R009,C007,DataForge,Business Analyst,Applied,2026-08-01T16:05
+APP0266,CAN0266,R004,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-31T10:49
+APP0267,CAN0267,R004,C002,BlueOrbit Labs,Business Analyst,Screening,2026-08-31T10:49
+APP0268,CAN0268,R003,C003,Vertex Digital,Software Engineer,Shortlisted,2026-08-19T13:46
+APP0269,CAN0269,R008,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-03T15:17
+APP0270,CAN0270,R006,C002,BlueOrbit Labs,Backend Developer,Rejected,2026-08-14T13:36
+APP0271,CAN0271,R004,C006,GreenByte,Data Analyst,Applied,2026-08-05T14:02
+APP0272,CAN0272,R004,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-18T15:18
+APP0274,CAN0274,R009,C009,NextWave Retail,QA Engineer,Offer,2026-08-09T13:27
+APP0275,CAN0275,R002,C005,CloudMint,Frontend Developer,Placed,2026-08-09T09:05
+APP0276,CAN0276,R004,C006,GreenByte,Software Engineer,Rejected,2026-08-10T14:15
+APP0277,CAN0277,R003,C003,Vertex Digital,Data Analyst,Shortlisted,2026-08-19T13:46
+APP0278,CAN0278,R009,C009,NextWave Retail,Software Engineer,Offer,2026-08-10T16:08
+APP0279,CAN0279,R007,C004,FinEdge Solutions,Software Engineer,Shortlisted,2026-08-13T10:28
+APP0280,CAN0280,R002,C003,Vertex Digital,QA Engineer,Shortlisted,2026-08-25T11:45
+APP0281,CAN0281,R006,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-22T10:14
+APP0282,CAN0282,R002,C010,BrightPath Consulting,Business Analyst,Applied,2026-08-14T15:30
+APP0283,CAN0283,R006,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-24T12:01
+APP0284,CAN0284,R007,C001,Nova Systems,Data Analyst,Rejected,2026-08-17T15:35
+APP0285,CAN0285,R006,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-24T12:01
+APP0286,CAN0286,R004,C006,GreenByte,Software Engineer,Applied,2026-08-10T14:15
+APP0287,CAN0287,R005,C001,Nova Systems,Frontend Developer,Screening,2026-08-24T13:33
+APP0288,CAN0288,R005,C006,GreenByte,Data Analyst,Shortlisted,2026-08-05T15:24
+APP0289,CAN0289,R006,C004,FinEdge Solutions,Frontend Developer,Screening,2026-08-12T15:41
+APP0290,CAN0290,R005,C001,Nova Systems,QA Engineer,Placed,2026-08-24T13:33
+APP0291,CAN0291,R010,C008,Aster Mobility,Frontend Developer,Screening,2026-08-27T15:16
+APP0292,CAN0292,R003,C002,BlueOrbit Labs,Business Analyst,Placed,2026-08-28T16:48
+APP0294,CAN0294,R004,C007,DataForge,QA Engineer,Applied,2026-08-16T16:03
+APP0295,CAN0295,R009,C009,NextWave Retail,Data Analyst,Applied,2026-08-09T13:27
+APP0296,CAN0296,R006,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-12T15:41
+APP0297,CAN0297,R007,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-29T11:27
+APP0299,CAN0299,R006,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-12T15:41
+APP0300,CAN0300,R005,C006,GreenByte,Software Engineer,Interview,2026-08-05T15:24
+APP0301,CAN0301,R004,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-18T15:18
+APP0302,CAN0302,R003,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-28T16:48
+APP0303,CAN0303,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-14T13:36
+APP0304,CAN0304,R008,C005,CloudMint,QA Engineer,Applied,2026-08-29T15:36
+APP0305,CAN0305,R007,C004,FinEdge Solutions,Data Analyst,Shortlisted,2026-08-13T10:28
+APP0306,CAN0306,R004,C008,Aster Mobility,Software Engineer,Offer,2026-08-11T12:22
+APP0307,CAN0307,R004,C004,FinEdge Solutions,Frontend Developer,Rejected,2026-08-18T15:18
+APP0308,CAN0308,R003,C006,GreenByte,Software Engineer,Shortlisted,2026-08-02T17:25
+APP0309,CAN0309,R005,C001,Nova Systems,Business Analyst,Shortlisted,2026-08-26T09:46
+APP0310,CAN0310,R001,C005,CloudMint,Data Analyst,Applied,2026-08-09T13:14
+APP0311,CAN0311,R008,C003,Vertex Digital,Software Engineer,Applied,2026-08-27T16:10
+APP0312,CAN0312,R001,C005,CloudMint,Backend Developer,Interview,2026-08-09T13:14
+APP0313,CAN0313,R008,C003,Vertex Digital,Business Analyst,Applied,2026-08-27T16:10
+APP0314,CAN0314,R004,C009,NextWave Retail,QA Engineer,Screening,2026-08-27T16:00
+APP0316,CAN0316,R004,C008,Aster Mobility,Software Engineer,Placed,2026-08-11T12:22
+APP0317,CAN0317,R004,C006,GreenByte,Backend Developer,Shortlisted,2026-08-10T14:15
+APP0318,CAN0318,R004,C002,BlueOrbit Labs,QA Engineer,Screening,2026-08-31T10:49
+APP0319,CAN0319,R004,C006,GreenByte,Software Engineer,Screening,2026-08-05T14:02
+APP0320,CAN0320,R008,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-23T09:04
+APP0321,CAN0321,R005,C001,Nova Systems,Data Analyst,Screening,2026-08-24T13:33
+APP0322,CAN0322,R006,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-12T15:41
+APP0323,CAN0323,R006,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-22T10:14
+APP0324,CAN0324,R004,C007,DataForge,Business Analyst,Applied,2026-08-16T16:03
+APP0325,CAN0325,R007,C001,Nova Systems,Software Engineer,Applied,2026-08-17T15:35
+APP0326,CAN0326,R010,C003,Vertex Digital,Software Engineer,Shortlisted,2026-08-07T17:08
+APP0327,CAN0327,R003,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-28T16:48
+APP0328,CAN0328,R008,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-13T14:50
+APP0329,CAN0329,R008,C005,CloudMint,Data Analyst,Shortlisted,2026-08-29T15:36
+APP0330,CAN0330,R010,C003,Vertex Digital,Data Analyst,Shortlisted,2026-08-07T17:08
+APP0331,CAN0331,R003,C002,BlueOrbit Labs,Software Engineer,Placed,2026-08-27T09:21
+APP0332,CAN0332,R009,C009,NextWave Retail,Frontend Developer,Offer,2026-08-09T13:27
+APP0333,CAN0333,R007,C001,Nova Systems,Software Engineer,Applied,2026-08-17T15:35
+APP0334,CAN0334,R003,C006,GreenByte,Frontend Developer,Applied,2026-08-02T17:25
+APP0335,CAN0335,R005,C006,GreenByte,Data Analyst,Screening,2026-08-05T15:24
+APP0336,CAN0336,R004,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-31T10:49
+APP0337,CAN0337,R009,C008,Aster Mobility,Frontend Developer,Shortlisted,2026-08-31T14:23
+APP0338,CAN0338,R009,C007,DataForge,QA Engineer,Applied,2026-08-01T16:05
+APP0339,CAN0339,R003,C003,Vertex Digital,Business Analyst,Applied,2026-08-19T13:46
+APP0340,CAN0340,R008,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-03T15:17
+APP0341,CAN0341,R006,C002,BlueOrbit Labs,QA Engineer,Screening,2026-08-14T13:36
+APP0342,CAN0342,R004,C003,Vertex Digital,QA Engineer,Offer,2026-08-10T13:43
+APP0343,CAN0343,R004,C002,BlueOrbit Labs,QA Engineer,Interview,2026-08-31T10:49
+APP0344,CAN0344,R005,C001,Nova Systems,QA Engineer,Interview,2026-08-24T13:33
+APP0345,CAN0345,R004,C008,Aster Mobility,Data Analyst,Interview,2026-08-11T12:22
+APP0346,CAN0346,R008,C005,CloudMint,Software Engineer,Screening,2026-08-11T12:26
+APP0347,CAN0347,R004,C006,GreenByte,Data Analyst,Screening,2026-08-05T14:02
+APP0348,CAN0348,R008,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-03T15:17
+APP0349,CAN0349,R009,C007,DataForge,Business Analyst,Applied,2026-08-26T16:22
+APP0350,CAN0350,R003,C006,GreenByte,Data Analyst,Rejected,2026-08-02T17:25
+APP0351,CAN0351,R004,C006,GreenByte,QA Engineer,Applied,2026-08-05T14:02
+APP0352,CAN0352,R007,C008,Aster Mobility,Frontend Developer,Shortlisted,2026-08-01T13:47
+APP0353,CAN0353,R002,C005,CloudMint,Frontend Developer,Applied,2026-08-09T09:05
+APP0354,CAN0354,R001,C005,CloudMint,Data Analyst,Rejected,2026-08-09T13:14
+APP0355,CAN0355,R004,C006,GreenByte,Backend Developer,Shortlisted,2026-08-05T14:02
+APP0356,CAN0356,R005,C006,GreenByte,Business Analyst,Interview,2026-08-05T15:24
+APP0357,CAN0357,R009,C007,DataForge,Backend Developer,Shortlisted,2026-08-01T16:05
+APP0358,CAN0358,R004,C006,GreenByte,Business Analyst,Applied,2026-08-10T14:15
+APP0359,CAN0359,R005,C008,Aster Mobility,QA Engineer,Applied,2026-08-24T14:18
+APP0360,CAN0360,R003,C001,Nova Systems,QA Engineer,Screening,2026-08-04T17:22
+APP0361,CAN0361,R004,C004,FinEdge Solutions,Software Engineer,Screening,2026-08-18T15:18
+APP0362,CAN0362,R004,C003,Vertex Digital,Business Analyst,Screening,2026-08-10T13:43
+APP0363,CAN0363,R010,C006,GreenByte,Software Engineer,Offer,2026-08-31T13:19
+APP0364,CAN0364,R005,C001,Nova Systems,Business Analyst,Applied,2026-08-24T13:33
+APP0365,CAN0365,R005,C008,Aster Mobility,Backend Developer,Applied,2026-08-24T14:18
+APP0366,CAN0366,R010,C003,Vertex Digital,Backend Developer,Screening,2026-08-07T17:08
+APP0367,CAN0367,R003,C002,BlueOrbit Labs,Frontend Developer,Rejected,2026-08-27T09:21
+APP0368,CAN0368,R007,C004,FinEdge Solutions,Business Analyst,Interview,2026-08-22T09:40
+APP0369,CAN0369,R009,C009,NextWave Retail,Software Engineer,Applied,2026-08-10T16:08
+APP0370,CAN0370,R004,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-18T15:18
+APP0371,CAN0371,R008,C005,CloudMint,QA Engineer,Offer,2026-08-11T12:26
+APP0372,CAN0372,R003,C003,Vertex Digital,Software Engineer,Shortlisted,2026-08-19T13:46
+APP0373,CAN0373,R008,C005,CloudMint,Frontend Developer,Shortlisted,2026-08-11T12:26
+APP0374,CAN0374,R010,C008,Aster Mobility,Frontend Developer,Screening,2026-08-27T15:16
+APP0375,CAN0375,R003,C001,Nova Systems,Software Engineer,Offer,2026-08-04T17:22
+APP0376,CAN0376,R002,C001,Nova Systems,Frontend Developer,Shortlisted,2026-08-10T16:40
+APP0377,CAN0377,R007,C004,FinEdge Solutions,Frontend Developer,Placed,2026-08-13T10:28
+APP0378,CAN0378,R009,C009,NextWave Retail,Business Analyst,Applied,2026-08-10T16:08
+APP0379,CAN0379,R002,C010,BrightPath Consulting,Backend Developer,Shortlisted,2026-08-14T15:30
+APP0380,CAN0380,R006,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-12T15:41
+APP0381,CAN0381,R004,C009,NextWave Retail,Backend Developer,Interview,2026-08-27T16:00
+APP0382,CAN0382,R005,C008,Aster Mobility,Software Engineer,Rejected,2026-08-24T14:18
+APP0383,CAN0383,R003,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-28T16:48
+APP0384,CAN0384,R008,C005,CloudMint,Frontend Developer,Screening,2026-08-29T15:36
+APP0385,CAN0385,R003,C002,BlueOrbit Labs,QA Engineer,Interview,2026-08-28T16:48
+APP0386,CAN0386,R010,C003,Vertex Digital,Data Analyst,Applied,2026-08-07T17:08
+APP0388,CAN0388,R007,C004,FinEdge Solutions,Data Analyst,Interview,2026-08-22T09:40
+APP0389,CAN0389,R004,C007,DataForge,Backend Developer,Shortlisted,2026-08-16T16:03
+APP0390,CAN0390,R008,C002,BlueOrbit Labs,QA Engineer,Rejected,2026-08-23T09:04
+APP0391,CAN0391,R006,C002,BlueOrbit Labs,Software Engineer,Screening,2026-08-14T13:36
+APP0392,CAN0392,R002,C001,Nova Systems,Frontend Developer,Screening,2026-08-10T16:40
+APP0393,CAN0393,R002,C006,GreenByte,QA Engineer,Shortlisted,2026-08-26T09:23
+APP0394,CAN0394,R008,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-13T14:50
+APP0395,CAN0395,R002,C002,BlueOrbit Labs,QA Engineer,Shortlisted,2026-08-02T13:25
+APP0396,CAN0396,R001,C005,CloudMint,Data Analyst,Applied,2026-08-09T13:14
+APP0397,CAN0397,R007,C008,Aster Mobility,Data Analyst,Screening,2026-08-01T13:47
+APP0398,CAN0398,R008,C005,CloudMint,Data Analyst,Applied,2026-08-11T12:26
+APP0399,CAN0399,R002,C010,BrightPath Consulting,QA Engineer,Interview,2026-08-14T15:30
+APP0400,CAN0400,R009,C009,NextWave Retail,QA Engineer,Screening,2026-08-10T16:08
+APP0401,CAN0401,R003,C006,GreenByte,QA Engineer,Interview,2026-08-02T17:25
+APP0402,CAN0402,R007,C004,FinEdge Solutions,Data Analyst,Applied,2026-08-13T10:28
+APP0403,CAN0403,R002,C003,Vertex Digital,Backend Developer,Shortlisted,2026-08-25T11:45
+APP0404,CAN0404,R004,C003,Vertex Digital,Software Engineer,Placed,2026-08-10T13:43
+APP0406,CAN0406,R004,C008,Aster Mobility,Data Analyst,Placed,2026-08-11T12:22
+APP0407,CAN0407,R008,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-13T14:50
+APP0408,CAN0408,R004,C008,Aster Mobility,Software Engineer,Shortlisted,2026-08-11T12:22
+APP0409,CAN0409,R002,C005,CloudMint,Backend Developer,Screening,2026-08-09T09:05
+APP0410,CAN0410,R003,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-28T16:48
+APP0411,CAN0411,R007,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-22T09:40
+APP0412,CAN0412,R003,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-27T09:21
+APP0413,CAN0413,R009,C009,NextWave Retail,Business Analyst,Applied,2026-08-09T13:27
+APP0414,CAN0414,R001,C005,CloudMint,Data Analyst,Interview,2026-08-09T13:14
+APP0415,CAN0415,R010,C006,GreenByte,Frontend Developer,Shortlisted,2026-08-31T13:19
+APP0416,CAN0416,R007,C004,FinEdge Solutions,Backend Developer,Screening,2026-08-22T09:40
+APP0417,CAN0417,R003,C001,Nova Systems,Software Engineer,Interview,2026-08-04T17:22
+APP0418,CAN0418,R007,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-22T09:40
+APP0419,CAN0419,R007,C008,Aster Mobility,Backend Developer,Applied,2026-08-01T13:47
+APP0421,CAN0421,R006,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-22T10:14
+APP0422,CAN0422,R008,C002,BlueOrbit Labs,Software Engineer,Placed,2026-08-23T09:04
+APP0423,CAN0423,R005,C008,Aster Mobility,Business Analyst,Applied,2026-08-24T14:18
+APP0424,CAN0424,R004,C007,DataForge,Software Engineer,Screening,2026-08-16T16:03
+APP0425,CAN0425,R002,C005,CloudMint,Backend Developer,Shortlisted,2026-08-09T09:05
+APP0426,CAN0426,R002,C001,Nova Systems,Data Analyst,Applied,2026-08-10T16:40
+APP0427,CAN0427,R004,C009,NextWave Retail,Business Analyst,Applied,2026-08-27T16:00
+APP0428,CAN0428,R008,C003,Vertex Digital,Business Analyst,Placed,2026-08-27T16:10
+APP0429,CAN0429,R008,C002,BlueOrbit Labs,Frontend Developer,Screening,2026-08-13T14:50
+APP0430,CAN0430,R002,C003,Vertex Digital,Backend Developer,Applied,2026-08-25T11:45
+APP0431,CAN0431,R009,C009,NextWave Retail,Backend Developer,Applied,2026-08-09T13:27
+APP0433,CAN0433,R004,C009,NextWave Retail,Business Analyst,Rejected,2026-08-27T16:00
+APP0435,CAN0435,R006,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-24T12:01
+APP0436,CAN0436,R002,C001,Nova Systems,Frontend Developer,Shortlisted,2026-08-10T16:40
+APP0437,CAN0437,R008,C003,Vertex Digital,QA Engineer,Applied,2026-08-27T16:10
+APP0438,CAN0438,R004,C008,Aster Mobility,Data Analyst,Applied,2026-08-11T12:22
+APP0439,CAN0439,R008,C004,FinEdge Solutions,Backend Developer,Shortlisted,2026-08-03T15:17
+APP0440,CAN0440,R009,C008,Aster Mobility,Frontend Developer,Applied,2026-08-31T14:23
+APP0441,CAN0441,R005,C001,Nova Systems,Backend Developer,Shortlisted,2026-08-26T09:46
+APP0442,CAN0442,R004,C003,Vertex Digital,Frontend Developer,Offer,2026-08-10T13:43
+APP0443,CAN0443,R004,C002,BlueOrbit Labs,Software Engineer,Screening,2026-08-31T10:49
+APP0444,CAN0444,R009,C007,DataForge,Software Engineer,Applied,2026-08-26T16:22
+APP0446,CAN0446,R002,C001,Nova Systems,QA Engineer,Screening,2026-08-10T16:40
+APP0447,CAN0447,R007,C008,Aster Mobility,QA Engineer,Screening,2026-08-01T13:47
+APP0448,CAN0448,R006,C004,FinEdge Solutions,Data Analyst,Applied,2026-08-24T12:01
+APP0449,CAN0449,R003,C001,Nova Systems,Data Analyst,Interview,2026-08-04T17:22
+APP0450,CAN0450,R009,C009,NextWave Retail,Frontend Developer,Interview,2026-08-09T13:27
+APP0451,CAN0451,R004,C003,Vertex Digital,Frontend Developer,Placed,2026-08-10T13:43
+APP0452,CAN0452,R005,C001,Nova Systems,Frontend Developer,Applied,2026-08-26T09:46
+APP0453,CAN0453,R010,C008,Aster Mobility,Data Analyst,Applied,2026-08-27T15:16
+APP0454,CAN0454,R007,C008,Aster Mobility,Backend Developer,Applied,2026-08-01T13:47
+APP0455,CAN0455,R003,C001,Nova Systems,QA Engineer,Placed,2026-08-04T17:22
+APP0456,CAN0456,R005,C001,Nova Systems,Software Engineer,Shortlisted,2026-08-24T13:33
+APP0457,CAN0457,R003,C003,Vertex Digital,QA Engineer,Applied,2026-08-19T13:46
+APP0458,CAN0458,R002,C010,BrightPath Consulting,Business Analyst,Shortlisted,2026-08-14T15:30
+APP0459,CAN0459,R004,C002,BlueOrbit Labs,Business Analyst,Shortlisted,2026-08-31T10:49
+APP0460,CAN0460,R005,C001,Nova Systems,Data Analyst,Applied,2026-08-24T13:33
+APP0462,CAN0462,R008,C005,CloudMint,Frontend Developer,Applied,2026-08-11T12:26
+APP0463,CAN0463,R006,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-24T12:01
+APP0464,CAN0464,R002,C002,BlueOrbit Labs,Software Engineer,Offer,2026-08-02T13:25
+APP0465,CAN0465,R008,C003,Vertex Digital,Backend Developer,Offer,2026-08-27T16:10
+APP0466,CAN0466,R008,C003,Vertex Digital,Backend Developer,Applied,2026-08-27T16:10
+APP0467,CAN0467,R001,C005,CloudMint,Software Engineer,Applied,2026-08-09T13:14
+APP0468,CAN0468,R005,C008,Aster Mobility,Frontend Developer,Applied,2026-08-24T14:18
+APP0469,CAN0469,R008,C002,BlueOrbit Labs,QA Engineer,Screening,2026-08-13T14:50
+APP0470,CAN0470,R004,C003,Vertex Digital,Software Engineer,Screening,2026-08-10T13:43
+APP0471,CAN0471,R007,C008,Aster Mobility,Data Analyst,Applied,2026-08-01T13:47
+APP0472,CAN0472,R008,C002,BlueOrbit Labs,Frontend Developer,Screening,2026-08-23T09:04
+APP0473,CAN0473,R006,C002,BlueOrbit Labs,QA Engineer,Offer,2026-08-14T13:36
+APP0474,CAN0474,R005,C006,GreenByte,Software Engineer,Shortlisted,2026-08-05T15:24
+APP0475,CAN0475,R010,C003,Vertex Digital,Backend Developer,Shortlisted,2026-08-07T17:08
+APP0476,CAN0476,R003,C006,GreenByte,Data Analyst,Applied,2026-08-02T17:25
+APP0477,CAN0477,R008,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-13T14:50
+APP0478,CAN0478,R004,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-31T10:49
+APP0479,CAN0479,R010,C006,GreenByte,Data Analyst,Applied,2026-08-31T13:19
+APP0480,CAN0480,R007,C001,Nova Systems,Data Analyst,Applied,2026-08-17T15:35
+APP0481,CAN0481,R010,C003,Vertex Digital,Business Analyst,Applied,2026-08-07T17:08
+APP0482,CAN0482,R010,C003,Vertex Digital,Data Analyst,Applied,2026-08-07T17:08
+APP0483,CAN0483,R009,C007,DataForge,Business Analyst,Screening,2026-08-01T16:05
+APP0484,CAN0484,R008,C002,BlueOrbit Labs,Business Analyst,Interview,2026-08-23T09:04
+APP0485,CAN0485,R004,C002,BlueOrbit Labs,Frontend Developer,Interview,2026-08-31T10:49
+APP0486,CAN0486,R005,C001,Nova Systems,Backend Developer,Applied,2026-08-24T13:33
+APP0487,CAN0487,R009,C009,NextWave Retail,Data Analyst,Shortlisted,2026-08-10T16:08
+APP0488,CAN0488,R002,C006,GreenByte,Software Engineer,Applied,2026-08-26T09:23
+APP0489,CAN0489,R006,C002,BlueOrbit Labs,Business Analyst,Placed,2026-08-14T13:36
+APP0490,CAN0490,R008,C003,Vertex Digital,Software Engineer,Applied,2026-08-27T16:10
+APP0491,CAN0491,R002,C001,Nova Systems,Backend Developer,Applied,2026-08-10T16:40
+APP0492,CAN0492,R004,C008,Aster Mobility,Backend Developer,Interview,2026-08-11T12:22
+APP0493,CAN0493,R007,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-22T09:40
+APP0494,CAN0494,R007,C004,FinEdge Solutions,Frontend Developer,Interview,2026-08-22T09:40
+APP0495,CAN0495,R009,C007,DataForge,QA Engineer,Screening,2026-08-26T16:22
+APP0496,CAN0496,R002,C002,BlueOrbit Labs,Frontend Developer,Interview,2026-08-02T13:25
+APP0497,CAN0497,R004,C007,DataForge,Software Engineer,Screening,2026-08-16T16:03
+APP0498,CAN0498,R007,C004,FinEdge Solutions,Software Engineer,Shortlisted,2026-08-22T09:40
+APP0499,CAN0499,R008,C003,Vertex Digital,QA Engineer,Applied,2026-08-27T16:10
+APP0500,CAN0500,R002,C003,Vertex Digital,QA Engineer,Applied,2026-08-25T11:45
+APP0501,CAN0501,R002,C006,GreenByte,QA Engineer,Applied,2026-08-26T09:23
+APP0502,CAN0502,R006,C002,BlueOrbit Labs,Software Engineer,Screening,2026-08-14T13:36
+APP0503,CAN0503,R003,C002,BlueOrbit Labs,Business Analyst,Shortlisted,2026-08-28T16:48
+APP0504,CAN0504,R004,C002,BlueOrbit Labs,QA Engineer,Interview,2026-08-31T10:49
+APP0505,CAN0505,R003,C002,BlueOrbit Labs,Software Engineer,Interview,2026-08-27T09:21
+APP0506,CAN0506,R008,C002,BlueOrbit Labs,Business Analyst,Placed,2026-08-13T14:50
+APP0507,CAN0507,R008,C003,Vertex Digital,Business Analyst,Screening,2026-08-27T16:10
+APP0508,CAN0508,R002,C010,BrightPath Consulting,Business Analyst,Screening,2026-08-14T15:30
+APP0509,CAN0509,R004,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-18T15:18
+APP0510,CAN0510,R009,C007,DataForge,QA Engineer,Interview,2026-08-26T16:22
+APP0511,CAN0511,R004,C002,BlueOrbit Labs,Software Engineer,Shortlisted,2026-08-31T10:49
+APP0512,CAN0512,R008,C004,FinEdge Solutions,Backend Developer,Interview,2026-08-03T15:17
+APP0513,CAN0513,R008,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-13T14:50
+APP0514,CAN0514,R004,C006,GreenByte,Software Engineer,Screening,2026-08-05T14:02
+APP0515,CAN0515,R002,C010,BrightPath Consulting,QA Engineer,Screening,2026-08-14T15:30
+APP0516,CAN0516,R003,C001,Nova Systems,QA Engineer,Screening,2026-08-04T17:22
+APP0517,CAN0517,R010,C007,DataForge,Data Analyst,Applied,2026-08-27T17:00
+APP0518,CAN0518,R002,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-02T13:25
+APP0519,CAN0519,R004,C006,GreenByte,Data Analyst,Interview,2026-08-10T14:15
+APP0520,CAN0520,R008,C005,CloudMint,QA Engineer,Interview,2026-08-29T15:36
+APP0521,CAN0521,R002,C005,CloudMint,Software Engineer,Screening,2026-08-09T09:05
+APP0522,CAN0522,R006,C002,BlueOrbit Labs,Software Engineer,Offer,2026-08-22T10:14
+APP0523,CAN0523,R008,C004,FinEdge Solutions,Backend Developer,Placed,2026-08-03T15:17
+APP0524,CAN0524,R002,C005,CloudMint,Backend Developer,Screening,2026-08-09T09:05
+APP0525,CAN0525,R007,C004,FinEdge Solutions,Data Analyst,Applied,2026-08-29T11:27
+APP0526,CAN0526,R003,C006,GreenByte,QA Engineer,Placed,2026-08-02T17:25
+APP0527,CAN0527,R009,C009,NextWave Retail,Business Analyst,Shortlisted,2026-08-09T13:27
+APP0528,CAN0528,R004,C009,NextWave Retail,Frontend Developer,Screening,2026-08-27T16:00
+APP0529,CAN0529,R004,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-31T10:49
+APP0530,CAN0530,R005,C001,Nova Systems,Frontend Developer,Offer,2026-08-24T13:33
+APP0531,CAN0531,R010,C007,DataForge,QA Engineer,Interview,2026-08-27T17:00
+APP0532,CAN0532,R006,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-14T13:36
+APP0533,CAN0533,R003,C001,Nova Systems,Backend Developer,Screening,2026-08-04T17:22
+APP0534,CAN0534,R006,C002,BlueOrbit Labs,QA Engineer,Screening,2026-08-22T10:14
+APP0535,CAN0535,R004,C007,DataForge,Business Analyst,Applied,2026-08-16T16:03
+APP0536,CAN0536,R009,C009,NextWave Retail,Data Analyst,Offer,2026-08-10T16:08
+APP0537,CAN0537,R009,C009,NextWave Retail,QA Engineer,Offer,2026-08-09T13:27
+APP0538,CAN0538,R008,C002,BlueOrbit Labs,Business Analyst,Offer,2026-08-23T09:04
+APP0539,CAN0539,R002,C003,Vertex Digital,QA Engineer,Applied,2026-08-25T11:45
+APP0540,CAN0540,R002,C001,Nova Systems,Data Analyst,Offer,2026-08-10T16:40
+APP0541,CAN0541,R010,C007,DataForge,Backend Developer,Applied,2026-08-27T17:00
+APP0542,CAN0542,R009,C009,NextWave Retail,Backend Developer,Applied,2026-08-10T16:08
+APP0543,CAN0543,R002,C010,BrightPath Consulting,Business Analyst,Rejected,2026-08-14T15:30
+APP0544,CAN0544,R010,C008,Aster Mobility,Frontend Developer,Applied,2026-08-27T15:16
+APP0545,CAN0545,R002,C006,GreenByte,QA Engineer,Applied,2026-08-26T09:23
+APP0546,CAN0546,R009,C009,NextWave Retail,Data Analyst,Screening,2026-08-10T16:08
+APP0547,CAN0547,R009,C009,NextWave Retail,Software Engineer,Applied,2026-08-10T16:08
+APP0548,CAN0548,R009,C007,DataForge,Backend Developer,Applied,2026-08-26T16:22
+APP0549,CAN0549,R002,C003,Vertex Digital,Business Analyst,Screening,2026-08-25T11:45
+APP0550,CAN0550,R009,C007,DataForge,Software Engineer,Applied,2026-08-01T16:05
+APP0551,CAN0551,R003,C001,Nova Systems,Frontend Developer,Screening,2026-08-04T17:22
+APP0552,CAN0552,R002,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-02T13:25
+APP0553,CAN0553,R002,C001,Nova Systems,Data Analyst,Interview,2026-08-10T16:40
+APP0554,CAN0554,R009,C009,NextWave Retail,QA Engineer,Applied,2026-08-10T16:08
+APP0555,CAN0555,R004,C009,NextWave Retail,Software Engineer,Applied,2026-08-27T16:00
+APP0556,CAN0556,R005,C008,Aster Mobility,QA Engineer,Shortlisted,2026-08-24T14:18
+APP0557,CAN0557,R008,C004,FinEdge Solutions,Backend Developer,Interview,2026-08-03T15:17
+APP0558,CAN0558,R004,C002,BlueOrbit Labs,Backend Developer,Screening,2026-08-31T10:49
+APP0559,CAN0559,R005,C001,Nova Systems,QA Engineer,Screening,2026-08-24T13:33
+APP0560,CAN0560,R010,C003,Vertex Digital,QA Engineer,Applied,2026-08-07T17:08
+APP0561,CAN0561,R003,C001,Nova Systems,Software Engineer,Applied,2026-08-04T17:22
+APP0562,CAN0562,R006,C004,FinEdge Solutions,Software Engineer,Placed,2026-08-12T15:41
+APP0563,CAN0563,R009,C007,DataForge,Backend Developer,Placed,2026-08-01T16:05
+APP0564,CAN0564,R006,C002,BlueOrbit Labs,Data Analyst,Screening,2026-08-22T10:14
+APP0565,CAN0565,R004,C006,GreenByte,Business Analyst,Shortlisted,2026-08-05T14:02
+APP0566,CAN0566,R007,C004,FinEdge Solutions,QA Engineer,Interview,2026-08-29T11:27
+APP0567,CAN0567,R006,C004,FinEdge Solutions,Data Analyst,Screening,2026-08-24T12:01
+APP0568,CAN0568,R005,C006,GreenByte,Software Engineer,Placed,2026-08-05T15:24
+APP0569,CAN0569,R010,C008,Aster Mobility,QA Engineer,Placed,2026-08-27T15:16
+APP0570,CAN0570,R005,C006,GreenByte,QA Engineer,Applied,2026-08-05T15:24
+APP0571,CAN0571,R008,C005,CloudMint,Backend Developer,Applied,2026-08-29T15:36
+APP0572,CAN0572,R010,C007,DataForge,Software Engineer,Rejected,2026-08-27T17:00
+APP0573,CAN0573,R008,C004,FinEdge Solutions,Business Analyst,Rejected,2026-08-03T15:17
+APP0574,CAN0574,R003,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-28T16:48
+APP0575,CAN0575,R008,C004,FinEdge Solutions,QA Engineer,Rejected,2026-08-03T15:17
+APP0576,CAN0576,R007,C004,FinEdge Solutions,Data Analyst,Screening,2026-08-13T10:28
+APP0577,CAN0577,R002,C005,CloudMint,Backend Developer,Applied,2026-08-09T09:05
+APP0578,CAN0578,R003,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-27T09:21
+APP0579,CAN0579,R002,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-02T13:25
+APP0580,CAN0580,R010,C007,DataForge,Software Engineer,Applied,2026-08-27T17:00
+APP0581,CAN0581,R006,C002,BlueOrbit Labs,Backend Developer,Shortlisted,2026-08-14T13:36
+APP0582,CAN0582,R010,C003,Vertex Digital,Software Engineer,Placed,2026-08-07T17:08
+APP0583,CAN0583,R007,C008,Aster Mobility,Frontend Developer,Screening,2026-08-01T13:47
+APP0584,CAN0584,R008,C005,CloudMint,QA Engineer,Applied,2026-08-29T15:36
+APP0585,CAN0585,R005,C008,Aster Mobility,Business Analyst,Offer,2026-08-24T14:18
+APP0586,CAN0586,R003,C006,GreenByte,Software Engineer,Applied,2026-08-02T17:25
+APP0587,CAN0587,R010,C006,GreenByte,QA Engineer,Interview,2026-08-31T13:19
+APP0588,CAN0588,R003,C002,BlueOrbit Labs,Business Analyst,Rejected,2026-08-27T09:21
+APP0589,CAN0589,R002,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-02T13:25
+APP0590,CAN0590,R004,C003,Vertex Digital,Software Engineer,Applied,2026-08-10T13:43
+APP0591,CAN0591,R007,C008,Aster Mobility,Software Engineer,Shortlisted,2026-08-01T13:47
+APP0592,CAN0592,R004,C007,DataForge,Business Analyst,Applied,2026-08-16T16:03
+APP0593,CAN0593,R007,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-13T10:28
+APP0594,CAN0594,R009,C008,Aster Mobility,Frontend Developer,Applied,2026-08-31T14:23
+APP0595,CAN0595,R002,C003,Vertex Digital,Business Analyst,Rejected,2026-08-25T11:45
+APP0596,CAN0596,R002,C010,BrightPath Consulting,Business Analyst,Applied,2026-08-14T15:30
+APP0598,CAN0598,R006,C002,BlueOrbit Labs,Data Analyst,Offer,2026-08-22T10:14
+APP0599,CAN0599,R009,C007,DataForge,Software Engineer,Screening,2026-08-26T16:22
+APP0600,CAN0600,R001,C005,CloudMint,Backend Developer,Interview,2026-08-09T13:14
+APP0601,CAN0601,R008,C002,BlueOrbit Labs,Frontend Developer,Screening,2026-08-13T14:50
+APP0602,CAN0602,R009,C009,NextWave Retail,Backend Developer,Shortlisted,2026-08-10T16:08
+APP0603,CAN0603,R004,C009,NextWave Retail,Business Analyst,Applied,2026-08-27T16:00
+APP0604,CAN0604,R002,C002,BlueOrbit Labs,Data Analyst,Rejected,2026-08-02T13:25
+APP0605,CAN0605,R004,C006,GreenByte,Software Engineer,Interview,2026-08-05T14:02
+APP0606,CAN0606,R005,C006,GreenByte,Software Engineer,Offer,2026-08-05T15:24
+APP0607,CAN0607,R006,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-14T13:36
+APP0608,CAN0608,R009,C009,NextWave Retail,Frontend Developer,Screening,2026-08-09T13:27
+APP0609,CAN0609,R008,C005,CloudMint,Data Analyst,Shortlisted,2026-08-11T12:26
+APP0610,CAN0610,R004,C008,Aster Mobility,Backend Developer,Shortlisted,2026-08-11T12:22
+APP0612,CAN0612,R010,C003,Vertex Digital,QA Engineer,Applied,2026-08-07T17:08
+APP0613,CAN0613,R003,C001,Nova Systems,Software Engineer,Interview,2026-08-04T17:22
+APP0614,CAN0614,R005,C006,GreenByte,QA Engineer,Screening,2026-08-05T15:24
+APP0615,CAN0615,R007,C001,Nova Systems,Software Engineer,Shortlisted,2026-08-17T15:35
+APP0616,CAN0616,R001,C005,CloudMint,Software Engineer,Placed,2026-08-09T13:14
+APP0617,CAN0617,R002,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-02T13:25
+APP0618,CAN0618,R008,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-23T09:04
+APP0619,CAN0619,R006,C002,BlueOrbit Labs,Software Engineer,Offer,2026-08-22T10:14
+APP0620,CAN0620,R004,C009,NextWave Retail,Software Engineer,Applied,2026-08-27T16:00
+APP0621,CAN0621,R004,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-31T10:49
+APP0622,CAN0622,R002,C003,Vertex Digital,Software Engineer,Applied,2026-08-25T11:45
+APP0623,CAN0623,R004,C007,DataForge,Business Analyst,Applied,2026-08-16T16:03
+APP0624,CAN0624,R009,C009,NextWave Retail,Business Analyst,Interview,2026-08-09T13:27
+APP0625,CAN0625,R010,C007,DataForge,Frontend Developer,Applied,2026-08-27T17:00
+APP0626,CAN0626,R001,C005,CloudMint,Data Analyst,Interview,2026-08-09T13:14
+APP0627,CAN0627,R005,C008,Aster Mobility,QA Engineer,Applied,2026-08-24T14:18
+APP0628,CAN0628,R008,C004,FinEdge Solutions,Software Engineer,Shortlisted,2026-08-03T15:17
+APP0629,CAN0629,R003,C002,BlueOrbit Labs,Backend Developer,Offer,2026-08-28T16:48
+APP0630,CAN0630,R005,C006,GreenByte,Frontend Developer,Applied,2026-08-05T15:24
+APP0631,CAN0631,R003,C002,BlueOrbit Labs,Software Engineer,Offer,2026-08-27T09:21
+APP0632,CAN0632,R010,C008,Aster Mobility,Data Analyst,Applied,2026-08-27T15:16
+APP0633,CAN0633,R004,C008,Aster Mobility,Business Analyst,Applied,2026-08-11T12:22
+APP0634,CAN0634,R002,C003,Vertex Digital,Business Analyst,Rejected,2026-08-25T11:45
+APP0635,CAN0635,R006,C002,BlueOrbit Labs,Business Analyst,Placed,2026-08-14T13:36
+APP0636,CAN0636,R005,C001,Nova Systems,Software Engineer,Placed,2026-08-26T09:46
+APP0637,CAN0637,R009,C009,NextWave Retail,Frontend Developer,Interview,2026-08-09T13:27
+APP0638,CAN0638,R005,C008,Aster Mobility,Business Analyst,Rejected,2026-08-24T14:18
+APP0639,CAN0639,R008,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-23T09:04
+APP0640,CAN0640,R004,C006,GreenByte,Frontend Developer,Screening,2026-08-10T14:15
+APP0641,CAN0641,R003,C006,GreenByte,QA Engineer,Applied,2026-08-02T17:25
+APP0642,CAN0642,R006,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-12T15:41
+APP0643,CAN0643,R002,C003,Vertex Digital,Software Engineer,Shortlisted,2026-08-25T11:45
+APP0644,CAN0644,R003,C001,Nova Systems,Frontend Developer,Screening,2026-08-04T17:22
+APP0645,CAN0645,R003,C006,GreenByte,QA Engineer,Rejected,2026-08-02T17:25
+APP0646,CAN0646,R004,C007,DataForge,Software Engineer,Interview,2026-08-16T16:03
+APP0647,CAN0647,R002,C010,BrightPath Consulting,Business Analyst,Shortlisted,2026-08-14T15:30
+APP0648,CAN0648,R006,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-14T13:36
+APP0649,CAN0649,R002,C003,Vertex Digital,Business Analyst,Rejected,2026-08-25T11:45
+APP0650,CAN0650,R002,C003,Vertex Digital,QA Engineer,Shortlisted,2026-08-25T11:45
+APP0651,CAN0651,R010,C003,Vertex Digital,Software Engineer,Screening,2026-08-07T17:08
+APP0652,CAN0652,R006,C004,FinEdge Solutions,Software Engineer,Shortlisted,2026-08-24T12:01
+APP0653,CAN0653,R002,C003,Vertex Digital,QA Engineer,Applied,2026-08-25T11:45
+APP0654,CAN0654,R007,C001,Nova Systems,Backend Developer,Shortlisted,2026-08-17T15:35
+APP0655,CAN0655,R009,C007,DataForge,Business Analyst,Applied,2026-08-26T16:22
+APP0656,CAN0656,R005,C001,Nova Systems,Backend Developer,Offer,2026-08-26T09:46
+APP0657,CAN0657,R008,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-03T15:17
+APP0658,CAN0658,R005,C001,Nova Systems,Business Analyst,Applied,2026-08-26T09:46
+APP0660,CAN0660,R010,C006,GreenByte,Software Engineer,Placed,2026-08-31T13:19
+APP0661,CAN0661,R007,C008,Aster Mobility,Backend Developer,Interview,2026-08-01T13:47
+APP0662,CAN0662,R006,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-24T12:01
+APP0663,CAN0663,R008,C005,CloudMint,Business Analyst,Shortlisted,2026-08-29T15:36
+APP0664,CAN0664,R006,C002,BlueOrbit Labs,Software Engineer,Interview,2026-08-14T13:36
+APP0665,CAN0665,R009,C007,DataForge,Backend Developer,Screening,2026-08-26T16:22
+APP0666,CAN0666,R007,C008,Aster Mobility,QA Engineer,Offer,2026-08-01T13:47
+APP0667,CAN0667,R007,C008,Aster Mobility,Business Analyst,Shortlisted,2026-08-01T13:47
+APP0668,CAN0668,R007,C004,FinEdge Solutions,Data Analyst,Interview,2026-08-13T10:28
+APP0669,CAN0669,R003,C001,Nova Systems,Data Analyst,Applied,2026-08-04T17:22
+APP0670,CAN0670,R001,C005,CloudMint,QA Engineer,Interview,2026-08-09T13:14
+APP0671,CAN0671,R002,C005,CloudMint,Data Analyst,Applied,2026-08-09T09:05
+APP0672,CAN0672,R008,C005,CloudMint,Backend Developer,Screening,2026-08-29T15:36
+APP0673,CAN0673,R007,C004,FinEdge Solutions,Business Analyst,Offer,2026-08-22T09:40
+APP0674,CAN0674,R007,C004,FinEdge Solutions,QA Engineer,Shortlisted,2026-08-29T11:27
+APP0675,CAN0675,R002,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-02T13:25
+APP0676,CAN0676,R002,C003,Vertex Digital,Business Analyst,Shortlisted,2026-08-25T11:45
+APP0677,CAN0677,R002,C003,Vertex Digital,Frontend Developer,Applied,2026-08-25T11:45
+APP0678,CAN0678,R006,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-24T12:01
+APP0679,CAN0679,R005,C006,GreenByte,Frontend Developer,Screening,2026-08-05T15:24
+APP0680,CAN0680,R009,C007,DataForge,QA Engineer,Shortlisted,2026-08-26T16:22
+APP0681,CAN0681,R003,C003,Vertex Digital,Software Engineer,Rejected,2026-08-19T13:46
+APP0682,CAN0682,R004,C008,Aster Mobility,Software Engineer,Screening,2026-08-11T12:22
+APP0683,CAN0683,R002,C010,BrightPath Consulting,Frontend Developer,Shortlisted,2026-08-14T15:30
+APP0685,CAN0685,R005,C008,Aster Mobility,QA Engineer,Screening,2026-08-24T14:18
+APP0686,CAN0686,R004,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-18T15:18
+APP0687,CAN0687,R005,C006,GreenByte,Data Analyst,Applied,2026-08-05T15:24
+APP0688,CAN0688,R007,C001,Nova Systems,Backend Developer,Rejected,2026-08-17T15:35
+APP0689,CAN0689,R002,C002,BlueOrbit Labs,Software Engineer,Interview,2026-08-02T13:25
+APP0690,CAN0690,R008,C005,CloudMint,Data Analyst,Interview,2026-08-11T12:26
+APP0691,CAN0691,R002,C001,Nova Systems,Business Analyst,Applied,2026-08-10T16:40
+APP0692,CAN0692,R002,C002,BlueOrbit Labs,QA Engineer,Placed,2026-08-02T13:25
+APP0693,CAN0693,R008,C004,FinEdge Solutions,QA Engineer,Screening,2026-08-03T15:17
+APP0694,CAN0694,R005,C001,Nova Systems,Data Analyst,Rejected,2026-08-24T13:33
+APP0695,CAN0695,R007,C001,Nova Systems,QA Engineer,Placed,2026-08-17T15:35
+APP0696,CAN0696,R006,C002,BlueOrbit Labs,Software Engineer,Screening,2026-08-14T13:36
+APP0697,CAN0697,R003,C006,GreenByte,QA Engineer,Screening,2026-08-02T17:25
+APP0699,CAN0699,R005,C001,Nova Systems,Data Analyst,Applied,2026-08-24T13:33
+APP0700,CAN0700,R002,C001,Nova Systems,Frontend Developer,Offer,2026-08-10T16:40
+APP0701,CAN0701,R004,C009,NextWave Retail,Business Analyst,Applied,2026-08-27T16:00
+APP0702,CAN0702,R002,C010,BrightPath Consulting,QA Engineer,Applied,2026-08-14T15:30
+APP0703,CAN0703,R003,C002,BlueOrbit Labs,Data Analyst,Placed,2026-08-28T16:48
+APP0704,CAN0704,R007,C004,FinEdge Solutions,Frontend Developer,Interview,2026-08-13T10:28
+APP0705,CAN0705,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,2026-08-09T13:27
+APP0707,CAN0707,R003,C001,Nova Systems,Frontend Developer,Interview,2026-08-04T17:22
+APP0708,CAN0708,R002,C006,GreenByte,Software Engineer,Shortlisted,2026-08-26T09:23
+APP0709,CAN0709,R004,C007,DataForge,Data Analyst,Placed,2026-08-16T16:03
+APP0710,CAN0710,R003,C006,GreenByte,QA Engineer,Offer,2026-08-02T17:25
+APP0711,CAN0711,R010,C008,Aster Mobility,Business Analyst,Applied,2026-08-27T15:16
+APP0712,CAN0712,R005,C006,GreenByte,Software Engineer,Interview,2026-08-05T15:24
+APP0713,CAN0713,R009,C009,NextWave Retail,Software Engineer,Shortlisted,2026-08-09T13:27
+APP0714,CAN0714,R005,C001,Nova Systems,Frontend Developer,Screening,2026-08-24T13:33
+APP0715,CAN0715,R005,C008,Aster Mobility,Software Engineer,Applied,2026-08-24T14:18
+APP0716,CAN0716,R009,C007,DataForge,QA Engineer,Screening,2026-08-01T16:05
+APP0717,CAN0717,R005,C008,Aster Mobility,Data Analyst,Rejected,2026-08-24T14:18
+APP0718,CAN0718,R004,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-18T15:18
+APP0719,CAN0719,R008,C003,Vertex Digital,Backend Developer,Shortlisted,2026-08-27T16:10
+APP0720,CAN0720,R003,C003,Vertex Digital,Business Analyst,Screening,2026-08-19T13:46
+APP0721,CAN0721,R003,C003,Vertex Digital,Business Analyst,Interview,2026-08-19T13:46
+APP0722,CAN0722,R010,C007,DataForge,QA Engineer,Shortlisted,2026-08-27T17:00
+APP0723,CAN0723,R003,C002,BlueOrbit Labs,Data Analyst,Interview,2026-08-28T16:48
+APP0724,CAN0724,R004,C006,GreenByte,Data Analyst,Screening,2026-08-05T14:02
+APP0725,CAN0725,R003,C001,Nova Systems,Backend Developer,Interview,2026-08-04T17:22
+APP0726,CAN0726,R005,C001,Nova Systems,Software Engineer,Offer,2026-08-26T09:46
+APP0727,CAN0727,R008,C002,BlueOrbit Labs,Data Analyst,Placed,2026-08-13T14:50
+APP0729,CAN0729,R009,C008,Aster Mobility,Business Analyst,Applied,2026-08-31T14:23
+APP0730,CAN0730,R009,C009,NextWave Retail,QA Engineer,Shortlisted,2026-08-10T16:08
+APP0731,CAN0731,R008,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-03T15:17
+APP0732,CAN0732,R008,C002,BlueOrbit Labs,Data Analyst,Rejected,2026-08-13T14:50
+APP0733,CAN0733,R002,C001,Nova Systems,Business Analyst,Screening,2026-08-10T16:40
+APP0734,CAN0734,R010,C003,Vertex Digital,Data Analyst,Interview,2026-08-07T17:08
+APP0735,CAN0735,R007,C004,FinEdge Solutions,QA Engineer,Screening,2026-08-13T10:28
+APP0736,CAN0736,R007,C001,Nova Systems,Data Analyst,Placed,2026-08-17T15:35
+APP0737,CAN0737,R009,C007,DataForge,QA Engineer,Screening,2026-08-26T16:22
+APP0738,CAN0738,R004,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-18T15:18
+APP0739,CAN0739,R004,C008,Aster Mobility,Data Analyst,Shortlisted,2026-08-11T12:22
+APP0740,CAN0740,R004,C008,Aster Mobility,Business Analyst,Rejected,2026-08-11T12:22
+APP0741,CAN0741,R004,C006,GreenByte,Data Analyst,Applied,2026-08-05T14:02
+APP0742,CAN0742,R003,C006,GreenByte,Frontend Developer,Rejected,2026-08-02T17:25
+APP0743,CAN0743,R007,C008,Aster Mobility,QA Engineer,Screening,2026-08-01T13:47
+APP0744,CAN0744,R008,C003,Vertex Digital,Data Analyst,Applied,2026-08-27T16:10
+APP0746,CAN0746,R003,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-27T09:21
+APP0747,CAN0747,R002,C005,CloudMint,Frontend Developer,Applied,2026-08-09T09:05
+APP0748,CAN0748,R006,C002,BlueOrbit Labs,Backend Developer,Shortlisted,2026-08-14T13:36
+APP0749,CAN0749,R007,C008,Aster Mobility,Backend Developer,Interview,2026-08-01T13:47
+APP0750,CAN0750,R008,C002,BlueOrbit Labs,Frontend Developer,Screening,2026-08-23T09:04
+APP0751,CAN0751,R010,C006,GreenByte,Data Analyst,Applied,2026-08-31T13:19
+APP0752,CAN0752,R004,C006,GreenByte,Data Analyst,Screening,2026-08-10T14:15
+APP0753,CAN0753,R009,C009,NextWave Retail,Software Engineer,Placed,2026-08-09T13:27
+APP0754,CAN0754,R008,C005,CloudMint,Software Engineer,Placed,2026-08-29T15:36
+APP0755,CAN0755,R004,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-18T15:18
+APP0756,CAN0756,R003,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-27T09:21
+APP0757,CAN0757,R002,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-02T13:25
+APP0758,CAN0758,R004,C009,NextWave Retail,Frontend Developer,Shortlisted,2026-08-27T16:00
+APP0759,CAN0759,R008,C002,BlueOrbit Labs,Data Analyst,Screening,2026-08-23T09:04
+APP0760,CAN0760,R005,C001,Nova Systems,Backend Developer,Interview,2026-08-24T13:33
+APP0761,CAN0761,R002,C002,BlueOrbit Labs,Backend Developer,Interview,2026-08-02T13:25
+APP0762,CAN0762,R003,C001,Nova Systems,Business Analyst,Applied,2026-08-04T17:22
+APP0763,CAN0763,R008,C004,FinEdge Solutions,Backend Developer,Placed,2026-08-03T15:17
+APP0764,CAN0764,R010,C007,DataForge,Business Analyst,Applied,2026-08-27T17:00
+APP0765,CAN0765,R006,C004,FinEdge Solutions,QA Engineer,Rejected,2026-08-12T15:41
+APP0766,CAN0766,R006,C004,FinEdge Solutions,Data Analyst,Rejected,2026-08-12T15:41
+APP0767,CAN0767,R004,C003,Vertex Digital,Backend Developer,Offer,2026-08-10T13:43
+APP0768,CAN0768,R002,C006,GreenByte,Software Engineer,Screening,2026-08-26T09:23
+APP0769,CAN0769,R004,C008,Aster Mobility,Data Analyst,Placed,2026-08-11T12:22
+APP0770,CAN0770,R010,C006,GreenByte,Frontend Developer,Screening,2026-08-31T13:19
+APP0771,CAN0771,R001,C005,CloudMint,Backend Developer,Applied,2026-08-09T13:14
+APP0772,CAN0772,R004,C009,NextWave Retail,Backend Developer,Screening,2026-08-27T16:00
+APP0773,CAN0773,R009,C007,DataForge,Backend Developer,Shortlisted,2026-08-26T16:22
+APP0774,CAN0774,R002,C006,GreenByte,Frontend Developer,Applied,2026-08-26T09:23
+APP0775,CAN0775,R009,C008,Aster Mobility,Software Engineer,Interview,2026-08-31T14:23
+APP0776,CAN0776,R004,C007,DataForge,QA Engineer,Rejected,2026-08-16T16:03
+APP0777,CAN0777,R008,C005,CloudMint,Frontend Developer,Interview,2026-08-29T15:36
+APP0778,CAN0778,R003,C001,Nova Systems,Software Engineer,Shortlisted,2026-08-04T17:22
+APP0779,CAN0779,R004,C006,GreenByte,Frontend Developer,Applied,2026-08-10T14:15
+APP0780,CAN0780,R009,C009,NextWave Retail,Frontend Developer,Interview,2026-08-09T13:27
+APP0781,CAN0781,R010,C003,Vertex Digital,Software Engineer,Applied,2026-08-07T17:08
+APP0782,CAN0782,R008,C002,BlueOrbit Labs,QA Engineer,Rejected,2026-08-13T14:50
+APP0783,CAN0783,R008,C005,CloudMint,Business Analyst,Applied,2026-08-11T12:26
+APP0784,CAN0784,R003,C002,BlueOrbit Labs,QA Engineer,Screening,2026-08-27T09:21
+APP0785,CAN0785,R005,C008,Aster Mobility,Business Analyst,Shortlisted,2026-08-24T14:18
+APP0786,CAN0786,R010,C008,Aster Mobility,Frontend Developer,Shortlisted,2026-08-27T15:16
+APP0787,CAN0787,R005,C008,Aster Mobility,Software Engineer,Applied,2026-08-24T14:18
+APP0788,CAN0788,R004,C003,Vertex Digital,Software Engineer,Applied,2026-08-10T13:43
+APP0789,CAN0789,R002,C010,BrightPath Consulting,Software Engineer,Interview,2026-08-14T15:30
+APP0790,CAN0790,R008,C005,CloudMint,Backend Developer,Interview,2026-08-29T15:36
+APP0791,CAN0791,R005,C001,Nova Systems,Data Analyst,Interview,2026-08-24T13:33
+APP0792,CAN0792,R005,C006,GreenByte,Frontend Developer,Shortlisted,2026-08-05T15:24
+APP0793,CAN0793,R007,C004,FinEdge Solutions,Frontend Developer,Shortlisted,2026-08-29T11:27
+APP0794,CAN0794,R004,C002,BlueOrbit Labs,Business Analyst,Shortlisted,2026-08-31T10:49
+APP0795,CAN0795,R004,C006,GreenByte,Data Analyst,Rejected,2026-08-10T14:15
+APP0796,CAN0796,R007,C004,FinEdge Solutions,Backend Developer,Placed,2026-08-22T09:40
+APP0797,CAN0797,R008,C003,Vertex Digital,Software Engineer,Applied,2026-08-27T16:10
+APP0798,CAN0798,R004,C003,Vertex Digital,QA Engineer,Applied,2026-08-10T13:43
+APP0799,CAN0799,R003,C001,Nova Systems,Software Engineer,Interview,2026-08-04T17:22
+APP0800,CAN0800,R006,C002,BlueOrbit Labs,QA Engineer,Interview,2026-08-14T13:36
+APP0801,CAN0801,R007,C004,FinEdge Solutions,Data Analyst,Screening,2026-08-22T09:40
+APP0802,CAN0802,R009,C007,DataForge,Business Analyst,Interview,2026-08-01T16:05
+APP0803,CAN0803,R006,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-12T15:41
+APP0804,CAN0804,R004,C003,Vertex Digital,Frontend Developer,Applied,2026-08-10T13:43
+APP0805,CAN0805,R005,C001,Nova Systems,Backend Developer,Screening,2026-08-26T09:46
+APP0806,CAN0806,R007,C008,Aster Mobility,Data Analyst,Offer,2026-08-01T13:47
+APP0807,CAN0807,R004,C009,NextWave Retail,Backend Developer,Shortlisted,2026-08-27T16:00
+APP0808,CAN0808,R001,C005,CloudMint,Software Engineer,Applied,2026-08-09T13:14
+APP0809,CAN0809,R007,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-13T10:28
+APP0810,CAN0810,R004,C006,GreenByte,Backend Developer,Placed,2026-08-05T14:02
+APP0811,CAN0811,R002,C003,Vertex Digital,Frontend Developer,Rejected,2026-08-25T11:45
+APP0812,CAN0812,R010,C008,Aster Mobility,Business Analyst,Screening,2026-08-27T15:16
+APP0813,CAN0813,R005,C006,GreenByte,Data Analyst,Shortlisted,2026-08-05T15:24
+APP0814,CAN0814,R005,C001,Nova Systems,QA Engineer,Screening,2026-08-26T09:46
+APP0815,CAN0815,R010,C008,Aster Mobility,Backend Developer,Shortlisted,2026-08-27T15:16
+APP0816,CAN0816,R001,C005,CloudMint,Data Analyst,Placed,2026-08-09T13:14
+APP0817,CAN0817,R007,C008,Aster Mobility,Data Analyst,Applied,2026-08-01T13:47
+APP0818,CAN0818,R009,C007,DataForge,Data Analyst,Screening,2026-08-01T16:05
+APP0819,CAN0819,R007,C004,FinEdge Solutions,Business Analyst,Screening,2026-08-29T11:27
+APP0820,CAN0820,R004,C007,DataForge,Software Engineer,Applied,2026-08-16T16:03
+APP0821,CAN0821,R010,C003,Vertex Digital,Business Analyst,Applied,2026-08-07T17:08
+APP0822,CAN0822,R007,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-22T09:40
+APP0823,CAN0823,R005,C008,Aster Mobility,Data Analyst,Interview,2026-08-24T14:18
+APP0824,CAN0824,R001,C005,CloudMint,Software Engineer,Interview,2026-08-09T13:14
+APP0825,CAN0825,R010,C007,DataForge,Frontend Developer,Interview,2026-08-27T17:00
+APP0826,CAN0826,R007,C008,Aster Mobility,Data Analyst,Applied,2026-08-01T13:47
+APP0827,CAN0827,R008,C003,Vertex Digital,Data Analyst,Shortlisted,2026-08-27T16:10
+APP0828,CAN0828,R008,C003,Vertex Digital,QA Engineer,Applied,2026-08-27T16:10
+APP0829,CAN0829,R007,C004,FinEdge Solutions,Software Engineer,Screening,2026-08-22T09:40
+APP0830,CAN0830,R002,C001,Nova Systems,Backend Developer,Applied,2026-08-10T16:40
+APP0831,CAN0831,R003,C001,Nova Systems,QA Engineer,Applied,2026-08-04T17:22
+APP0832,CAN0832,R008,C005,CloudMint,QA Engineer,Applied,2026-08-29T15:36
+APP0833,CAN0833,R008,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-23T09:04
+APP0834,CAN0834,R002,C002,BlueOrbit Labs,Frontend Developer,Offer,2026-08-02T13:25
+APP0835,CAN0835,R004,C004,FinEdge Solutions,Business Analyst,Interview,2026-08-18T15:18
+APP0836,CAN0836,R009,C007,DataForge,Software Engineer,Shortlisted,2026-08-26T16:22
+APP0837,CAN0837,R009,C009,NextWave Retail,Frontend Developer,Applied,2026-08-10T16:08
+APP0838,CAN0838,R002,C003,Vertex Digital,QA Engineer,Screening,2026-08-25T11:45
+APP0839,CAN0839,R005,C001,Nova Systems,Data Analyst,Interview,2026-08-26T09:46
+APP0840,CAN0840,R010,C003,Vertex Digital,QA Engineer,Screening,2026-08-07T17:08
+APP0841,CAN0841,R007,C008,Aster Mobility,Software Engineer,Shortlisted,2026-08-01T13:47
+APP0842,CAN0842,R002,C003,Vertex Digital,Frontend Developer,Interview,2026-08-25T11:45
+APP0843,CAN0843,R005,C001,Nova Systems,Frontend Developer,Shortlisted,2026-08-26T09:46
+APP0844,CAN0844,R009,C009,NextWave Retail,QA Engineer,Applied,2026-08-09T13:27
+APP0845,CAN0845,R004,C004,FinEdge Solutions,Backend Developer,Screening,2026-08-18T15:18
+APP0846,CAN0846,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-14T13:36
+APP0847,CAN0847,R010,C008,Aster Mobility,Backend Developer,Applied,2026-08-27T15:16
+APP0848,CAN0848,R002,C002,BlueOrbit Labs,Frontend Developer,Interview,2026-08-02T13:25
+APP0849,CAN0849,R007,C004,FinEdge Solutions,Backend Developer,Screening,2026-08-22T09:40
+APP0850,CAN0850,R009,C007,DataForge,Backend Developer,Rejected,2026-08-26T16:22
+APP0851,CAN0851,R002,C002,BlueOrbit Labs,QA Engineer,Screening,2026-08-02T13:25
+APP0852,CAN0852,R008,C003,Vertex Digital,Software Engineer,Shortlisted,2026-08-27T16:10
+APP0853,CAN0853,R003,C003,Vertex Digital,Business Analyst,Shortlisted,2026-08-19T13:46
+APP0854,CAN0854,R008,C005,CloudMint,Data Analyst,Applied,2026-08-11T12:26
+APP0855,CAN0855,R002,C005,CloudMint,Frontend Developer,Placed,2026-08-09T09:05
+APP0856,CAN0856,R003,C006,GreenByte,QA Engineer,Interview,2026-08-02T17:25
+APP0857,CAN0857,R005,C008,Aster Mobility,Business Analyst,Offer,2026-08-24T14:18
+APP0858,CAN0858,R004,C007,DataForge,Data Analyst,Applied,2026-08-16T16:03
+APP0859,CAN0859,R002,C010,BrightPath Consulting,QA Engineer,Shortlisted,2026-08-14T15:30
+APP0860,CAN0860,R003,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-28T16:48
+APP0861,CAN0861,R007,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-29T11:27
+APP0862,CAN0862,R004,C006,GreenByte,Data Analyst,Shortlisted,2026-08-05T14:02
+APP0863,CAN0863,R004,C008,Aster Mobility,Business Analyst,Offer,2026-08-11T12:22
+APP0864,CAN0864,R010,C003,Vertex Digital,Backend Developer,Offer,2026-08-07T17:08
+APP0865,CAN0865,R003,C006,GreenByte,Frontend Developer,Applied,2026-08-02T17:25
+APP0866,CAN0866,R002,C010,BrightPath Consulting,Backend Developer,Applied,2026-08-14T15:30
+APP0867,CAN0867,R004,C003,Vertex Digital,Frontend Developer,Screening,2026-08-10T13:43
+APP0868,CAN0868,R009,C007,DataForge,Data Analyst,Placed,2026-08-01T16:05
+APP0869,CAN0869,R004,C009,NextWave Retail,Software Engineer,Screening,2026-08-27T16:00
+APP0870,CAN0870,R002,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-02T13:25
+APP0871,CAN0871,R004,C006,GreenByte,Business Analyst,Screening,2026-08-10T14:15
+APP0872,CAN0872,R008,C004,FinEdge Solutions,QA Engineer,Interview,2026-08-03T15:17
+APP0873,CAN0873,R004,C006,GreenByte,QA Engineer,Applied,2026-08-10T14:15
+APP0874,CAN0874,R002,C002,BlueOrbit Labs,Data Analyst,Interview,2026-08-02T13:25
+APP0875,CAN0875,R007,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-22T09:40
+APP0876,CAN0876,R005,C006,GreenByte,Frontend Developer,Screening,2026-08-05T15:24
+APP0877,CAN0877,R005,C001,Nova Systems,Backend Developer,Rejected,2026-08-26T09:46
+APP0878,CAN0878,R009,C007,DataForge,Frontend Developer,Shortlisted,2026-08-01T16:05
+APP0879,CAN0879,R002,C005,CloudMint,QA Engineer,Offer,2026-08-09T09:05
+APP0880,CAN0880,R008,C003,Vertex Digital,Business Analyst,Shortlisted,2026-08-27T16:10
+APP0881,CAN0881,R002,C005,CloudMint,Data Analyst,Applied,2026-08-09T09:05
+APP0882,CAN0882,R006,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-24T12:01
+APP0883,CAN0883,R010,C007,DataForge,QA Engineer,Offer,2026-08-27T17:00
+APP0884,CAN0884,R009,C009,NextWave Retail,Data Analyst,Rejected,2026-08-10T16:08
+APP0885,CAN0885,R005,C006,GreenByte,Data Analyst,Shortlisted,2026-08-05T15:24
+APP0886,CAN0886,R006,C002,BlueOrbit Labs,Backend Developer,Shortlisted,2026-08-14T13:36
+APP0887,CAN0887,R002,C005,CloudMint,Data Analyst,Applied,2026-08-09T09:05
+APP0888,CAN0888,R009,C009,NextWave Retail,Frontend Developer,Applied,2026-08-10T16:08
+APP0889,CAN0889,R002,C002,BlueOrbit Labs,Software Engineer,Rejected,2026-08-02T13:25
+APP0890,CAN0890,R005,C001,Nova Systems,Backend Developer,Applied,2026-08-24T13:33
+APP0891,CAN0891,R007,C004,FinEdge Solutions,Software Engineer,Shortlisted,2026-08-13T10:28
+APP0892,CAN0892,R004,C006,GreenByte,Data Analyst,Applied,2026-08-05T14:02
+APP0893,CAN0893,R008,C005,CloudMint,Software Engineer,Placed,2026-08-29T15:36
+APP0894,CAN0894,R007,C004,FinEdge Solutions,Business Analyst,Screening,2026-08-29T11:27
+APP0895,CAN0895,R007,C008,Aster Mobility,Frontend Developer,Shortlisted,2026-08-01T13:47
+APP0896,CAN0896,R008,C003,Vertex Digital,Business Analyst,Interview,2026-08-27T16:10
+APP0897,CAN0897,R009,C008,Aster Mobility,Business Analyst,Applied,2026-08-31T14:23
+APP0898,CAN0898,R003,C006,GreenByte,QA Engineer,Applied,2026-08-02T17:25
+APP0899,CAN0899,R010,C007,DataForge,Frontend Developer,Screening,2026-08-27T17:00
+APP0900,CAN0900,R008,C002,BlueOrbit Labs,Business Analyst,Screening,2026-08-23T09:04
+APP0901,CAN0901,R007,C004,FinEdge Solutions,Data Analyst,Applied,2026-08-22T09:40
+APP0902,CAN0902,R007,C008,Aster Mobility,Data Analyst,Applied,2026-08-01T13:47
+APP0903,CAN0903,R009,C007,DataForge,Software Engineer,Offer,2026-08-26T16:22
+APP0904,CAN0904,R006,C004,FinEdge Solutions,Frontend Developer,Shortlisted,2026-08-24T12:01
+APP0905,CAN0905,R004,C006,GreenByte,QA Engineer,Applied,2026-08-05T14:02
+APP0906,CAN0906,R003,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-27T09:21
+APP0907,CAN0907,R004,C006,GreenByte,Business Analyst,Applied,2026-08-05T14:02
+APP0908,CAN0908,R008,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-23T09:04
+APP0910,CAN0910,R007,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-13T10:28
+APP0911,CAN0911,R004,C007,DataForge,Business Analyst,Screening,2026-08-16T16:03
+APP0913,CAN0913,R003,C006,GreenByte,QA Engineer,Screening,2026-08-02T17:25
+APP0914,CAN0914,R002,C001,Nova Systems,Backend Developer,Applied,2026-08-10T16:40
+APP0915,CAN0915,R001,C005,CloudMint,Backend Developer,Placed,2026-08-09T13:14
+APP0917,CAN0917,R006,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-14T13:36
+APP0918,CAN0918,R003,C006,GreenByte,Frontend Developer,Interview,2026-08-02T17:25
+APP0919,CAN0919,R005,C001,Nova Systems,Backend Developer,Offer,2026-08-24T13:33
+APP0920,CAN0920,R009,C007,DataForge,Backend Developer,Shortlisted,2026-08-01T16:05
+APP0921,CAN0921,R005,C001,Nova Systems,Data Analyst,Applied,2026-08-26T09:46
+APP0922,CAN0922,R005,C006,GreenByte,Software Engineer,Applied,2026-08-05T15:24
+APP0923,CAN0923,R004,C007,DataForge,QA Engineer,Screening,2026-08-16T16:03
+APP0924,CAN0924,R002,C003,Vertex Digital,QA Engineer,Applied,2026-08-25T11:45
+APP0925,CAN0925,R008,C003,Vertex Digital,Data Analyst,Rejected,2026-08-27T16:10
+APP0926,CAN0926,R010,C008,Aster Mobility,Frontend Developer,Shortlisted,2026-08-27T15:16
+APP0927,CAN0927,R007,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-22T09:40
+APP0928,CAN0928,R007,C008,Aster Mobility,Business Analyst,Screening,2026-08-01T13:47
+APP0929,CAN0929,R008,C005,CloudMint,Business Analyst,Shortlisted,2026-08-29T15:36
+APP0930,CAN0930,R009,C007,DataForge,Frontend Developer,Offer,2026-08-01T16:05
+APP0931,CAN0931,R007,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-13T10:28
+APP0932,CAN0932,R003,C001,Nova Systems,Business Analyst,Rejected,2026-08-04T17:22
+APP0933,CAN0933,R004,C009,NextWave Retail,Frontend Developer,Screening,2026-08-27T16:00
+APP0934,CAN0934,R010,C006,GreenByte,Software Engineer,Shortlisted,2026-08-31T13:19
+APP0935,CAN0935,R002,C001,Nova Systems,QA Engineer,Shortlisted,2026-08-10T16:40
+APP0936,CAN0936,R006,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-12T15:41
+APP0937,CAN0937,R010,C003,Vertex Digital,QA Engineer,Applied,2026-08-07T17:08
+APP0938,CAN0938,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,2026-08-10T16:08
+APP0939,CAN0939,R009,C007,DataForge,QA Engineer,Shortlisted,2026-08-26T16:22
+APP0940,CAN0940,R004,C006,GreenByte,Software Engineer,Screening,2026-08-05T14:02
+APP0941,CAN0941,R004,C003,Vertex Digital,QA Engineer,Applied,2026-08-10T13:43
+APP0942,CAN0942,R005,C001,Nova Systems,Data Analyst,Screening,2026-08-26T09:46
+APP0943,CAN0943,R002,C001,Nova Systems,Data Analyst,Shortlisted,2026-08-10T16:40
+APP0944,CAN0944,R009,C007,DataForge,Business Analyst,Offer,2026-08-26T16:22
+APP0945,CAN0945,R007,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-13T10:28
+APP0946,CAN0946,R003,C001,Nova Systems,Data Analyst,Interview,2026-08-04T17:22
+APP0947,CAN0947,R004,C009,NextWave Retail,Business Analyst,Offer,2026-08-27T16:00
+APP0948,CAN0948,R006,C002,BlueOrbit Labs,Software Engineer,Interview,2026-08-22T10:14
+APP0949,CAN0949,R002,C010,BrightPath Consulting,Data Analyst,Interview,2026-08-14T15:30
+APP0950,CAN0950,R008,C003,Vertex Digital,Business Analyst,Placed,2026-08-27T16:10
+APP0951,CAN0951,R006,C002,BlueOrbit Labs,Business Analyst,Screening,2026-08-14T13:36
+APP0952,CAN0952,R010,C007,DataForge,Data Analyst,Applied,2026-08-27T17:00
+APP0953,CAN0953,R002,C002,BlueOrbit Labs,QA Engineer,Rejected,2026-08-02T13:25
+APP0954,CAN0954,R003,C002,BlueOrbit Labs,Backend Developer,Rejected,2026-08-27T09:21
+APP0955,CAN0955,R007,C004,FinEdge Solutions,Data Analyst,Screening,2026-08-22T09:40
+APP0956,CAN0956,R006,C004,FinEdge Solutions,Data Analyst,Shortlisted,2026-08-24T12:01
+APP0957,CAN0957,R009,C009,NextWave Retail,Business Analyst,Interview,2026-08-10T16:08
+APP0958,CAN0958,R006,C002,BlueOrbit Labs,Business Analyst,Interview,2026-08-22T10:14
+APP0959,CAN0959,R006,C002,BlueOrbit Labs,Frontend Developer,Interview,2026-08-14T13:36
+APP0960,CAN0960,R006,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-22T10:14
+APP0961,CAN0961,R008,C005,CloudMint,Backend Developer,Offer,2026-08-11T12:26
+APP0962,CAN0962,R002,C005,CloudMint,Business Analyst,Placed,2026-08-09T09:05
+APP0963,CAN0963,R004,C002,BlueOrbit Labs,Data Analyst,Rejected,2026-08-31T10:49
+APP0964,CAN0964,R003,C003,Vertex Digital,Business Analyst,Placed,2026-08-19T13:46
+APP0966,CAN0966,R010,C008,Aster Mobility,Frontend Developer,Placed,2026-08-27T15:16
+APP0967,CAN0967,R002,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-02T13:25
+APP0968,CAN0968,R004,C003,Vertex Digital,Business Analyst,Interview,2026-08-10T13:43
+APP0969,CAN0969,R007,C004,FinEdge Solutions,QA Engineer,Screening,2026-08-22T09:40
+APP0970,CAN0970,R009,C007,DataForge,Backend Developer,Applied,2026-08-26T16:22
+APP0971,CAN0971,R002,C010,BrightPath Consulting,QA Engineer,Shortlisted,2026-08-14T15:30
+APP0972,CAN0972,R004,C009,NextWave Retail,QA Engineer,Screening,2026-08-27T16:00
+APP0973,CAN0973,R005,C001,Nova Systems,Software Engineer,Shortlisted,2026-08-24T13:33
+APP0974,CAN0974,R002,C003,Vertex Digital,Business Analyst,Screening,2026-08-25T11:45
+APP0975,CAN0975,R002,C006,GreenByte,Business Analyst,Rejected,2026-08-26T09:23
+APP0976,CAN0976,R007,C001,Nova Systems,Business Analyst,Interview,2026-08-17T15:35
+APP0977,CAN0977,R005,C001,Nova Systems,Backend Developer,Applied,2026-08-26T09:46
+APP0978,CAN0978,R007,C004,FinEdge Solutions,Frontend Developer,Shortlisted,2026-08-29T11:27
+APP0979,CAN0979,R006,C002,BlueOrbit Labs,Backend Developer,Rejected,2026-08-22T10:14
+APP0980,CAN0980,R007,C001,Nova Systems,Data Analyst,Screening,2026-08-17T15:35
+APP0981,CAN0981,R004,C006,GreenByte,Backend Developer,Rejected,2026-08-05T14:02
+APP0982,CAN0982,R009,C009,NextWave Retail,Data Analyst,Interview,2026-08-09T13:27
+APP0983,CAN0983,R004,C007,DataForge,Backend Developer,Applied,2026-08-16T16:03
+APP0984,CAN0984,R008,C005,CloudMint,Data Analyst,Shortlisted,2026-08-29T15:36
+APP0985,CAN0985,R005,C001,Nova Systems,Business Analyst,Shortlisted,2026-08-24T13:33
+APP0986,CAN0986,R008,C005,CloudMint,Business Analyst,Rejected,2026-08-29T15:36
+APP0987,CAN0987,R004,C003,Vertex Digital,Business Analyst,Shortlisted,2026-08-10T13:43
+APP0988,CAN0988,R005,C001,Nova Systems,Backend Developer,Screening,2026-08-24T13:33
+APP0989,CAN0989,R004,C007,DataForge,Frontend Developer,Applied,2026-08-16T16:03
+APP0990,CAN0990,R002,C010,BrightPath Consulting,QA Engineer,Applied,2026-08-14T15:30
+APP0991,CAN0991,R003,C003,Vertex Digital,Software Engineer,Screening,2026-08-19T13:46
+APP0992,CAN0992,R008,C003,Vertex Digital,Software Engineer,Applied,2026-08-27T16:10
+APP0993,CAN0993,R006,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-22T10:14
+APP0994,CAN0994,R009,C009,NextWave Retail,Business Analyst,Offer,2026-08-09T13:27
+APP0995,CAN0995,R009,C008,Aster Mobility,Data Analyst,Offer,2026-08-31T14:23
+APP0996,CAN0996,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-22T10:14
+APP0997,CAN0997,R004,C009,NextWave Retail,QA Engineer,Screening,2026-08-27T16:00
+APP0998,CAN0998,R004,C007,DataForge,Data Analyst,Screening,2026-08-16T16:03
+APP0999,CAN0999,R008,C005,CloudMint,Backend Developer,Screening,2026-08-11T12:26
+APP1000,CAN1000,R007,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-22T09:40
+APP1001,CAN1001,R010,C006,GreenByte,Data Analyst,Screening,2026-08-31T13:19
+APP1002,CAN1002,R010,C006,GreenByte,Software Engineer,Interview,2026-08-31T13:19
+APP1003,CAN1003,R004,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-31T10:49
+APP1004,CAN1004,R010,C006,GreenByte,Business Analyst,Applied,2026-08-31T13:19
+APP1005,CAN1005,R004,C006,GreenByte,Frontend Developer,Applied,2026-08-05T14:02
+APP1006,CAN1006,R002,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-02T13:25
+APP1007,CAN1007,R005,C006,GreenByte,Frontend Developer,Rejected,2026-08-05T15:24
+APP1008,CAN1008,R002,C010,BrightPath Consulting,Data Analyst,Shortlisted,2026-08-14T15:30
+APP1009,CAN1009,R007,C004,FinEdge Solutions,Business Analyst,Placed,2026-08-29T11:27
+APP1010,CAN1010,R001,C005,CloudMint,Frontend Developer,Placed,2026-08-09T13:14
+APP1011,CAN1011,R010,C007,DataForge,Backend Developer,Applied,2026-08-27T17:00
+APP1012,CAN1012,R004,C003,Vertex Digital,Frontend Developer,Applied,2026-08-10T13:43
+APP1013,CAN1013,R003,C001,Nova Systems,QA Engineer,Offer,2026-08-04T17:22
+APP1014,CAN1014,R009,C009,NextWave Retail,QA Engineer,Applied,2026-08-09T13:27
+APP1015,CAN1015,R010,C007,DataForge,Software Engineer,Shortlisted,2026-08-27T17:00
+APP1016,CAN1016,R009,C008,Aster Mobility,QA Engineer,Interview,2026-08-31T14:23
+APP1017,CAN1017,R008,C004,FinEdge Solutions,Frontend Developer,Shortlisted,2026-08-03T15:17
+APP1018,CAN1018,R002,C005,CloudMint,Backend Developer,Applied,2026-08-09T09:05
+APP1019,CAN1019,R005,C006,GreenByte,Business Analyst,Screening,2026-08-05T15:24
+APP1020,CAN1020,R010,C007,DataForge,Business Analyst,Applied,2026-08-27T17:00
+APP1021,CAN1021,R001,C005,CloudMint,Backend Developer,Screening,2026-08-09T13:14
+APP1022,CAN1022,R006,C002,BlueOrbit Labs,Business Analyst,Offer,2026-08-14T13:36
+APP1023,CAN1023,R004,C003,Vertex Digital,Frontend Developer,Shortlisted,2026-08-10T13:43
+APP1024,CAN1024,R008,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-13T14:50
+APP1025,CAN1025,R007,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-13T10:28
+APP1026,CAN1026,R008,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-23T09:04
+APP1027,CAN1027,R008,C004,FinEdge Solutions,Software Engineer,Screening,2026-08-03T15:17
+APP1028,CAN1028,R010,C007,DataForge,QA Engineer,Interview,2026-08-27T17:00
+APP1029,CAN1029,R002,C010,BrightPath Consulting,Data Analyst,Shortlisted,2026-08-14T15:30
+APP1030,CAN1030,R007,C001,Nova Systems,Business Analyst,Applied,2026-08-17T15:35
+APP1031,CAN1031,R002,C001,Nova Systems,Software Engineer,Screening,2026-08-10T16:40
+APP1032,CAN1032,R010,C006,GreenByte,Software Engineer,Applied,2026-08-31T13:19
+APP1033,CAN1033,R007,C004,FinEdge Solutions,Backend Developer,Shortlisted,2026-08-29T11:27
+APP1034,CAN1034,R004,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-18T15:18
+APP1035,CAN1035,R002,C010,BrightPath Consulting,Business Analyst,Placed,2026-08-14T15:30
+APP1036,CAN1036,R004,C006,GreenByte,Frontend Developer,Shortlisted,2026-08-10T14:15
+APP1037,CAN1037,R008,C002,BlueOrbit Labs,Backend Developer,Offer,2026-08-23T09:04
+APP1038,CAN1038,R007,C008,Aster Mobility,Backend Developer,Interview,2026-08-01T13:47
+APP1039,CAN1039,R008,C002,BlueOrbit Labs,Data Analyst,Offer,2026-08-23T09:04
+APP1040,CAN1040,R002,C010,BrightPath Consulting,Business Analyst,Screening,2026-08-14T15:30
+APP1041,CAN1041,R004,C006,GreenByte,Frontend Developer,Placed,2026-08-10T14:15
+APP1042,CAN1042,R002,C003,Vertex Digital,Business Analyst,Applied,2026-08-25T11:45
+APP1043,CAN1043,R003,C003,Vertex Digital,Software Engineer,Rejected,2026-08-19T13:46
+APP1044,CAN1044,R004,C002,BlueOrbit Labs,Software Engineer,Rejected,2026-08-31T10:49
+APP1045,CAN1045,R010,C003,Vertex Digital,Backend Developer,Shortlisted,2026-08-07T17:08
+APP1046,CAN1046,R004,C006,GreenByte,Backend Developer,Offer,2026-08-10T14:15
+APP1047,CAN1047,R008,C003,Vertex Digital,Data Analyst,Screening,2026-08-27T16:10
+APP1048,CAN1048,R007,C001,Nova Systems,Frontend Developer,Shortlisted,2026-08-17T15:35
+APP1049,CAN1049,R005,C001,Nova Systems,Frontend Developer,Applied,2026-08-24T13:33
+APP1050,CAN1050,R007,C004,FinEdge Solutions,Data Analyst,Placed,2026-08-29T11:27
+APP1051,CAN1051,R003,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-28T16:48
+APP1052,CAN1052,R003,C001,Nova Systems,Business Analyst,Interview,2026-08-04T17:22
+APP1053,CAN1053,R008,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-23T09:04
+APP1054,CAN1054,R007,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-29T11:27
+APP1055,CAN1055,R008,C005,CloudMint,Business Analyst,Screening,2026-08-11T12:26
+APP1056,CAN1056,R003,C002,BlueOrbit Labs,Business Analyst,Screening,2026-08-27T09:21
+APP1057,CAN1057,R004,C006,GreenByte,Frontend Developer,Applied,2026-08-05T14:02
+APP1058,CAN1058,R004,C004,FinEdge Solutions,Business Analyst,Interview,2026-08-18T15:18
+APP1059,CAN1059,R004,C007,DataForge,Software Engineer,Shortlisted,2026-08-16T16:03
+APP1060,CAN1060,R010,C003,Vertex Digital,Data Analyst,Offer,2026-08-07T17:08
+APP1061,CAN1061,R005,C006,GreenByte,Business Analyst,Placed,2026-08-05T15:24
+APP1063,CAN1063,R010,C003,Vertex Digital,Business Analyst,Rejected,2026-08-07T17:08
+APP1066,CAN1066,R009,C009,NextWave Retail,Data Analyst,Applied,2026-08-09T13:27
+APP1067,CAN1067,R005,C001,Nova Systems,Backend Developer,Applied,2026-08-26T09:46
+APP1068,CAN1068,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,2026-08-10T16:08
+APP1069,CAN1069,R009,C007,DataForge,Frontend Developer,Screening,2026-08-26T16:22
+APP1070,CAN1070,R005,C001,Nova Systems,Software Engineer,Interview,2026-08-24T13:33
+APP1071,CAN1071,R003,C001,Nova Systems,Frontend Developer,Applied,2026-08-04T17:22
+APP1072,CAN1072,R004,C009,NextWave Retail,QA Engineer,Screening,2026-08-27T16:00
+APP1073,CAN1073,R002,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-02T13:25
+APP1074,CAN1074,R009,C008,Aster Mobility,Backend Developer,Applied,2026-08-31T14:23
+APP1075,CAN1075,R003,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-27T09:21
+APP1076,CAN1076,R002,C005,CloudMint,Frontend Developer,Rejected,2026-08-09T09:05
+APP1077,CAN1077,R009,C007,DataForge,QA Engineer,Screening,2026-08-26T16:22
+APP1078,CAN1078,R004,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-18T15:18
+APP1079,CAN1079,R010,C006,GreenByte,Business Analyst,Applied,2026-08-31T13:19
+APP1080,CAN1080,R002,C002,BlueOrbit Labs,QA Engineer,Applied,2026-08-02T13:25
+APP1081,CAN1081,R009,C007,DataForge,Frontend Developer,Shortlisted,2026-08-26T16:22
+APP1082,CAN1082,R002,C010,BrightPath Consulting,Backend Developer,Screening,2026-08-14T15:30
+APP1083,CAN1083,R010,C008,Aster Mobility,QA Engineer,Screening,2026-08-27T15:16
+APP1084,CAN1084,R008,C002,BlueOrbit Labs,Software Engineer,Interview,2026-08-23T09:04
+APP1085,CAN1085,R010,C007,DataForge,QA Engineer,Applied,2026-08-27T17:00
+APP1086,CAN1086,R003,C002,BlueOrbit Labs,Business Analyst,Interview,2026-08-27T09:21
+APP1088,CAN1088,R005,C008,Aster Mobility,Software Engineer,Placed,2026-08-24T14:18
+APP1089,CAN1089,R001,C005,CloudMint,Data Analyst,Applied,2026-08-09T13:14
+APP1090,CAN1090,R010,C003,Vertex Digital,Software Engineer,Applied,2026-08-07T17:08
+APP1091,CAN1091,R008,C005,CloudMint,Business Analyst,Screening,2026-08-29T15:36
+APP1092,CAN1092,R010,C003,Vertex Digital,Business Analyst,Shortlisted,2026-08-07T17:08
+APP1094,CAN1094,R004,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-18T15:18
+APP1095,CAN1095,R009,C008,Aster Mobility,Frontend Developer,Applied,2026-08-31T14:23
+APP1097,CAN1097,R010,C006,GreenByte,Business Analyst,Shortlisted,2026-08-31T13:19
+APP1098,CAN1098,R007,C004,FinEdge Solutions,Frontend Developer,Screening,2026-08-22T09:40
+APP1099,CAN1099,R002,C001,Nova Systems,Software Engineer,Screening,2026-08-10T16:40
+APP1100,CAN1100,R005,C006,GreenByte,Data Analyst,Rejected,2026-08-05T15:24
+APP1101,CAN1101,R004,C003,Vertex Digital,Data Analyst,Applied,2026-08-10T13:43
+APP1102,CAN1102,R010,C003,Vertex Digital,Data Analyst,Shortlisted,2026-08-07T17:08
+APP1104,CAN1104,R004,C006,GreenByte,Business Analyst,Rejected,2026-08-10T14:15
+APP1105,CAN1105,R003,C003,Vertex Digital,Frontend Developer,Screening,2026-08-19T13:46
+APP1106,CAN1106,R009,C009,NextWave Retail,QA Engineer,Shortlisted,2026-08-09T13:27
+APP1107,CAN1107,R007,C004,FinEdge Solutions,Data Analyst,Rejected,2026-08-13T10:28
+APP1108,CAN1108,R004,C003,Vertex Digital,Backend Developer,Applied,2026-08-10T13:43
+APP1109,CAN1109,R009,C007,DataForge,Software Engineer,Screening,2026-08-01T16:05
+APP1110,CAN1110,R004,C006,GreenByte,Business Analyst,Applied,2026-08-05T14:02
+APP1111,CAN1111,R001,C005,CloudMint,QA Engineer,Screening,2026-08-09T13:14
+APP1112,CAN1112,R005,C001,Nova Systems,Data Analyst,Applied,2026-08-26T09:46
+APP1113,CAN1113,R004,C008,Aster Mobility,QA Engineer,Applied,2026-08-11T12:22
+APP1114,CAN1114,R003,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-28T16:48
+APP1115,CAN1115,R008,C005,CloudMint,Backend Developer,Applied,2026-08-11T12:26
+APP1116,CAN1116,R002,C005,CloudMint,Software Engineer,Placed,2026-08-09T09:05
+APP1117,CAN1117,R002,C010,BrightPath Consulting,Data Analyst,Shortlisted,2026-08-14T15:30
+APP1118,CAN1118,R010,C006,GreenByte,Software Engineer,Applied,2026-08-31T13:19
+APP1121,CAN1121,R001,C005,CloudMint,QA Engineer,Shortlisted,2026-08-09T13:14
+APP1122,CAN1122,R009,C007,DataForge,Backend Developer,Shortlisted,2026-08-26T16:22
+APP1123,CAN1123,R004,C008,Aster Mobility,Business Analyst,Offer,2026-08-11T12:22
+APP1124,CAN1124,R003,C003,Vertex Digital,QA Engineer,Screening,2026-08-19T13:46
+APP1125,CAN1125,R006,C004,FinEdge Solutions,Data Analyst,Interview,2026-08-12T15:41
+APP1126,CAN1126,R007,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-13T10:28
+APP1127,CAN1127,R006,C004,FinEdge Solutions,Data Analyst,Shortlisted,2026-08-24T12:01
+APP1129,CAN1129,R008,C003,Vertex Digital,Data Analyst,Applied,2026-08-27T16:10
+APP1130,CAN1130,R009,C009,NextWave Retail,Data Analyst,Placed,2026-08-10T16:08
+APP1131,CAN1131,R010,C003,Vertex Digital,Software Engineer,Interview,2026-08-07T17:08
+APP1132,CAN1132,R009,C009,NextWave Retail,Frontend Developer,Shortlisted,2026-08-09T13:27
+APP1133,CAN1133,R004,C009,NextWave Retail,Data Analyst,Applied,2026-08-27T16:00
+APP1134,CAN1134,R006,C004,FinEdge Solutions,Business Analyst,Screening,2026-08-12T15:41
+APP1135,CAN1135,R009,C007,DataForge,Business Analyst,Applied,2026-08-26T16:22
+APP1136,CAN1136,R006,C002,BlueOrbit Labs,Software Engineer,Shortlisted,2026-08-14T13:36
+APP1137,CAN1137,R009,C009,NextWave Retail,Frontend Developer,Applied,2026-08-09T13:27
+APP1138,CAN1138,R009,C007,DataForge,Frontend Developer,Placed,2026-08-01T16:05
+APP1139,CAN1139,R002,C006,GreenByte,Frontend Developer,Shortlisted,2026-08-26T09:23
+APP1140,CAN1140,R008,C002,BlueOrbit Labs,Data Analyst,Placed,2026-08-23T09:04
+APP1141,CAN1141,R007,C001,Nova Systems,Frontend Developer,Applied,2026-08-17T15:35
+APP1142,CAN1142,R006,C004,FinEdge Solutions,Business Analyst,Rejected,2026-08-12T15:41
+APP1143,CAN1143,R004,C009,NextWave Retail,Data Analyst,Applied,2026-08-27T16:00
+APP1144,CAN1144,R005,C001,Nova Systems,Backend Developer,Screening,2026-08-24T13:33
+APP1145,CAN1145,R002,C006,GreenByte,QA Engineer,Rejected,2026-08-26T09:23
+APP1146,CAN1146,R010,C008,Aster Mobility,QA Engineer,Screening,2026-08-27T15:16
+APP1147,CAN1147,R005,C001,Nova Systems,Software Engineer,Applied,2026-08-26T09:46
+APP1148,CAN1148,R005,C008,Aster Mobility,Backend Developer,Shortlisted,2026-08-24T14:18
+APP1150,CAN1150,R010,C003,Vertex Digital,QA Engineer,Applied,2026-08-07T17:08
+APP1151,CAN1151,R004,C004,FinEdge Solutions,Data Analyst,Screening,2026-08-18T15:18
+APP1152,CAN1152,R009,C009,NextWave Retail,Software Engineer,Applied,2026-08-10T16:08
+APP1153,CAN1153,R008,C004,FinEdge Solutions,Business Analyst,Shortlisted,2026-08-03T15:17
+APP1154,CAN1154,R005,C001,Nova Systems,Software Engineer,Screening,2026-08-24T13:33
+APP1155,CAN1155,R009,C009,NextWave Retail,Data Analyst,Applied,2026-08-10T16:08
+APP1156,CAN1156,R008,C003,Vertex Digital,Business Analyst,Interview,2026-08-27T16:10
+APP1157,CAN1157,R006,C004,FinEdge Solutions,QA Engineer,Placed,2026-08-24T12:01
+APP1158,CAN1158,R002,C003,Vertex Digital,QA Engineer,Applied,2026-08-25T11:45
+APP1159,CAN1159,R003,C003,Vertex Digital,Business Analyst,Shortlisted,2026-08-19T13:46
+APP1160,CAN1160,R007,C004,FinEdge Solutions,Data Analyst,Applied,2026-08-29T11:27
+APP1161,CAN1161,R002,C005,CloudMint,QA Engineer,Shortlisted,2026-08-09T09:05
+APP1162,CAN1162,R005,C006,GreenByte,Frontend Developer,Applied,2026-08-05T15:24
+APP1163,CAN1163,R009,C009,NextWave Retail,QA Engineer,Rejected,2026-08-09T13:27
+APP1164,CAN1164,R004,C003,Vertex Digital,Frontend Developer,Applied,2026-08-10T13:43
+APP1165,CAN1165,R008,C003,Vertex Digital,Backend Developer,Shortlisted,2026-08-27T16:10
+APP1166,CAN1166,R008,C004,FinEdge Solutions,Business Analyst,Interview,2026-08-03T15:17
+APP1167,CAN1167,R003,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-27T09:21
+APP1168,CAN1168,R005,C008,Aster Mobility,Backend Developer,Applied,2026-08-24T14:18
+APP1169,CAN1169,R002,C005,CloudMint,Data Analyst,Applied,2026-08-09T09:05
+APP1170,CAN1170,R008,C003,Vertex Digital,Data Analyst,Screening,2026-08-27T16:10
+APP1171,CAN1171,R010,C006,GreenByte,Backend Developer,Screening,2026-08-31T13:19
+APP1172,CAN1172,R005,C001,Nova Systems,Data Analyst,Applied,2026-08-26T09:46
+APP1173,CAN1173,R002,C005,CloudMint,Software Engineer,Offer,2026-08-09T09:05
+APP1174,CAN1174,R007,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-22T09:40
+APP1175,CAN1175,R003,C002,BlueOrbit Labs,Business Analyst,Shortlisted,2026-08-27T09:21
+APP1176,CAN1176,R004,C008,Aster Mobility,Backend Developer,Shortlisted,2026-08-11T12:22
+APP1177,CAN1177,R007,C008,Aster Mobility,Business Analyst,Applied,2026-08-01T13:47
+APP1178,CAN1178,R008,C003,Vertex Digital,Software Engineer,Applied,2026-08-27T16:10
+APP1179,CAN1179,R006,C002,BlueOrbit Labs,Backend Developer,Screening,2026-08-14T13:36
+APP1180,CAN1180,R004,C008,Aster Mobility,Software Engineer,Applied,2026-08-11T12:22
+APP1181,CAN1181,R007,C004,FinEdge Solutions,Business Analyst,Interview,2026-08-22T09:40
+APP1182,CAN1182,R010,C007,DataForge,Business Analyst,Placed,2026-08-27T17:00
+APP1183,CAN1183,R009,C009,NextWave Retail,Business Analyst,Applied,2026-08-10T16:08
+APP1184,CAN1184,R003,C002,BlueOrbit Labs,QA Engineer,Rejected,2026-08-28T16:48
+APP1185,CAN1185,R008,C002,BlueOrbit Labs,Frontend Developer,Shortlisted,2026-08-23T09:04
+APP1186,CAN1186,R007,C008,Aster Mobility,Data Analyst,Screening,2026-08-01T13:47
+APP1187,CAN1187,R007,C004,FinEdge Solutions,Data Analyst,Rejected,2026-08-22T09:40
+APP1188,CAN1188,R002,C006,GreenByte,Backend Developer,Offer,2026-08-26T09:23
+APP1189,CAN1189,R008,C002,BlueOrbit Labs,Business Analyst,Rejected,2026-08-13T14:50
+APP1190,CAN1190,R008,C003,Vertex Digital,Business Analyst,Applied,2026-08-27T16:10
+APP1191,CAN1191,R004,C004,FinEdge Solutions,QA Engineer,Shortlisted,2026-08-18T15:18
+APP1193,CAN1193,R007,C001,Nova Systems,Frontend Developer,Screening,2026-08-17T15:35
+APP1194,CAN1194,R004,C003,Vertex Digital,Frontend Developer,Applied,2026-08-10T13:43
+APP1195,CAN1195,R010,C008,Aster Mobility,Software Engineer,Interview,2026-08-27T15:16
+APP1196,CAN1196,R001,C005,CloudMint,Software Engineer,Screening,2026-08-09T13:14
+APP1197,CAN1197,R007,C008,Aster Mobility,QA Engineer,Placed,2026-08-01T13:47
+APP1198,CAN1198,R004,C009,NextWave Retail,Frontend Developer,Shortlisted,2026-08-27T16:00
+APP1199,CAN1199,R005,C001,Nova Systems,QA Engineer,Applied,2026-08-24T13:33
+APP1200,CAN1200,R002,C006,GreenByte,QA Engineer,Applied,2026-08-26T09:23
+APP1201,CAN1201,R002,C005,CloudMint,QA Engineer,Applied,2026-08-09T09:05
+APP1202,CAN1202,R002,C002,BlueOrbit Labs,Data Analyst,Applied,2026-08-02T13:25
+APP1203,CAN1203,R005,C008,Aster Mobility,Software Engineer,Shortlisted,2026-08-24T14:18
+APP1204,CAN1204,R007,C004,FinEdge Solutions,Data Analyst,Applied,2026-08-13T10:28
+APP1205,CAN1205,R003,C002,BlueOrbit Labs,Backend Developer,Interview,2026-08-28T16:48
+APP1206,CAN1206,R008,C005,CloudMint,Frontend Developer,Applied,2026-08-11T12:26
+APP1207,CAN1207,R008,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-13T14:50
+APP1208,CAN1208,R010,C006,GreenByte,Business Analyst,Screening,2026-08-31T13:19
+APP1209,CAN1209,R009,C008,Aster Mobility,Data Analyst,Rejected,2026-08-31T14:23
+APP1210,CAN1210,R009,C009,NextWave Retail,Backend Developer,Screening,2026-08-10T16:08
+APP1211,CAN1211,R004,C009,NextWave Retail,Frontend Developer,Interview,2026-08-27T16:00
+APP1212,CAN1212,R006,C004,FinEdge Solutions,Data Analyst,Screening,2026-08-24T12:01
+APP1213,CAN1213,R002,C005,CloudMint,Frontend Developer,Applied,2026-08-09T09:05
+APP1214,CAN1214,R008,C004,FinEdge Solutions,Backend Developer,Applied,2026-08-03T15:17
+APP1215,CAN1215,R008,C005,CloudMint,Backend Developer,Applied,2026-08-29T15:36
+APP1216,CAN1216,R005,C006,GreenByte,Business Analyst,Placed,2026-08-05T15:24
+APP1217,CAN1217,R008,C002,BlueOrbit Labs,Backend Developer,Placed,2026-08-23T09:04
+APP1219,CAN1219,R008,C003,Vertex Digital,QA Engineer,Applied,2026-08-27T16:10
+APP1220,CAN1220,R004,C008,Aster Mobility,Frontend Developer,Applied,2026-08-11T12:22
+APP1221,CAN1221,R004,C004,FinEdge Solutions,Frontend Developer,Interview,2026-08-18T15:18
+APP1222,CAN1222,R004,C003,Vertex Digital,Backend Developer,Screening,2026-08-10T13:43
+APP1223,CAN1223,R006,C002,BlueOrbit Labs,Backend Developer,Screening,2026-08-14T13:36
+APP1224,CAN1224,R002,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-02T13:25
+APP1225,CAN1225,R003,C006,GreenByte,Backend Developer,Applied,2026-08-02T17:25
+APP1226,CAN1226,R005,C001,Nova Systems,Frontend Developer,Interview,2026-08-26T09:46
+APP1227,CAN1227,R003,C006,GreenByte,Frontend Developer,Screening,2026-08-02T17:25
+APP1228,CAN1228,R002,C001,Nova Systems,Backend Developer,Shortlisted,2026-08-10T16:40
+APP1229,CAN1229,R002,C001,Nova Systems,Backend Developer,Screening,2026-08-10T16:40
+APP1230,CAN1230,R004,C006,GreenByte,Software Engineer,Applied,2026-08-10T14:15
+APP1231,CAN1231,R009,C009,NextWave Retail,Frontend Developer,Rejected,2026-08-09T13:27
+APP1232,CAN1232,R002,C006,GreenByte,Data Analyst,Placed,2026-08-26T09:23
+APP1233,CAN1233,R005,C001,Nova Systems,Data Analyst,Placed,2026-08-24T13:33
+APP1234,CAN1234,R004,C009,NextWave Retail,Backend Developer,Screening,2026-08-27T16:00
+APP1236,CAN1236,R006,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-22T10:14
+APP1237,CAN1237,R008,C005,CloudMint,QA Engineer,Shortlisted,2026-08-11T12:26
+APP1238,CAN1238,R006,C002,BlueOrbit Labs,Software Engineer,Placed,2026-08-14T13:36
+APP1239,CAN1239,R008,C002,BlueOrbit Labs,Business Analyst,Applied,2026-08-13T14:50
+APP1240,CAN1240,R008,C005,CloudMint,Business Analyst,Applied,2026-08-29T15:36
+APP1241,CAN1241,R003,C003,Vertex Digital,Backend Developer,Applied,2026-08-19T13:46
+APP1242,CAN1242,R009,C009,NextWave Retail,Data Analyst,Screening,2026-08-09T13:27
+APP1243,CAN1243,R010,C007,DataForge,QA Engineer,Shortlisted,2026-08-27T17:00
+APP1244,CAN1244,R002,C006,GreenByte,Data Analyst,Placed,2026-08-26T09:23
+APP1245,CAN1245,R002,C003,Vertex Digital,QA Engineer,Applied,2026-08-25T11:45
+APP1246,CAN1246,R007,C004,FinEdge Solutions,Data Analyst,Interview,2026-08-22T09:40
+APP1247,CAN1247,R009,C007,DataForge,Data Analyst,Placed,2026-08-26T16:22
+APP1248,CAN1248,R009,C009,NextWave Retail,QA Engineer,Rejected,2026-08-09T13:27
+APP1249,CAN1249,R004,C003,Vertex Digital,Business Analyst,Rejected,2026-08-10T13:43
+APP1250,CAN1250,R003,C003,Vertex Digital,Business Analyst,Applied,2026-08-19T13:46
+APP1251,CAN1251,R002,C006,GreenByte,Business Analyst,Shortlisted,2026-08-26T09:23
+APP1252,CAN1252,R006,C002,BlueOrbit Labs,Frontend Developer,Applied,2026-08-14T13:36
+APP1253,CAN1253,R004,C008,Aster Mobility,QA Engineer,Shortlisted,2026-08-11T12:22
+APP1254,CAN1254,R007,C004,FinEdge Solutions,Software Engineer,Shortlisted,2026-08-13T10:28
+APP1255,CAN1255,R002,C006,GreenByte,QA Engineer,Applied,2026-08-26T09:23
+APP1256,CAN1256,R006,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-12T15:41
+APP1257,CAN1257,R002,C005,CloudMint,Backend Developer,Applied,2026-08-09T09:05
+APP1258,CAN1258,R008,C004,FinEdge Solutions,Software Engineer,Shortlisted,2026-08-03T15:17
+APP1259,CAN1259,R003,C002,BlueOrbit Labs,Data Analyst,Offer,2026-08-28T16:48
+APP1260,CAN1260,R002,C001,Nova Systems,Backend Developer,Applied,2026-08-10T16:40
+APP1262,CAN1262,R009,C007,DataForge,Backend Developer,Rejected,2026-08-26T16:22
+APP1263,CAN1263,R004,C007,DataForge,Data Analyst,Applied,2026-08-16T16:03
+APP1264,CAN1264,R008,C005,CloudMint,Business Analyst,Shortlisted,2026-08-11T12:26
+APP1265,CAN1265,R004,C002,BlueOrbit Labs,Frontend Developer,Offer,2026-08-31T10:49
+APP1266,CAN1266,R006,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-12T15:41
+APP1267,CAN1267,R003,C003,Vertex Digital,Business Analyst,Applied,2026-08-19T13:46
+APP1268,CAN1268,R007,C001,Nova Systems,Data Analyst,Applied,2026-08-17T15:35
+APP1269,CAN1269,R003,C001,Nova Systems,Software Engineer,Interview,2026-08-04T17:22
+APP1271,CAN1271,R007,C004,FinEdge Solutions,QA Engineer,Shortlisted,2026-08-22T09:40
+APP1272,CAN1272,R005,C001,Nova Systems,Data Analyst,Applied,2026-08-24T13:33
+APP1273,CAN1273,R009,C007,DataForge,Backend Developer,Offer,2026-08-01T16:05
+APP1274,CAN1274,R006,C002,BlueOrbit Labs,Frontend Developer,Shortlisted,2026-08-14T13:36
+APP1275,CAN1275,R004,C003,Vertex Digital,Frontend Developer,Applied,2026-08-10T13:43
+APP1276,CAN1276,R002,C010,BrightPath Consulting,Data Analyst,Applied,2026-08-14T15:30
+APP1277,CAN1277,R004,C004,FinEdge Solutions,Software Engineer,Interview,2026-08-18T15:18
+APP1278,CAN1278,R008,C002,BlueOrbit Labs,Software Engineer,Offer,2026-08-23T09:04
+APP1279,CAN1279,R004,C004,FinEdge Solutions,Data Analyst,Shortlisted,2026-08-18T15:18
+APP1280,CAN1280,R005,C008,Aster Mobility,Business Analyst,Interview,2026-08-24T14:18
+APP1281,CAN1281,R004,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-18T15:18
+APP1282,CAN1282,R005,C006,GreenByte,Data Analyst,Offer,2026-08-05T15:24
+APP1283,CAN1283,R007,C004,FinEdge Solutions,Business Analyst,Applied,2026-08-13T10:28
+APP1284,CAN1284,R010,C006,GreenByte,Data Analyst,Applied,2026-08-31T13:19
+APP1285,CAN1285,R002,C005,CloudMint,Software Engineer,Screening,2026-08-09T09:05
+APP1286,CAN1286,R008,C003,Vertex Digital,Data Analyst,Rejected,2026-08-27T16:10
+APP1287,CAN1287,R006,C004,FinEdge Solutions,Software Engineer,Applied,2026-08-12T15:41
+APP1288,CAN1288,R006,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-22T10:14
+APP1289,CAN1289,R007,C001,Nova Systems,Backend Developer,Shortlisted,2026-08-17T15:35
+APP1290,CAN1290,R002,C001,Nova Systems,Software Engineer,Shortlisted,2026-08-10T16:40
+APP1291,CAN1291,R002,C006,GreenByte,QA Engineer,Applied,2026-08-26T09:23
+APP1292,CAN1292,R007,C004,FinEdge Solutions,Backend Developer,Rejected,2026-08-29T11:27
+APP1293,CAN1293,R008,C002,BlueOrbit Labs,Software Engineer,Applied,2026-08-23T09:04
+APP1294,CAN1294,R001,C005,CloudMint,QA Engineer,Applied,2026-08-09T13:14
+APP1295,CAN1295,R007,C008,Aster Mobility,Backend Developer,Shortlisted,2026-08-01T13:47
+APP1296,CAN1296,R001,C005,CloudMint,Frontend Developer,Placed,2026-08-09T13:14
+APP1297,CAN1297,R006,C002,BlueOrbit Labs,QA Engineer,Offer,2026-08-22T10:14
+APP1298,CAN1298,R002,C001,Nova Systems,QA Engineer,Applied,2026-08-10T16:40
+APP1299,CAN1299,R005,C001,Nova Systems,Software Engineer,Screening,2026-08-24T13:33
+APP1300,CAN1300,R009,C007,DataForge,Business Analyst,Interview,2026-08-01T16:05
+APP1301,CAN1301,R009,C007,DataForge,Backend Developer,Screening,2026-08-26T16:22
+APP1302,CAN1302,R002,C006,GreenByte,Backend Developer,Applied,2026-08-26T09:23
+APP1303,CAN1303,R008,C002,BlueOrbit Labs,Frontend Developer,Rejected,2026-08-13T14:50
+APP1304,CAN1304,R009,C009,NextWave Retail,Backend Developer,Applied,2026-08-10T16:08
+APP1305,CAN1305,R004,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-31T10:49
+APP1306,CAN1306,R007,C004,FinEdge Solutions,Business Analyst,Placed,2026-08-22T09:40
+APP1307,CAN1307,R006,C004,FinEdge Solutions,Frontend Developer,Applied,2026-08-24T12:01
+APP1308,CAN1308,R003,C002,BlueOrbit Labs,Data Analyst,Screening,2026-08-27T09:21
+APP1309,CAN1309,R008,C003,Vertex Digital,Software Engineer,Interview,2026-08-27T16:10
+APP1310,CAN1310,R007,C004,FinEdge Solutions,QA Engineer,Applied,2026-08-22T09:40
+APP1311,CAN1311,R005,C001,Nova Systems,Backend Developer,Shortlisted,2026-08-24T13:33
+APP1312,CAN1312,R008,C002,BlueOrbit Labs,Data Analyst,Interview,2026-08-13T14:50
+APP1313,CAN1313,R010,C003,Vertex Digital,Business Analyst,Interview,2026-08-07T17:08
+APP1314,CAN1314,R006,C004,FinEdge Solutions,Backend Developer,Screening,2026-08-24T12:01
+APP1315,CAN1315,R003,C002,BlueOrbit Labs,Backend Developer,Applied,2026-08-28T16:48
+APP1316,CAN1316,R010,C003,Vertex Digital,Frontend Developer,Screening,2026-08-07T17:08
+APP1317,CAN1317,R008,C002,BlueOrbit Labs,Data Analyst,Shortlisted,2026-08-23T09:04
+APP1318,CAN1318,R002,C005,CloudMint,QA Engineer,Applied,2026-08-09T09:05
+APP1319,CAN1319,R010,C006,GreenByte,Frontend Developer,Applied,2026-08-31T13:19
+APP1320,CAN1320,R004,C008,Aster Mobility,Software Engineer,Applied,2026-08-11T12:22

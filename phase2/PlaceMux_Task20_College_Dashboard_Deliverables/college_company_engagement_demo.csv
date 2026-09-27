@@ -1,0 +1,85 @@
+college_id,college,company,events_invited,events_attended,students_shortlisted,successful_outcomes
+COL001,BMS Institute of Technology,CloudMinds,4,3,4,1
+COL001,BMS Institute of Technology,BrightWorks,4,3,2,2
+COL001,BMS Institute of Technology,Aster Mobility,4,4,8,0
+COL001,BMS Institute of Technology,QuantEdge,3,2,1,1
+COL001,BMS Institute of Technology,NextGen Labs,3,2,0,0
+COL001,BMS Institute of Technology,Vertex Digital,1,1,1,0
+COL001,BMS Institute of Technology,FinEdge Solutions,1,1,2,1
+COL001,BMS Institute of Technology,DataNest,3,2,0,0
+COL001,BMS Institute of Technology,Orion Analytics,4,3,6,6
+COL001,BMS Institute of Technology,Nova Systems,3,2,2,2
+COL001,BMS Institute of Technology,TechForge,2,2,10,7
+COL001,BMS Institute of Technology,PrimeStack,2,2,2,2
+COL001,BMS Institute of Technology,InfiCore,4,3,4,1
+COL001,BMS Institute of Technology,CodeCraft,3,3,5,4
+COL002,RV College of Engineering,DataNest,3,3,12,4
+COL002,RV College of Engineering,Nova Systems,2,1,1,1
+COL002,RV College of Engineering,BrightWorks,1,1,5,3
+COL002,RV College of Engineering,InfiCore,1,1,2,0
+COL002,RV College of Engineering,FinEdge Solutions,4,3,11,7
+COL002,RV College of Engineering,Aster Mobility,4,4,10,3
+COL002,RV College of Engineering,BlueOrbit Labs,1,1,5,1
+COL002,RV College of Engineering,CodeCraft,4,4,4,3
+COL002,RV College of Engineering,CloudMinds,3,3,6,1
+COL002,RV College of Engineering,QuantEdge,2,1,5,2
+COL002,RV College of Engineering,NextGen Labs,3,2,3,3
+COL002,RV College of Engineering,TechForge,4,3,10,2
+COL002,RV College of Engineering,Vertex Digital,1,1,1,1
+COL002,RV College of Engineering,PrimeStack,2,1,0,0
+COL002,RV College of Engineering,Orion Analytics,2,2,6,6
+COL003,PES University,BlueOrbit Labs,2,1,4,2
+COL003,PES University,TechForge,3,3,11,5
+COL003,PES University,CodeCraft,2,2,10,6
+COL003,PES University,PrimeStack,2,1,5,3
+COL003,PES University,DataNest,2,2,4,4
+COL003,PES University,InfiCore,4,4,9,3
+COL003,PES University,Orion Analytics,2,1,0,0
+COL003,PES University,NextGen Labs,4,3,6,6
+COL003,PES University,Vertex Digital,4,3,0,0
+COL003,PES University,BrightWorks,3,2,5,4
+COL003,PES University,QuantEdge,2,1,4,3
+COL003,PES University,CloudMinds,3,2,4,0
+COL003,PES University,Nova Systems,2,2,9,4
+COL003,PES University,FinEdge Solutions,3,3,12,0
+COL003,PES University,Aster Mobility,4,3,2,0
+COL004,Dayananda Sagar College of Engineering,CodeCraft,2,1,0,0
+COL004,Dayananda Sagar College of Engineering,Nova Systems,1,1,5,3
+COL004,Dayananda Sagar College of Engineering,CloudMinds,1,1,3,1
+COL004,Dayananda Sagar College of Engineering,BrightWorks,2,2,1,1
+COL004,Dayananda Sagar College of Engineering,Orion Analytics,2,2,3,0
+COL004,Dayananda Sagar College of Engineering,QuantEdge,2,1,1,1
+COL004,Dayananda Sagar College of Engineering,Vertex Digital,3,2,10,2
+COL004,Dayananda Sagar College of Engineering,InfiCore,2,1,3,0
+COL004,Dayananda Sagar College of Engineering,FinEdge Solutions,1,1,2,0
+COL004,Dayananda Sagar College of Engineering,NextGen Labs,1,1,3,3
+COL004,Dayananda Sagar College of Engineering,Aster Mobility,2,2,1,0
+COL004,Dayananda Sagar College of Engineering,TechForge,3,2,5,2
+COL004,Dayananda Sagar College of Engineering,DataNest,1,1,3,3
+COL004,Dayananda Sagar College of Engineering,PrimeStack,4,3,8,0
+COL005,New Horizon College of Engineering,Aster Mobility,2,2,4,4
+COL005,New Horizon College of Engineering,Orion Analytics,4,4,9,7
+COL005,New Horizon College of Engineering,CodeCraft,4,4,3,3
+COL005,New Horizon College of Engineering,InfiCore,3,2,5,3
+COL005,New Horizon College of Engineering,DataNest,3,3,6,2
+COL005,New Horizon College of Engineering,QuantEdge,1,1,2,2
+COL005,New Horizon College of Engineering,FinEdge Solutions,4,3,5,4
+COL005,New Horizon College of Engineering,Vertex Digital,1,1,1,0
+COL005,New Horizon College of Engineering,CloudMinds,3,2,1,1
+COL005,New Horizon College of Engineering,BrightWorks,1,1,4,4
+COL005,New Horizon College of Engineering,NextGen Labs,4,3,4,3
+COL006,CMR Institute of Technology,BlueOrbit Labs,2,2,2,2
+COL006,CMR Institute of Technology,Aster Mobility,4,4,7,3
+COL006,CMR Institute of Technology,NextGen Labs,4,3,11,0
+COL006,CMR Institute of Technology,Orion Analytics,3,3,15,5
+COL006,CMR Institute of Technology,CodeCraft,4,4,14,2
+COL006,CMR Institute of Technology,Nova Systems,4,3,13,6
+COL006,CMR Institute of Technology,CloudMinds,1,1,1,0
+COL006,CMR Institute of Technology,TechForge,4,4,18,3
+COL006,CMR Institute of Technology,FinEdge Solutions,1,1,4,4
+COL006,CMR Institute of Technology,Vertex Digital,4,3,7,2
+COL006,CMR Institute of Technology,InfiCore,2,2,9,3
+COL006,CMR Institute of Technology,QuantEdge,1,1,4,4
+COL006,CMR Institute of Technology,DataNest,4,4,2,0
+COL006,CMR Institute of Technology,PrimeStack,3,2,9,5
+COL006,CMR Institute of Technology,BrightWorks,2,1,4,3

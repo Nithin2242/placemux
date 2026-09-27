@@ -1,0 +1,17 @@
+{
+  "onboarding_batches": 48,
+  "rows_uploaded": 21302,
+  "rows_accepted": 18804,
+  "rows_rejected": 2498,
+  "acceptance_rate": 0.882734015585391,
+  "batch_completion_rate": 0.7291666666666666,
+  "avg_processing_minutes": 14.5625,
+  "active_recruiters": 10,
+  "active_companies": 10,
+  "candidate_records": 1320,
+  "applications": 1273,
+  "shortlisted": 211,
+  "interviews": 142,
+  "offers": 79,
+  "placements": 91
+}

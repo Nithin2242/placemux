@@ -1,0 +1,789 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+PlaceMux — Application Funnel View
+</title>
+
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+    color: #1f2937;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #6b7280;
+    margin-bottom: 28px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:
+        repeat(4, 1fr);
+    gap: 16px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.07);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.value {
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section {
+    background: white;
+    margin-top: 22px;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.07);
+}
+
+.status {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.pass {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.fail {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.funnel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.stage {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.stage-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.bar {
+    height: 14px;
+    background: #e5e7eb;
+    margin-top: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: #64748b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom:
+        1px solid #e5e7eb;
+}
+
+th {
+    color: #6b7280;
+}
+
+code {
+    background: #f1f5f9;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+canvas {
+    width: 100%;
+    height: 300px;
+}
+
+.metric-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, 1fr);
+    gap: 12px;
+}
+
+.metric {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+
+    .grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .metric-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 16px;
+    }
+
+    .grid,
+    .metric-grid {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h1>
+Application Funnel View
+</h1>
+
+<div class="subtitle">
+PlaceMux Phase 2 — Applications & Shortlisting ·
+Synthetic Demonstration Dataset
+</div>
+
+
+<!-- ===================================================== -->
+<!-- KPIs -->
+<!-- ===================================================== -->
+
+<div class="grid">
+
+<div class="card">
+<h3>Applications Started</h3>
+<div class="value">558</div>
+</div>
+
+<div class="card">
+<h3>Applications Submitted</h3>
+<div class="value">489</div>
+</div>
+
+<div class="card">
+<h3>Applications Reviewed</h3>
+<div class="value">381</div>
+</div>
+
+<div class="card">
+<h3>Applications Shortlisted</h3>
+<div class="value">188</div>
+</div>
+
+<div class="card">
+<h3>Next Steps</h3>
+<div class="value">119</div>
+</div>
+
+<div class="card">
+<h3>Selected</h3>
+<div class="value">56</div>
+</div>
+
+<div class="card">
+<h3>Successful Outcomes</h3>
+<div class="value">47</div>
+</div>
+
+<div class="card">
+<h3>Overall Conversion</h3>
+<div class="value">9.6%</div>
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- VALIDATION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Event Validation
+</h2>
+
+<p>
+
+Validation Status:
+
+<span class="
+status
+pass
+">
+
+PASS
+
+</span>
+
+</p>
+
+
+<div class="metric-grid">
+
+<div class="metric">
+<strong>Total Events</strong>
+<br>
+1838
+</div>
+
+<div class="metric">
+<strong>Duplicate Event IDs</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Missing Application IDs</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Missing Candidate IDs</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Missing Company IDs</strong>
+<br>
+0
+</div>
+
+<div class="metric">
+<strong>Broken Funnel Links</strong>
+<br>
+0
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- FUNNEL -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Application Funnel
+</h2>
+
+<div class="funnel">
+
+
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Applications Started</span>
+            <span>558</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:100.0%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Applications Submitted</span>
+            <span>489</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:87.6%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Applications Reviewed</span>
+            <span>381</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:68.3%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Applications Shortlisted</span>
+            <span>188</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:33.7%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Next Step</span>
+            <span>119</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:21.3%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Selected</span>
+            <span>56</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:10.0%"
+            ></div>
+        </div>
+
+    </div>
+    
+    <div class="stage">
+
+        <div class="stage-header">
+            <span>Successful Outcomes</span>
+            <span>47</span>
+        </div>
+
+        <div class="bar">
+            <div
+                class="fill"
+                style="width:8.4%"
+            ></div>
+        </div>
+
+    </div>
+    
+
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- CONVERSIONS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Stage Conversion Rates
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Stage</th>
+<th>Conversion Rate</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Started → Submitted</td>
+<td>87.6%</td>
+</tr>
+
+<tr>
+<td>Submitted → Reviewed</td>
+<td>77.9%</td>
+</tr>
+
+<tr>
+<td>Reviewed → Shortlisted</td>
+<td>49.3%</td>
+</tr>
+
+<tr>
+<td>Shortlisted → Next Step</td>
+<td>63.3%</td>
+</tr>
+
+<tr>
+<td>Next Step → Selected</td>
+<td>47.1%</td>
+</tr>
+
+<tr>
+<td>Selected → Outcome</td>
+<td>83.9%</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- TREND -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Applications Over Time
+</h2>
+
+<canvas id="trendChart"></canvas>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- DEFINITIONS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>
+Source & Definitions
+</h2>
+
+<p>
+<strong>Source:</strong>
+Synthetic application and shortlisting event stream created specifically
+for the Day 24 demonstration.
+</p>
+
+<p>
+<strong>Applications Started:</strong>
+Distinct applications with a valid
+<code>application_started</code>
+event.
+</p>
+
+<p>
+<strong>Applications Submitted:</strong>
+Distinct applications with a valid
+<code>application_submitted</code>
+event.
+</p>
+
+<p>
+<strong>Applications Shortlisted:</strong>
+Distinct applications with a valid
+<code>application_shortlisted</code>
+event.
+</p>
+
+<p>
+<strong>Successful Outcomes:</strong>
+Distinct applications with a valid
+<code>application_outcome_recorded</code>
+event.
+</p>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+const data =
+[{"date": "2026-08-01", "application_started": 11, "application_submitted": 10, "application_reviewed": 0, "application_shortlisted": 0, "application_next_step": 0, "application_selected": 0, "application_outcome_recorded": 0}, {"date": "2026-08-02", "application_started": 11, "application_submitted": 8, "application_reviewed": 6, "application_shortlisted": 1, "application_next_step": 0, "application_selected": 0, "application_outcome_recorded": 0}, {"date": "2026-08-03", "application_started": 22, "application_submitted": 20, "application_reviewed": 6, "application_shortlisted": 2, "application_next_step": 0, "application_selected": 0, "application_outcome_recorded": 0}, {"date": "2026-08-04", "application_started": 26, "application_submitted": 20, "application_reviewed": 9, "application_shortlisted": 6, "application_next_step": 1, "application_selected": 0, "application_outcome_recorded": 0}, {"date": "2026-08-05", "application_started": 26, "application_submitted": 23, "application_reviewed": 10, "application_shortlisted": 6, "application_next_step": 1, "application_selected": 0, "application_outcome_recorded": 0}, {"date": "2026-08-06", "application_started": 18, "application_submitted": 16, "application_reviewed": 12, "application_shortlisted": 2, "application_next_step": 2, "application_selected": 1, "application_outcome_recorded": 0}, {"date": "2026-08-07", "application_started": 18, "application_submitted": 10, "application_reviewed": 12, "application_shortlisted": 5, "application_next_step": 2, "application_selected": 0, "application_outcome_recorded": 0}, {"date": "2026-08-08", "application_started": 11, "application_submitted": 11, "application_reviewed": 13, "application_shortlisted": 6, "application_next_step": 3, "application_selected": 1, "application_outcome_recorded": 0}, {"date": "2026-08-09", "application_started": 10, "application_submitted": 7, "application_reviewed": 6, "application_shortlisted": 6, "application_next_step": 6, "application_selected": 1, "application_outcome_recorded": 0}, {"date": "2026-08-10", "application_started": 25, "application_submitted": 21, "application_reviewed": 9, "application_shortlisted": 1, "application_next_step": 2, "application_selected": 2, "application_outcome_recorded": 1}, {"date": "2026-08-11", "application_started": 25, "application_submitted": 23, "application_reviewed": 15, "application_shortlisted": 3, "application_next_step": 0, "application_selected": 1, "application_outcome_recorded": 3}, {"date": "2026-08-12", "application_started": 19, "application_submitted": 18, "application_reviewed": 15, "application_shortlisted": 4, "application_next_step": 1, "application_selected": 2, "application_outcome_recorded": 1}, {"date": "2026-08-13", "application_started": 23, "application_submitted": 21, "application_reviewed": 20, "application_shortlisted": 9, "application_next_step": 4, "application_selected": 2, "application_outcome_recorded": 0}, {"date": "2026-08-14", "application_started": 20, "application_submitted": 18, "application_reviewed": 12, "application_shortlisted": 7, "application_next_step": 5, "application_selected": 0, "application_outcome_recorded": 0}, {"date": "2026-08-15", "application_started": 15, "application_submitted": 14, "application_reviewed": 16, "application_shortlisted": 10, "application_next_step": 7, "application_selected": 2, "application_outcome_recorded": 2}, {"date": "2026-08-16", "application_started": 10, "application_submitted": 9, "application_reviewed": 15, "application_shortlisted": 6, "application_next_step": 4, "application_selected": 2, "application_outcome_recorded": 2}, {"date": "2026-08-17", "application_started": 19, "application_submitted": 17, "application_reviewed": 12, "application_shortlisted": 7, "application_next_step": 4, "application_selected": 1, "application_outcome_recorded": 2}, {"date": "2026-08-18", "application_started": 22, "application_submitted": 22, "application_reviewed": 13, "application_shortlisted": 1, "application_next_step": 7, "application_selected": 5, "application_outcome_recorded": 2}, {"date": "2026-08-19", "application_started": 20, "application_submitted": 19, "application_reviewed": 8, "application_shortlisted": 9, "application_next_step": 1, "application_selected": 1, "application_outcome_recorded": 3}, {"date": "2026-08-20", "application_started": 18, "application_submitted": 17, "application_reviewed": 23, "application_shortlisted": 7, "application_next_step": 7, "application_selected": 2, "application_outcome_recorded": 1}, {"date": "2026-08-21", "application_started": 25, "application_submitted": 20, "application_reviewed": 11, "application_shortlisted": 12, "application_next_step": 4, "application_selected": 1, "application_outcome_recorded": 1}, {"date": "2026-08-22", "application_started": 16, "application_submitted": 11, "application_reviewed": 20, "application_shortlisted": 5, "application_next_step": 7, "application_selected": 2, "application_outcome_recorded": 2}, {"date": "2026-08-23", "application_started": 12, "application_submitted": 9, "application_reviewed": 8, "application_shortlisted": 9, "application_next_step": 3, "application_selected": 2, "application_outcome_recorded": 0}, {"date": "2026-08-24", "application_started": 18, "application_submitted": 14, "application_reviewed": 12, "application_shortlisted": 7, "application_next_step": 3, "application_selected": 5, "application_outcome_recorded": 2}, {"date": "2026-08-25", "application_started": 19, "application_submitted": 19, "application_reviewed": 13, "application_shortlisted": 3, "application_next_step": 5, "application_selected": 1, "application_outcome_recorded": 1}, {"date": "2026-08-26", "application_started": 20, "application_submitted": 19, "application_reviewed": 9, "application_shortlisted": 9, "application_next_step": 7, "application_selected": 2, "application_outcome_recorded": 2}, {"date": "2026-08-27", "application_started": 24, "application_submitted": 22, "application_reviewed": 17, "application_shortlisted": 4, "application_next_step": 2, "application_selected": 3, "application_outcome_recorded": 1}, {"date": "2026-08-28", "application_started": 22, "application_submitted": 21, "application_reviewed": 18, "application_shortlisted": 8, "application_next_step": 7, "application_selected": 2, "application_outcome_recorded": 2}, {"date": "2026-08-29", "application_started": 17, "application_submitted": 15, "application_reviewed": 11, "application_shortlisted": 10, "application_next_step": 2, "application_selected": 1, "application_outcome_recorded": 2}, {"date": "2026-08-30", "application_started": 16, "application_submitted": 15, "application_reviewed": 14, "application_shortlisted": 4, "application_next_step": 3, "application_selected": 0, "application_outcome_recorded": 3}, {"date": "2026-08-31", "application_started": 0, "application_submitted": 0, "application_reviewed": 8, "application_shortlisted": 6, "application_next_step": 3, "application_selected": 2, "application_outcome_recorded": 1}, {"date": "2026-09-01", "application_started": 0, "application_submitted": 0, "application_reviewed": 5, "application_shortlisted": 6, "application_next_step": 6, "application_selected": 0, "application_outcome_recorded": 1}, {"date": "2026-09-02", "application_started": 0, "application_submitted": 0, "application_reviewed": 3, "application_shortlisted": 4, "application_next_step": 2, "application_selected": 3, "application_outcome_recorded": 0}, {"date": "2026-09-03", "application_started": 0, "application_submitted": 0, "application_reviewed": 0, "application_shortlisted": 3, "application_next_step": 4, "application_selected": 0, "application_outcome_recorded": 1}, {"date": "2026-09-04", "application_started": 0, "application_submitted": 0, "application_reviewed": 0, "application_shortlisted": 0, "application_next_step": 3, "application_selected": 3, "application_outcome_recorded": 2}, {"date": "2026-09-05", "application_started": 0, "application_submitted": 0, "application_reviewed": 0, "application_shortlisted": 0, "application_next_step": 0, "application_selected": 2, "application_outcome_recorded": 1}, {"date": "2026-09-06", "application_started": 0, "application_submitted": 0, "application_reviewed": 0, "application_shortlisted": 0, "application_next_step": 1, "application_selected": 3, "application_outcome_recorded": 3}, {"date": "2026-09-07", "application_started": 0, "application_submitted": 0, "application_reviewed": 0, "application_shortlisted": 0, "application_next_step": 0, "application_selected": 0, "application_outcome_recorded": 2}, {"date": "2026-09-08", "application_started": 0, "application_submitted": 0, "application_reviewed": 0, "application_shortlisted": 0, "application_next_step": 0, "application_selected": 1, "application_outcome_recorded": 1}, {"date": "2026-09-09", "application_started": 0, "application_submitted": 0, "application_reviewed": 0, "application_shortlisted": 0, "application_next_step": 0, "application_selected": 0, "application_outcome_recorded": 2}];
+
+const canvas =
+document.getElementById(
+    "trendChart"
+);
+
+const ctx =
+canvas.getContext("2d");
+
+
+function drawChart() {
+
+    const width =
+        canvas.clientWidth || 1100;
+
+    const height = 300;
+
+    const dpr =
+        window.devicePixelRatio || 1;
+
+    canvas.width =
+        width * dpr;
+
+    canvas.height =
+        height * dpr;
+
+    ctx.scale(
+        dpr,
+        dpr
+    );
+
+    const padding = 45;
+
+    const chartWidth =
+        width - padding * 2;
+
+    const chartHeight =
+        height - padding * 2;
+
+    const maxValue =
+        Math.max(
+            ...data.map(
+                row =>
+                    Number(
+                        row.application_started
+                    )
+            )
+        );
+
+
+    function x(index) {
+
+        return padding +
+            index *
+            chartWidth /
+            Math.max(
+                data.length - 1,
+                1
+            );
+
+    }
+
+
+    function y(value) {
+
+        return height -
+            padding -
+            value /
+            Math.max(
+                maxValue,
+                1
+            ) *
+            chartHeight;
+
+    }
+
+
+    ctx.clearRect(
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    // Axes
+
+    ctx.beginPath();
+
+    ctx.moveTo(
+        padding,
+        padding
+    );
+
+    ctx.lineTo(
+        padding,
+        height - padding
+    );
+
+    ctx.lineTo(
+        width - padding,
+        height - padding
+    );
+
+    ctx.stroke();
+
+
+    // Started applications
+
+    ctx.beginPath();
+
+    data.forEach(
+        (row, index) => {
+
+            const px = x(index);
+
+            const py = y(
+                Number(
+                    row.application_started
+                )
+            );
+
+            if (index === 0) {
+                ctx.moveTo(
+                    px,
+                    py
+                );
+            } else {
+                ctx.lineTo(
+                    px,
+                    py
+                );
+            }
+
+        }
+    );
+
+    ctx.stroke();
+
+
+    // Submitted applications
+
+    ctx.beginPath();
+
+    data.forEach(
+        (row, index) => {
+
+            const px = x(index);
+
+            const py = y(
+                Number(
+                    row.application_submitted
+                )
+            );
+
+            if (index === 0) {
+                ctx.moveTo(
+                    px,
+                    py
+                );
+            } else {
+                ctx.lineTo(
+                    px,
+                    py
+                );
+            }
+
+        }
+    );
+
+    ctx.stroke();
+
+}
+
+
+drawChart();
+
+window.addEventListener(
+    "resize",
+    drawChart
+);
+
+</script>
+
+</body>
+
+</html>

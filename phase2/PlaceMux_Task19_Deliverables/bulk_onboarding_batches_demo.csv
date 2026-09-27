@@ -1,0 +1,49 @@
+batch_id,recruiter_id,recruiter,city,company_id,company,uploaded_at,rows_uploaded,rows_accepted,rows_rejected,processing_minutes,status
+B001,R004,Sneha Iyer,Chennai,C003,Vertex Digital,2026-08-10T13:43,648,599,49,22,Partial
+B002,R006,Ananya Singh,Delhi NCR,C004,FinEdge Solutions,2026-08-24T12:01,524,492,32,13,Completed
+B003,R006,Ananya Singh,Delhi NCR,C002,BlueOrbit Labs,2026-08-14T13:36,394,362,32,10,Completed
+B004,R002,Priya Shah,Pune,C003,Vertex Digital,2026-08-25T11:45,607,566,41,16,Completed
+B005,R006,Ananya Singh,Delhi NCR,C002,BlueOrbit Labs,2026-08-22T10:14,474,448,26,23,Partial
+B006,R002,Priya Shah,Pune,C002,BlueOrbit Labs,2026-08-02T13:25,660,627,33,20,Completed
+B007,R002,Priya Shah,Pune,C010,BrightPath Consulting,2026-08-14T15:30,199,187,12,8,Completed
+B008,R003,Rahul Nair,Hyderabad,C002,BlueOrbit Labs,2026-08-28T16:48,482,443,39,11,Completed
+B009,R009,Aditya Kumar,Hyderabad,C008,Aster Mobility,2026-08-31T14:23,184,172,12,8,Completed
+B010,R007,Vivek Menon,Bengaluru,C001,Nova Systems,2026-08-17T15:35,452,435,17,24,Completed
+B011,R003,Rahul Nair,Hyderabad,C006,GreenByte,2026-08-02T17:25,674,650,24,16,Partial
+B012,R010,Neha Verma,Chennai,C003,Vertex Digital,2026-08-07T17:08,306,287,19,8,Completed
+B013,R004,Sneha Iyer,Chennai,C006,GreenByte,2026-08-05T14:02,509,483,26,17,Completed
+B014,R004,Sneha Iyer,Chennai,C002,BlueOrbit Labs,2026-08-31T10:49,693,637,56,18,Completed
+B015,R009,Aditya Kumar,Hyderabad,C007,DataForge,2026-08-01T16:05,467,429,38,12,Completed
+B016,R008,Meera Joshi,Pune,C003,Vertex Digital,2026-08-27T16:10,281,265,16,9,Completed
+B017,R010,Neha Verma,Chennai,C007,DataForge,2026-08-27T17:00,711,663,48,23,Partial
+B018,R007,Vivek Menon,Bengaluru,C004,FinEdge Solutions,2026-08-29T11:27,659,606,53,16,Completed
+B019,R004,Sneha Iyer,Chennai,C008,Aster Mobility,2026-08-11T12:22,325,300,25,12,Partial
+B020,R009,Aditya Kumar,Hyderabad,C007,DataForge,2026-08-26T16:22,502,488,14,15,Completed
+B021,R002,Priya Shah,Pune,C001,Nova Systems,2026-08-10T16:40,217,208,9,9,Completed
+B022,R009,Aditya Kumar,Hyderabad,C009,NextWave Retail,2026-08-10T16:08,327,303,24,13,Completed
+B023,R005,Karthik Rao,Mumbai,C001,Nova Systems,2026-08-24T13:33,568,536,32,16,Completed
+B024,R010,Neha Verma,Chennai,C006,GreenByte,2026-08-31T13:19,581,100,481,18,Failed
+B025,R009,Aditya Kumar,Hyderabad,C009,NextWave Retail,2026-08-09T13:27,543,512,31,15,Completed
+B026,R008,Meera Joshi,Pune,C002,BlueOrbit Labs,2026-08-13T14:50,539,510,29,19,Completed
+B027,R001,Aarav Mehta,Bengaluru,C005,CloudMint,2026-08-09T13:14,602,562,40,17,Partial
+B028,R008,Meera Joshi,Pune,C002,BlueOrbit Labs,2026-08-23T09:04,314,296,18,8,Completed
+B029,R005,Karthik Rao,Mumbai,C001,Nova Systems,2026-08-26T09:46,389,376,13,13,Completed
+B030,R007,Vivek Menon,Bengaluru,C004,FinEdge Solutions,2026-08-22T09:40,326,51,275,8,Failed
+B031,R003,Rahul Nair,Hyderabad,C002,BlueOrbit Labs,2026-08-27T09:21,328,302,26,13,Partial
+B032,R008,Meera Joshi,Pune,C005,CloudMint,2026-08-29T15:36,680,644,36,26,Partial
+B033,R007,Vivek Menon,Bengaluru,C008,Aster Mobility,2026-08-01T13:47,455,424,31,16,Completed
+B034,R008,Meera Joshi,Pune,C005,CloudMint,2026-08-11T12:26,351,335,16,9,Completed
+B035,R002,Priya Shah,Pune,C006,GreenByte,2026-08-26T09:23,624,585,39,21,Completed
+B036,R004,Sneha Iyer,Chennai,C007,DataForge,2026-08-16T16:03,508,480,28,12,Completed
+B037,R004,Sneha Iyer,Chennai,C009,NextWave Retail,2026-08-27T16:00,386,365,21,13,Partial
+B038,R003,Rahul Nair,Hyderabad,C001,Nova Systems,2026-08-04T17:22,536,506,30,19,Partial
+B039,R005,Karthik Rao,Mumbai,C008,Aster Mobility,2026-08-24T14:18,387,374,13,9,Completed
+B040,R004,Sneha Iyer,Chennai,C004,FinEdge Solutions,2026-08-18T15:18,246,229,17,8,Completed
+B041,R002,Priya Shah,Pune,C005,CloudMint,2026-08-09T09:05,266,246,20,9,Completed
+B042,R004,Sneha Iyer,Chennai,C006,GreenByte,2026-08-10T14:15,236,221,15,12,Completed
+B043,R003,Rahul Nair,Hyderabad,C003,Vertex Digital,2026-08-19T13:46,458,421,37,18,Completed
+B044,R008,Meera Joshi,Pune,C004,FinEdge Solutions,2026-08-03T15:17,581,40,541,30,Failed
+B045,R007,Vivek Menon,Bengaluru,C004,FinEdge Solutions,2026-08-13T10:28,217,208,9,12,Completed
+B046,R005,Karthik Rao,Mumbai,C006,GreenByte,2026-08-05T15:24,436,413,23,15,Completed
+B047,R010,Neha Verma,Chennai,C008,Aster Mobility,2026-08-27T15:16,250,231,19,11,Completed
+B048,R006,Ananya Singh,Delhi NCR,C004,FinEdge Solutions,2026-08-12T15:41,200,187,13,9,Completed
